@@ -20,7 +20,7 @@ from dhairya.entities.slots import MobileSlot
 from dhairya.turn.types import StreamEvent
 from dhairya.web.frames import FrameBuffer
 from dhairya.web.limits import DAY_S, HOUR_S, LiveLimits
-from dhairya.web.server import create_app
+from dhairya.web.server import create_app, keep_awake
 from dhairya.web.shadow import TIMERS_MS, fixed_timer_rows
 
 
@@ -130,6 +130,8 @@ def live(**kw) -> LiveSettings:
         per_ip_day=10,
         daily_total=50,
         allowed_origins=("https://ok.example",),
+        keepalive_url="",
+        keepalive_s=480,
     )
     args.update(kw)
     return LiveSettings(**args)
@@ -234,3 +236,22 @@ def test_agent_audio_is_a_short_http_link_not_a_big_socket_message(monkeypatch) 
     clip = client.get(agent["audio_url"])
     assert clip.status_code == 200 and clip.content[:4] == b"RIFF"
     assert client.get("/api/live/audio/nope.wav").status_code == 404
+
+
+def test_keep_awake_pings_the_health_address_and_survives_a_failed_ping() -> None:
+    import asyncio
+
+    seen: list[str] = []
+
+    async def fetch(url: str) -> None:
+        seen.append(url)
+        if len(seen) == 1:
+            raise OSError("network blip")
+
+    async def run() -> None:
+        task = asyncio.create_task(keep_awake("https://x.example", 0.01, fetch))
+        await asyncio.sleep(0.15)
+        task.cancel()
+
+    asyncio.run(run())
+    assert len(seen) >= 3 and set(seen) == {"https://x.example/health"}

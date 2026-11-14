@@ -15,6 +15,7 @@ import logging
 import secrets
 import time
 import wave
+from contextlib import asynccontextmanager
 from dataclasses import asdict
 from pathlib import Path
 
@@ -77,6 +78,24 @@ def origin_allowed(ws: WebSocket, allowed: tuple[str, ...]) -> bool:
     return bool(host) and origin.split("://", 1)[-1] == host
 
 
+async def keep_awake(url: str, interval_s: float, fetch=None) -> None:
+    """Ping our own public address now and then. A free host sleeps a service that gets no
+    requests for 15 minutes; a request that comes in through its public address counts."""
+    if fetch is None:
+        import httpx
+
+        async def fetch(target: str) -> None:
+            async with httpx.AsyncClient(timeout=30.0) as client:
+                await client.get(target)
+
+    while True:
+        await asyncio.sleep(interval_s)
+        try:
+            await fetch(url + "/health")
+        except Exception as exc:  # a missed ping is not worth stopping the server for
+            log.warning("keep-awake ping failed (%s)", type(exc).__name__)
+
+
 def create_app(
     cfg: Settings | None = None, live: LiveSettings | None = None, run=run_turn
 ) -> FastAPI:
@@ -88,7 +107,24 @@ def create_app(
         per_ip_day=live.per_ip_day,
         daily_total=live.daily_total,
     )
-    app = FastAPI(title="Dhairya live demo", docs_url=None, redoc_url=None, openapi_url=None)
+
+    @asynccontextmanager
+    async def lifespan(_app: FastAPI):
+        pinger = None
+        if live.keepalive_url:
+            log.info("keeping awake by pinging %s every %ds", live.keepalive_url, live.keepalive_s)
+            pinger = asyncio.create_task(keep_awake(live.keepalive_url, live.keepalive_s))
+        yield
+        if pinger:
+            pinger.cancel()
+
+    app = FastAPI(
+        title="Dhairya live demo",
+        docs_url=None,
+        redoc_url=None,
+        openapi_url=None,
+        lifespan=lifespan,
+    )
     app.add_middleware(
         CORSMiddleware, allow_origins=list(live.allowed_origins), allow_methods=["GET"]
     )

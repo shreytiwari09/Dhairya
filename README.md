@@ -75,7 +75,7 @@ Phone audio cost Dhairya two more wrong values out of 152 (a dropped leading dig
 
 The demo page can also take a visitor's own voice. The browser streams the microphone to a small server (`src/dhairya/web/server.py`), which runs the same live loop as the command line against Gnani and sends back what it hears, what Dhairya decides, and the same call replayed through the six fixed timers, so a visitor sees which timer would have cut them off.
 
-The public demo's live agent runs on Render's free plan at https://dhairya-live.onrender.com, so the first call after a quiet spell can take about 30 seconds while it wakes. Open it from the demo page, under "Try it yourself".
+The public demo's live agent runs on Render's free plan at https://dhairya-live.onrender.com, and keeps itself awake by pinging its own address every 8 minutes, so it does not idle. After a restart or a new deploy the first call can take about 30 seconds. Open it from the demo page, under "Try it yourself".
 
 The server holds the Gnani key, so it limits use. Defaults, all set by environment variables: 15 turns per visitor per hour, 40 per visitor per day, 3 callers at once, 400 turns a day in total, and only the demo page's own origin may connect. When Gnani reports no credits the server pauses live mode by itself, and the recorded calls on the page keep working. Audio is sent to Gnani Prisma to be transcribed and is not stored by this server.
 

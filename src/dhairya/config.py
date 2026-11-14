@@ -50,6 +50,8 @@ class LiveSettings:
     per_ip_day: int
     daily_total: int  # all visitors together, rolling 24 h
     allowed_origins: tuple[str, ...]
+    keepalive_url: str  # the server's own public address, pinged so a free host never idles
+    keepalive_s: int
 
 
 def _int(name: str, default: int) -> int:
@@ -71,6 +73,11 @@ def live_settings() -> LiveSettings:
         per_ip_day=_int("LIVE_PER_IP_DAY", 40),
         daily_total=_int("LIVE_DAILY_TOTAL", 400),
         allowed_origins=tuple(o.strip().rstrip("/") for o in origins.split(",") if o.strip()),
+        # Render sets RENDER_EXTERNAL_URL itself; KEEPALIVE_URL overrides it for other hosts.
+        keepalive_url=(
+            os.environ.get("KEEPALIVE_URL") or os.environ.get("RENDER_EXTERNAL_URL") or ""
+        ).rstrip("/"),
+        keepalive_s=_int("KEEPALIVE_SECONDS", 480),  # Render idles a free service after 15 minutes
     )
 
 
