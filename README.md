@@ -1,12 +1,40 @@
-# Dhairya
+<p align="center">
+  <img src="docs/img/banner.png" alt="Dhairya (धैर्य): the voice agent that lets you finish your number" width="100%">
+</p>
 
-धैर्य, "patience" — the voice agent that lets you finish your number.
+<p align="center">
+  <a href="https://shreytiwari09.github.io/Dhairya/"><b>Open the demo</b></a> ·
+  <a href="results/RESULTS.md">Results</a> ·
+  <a href="#live-demo">Live demo</a> ·
+  <a href="#how-it-works">How it works</a> ·
+  <a href="docs/">Design docs</a>
+</p>
+
+<p align="center">
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-ffcdff?labelColor=000">
+  <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-ffcdff?labelColor=000">
+  <img alt="Built on Gnani Prisma v3.0" src="https://img.shields.io/badge/Gnani-Prisma%20v3.0-ffcdff?labelColor=000">
+  <img alt="Gnani Timbre" src="https://img.shields.io/badge/Gnani-Timbre%20v2.5-ffcdff?labelColor=000">
+  <img alt="152 tests" src="https://img.shields.io/badge/tests-152%20passing-ffcdff?labelColor=000">
+</p>
+
+Voice agents usually decide a caller has finished after a fixed stretch of silence, and people pause while reading out a mobile number, an OTP, an amount or a date. Dhairya is a turn-taking layer on Gnani's Prisma v3.0 realtime speech-to-text: it tracks the value being dictated, waits while the value is incomplete, and answers at once when it is complete. On 152 held-out synthetic Hinglish calls it interrupted none of them and captured the right value in 99%, with a median wait of 0.42 s; a 1000 ms silence timer interrupted 24%, and the 2000 ms timer that also interrupted none waited 2.22 s.
 
 ![The Dhairya demo page](docs/img/demo-landing.jpg)
 
-**[Open the demo](https://shreytiwari09.github.io/Dhairya/)** · [Results](results/RESULTS.md) · [Design docs](docs/)
+## Built with
 
-Voice agents usually decide a caller has finished after a fixed stretch of silence, and people pause while reading out a mobile number, an OTP, an amount or a date. Dhairya is a turn-taking layer on Gnani's Prisma v3.0 realtime speech-to-text: it tracks the value being dictated, waits while the value is incomplete, and answers at once when it is complete. On 152 held-out synthetic Hinglish calls it interrupted none of them and captured the right value in 99%, with a median wait of 0.42 s; a 1000 ms silence timer interrupted 24%, and the 2000 ms timer that also interrupted none waited 2.22 s.
+| Layer | Technology | Used for |
+|---|---|---|
+| Speech to text | **Gnani Prisma v3.0**, realtime WebSocket and REST | Streams the caller's audio; a second pass checks the whole turn |
+| Text to speech | **Gnani Timbre v2.5** | The synthetic callers in the benchmark, and the agent's prompts and read-back |
+| Core | Python 3.11, `numpy`, `httpx`, `websockets` | Turn policies, the Hindi and English number parser, the slots, the live loop |
+| Live demo server | FastAPI, uvicorn | Takes a visitor's microphone over a WebSocket; limits, origin check, audio links |
+| Benchmark | `pytest`, `ruff`, `uv`, `ffmpeg` | 152 offline tests, 200 synthetic calls, replayed over saved traces |
+| Baseline | Smart Turn v3.2 (Pipecat, BSD-2-Clause), ONNX Runtime | An outside open model, run locally for comparison only |
+| Demo page | Plain HTML, CSS and JavaScript, GSAP, ScrollTrigger, Lenis | Replays recorded calls, the hold-to-pause demo, the live call, the results |
+| Type | Gilda Display, Rozha One, Switzer, Anek Devanagari | Headings, the Dhairya wordmark, body text, Hindi |
+| Hosting | GitHub Pages, Render (free), Docker | The page, and the live agent |
 
 ## Result
 
@@ -42,6 +70,22 @@ The same 152 held-out calls were resampled to 8 kHz, passed through G.711 mu-law
 | **Dhairya** | 0% | 98% | 0.36 s | 1.58 s |
 
 Phone audio cost Dhairya two more wrong values out of 152 (a dropped leading digit and a misheard amount) and no interruptions. No noise was added; this is a clean line at phone bandwidth.
+
+## Live demo
+
+The demo page can also take a visitor's own voice. The browser streams the microphone to a small server (`src/dhairya/web/server.py`), which runs the same live loop as the command line against Gnani and sends back what it hears, what Dhairya decides, and the same call replayed through the six fixed timers, so a visitor sees which timer would have cut them off.
+
+The public demo's live agent runs on Render's free plan at https://dhairya-live.onrender.com, so the first call after a quiet spell can take about 30 seconds while it wakes. Open it from the demo page, under "Try it yourself".
+
+The server holds the Gnani key, so it limits use. Defaults, all set by environment variables: 15 turns per visitor per hour, 40 per visitor per day, 3 callers at once, 400 turns a day in total, and only the demo page's own origin may connect. When Gnani reports no credits the server pauses live mode by itself, and the recorded calls on the page keep working. Audio is sent to Gnani Prisma to be transcribed and is not stored by this server.
+
+Run it locally with your key in `.env`, then open http://localhost:8000:
+
+```bash
+uv run uvicorn dhairya.web.server:app --port 8000
+```
+
+Deploy it free on Render: New, Blueprint, pick this repository (`render.yaml` and the `Dockerfile` are ready), and paste `GNANI_API_KEY` when asked. Then put the service's address in `demo/config.js` (`window.DHAIRYA_LIVE`) and set the repository variable `LIVE_URL` to the same address, which lets `.github/workflows/keepalive.yml` ping it every 10 minutes so the free service does not sleep. Without a live address the page shows the recorded calls only.
 
 ## How it works
 
@@ -117,20 +161,6 @@ uv run python -m dhairya.agent.session --slot mobile --file call.wav
 ```
 
 The first form listens on the microphone and speaks aloud. The second feeds a 16 kHz mono WAV through the same live loop at real-time pace. `--slot` also takes `otp4`, `otp6`, `amount` and `date`.
-
-## Live demo
-
-The demo page can also take a visitor's own voice. The browser streams the microphone to a small server (`src/dhairya/web/server.py`), which runs the same live loop as the command line against Gnani and sends back what it hears, what Dhairya decides, and the same call replayed through the six fixed timers, so a visitor sees which timer would have cut them off.
-
-The server holds the Gnani key, so it limits use. Defaults, all set by environment variables: 15 turns per visitor per hour, 40 per visitor per day, 3 callers at once, 400 turns a day in total, and only the demo page's own origin may connect. When Gnani reports no credits the server pauses live mode by itself, and the recorded calls on the page keep working. Audio is sent to Gnani Prisma to be transcribed and is not stored by this server.
-
-Run it locally with your key in `.env`, then open http://localhost:8000:
-
-```bash
-uv run uvicorn dhairya.web.server:app --port 8000
-```
-
-Deploy it free on Render: New, Blueprint, pick this repository (`render.yaml` and the `Dockerfile` are ready), and paste `GNANI_API_KEY` when asked. Then put the service's address in `demo/config.js` (`window.DHAIRYA_LIVE`) and set the repository variable `LIVE_URL` to the same address, which lets `.github/workflows/keepalive.yml` ping it every 10 minutes so the free service does not sleep. Without a live address the page shows the recorded calls only.
 
 ## Reproduce the benchmark
 
