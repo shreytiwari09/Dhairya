@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-021",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ छह एक",
+   "दो दो दो",
+   "शून्य दो नौ सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.3
+  ],
+  "truth": "9612220297",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.5278
+  ],
+  [
+   3.1278,
+   3.7218
+  ],
+  [
+   5.0218,
+   6.4283
+  ]
+ ],
+ "speech_end": 6.4283,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9612220297।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d026-241c-710a-9e96-c69dca4994f9",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:25:23.032878+00:00"
+   }
+  },
+  {
+   "t": 0.497,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4190c656",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:25:23.484253+00:00"
+   }
+  },
+  {
+   "t": 4.945,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नौ छह एक दो दो दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नौ छह एक दो दो दो।",
+    "audio_duration_ms": 4768.0,
+    "segment_id": "01a1d026-241c-710a-9e96-c69dca4994f9-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u4190c656",
+    "is_final": true,
+    "latency": 124,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:25:27.934145+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 5.256,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u45ad2634",
+    "t_ms": 4916,
+    "timestamp": "2026-11-12T14:25:28.244459+00:00"
+   }
+  },
+  {
+   "t": 7.472,
+   "kind": "transcript",
+   "text": "शून्य दो नौ सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य दो नौ सात।",
+    "audio_duration_ms": 2592.0,
+    "segment_id": "01a1d026-241c-710a-9e96-c69dca4994f9-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u45ad2634",
+    "is_final": true,
+    "latency": 75,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:25:30.461882+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

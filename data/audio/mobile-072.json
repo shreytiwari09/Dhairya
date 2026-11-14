@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-072",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात एक शून्य एक",
+   "चार एक पांच",
+   "छह एक आठ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "7101415618",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6359
+  ],
+  [
+   3.2359,
+   4.3814
+  ],
+  [
+   5.3814,
+   6.3001
+  ]
+ ],
+ "speech_end": 6.3001,
+ "longest_internal_gap_s": 0.119,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7101415618।"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-004",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ आठ छह पांच सात नौ सात पांच चार तीन"
+  ],
+  "pauses_s": [],
+  "truth": "9865797543",
+  "voice": "Bhavna",
+  "variant": "10 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.5147
+  ]
+ ],
+ "speech_end": 4.5147,
+ "longest_internal_gap_s": 0.288,
+ "rest_whole_call": "9865797543"
+}

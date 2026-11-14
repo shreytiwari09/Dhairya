@@ -1,0 +1,49 @@
+{
+ "script": {
+  "id": "mobile-003",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है eight eight",
+   "two one",
+   "nine nine",
+   "three five",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   1.3,
+   0.4,
+   1.3
+  ],
+  "truth": "8821993518",
+  "voice": "Bhavna",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6088
+  ],
+  [
+   3.0088,
+   3.6101
+  ],
+  [
+   4.9101,
+   5.9754
+  ],
+  [
+   6.3754,
+   7.1348
+  ],
+  [
+   8.4348,
+   9.2856
+  ]
+ ],
+ "speech_end": 9.2856,
+ "longest_internal_gap_s": 0.116,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 88219935। 18"
+}

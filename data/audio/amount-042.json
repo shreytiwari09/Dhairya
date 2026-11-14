@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-042",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "आठ हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "8900",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9117
+  ],
+  [
+   1.3117,
+   2.3353
+  ]
+ ],
+ "speech_end": 2.3353,
+ "longest_internal_gap_s": 0.039,
+ "rest_whole_call": "8,900 रुपये।"
+}

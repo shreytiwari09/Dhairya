@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-021",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "15900",
+  "voice": "Omkar",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0243
+  ],
+  [
+   1.8243,
+   2.7474
+  ]
+ ],
+ "speech_end": 2.7474,
+ "longest_internal_gap_s": 0.034,
+ "rest_whole_call": "15,900 रुपये।"
+}

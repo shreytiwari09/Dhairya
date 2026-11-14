@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "amount-012",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "1500",
+  "voice": "Deepak",
+  "variant": "special with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0779
+  ]
+ ],
+ "speech_end": 1.0779,
+ "longest_internal_gap_s": 0.028,
+ "rest_whole_call": "1500 रुपये।"
+}

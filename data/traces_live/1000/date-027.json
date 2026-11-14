@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "date-027",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेरह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "13-07",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.6639
+  ],
+  [
+   1.0639,
+   1.4926
+  ]
+ ],
+ "speech_end": 1.4926,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "13 जुलाई।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d029-4b3e-77ea-85bc-4ab8c09c6a43",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:28:49.662396+00:00"
+   }
+  },
+  {
+   "t": 0.495,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc5f66f31",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:28:50.103898+00:00"
+   }
+  },
+  {
+   "t": 2.654,
+   "kind": "transcript",
+   "text": "तेरह जुलाई।",
+   "raw": {
+    "type": "transcript",
+    "text": "तेरह जुलाई।",
+    "audio_duration_ms": 2528.0,
+    "segment_id": "01a1d029-4b3e-77ea-85bc-4ab8c09c6a43-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc5f66f31",
+    "is_final": true,
+    "latency": 71,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:28:52.258116+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-006",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ नौ तीन",
+   "एक पांच आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "993158",
+  "voice": "Omkar",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2835
+  ],
+  [
+   1.8835,
+   2.8249
+  ]
+ ],
+ "speech_end": 2.8249,
+ "longest_internal_gap_s": 0.087,
+ "rest_whole_call": "993158",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.038,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1b-14dc-7eb4-b9d5-1fd09e200b0c",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:33:41.034196+00:00"
+   }
+  },
+  {
+   "t": 0.622,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc33b802f",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T09:33:41.576159+00:00"
+   }
+  },
+  {
+   "t": 1.643,
+   "kind": "transcript",
+   "text": "नौ नौ तीन।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ नौ तीन।",
+    "audio_duration_ms": 1504.0,
+    "segment_id": "01a1cf1b-14dc-7eb4-b9d5-1fd09e200b0c-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc33b802f",
+    "is_final": true,
+    "latency": 67,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:42.611054+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.099,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uffe935d6",
+    "t_ms": 1716,
+    "timestamp": "2026-11-12T09:33:43.057663+00:00"
+   }
+  },
+  {
+   "t": 3.175,
+   "kind": "transcript",
+   "text": "एक पाँच आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "एक पाँच आठ।",
+    "audio_duration_ms": 1536.0,
+    "segment_id": "01a1cf1b-14dc-7eb4-b9d5-1fd09e200b0c-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uffe935d6",
+    "is_final": true,
+    "latency": 61,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:44.140434+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

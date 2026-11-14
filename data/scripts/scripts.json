@@ -1,0 +1,3024 @@
+[
+ {
+  "id": "mobile-000",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है आठ दो छह शून्य एक",
+   "आठ एक पांच नौ शून्य"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "8260181590",
+  "voice": "Bhavna",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-001",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह एक छह",
+   "छह एक तीन",
+   "एक आठ छह शून्य"
+  ],
+  "pauses_s": [
+   1.3,
+   0.4
+  ],
+  "truth": "6166131860",
+  "voice": "Bhavna",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-002",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह डबल नौ छह",
+   "शून्य तीन शून्य",
+   "आठ दो चार"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "6996030824",
+  "voice": "Nalini",
+  "variant": "4-3-3 hindi_double"
+ },
+ {
+  "id": "mobile-003",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है eight eight",
+   "two one",
+   "nine nine",
+   "three five",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   1.3,
+   0.4,
+   1.3
+  ],
+  "truth": "8821993518",
+  "voice": "Bhavna",
+  "variant": "2-2-2-2-2 english"
+ },
+ {
+  "id": "mobile-004",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ आठ छह पांच सात नौ सात पांच चार तीन"
+  ],
+  "pauses_s": [],
+  "truth": "9865797543",
+  "voice": "Bhavna",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-005",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात एक नौ चार आठ",
+   "सात पांच सात चार नौ"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "7194875749",
+  "voice": "Nalini",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-006",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो पांच",
+   "दो सात छह",
+   "शून्य एक आठ नौ"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8
+  ],
+  "truth": "9252760189",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi_double"
+ },
+ {
+  "id": "mobile-007",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine nine seven one",
+   "one four seven",
+   "one zero four"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9971147104",
+  "voice": "Deepak",
+  "variant": "4-3-3 english"
+ },
+ {
+  "id": "mobile-008",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ पांच",
+   "शून्य सात",
+   "पांच दो",
+   "नौ एक",
+   "सात शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   0.8,
+   0.6,
+   0.6
+  ],
+  "truth": "9507529170",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-009",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ सात एक दो सात छह आठ चार दो छह"
+  ],
+  "pauses_s": [],
+  "truth": "9712768426",
+  "voice": "Deepak",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-010",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ पांच छह तीन दो",
+   "एक डबल दो डबल तीन"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9563212233",
+  "voice": "Omkar",
+  "variant": "5-5 hindi_double"
+ },
+ {
+  "id": "mobile-011",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven four four",
+   "zero two six",
+   "eight five nine nine"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "7440268599",
+  "voice": "Nalini",
+  "variant": "3-3-4 english"
+ },
+ {
+  "id": "mobile-012",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ छह छह",
+   "छह छह एक",
+   "सात छह शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   0.4
+  ],
+  "truth": "9866661760",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-013",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ दो",
+   "एक पांच",
+   "नौ शून्य",
+   "एक शून्य",
+   "नौ दो"
+  ],
+  "pauses_s": [
+   1.3,
+   0.4,
+   0.8,
+   1.3
+  ],
+  "truth": "9215901092",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-014",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह तीन नौ छह दो चार पांच नौ पांच सात"
+  ],
+  "pauses_s": [],
+  "truth": "6396245957",
+  "voice": "Nalini",
+  "variant": "10 hindi_double"
+ },
+ {
+  "id": "mobile-015",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six seven seven seven seven",
+   "four one two one five"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "6777741215",
+  "voice": "Omkar",
+  "variant": "5-5 english"
+ },
+ {
+  "id": "mobile-016",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात आठ शून्य",
+   "तीन आठ पांच",
+   "दो आठ शून्य आठ"
+  ],
+  "pauses_s": [
+   0.8,
+   0.4
+  ],
+  "truth": "7803852808",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-017",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो पांच तीन",
+   "आठ आठ आठ",
+   "पांच तीन नौ"
+  ],
+  "pauses_s": [
+   0.6,
+   0.6
+  ],
+  "truth": "8253888539",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-018",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात तीन",
+   "आठ सात",
+   "पांच शून्य",
+   "शून्य चार",
+   "सात चार"
+  ],
+  "pauses_s": [
+   0.6,
+   1.3,
+   0.8,
+   1.0
+  ],
+  "truth": "7387500474",
+  "voice": "Deepak",
+  "variant": "2-2-2-2-2 hindi_double"
+ },
+ {
+  "id": "mobile-019",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "eight one three one three seven three five three seven"
+  ],
+  "pauses_s": [],
+  "truth": "8131373537",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ {
+  "id": "mobile-020",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ पांच एक एक छह",
+   "तीन सात दो छह पांच"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9511637265",
+  "voice": "Omkar",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-021",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ छह एक",
+   "दो दो दो",
+   "शून्य दो नौ सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.3
+  ],
+  "truth": "9612220297",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-022",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो डबल आठ",
+   "दो डबल शून्य",
+   "एक आठ दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "8288200182",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi_double"
+ },
+ {
+  "id": "mobile-023",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six four",
+   "three four",
+   "eight three",
+   "nine five",
+   "four eight"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6,
+   0.4,
+   0.8
+  ],
+  "truth": "6434839548",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 english"
+ },
+ {
+  "id": "mobile-024",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ दो आठ दो आठ आठ शून्य सात दो"
+  ],
+  "pauses_s": [],
+  "truth": "9828288072",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-025",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात दो दो सात नौ",
+   "एक आठ शून्य पांच आठ"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7227918058",
+  "voice": "Omkar",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-026",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह आठ शून्य",
+   "डबल तीन चार",
+   "शून्य एक आठ सात"
+  ],
+  "pauses_s": [
+   1.3,
+   0.4
+  ],
+  "truth": "6803340187",
+  "voice": "Nalini",
+  "variant": "3-3-4 hindi_double"
+ },
+ {
+  "id": "mobile-027",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है nine five nine eight",
+   "nine eight three",
+   "four seven eight"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9598983478",
+  "voice": "Bhavna",
+  "variant": "4-3-3 english"
+ },
+ {
+  "id": "mobile-028",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ आठ",
+   "तीन सात",
+   "दो छह",
+   "एक छह",
+   "सात पांच"
+  ],
+  "pauses_s": [
+   0.4,
+   0.6,
+   1.0,
+   0.4
+  ],
+  "truth": "8837261675",
+  "voice": "Bhavna",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-029",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ एक दो पांच दो चार दो सात तीन एक"
+  ],
+  "pauses_s": [],
+  "truth": "8125242731",
+  "voice": "Omkar",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-030",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो तीन दो छह",
+   "आठ छह पांच छह तीन"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9232686563",
+  "voice": "Deepak",
+  "variant": "5-5 hindi_double"
+ },
+ {
+  "id": "mobile-031",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six five zero",
+   "five eight seven",
+   "seven zero six five"
+  ],
+  "pauses_s": [
+   1.3,
+   1.3
+  ],
+  "truth": "6505877065",
+  "voice": "Deepak",
+  "variant": "3-3-4 english"
+ },
+ {
+  "id": "mobile-032",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह एक तीन एक",
+   "एक चार चार",
+   "शून्य दो चार"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "6131144024",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-033",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो",
+   "आठ आठ",
+   "नौ सात",
+   "पांच एक",
+   "चार शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0,
+   0.4,
+   0.8
+  ],
+  "truth": "9288975140",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-034",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह चार एक नौ तीन एक चार एक सात शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "6419314170",
+  "voice": "Deepak",
+  "variant": "10 hindi_double"
+ },
+ {
+  "id": "mobile-035",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine four nine two zero",
+   "eight three one two four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9492083124",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ {
+  "id": "mobile-036",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात चार चार",
+   "आठ तीन चार",
+   "सात आठ दो चार"
+  ],
+  "pauses_s": [
+   0.8,
+   0.4
+  ],
+  "truth": "7448347824",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-037",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह शून्य शून्य आठ",
+   "आठ तीन आठ",
+   "सात तीन सात"
+  ],
+  "pauses_s": [
+   0.4,
+   1.0
+  ],
+  "truth": "6008838737",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-038",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ आठ",
+   "चार तीन",
+   "तीन पांच",
+   "तीन दो",
+   "छह पांच"
+  ],
+  "pauses_s": [
+   0.4,
+   0.6,
+   0.4,
+   0.4
+  ],
+  "truth": "9843353265",
+  "voice": "Deepak",
+  "variant": "2-2-2-2-2 hindi_double"
+ },
+ {
+  "id": "mobile-039",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है nine two zero one six eight four nine three four"
+  ],
+  "pauses_s": [],
+  "truth": "9201684934",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ {
+  "id": "mobile-040",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ दो दो चार सात",
+   "शून्य चार पांच पांच आठ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9224704558",
+  "voice": "Bhavna",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-041",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह चार तीन",
+   "पांच दो शून्य",
+   "पांच छह एक सात"
+  ],
+  "pauses_s": [
+   0.8,
+   1.3
+  ],
+  "truth": "6435205617",
+  "voice": "Bhavna",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-042",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात आठ शून्य एक",
+   "चार एक दो",
+   "छह नौ शून्य"
+  ],
+  "pauses_s": [
+   1.0,
+   0.4
+  ],
+  "truth": "7801412690",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi_double"
+ },
+ {
+  "id": "mobile-043",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "eight three",
+   "one nine",
+   "eight two",
+   "nine six",
+   "five seven"
+  ],
+  "pauses_s": [
+   0.6,
+   0.8,
+   1.3,
+   0.6
+  ],
+  "truth": "8319829657",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 english"
+ },
+ {
+  "id": "mobile-044",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ आठ दो आठ आठ नौ शून्य नौ तीन एक"
+  ],
+  "pauses_s": [],
+  "truth": "9828890931",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-045",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है छह दो पांच एक छह",
+   "सात आठ शून्य शून्य आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "6251678008",
+  "voice": "Omkar",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-046",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ शून्य सात",
+   "एक डबल आठ",
+   "एक आठ एक सात"
+  ],
+  "pauses_s": [
+   0.8,
+   0.4
+  ],
+  "truth": "8071881817",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi_double"
+ },
+ {
+  "id": "mobile-047",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three three seven",
+   "seven six one",
+   "seven four zero"
+  ],
+  "pauses_s": [
+   1.3,
+   0.6
+  ],
+  "truth": "7337761740",
+  "voice": "Nalini",
+  "variant": "4-3-3 english"
+ },
+ {
+  "id": "mobile-048",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात पांच",
+   "चार चार",
+   "नौ नौ",
+   "दो शून्य",
+   "सात शून्य"
+  ],
+  "pauses_s": [
+   1.0,
+   0.8,
+   0.4,
+   0.6
+  ],
+  "truth": "7544992070",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-049",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ आठ चार सात सात सात एक आठ तीन चार"
+  ],
+  "pauses_s": [],
+  "truth": "8847771834",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-050",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ शून्य चार सात एक",
+   "आठ सात चार छह तीन"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "9047187463",
+  "voice": "Nalini",
+  "variant": "5-5 hindi_double"
+ },
+ {
+  "id": "mobile-051",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six two eight",
+   "four five two",
+   "nine eight four one"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "6284529841",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ {
+  "id": "mobile-052",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ छह शून्य दो",
+   "शून्य सात सात",
+   "छह चार दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.8
+  ],
+  "truth": "9602077642",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-053",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ एक",
+   "पांच शून्य",
+   "पांच पांच",
+   "छह एक",
+   "तीन शून्य"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8,
+   0.8,
+   0.4
+  ],
+  "truth": "8150556130",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-054",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है डबल नौ एक पांच छह चार शून्य चार एक शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "9915640410",
+  "voice": "Deepak",
+  "variant": "10 hindi_double"
+ },
+ {
+  "id": "mobile-055",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three four six eight",
+   "five three five six zero"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7346853560",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ {
+  "id": "mobile-056",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह शून्य छह",
+   "सात नौ दो",
+   "चार सात शून्य आठ"
+  ],
+  "pauses_s": [
+   0.6,
+   0.6
+  ],
+  "truth": "6067924708",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-057",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ पांच चार चार",
+   "चार चार छह",
+   "तीन चार सात"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9544446347",
+  "voice": "Nalini",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-058",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात दो",
+   "एक तीन",
+   "आठ सात",
+   "आठ तीन",
+   "सात पांच"
+  ],
+  "pauses_s": [
+   1.0,
+   1.0,
+   0.6,
+   1.3
+  ],
+  "truth": "7213878375",
+  "voice": "Bhavna",
+  "variant": "2-2-2-2-2 hindi_double"
+ },
+ {
+  "id": "mobile-059",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven one two five eight one five three five four"
+  ],
+  "pauses_s": [],
+  "truth": "7125815354",
+  "voice": "Bhavna",
+  "variant": "10 english"
+ },
+ {
+  "id": "mobile-060",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है छह छह छह छह आठ",
+   "तीन छह चार पांच शून्य"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "6666836450",
+  "voice": "Deepak",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-061",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो आठ",
+   "आठ तीन एक",
+   "चार तीन छह छह"
+  ],
+  "pauses_s": [
+   1.0,
+   1.0
+  ],
+  "truth": "8288314366",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-062",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह दो शून्य छह",
+   "सात नौ सात",
+   "शून्य एक छह"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "6206797016",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi_double"
+ },
+ {
+  "id": "mobile-063",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है seven one",
+   "three two",
+   "two eight",
+   "one seven",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   0.4,
+   0.6,
+   0.6
+  ],
+  "truth": "7132281718",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 english"
+ },
+ {
+  "id": "mobile-064",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो चार आठ छह एक एक एक चार आठ"
+  ],
+  "pauses_s": [],
+  "truth": "8248611148",
+  "voice": "Bhavna",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-065",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ चार तीन नौ शून्य",
+   "शून्य आठ चार सात चार"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9439008474",
+  "voice": "Bhavna",
+  "variant": "5-5 hindi"
+ },
+ {
+  "id": "mobile-066",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ तीन",
+   "आठ तीन शून्य",
+   "छह चार डबल शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "9838306400",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi_double"
+ },
+ {
+  "id": "mobile-067",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six four three six",
+   "five three seven",
+   "zero five six"
+  ],
+  "pauses_s": [
+   0.8,
+   1.0
+  ],
+  "truth": "6436537056",
+  "voice": "Bhavna",
+  "variant": "4-3-3 english"
+ },
+ {
+  "id": "mobile-068",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह चार",
+   "आठ एक",
+   "तीन सात",
+   "तीन चार",
+   "तीन तीन"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6,
+   0.8,
+   0.8
+  ],
+  "truth": "6481373433",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-069",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ नौ दो तीन सात छह शून्य नौ दो छह"
+  ],
+  "pauses_s": [],
+  "truth": "9923760926",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ {
+  "id": "mobile-070",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात शून्य नौ दो छह",
+   "डबल शून्य दो छह सात"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "7092600267",
+  "voice": "Nalini",
+  "variant": "5-5 hindi_double"
+ },
+ {
+  "id": "mobile-071",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six two five",
+   "three two eight",
+   "seven zero four six"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8
+  ],
+  "truth": "6253287046",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ {
+  "id": "mobile-072",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात एक शून्य एक",
+   "चार एक पांच",
+   "छह एक आठ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "7101415618",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-073",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ छह",
+   "एक शून्य",
+   "सात तीन",
+   "पांच आठ",
+   "सात तीन"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8,
+   1.0,
+   0.4
+  ],
+  "truth": "8610735873",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ {
+  "id": "mobile-074",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात छह शून्य छह शून्य सात एक शून्य चार तीन"
+  ],
+  "pauses_s": [],
+  "truth": "7606071043",
+  "voice": "Nalini",
+  "variant": "10 hindi_double"
+ },
+ {
+  "id": "mobile-075",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है eight five four five nine",
+   "zero four five four four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "8545904544",
+  "voice": "Nalini",
+  "variant": "5-5 english"
+ },
+ {
+  "id": "mobile-076",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह तीन एक",
+   "सात सात छह",
+   "चार छह सात दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "6317764672",
+  "voice": "Nalini",
+  "variant": "3-3-4 hindi"
+ },
+ {
+  "id": "mobile-077",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो नौ तीन",
+   "पांच पांच सात",
+   "पांच नौ एक"
+  ],
+  "pauses_s": [
+   1.3,
+   0.6
+  ],
+  "truth": "8293557591",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi"
+ },
+ {
+  "id": "mobile-078",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात तीन",
+   "छह एक",
+   "शून्य सात",
+   "डबल आठ",
+   "पांच दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.4,
+   0.4,
+   0.8
+  ],
+  "truth": "7361078852",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi_double"
+ },
+ {
+  "id": "mobile-079",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven one six seven seven two three two six seven"
+  ],
+  "pauses_s": [],
+  "truth": "7167723267",
+  "voice": "Bhavna",
+  "variant": "10 english"
+ },
+ {
+  "id": "otp-000",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ एक चार",
+   "चार चार नौ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "814449",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-001",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार चार",
+   "तीन सात"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "4437",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-002",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "तीन तीन दो चार नौ तीन"
+  ],
+  "pauses_s": [],
+  "truth": "332493",
+  "voice": "Deepak",
+  "variant": "6"
+ },
+ {
+  "id": "otp-003",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "एक छह चार तीन"
+  ],
+  "pauses_s": [],
+  "truth": "1643",
+  "voice": "Bhavna",
+  "variant": "4"
+ },
+ {
+  "id": "otp-004",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है एक सात",
+   "शून्य एक",
+   "शून्य सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "170107",
+  "voice": "Deepak",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-005",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "शून्य चार",
+   "तीन एक"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "0431",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-006",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ नौ तीन",
+   "एक पांच आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "993158",
+  "voice": "Omkar",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-007",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "नौ चार",
+   "शून्य एक"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "9401",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-008",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है तीन शून्य पांच पांच दो शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "305520",
+  "voice": "Bhavna",
+  "variant": "6"
+ },
+ {
+  "id": "otp-009",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार शून्य नौ तीन"
+  ],
+  "pauses_s": [],
+  "truth": "4093",
+  "voice": "Nalini",
+  "variant": "4"
+ },
+ {
+  "id": "otp-010",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "पांच छह",
+   "पांच दो",
+   "नौ चार"
+  ],
+  "pauses_s": [
+   0.4,
+   0.6
+  ],
+  "truth": "565294",
+  "voice": "Nalini",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-011",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात आठ",
+   "सात एक"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7871",
+  "voice": "Nalini",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-012",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह आठ दो",
+   "आठ एक दो"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "682812",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-013",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "छह चार",
+   "चार छह"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "6446",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-014",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ पांच छह छह शून्य पांच"
+  ],
+  "pauses_s": [],
+  "truth": "956605",
+  "voice": "Bhavna",
+  "variant": "6"
+ },
+ {
+  "id": "otp-015",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "छह छह तीन शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "6630",
+  "voice": "Omkar",
+  "variant": "4"
+ },
+ {
+  "id": "otp-016",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है दो छह",
+   "एक एक",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.8,
+   1.0
+  ],
+  "truth": "261169",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-017",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "दो शून्य",
+   "शून्य आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "2008",
+  "voice": "Omkar",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-018",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "एक नौ नौ",
+   "पांच आठ दो"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "199582",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-019",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार दो",
+   "आठ दो"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "4282",
+  "voice": "Nalini",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-020",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह सात तीन चार दो शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "673420",
+  "voice": "Omkar",
+  "variant": "6"
+ },
+ {
+  "id": "otp-021",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "पांच शून्य नौ छह"
+  ],
+  "pauses_s": [],
+  "truth": "5096",
+  "voice": "Nalini",
+  "variant": "4"
+ },
+ {
+  "id": "otp-022",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ दो",
+   "तीन नौ",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "923969",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-023",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "नौ तीन",
+   "शून्य छह"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "9306",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-024",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह पांच एक",
+   "दो तीन तीन"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "651233",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-025",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "पांच एक",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "5169",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-026",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "छह चार नौ तीन छह छह"
+  ],
+  "pauses_s": [],
+  "truth": "649366",
+  "voice": "Deepak",
+  "variant": "6"
+ },
+ {
+  "id": "otp-027",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात आठ सात दो"
+  ],
+  "pauses_s": [],
+  "truth": "7872",
+  "voice": "Nalini",
+  "variant": "4"
+ },
+ {
+  "id": "otp-028",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है शून्य नौ",
+   "सात सात",
+   "तीन सात"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "097737",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-029",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात छह",
+   "एक एक"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "7611",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-030",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "छह पांच एक",
+   "सात आठ आठ"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "651788",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-031",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "दो एक",
+   "पांच आठ"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "2158",
+  "voice": "Nalini",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-032",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ छह दो शून्य एक नौ"
+  ],
+  "pauses_s": [],
+  "truth": "862019",
+  "voice": "Nalini",
+  "variant": "6"
+ },
+ {
+  "id": "otp-033",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "तीन दो सात चार"
+  ],
+  "pauses_s": [],
+  "truth": "3274",
+  "voice": "Bhavna",
+  "variant": "4"
+ },
+ {
+  "id": "otp-034",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "तीन एक",
+   "पांच नौ",
+   "चार दो"
+  ],
+  "pauses_s": [
+   0.8,
+   1.3
+  ],
+  "truth": "315942",
+  "voice": "Deepak",
+  "variant": "2-2-2"
+ },
+ {
+  "id": "otp-035",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात दो",
+   "चार आठ"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7248",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-036",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है नौ चार नौ",
+   "आठ तीन पांच"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "949835",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ {
+  "id": "otp-037",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "तीन दो",
+   "छह दो"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "3262",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ {
+  "id": "otp-038",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "छह दो चार एक आठ शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "624180",
+  "voice": "Deepak",
+  "variant": "6"
+ },
+ {
+  "id": "otp-039",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात आठ आठ नौ"
+  ],
+  "pauses_s": [],
+  "truth": "7889",
+  "voice": "Nalini",
+  "variant": "4"
+ },
+ {
+  "id": "amount-000",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "ढाई हज़ार"
+  ],
+  "pauses_s": [],
+  "truth": "2500",
+  "voice": "Deepak",
+  "variant": "special no unit"
+ },
+ {
+  "id": "amount-001",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "सात सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9700",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-002",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "छह सौ रुपये"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7600",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-003",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "छह लाख",
+   "पच्चीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "625000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-004",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ लाख रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "150000",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-005",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "एक सौ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "3100",
+  "voice": "Deepak",
+  "variant": "hazaar+sau no unit"
+ },
+ {
+  "id": "amount-006",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच हज़ार",
+   "छह सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "5600",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-007",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "चार लाख",
+   "बीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "420000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-008",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "साढ़े तीन हज़ार रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "3500",
+  "voice": "Omkar",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-009",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "छह सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9600",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-010",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "आठ हज़ार",
+   "चार सौ"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "8400",
+  "voice": "Nalini",
+  "variant": "hazaar+sau no unit"
+ },
+ {
+  "id": "amount-011",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "एक लाख",
+   "दस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "110000",
+  "voice": "Deepak",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-012",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "1500",
+  "voice": "Deepak",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-013",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "दो हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "2900",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-014",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7500",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-015",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "चार लाख",
+   "पच्चीस हज़ार"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "425000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar no unit"
+ },
+ {
+  "id": "amount-016",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सवा लाख रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "125000",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-017",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "एक सौ रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "3100",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-018",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "आठ हज़ार",
+   "दो सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "8200",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-019",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच लाख",
+   "पचास हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "550000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-020",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ सौ"
+  ],
+  "pauses_s": [],
+  "truth": "150",
+  "voice": "Nalini",
+  "variant": "special no unit"
+ },
+ {
+  "id": "amount-021",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "15900",
+  "voice": "Omkar",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-022",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "बारह हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "12900",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-023",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन लाख",
+   "दस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "310000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-024",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "ढाई हज़ार रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "2500",
+  "voice": "Nalini",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-025",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "तीन सौ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "7300",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau no unit"
+ },
+ {
+  "id": "amount-026",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "एक हज़ार",
+   "दो सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "1200",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-027",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन लाख",
+   "पचास हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "350000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-028",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ लाख रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "150000",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-029",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9500",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-030",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह हज़ार",
+   "एक सौ"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "15100",
+  "voice": "Nalini",
+  "variant": "hazaar+sau no unit"
+ },
+ {
+  "id": "amount-031",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात लाख",
+   "पचास हज़ार रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "750000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-032",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "साढ़े तीन हज़ार रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "3500",
+  "voice": "Omkar",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-033",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "3400",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-034",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "चार हज़ार",
+   "एक सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "4100",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-035",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच लाख",
+   "दस हज़ार"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "510000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar no unit"
+ },
+ {
+  "id": "amount-036",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पंद्रह सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "1500",
+  "voice": "Deepak",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-037",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "5400",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-038",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "3500",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-039",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन लाख",
+   "पच्चीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "325000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-040",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सवा लाख"
+  ],
+  "pauses_s": [],
+  "truth": "125000",
+  "voice": "Deepak",
+  "variant": "special no unit"
+ },
+ {
+  "id": "amount-041",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "बारह हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "12400",
+  "voice": "Omkar",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-042",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "आठ हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "8900",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-043",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात लाख",
+   "बीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "720000",
+  "voice": "Deepak",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "amount-044",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "150",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ {
+  "id": "amount-045",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "दो सौ"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7200",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau no unit"
+ },
+ {
+  "id": "amount-046",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "एक सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "3100",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ {
+  "id": "amount-047",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "दो लाख",
+   "बीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "220000",
+  "voice": "Bhavna",
+  "variant": "lakh+hazaar with unit"
+ },
+ {
+  "id": "date-000",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "23-01",
+  "voice": "Nalini",
+  "variant": "one group"
+ },
+ {
+  "id": "date-001",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दो तारीख",
+   "मार्च"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "02-03",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-002",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "चौबीस",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "24-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-003",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "07-09",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-004",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "चार अप्रैल"
+  ],
+  "pauses_s": [],
+  "truth": "04-04",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ {
+  "id": "date-005",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "07-02",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-006",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अट्ठाईस",
+   "नवंबर"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "28-11",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-007",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "16-02",
+  "voice": "Nalini",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-008",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छब्बीस नवंबर"
+  ],
+  "pauses_s": [],
+  "truth": "26-11",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ {
+  "id": "date-009",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस तारीख",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-06",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-010",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "नौ",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "09-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-011",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-012",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "पच्चीस अक्टूबर"
+  ],
+  "pauses_s": [],
+  "truth": "25-10",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ {
+  "id": "date-013",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अट्ठाईस तारीख",
+   "मई"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "28-05",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-014",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छब्बीस",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "26-07",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-015",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सत्रह",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "17-02",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-016",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "23-01",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ {
+  "id": "date-017",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस तारीख",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "23-02",
+  "voice": "Deepak",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-018",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "06-07",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-019",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "10-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-020",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह फरवरी"
+  ],
+  "pauses_s": [],
+  "truth": "16-02",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ {
+  "id": "date-021",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस तारीख",
+   "मार्च"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "23-03",
+  "voice": "Deepak",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-022",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सत्ताईस",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "27-09",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-023",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस",
+   "अप्रैल"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "10-04",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-024",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छह फरवरी"
+  ],
+  "pauses_s": [],
+  "truth": "06-02",
+  "voice": "Nalini",
+  "variant": "one group"
+ },
+ {
+  "id": "date-025",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह तारीख",
+   "दिसंबर"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "16-12",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-026",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "21-06",
+  "voice": "Nalini",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-027",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेरह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "13-07",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-028",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "21-01",
+  "voice": "Deepak",
+  "variant": "one group"
+ },
+ {
+  "id": "date-029",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "मई"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "07-05",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ {
+  "id": "date-030",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अठारह",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "18-09",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ {
+  "id": "date-031",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस",
+   "अप्रैल"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "21-04",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ }
+]

@@ -1,0 +1,90 @@
+{
+ "script": {
+  "id": "mobile-067",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six four three six",
+   "five three seven",
+   "zero five six"
+  ],
+  "pauses_s": [
+   0.8,
+   1.0
+  ],
+  "truth": "6436537056",
+  "voice": "Bhavna",
+  "variant": "4-3-3 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.9883
+  ],
+  [
+   2.7883,
+   3.8854
+  ],
+  [
+   4.8854,
+   6.1542
+  ]
+ ],
+ "speech_end": 6.1542,
+ "longest_internal_gap_s": 0.097,
+ "rest_whole_call": "6436537056",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cfdc-51a3-7195-a181-84523555e9d0",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T13:04:45.026705+00:00"
+   }
+  },
+  {
+   "t": 0.716,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua4905508",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T13:04:45.723071+00:00"
+   }
+  },
+  {
+   "t": 7.554,
+   "kind": "transcript",
+   "text": "सिक्स फ़ोर थ्री सिक्स फ़ाइव थ्री सेवन ज़ीरो फ़ाइव सिक्स।",
+   "raw": {
+    "type": "transcript",
+    "text": "सिक्स फ़ोर थ्री सिक्स फ़ाइव थ्री सेवन ज़ीरो फ़ाइव सिक्स।",
+    "audio_duration_ms": 7168.0,
+    "segment_id": "01a1cfdc-51a3-7195-a181-84523555e9d0-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ua4905508",
+    "is_final": true,
+    "latency": 170,
+    "prefetched": false,
+    "timestamp": "2026-11-12T13:04:52.452694+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

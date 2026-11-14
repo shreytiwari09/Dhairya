@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "otp-030",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "छह पांच एक",
+   "सात आठ आठ"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "651788",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4775
+  ],
+  [
+   1.8775,
+   3.1344
+  ]
+ ],
+ "speech_end": 3.1344,
+ "longest_internal_gap_s": 0.105,
+ "rest_whole_call": "651788"
+}

@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-047",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three three seven",
+   "seven six one",
+   "seven four zero"
+  ],
+  "pauses_s": [
+   1.3,
+   0.6
+  ],
+  "truth": "7337761740",
+  "voice": "Nalini",
+  "variant": "4-3-3 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8321
+  ],
+  [
+   3.1321,
+   4.2554
+  ],
+  [
+   4.8554,
+   6.0293
+  ]
+ ],
+ "speech_end": 6.0293,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7337761740",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.052,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d038-e583-785f-88a0-e96904ba4b52",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:45:52.229275+00:00"
+   }
+  },
+  {
+   "t": 0.697,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u756d0180",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T14:45:52.874889+00:00"
+   }
+  },
+  {
+   "t": 2.673,
+   "kind": "transcript",
+   "text": "सेवन थ्री थ्री सेवन",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन थ्री थ्री सेवन",
+    "audio_duration_ms": 2548.0,
+    "segment_id": "01a1d038-e583-785f-88a0-e96904ba4b52-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u756d0180",
+    "is_final": true,
+    "latency": 69,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:45:54.846739+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.439,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9a41460e",
+    "t_ms": 3092,
+    "timestamp": "2026-11-12T14:45:55.614865+00:00"
+   }
+  },
+  {
+   "t": 6.947,
+   "kind": "transcript",
+   "text": "सेवन सिक्स वन सेवन फ़ोर ज़ीरो।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन सिक्स वन सेवन फ़ोर ज़ीरो।",
+    "audio_duration_ms": 4020.0,
+    "segment_id": "01a1d038-e583-785f-88a0-e96904ba4b52-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9a41460e",
+    "is_final": true,
+    "latency": 114,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:45:59.116916+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

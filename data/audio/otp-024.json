@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "otp-024",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह पांच एक",
+   "दो तीन तीन"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "651233",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.1858
+  ],
+  [
+   2.5857,
+   3.9304
+  ]
+ ],
+ "speech_end": 3.9304,
+ "longest_internal_gap_s": 0.24,
+ "rest_whole_call": "ओ टी पी है 651233।"
+}

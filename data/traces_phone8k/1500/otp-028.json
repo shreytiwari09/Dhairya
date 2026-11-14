@@ -1,0 +1,91 @@
+{
+ "script": {
+  "id": "otp-028",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है शून्य नौ",
+   "सात सात",
+   "तीन सात"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "097737",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.7056
+  ],
+  [
+   3.0056,
+   3.8189
+  ],
+  [
+   4.8189,
+   5.5635
+  ]
+ ],
+ "speech_end": 5.5635,
+ "longest_internal_gap_s": 0.15,
+ "rest_whole_call": "ओ टी पी है 097737।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3ab-8e7e-7c0a-af6e-dc1ba4b8771f",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:49:58.208582+00:00"
+   }
+  },
+  {
+   "t": 0.616,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ueea01270",
+    "t_ms": 276,
+    "timestamp": "2026-11-13T06:49:58.777868+00:00"
+   }
+  },
+  {
+   "t": 7.295,
+   "kind": "transcript",
+   "text": "ओ टी पी है शून्य नौ सात सात तीन सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है शून्य नौ सात सात तीन सात।",
+    "audio_duration_ms": 7072.0,
+    "segment_id": "01a1d3ab-8e7e-7c0a-af6e-dc1ba4b8771f-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ueea01270",
+    "is_final": true,
+    "latency": 149,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:50:05.457085+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

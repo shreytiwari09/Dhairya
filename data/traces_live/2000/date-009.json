@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "date-009",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस तारीख",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-06",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1267
+  ],
+  [
+   1.9267,
+   2.4316
+  ]
+ ],
+ "speech_end": 2.4316,
+ "longest_internal_gap_s": 0.123,
+ "rest_whole_call": "10 तारीख जून।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.038,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d044-0864-7f64-853c-e33c6a427657",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:58:02.019671+00:00"
+   }
+  },
+  {
+   "t": 0.575,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5cd2c15b",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:58:02.556917+00:00"
+   }
+  },
+  {
+   "t": 4.592,
+   "kind": "transcript",
+   "text": "दस तारीख जून।",
+   "raw": {
+    "type": "transcript",
+    "text": "दस तारीख जून।",
+    "audio_duration_ms": 4448.0,
+    "segment_id": "01a1d044-0864-7f64-853c-e33c6a427657-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u5cd2c15b",
+    "is_final": true,
+    "latency": 84,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:58:06.561373+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-061",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो आठ",
+   "आठ तीन एक",
+   "चार तीन छह छह"
+  ],
+  "pauses_s": [
+   1.0,
+   1.0
+  ],
+  "truth": "8288314366",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4601
+  ],
+  [
+   2.4601,
+   3.3801
+  ],
+  [
+   4.3801,
+   5.4398
+  ]
+ ],
+ "speech_end": 5.4398,
+ "longest_internal_gap_s": 0.175,
+ "rest_whole_call": "8288314366"
+}

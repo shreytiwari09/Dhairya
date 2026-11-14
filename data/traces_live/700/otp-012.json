@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-012",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह आठ दो",
+   "आठ एक दो"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "682812",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.1395
+  ],
+  [
+   3.1395,
+   4.0036
+  ]
+ ],
+ "speech_end": 4.0036,
+ "longest_internal_gap_s": 0.078,
+ "rest_whole_call": "ओ टी पी है 682812।",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.048,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03a-6e4b-7cd4-9d82-d0faa04a9d3d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:47:32.752318+00:00"
+   }
+  },
+  {
+   "t": 0.556,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc0097049",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:47:33.251629+00:00"
+   }
+  },
+  {
+   "t": 3.042,
+   "kind": "transcript",
+   "text": "ओ टी पी है छह आठ दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है छह आठ दो।",
+    "audio_duration_ms": 2880.0,
+    "segment_id": "01a1d03a-6e4b-7cd4-9d82-d0faa04a9d3d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc0097049",
+    "is_final": true,
+    "latency": 86,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:35.737172+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.383,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "udc0eb656",
+    "t_ms": 2996,
+    "timestamp": "2026-11-12T14:47:36.076664+00:00"
+   }
+  },
+  {
+   "t": 4.866,
+   "kind": "transcript",
+   "text": "आठ एक दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "आठ एक दो।",
+    "audio_duration_ms": 1856.0,
+    "segment_id": "01a1d03a-6e4b-7cd4-9d82-d0faa04a9d3d-seg-2",
+    "segment_index": 2,
+    "utterance_id": "udc0eb656",
+    "is_final": true,
+    "latency": 61,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:37.570312+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

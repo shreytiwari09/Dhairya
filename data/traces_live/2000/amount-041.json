@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "amount-041",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "बारह हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "12400",
+  "voice": "Omkar",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0089
+  ],
+  [
+   2.0089,
+   2.7161
+  ]
+ ],
+ "speech_end": 2.7161,
+ "longest_internal_gap_s": 0.008,
+ "rest_whole_call": "12,400 रुपये।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d043-8ec4-7369-979a-87a15ff3c20a",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:57:30.881781+00:00"
+   }
+  },
+  {
+   "t": 0.485,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5764c5d2",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:57:31.325931+00:00"
+   }
+  },
+  {
+   "t": 4.984,
+   "kind": "transcript",
+   "text": "बारह हज़ार चार सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "बारह हज़ार चार सौ रुपये।",
+    "audio_duration_ms": 4768.0,
+    "segment_id": "01a1d043-8ec4-7369-979a-87a15ff3c20a-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u5764c5d2",
+    "is_final": true,
+    "latency": 182,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:57:35.826310+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

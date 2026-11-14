@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-051",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six two eight",
+   "four five two",
+   "nine eight four one"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "6284529841",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.2524
+  ],
+  [
+   3.0524,
+   3.8036
+  ],
+  [
+   4.4036,
+   5.7172
+  ]
+ ],
+ "speech_end": 5.7172,
+ "longest_internal_gap_s": 0.063,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6284529841।"
+}

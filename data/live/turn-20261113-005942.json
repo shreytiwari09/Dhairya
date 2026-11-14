@@ -1,0 +1,42 @@
+{
+ "slot": "amount",
+ "decision": "end_turn",
+ "decided_t": 4.108,
+ "heard": "पाँच लाख। दस हज़ार।",
+ "streamed_value": "510000",
+ "second_pass_value": "510000",
+ "final_value": "510000",
+ "agreed": true,
+ "reply": "पांच लाख दस हज़ार रुपये। सही है?",
+ "nudges": 0,
+ "notes": [
+  "policy: dhairya"
+ ],
+ "timeline": [
+  {
+   "t": 0.037,
+   "kind": "connected",
+   "text": ""
+  },
+  {
+   "t": 0.492,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 1.302,
+   "kind": "transcript",
+   "text": "पाँच लाख।"
+  },
+  {
+   "t": 1.974,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 2.805,
+   "kind": "transcript",
+   "text": "दस हज़ार।"
+  }
+ ]
+}

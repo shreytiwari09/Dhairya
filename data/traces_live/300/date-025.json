@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-025",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह तारीख",
+   "दिसंबर"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "16-12",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2411
+  ],
+  [
+   2.5411,
+   3.1374
+  ]
+ ],
+ "speech_end": 3.1374,
+ "longest_internal_gap_s": 0.026,
+ "rest_whole_call": "16 तारीख दिसंबर",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.058,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d036-f067-7fb7-be56-5d48c6bac856",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:43:43.929672+00:00"
+   }
+  },
+  {
+   "t": 0.619,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8e77a586",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T14:43:44.487152+00:00"
+   }
+  },
+  {
+   "t": 1.684,
+   "kind": "transcript",
+   "text": "सोलह तारीख",
+   "raw": {
+    "type": "transcript",
+    "text": "सोलह तारीख",
+    "audio_duration_ms": 1568.0,
+    "segment_id": "01a1d036-f067-7fb7-be56-5d48c6bac856-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8e77a586",
+    "is_final": true,
+    "latency": 67,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:45.551330+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.732,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u80848778",
+    "t_ms": 2388,
+    "timestamp": "2026-11-12T14:43:46.602339+00:00"
+   }
+  },
+  {
+   "t": 3.524,
+   "kind": "transcript",
+   "text": "दिसंबर",
+   "raw": {
+    "type": "transcript",
+    "text": "दिसंबर",
+    "audio_duration_ms": 1364.0,
+    "segment_id": "01a1d036-f067-7fb7-be56-5d48c6bac856-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u80848778",
+    "is_final": true,
+    "latency": 50,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:47.383678+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

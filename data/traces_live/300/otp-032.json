@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "otp-032",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ छह दो शून्य एक नौ"
+  ],
+  "pauses_s": [],
+  "truth": "862019",
+  "voice": "Nalini",
+  "variant": "6"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.9977
+  ]
+ ],
+ "speech_end": 2.9977,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "ओ टी पी है 862019।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d035-1212-73c4-b3c3-fe459118888d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:41:41.460158+00:00"
+   }
+  },
+  {
+   "t": 0.53,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9bc9fac2",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:41:41.941193+00:00"
+   }
+  },
+  {
+   "t": 3.522,
+   "kind": "transcript",
+   "text": "ओ टी पी है आठ छह दो शून्य एक नौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है आठ छह दो शून्य एक नौ।",
+    "audio_duration_ms": 3328.0,
+    "segment_id": "01a1d035-1212-73c4-b3c3-fe459118888d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u9bc9fac2",
+    "is_final": true,
+    "latency": 116,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:44.931918+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

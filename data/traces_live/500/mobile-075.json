@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "mobile-075",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है eight five four five nine",
+   "zero four five four four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "8545904544",
+  "voice": "Nalini",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.9651
+  ],
+  [
+   3.3651,
+   5.02
+  ]
+ ],
+ "speech_end": 5.02,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 8545904544।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.055,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf33-cb14-7744-90e7-c6096252a6e5",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T10:00:40.531795+00:00"
+   }
+  },
+  {
+   "t": 0.523,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u39fcd5bf",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T10:00:41.005239+00:00"
+   }
+  },
+  {
+   "t": 5.846,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है एट फ़ाइव फ़ोर फ़ाइव नाइन ज़ीरो फ़ोर फ़ाइव फ़ोर फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है एट फ़ाइव फ़ोर फ़ाइव नाइन ज़ीरो फ़ोर फ़ाइव फ़ोर फ़ोर।",
+    "audio_duration_ms": 5568.0,
+    "segment_id": "01a1cf33-cb14-7744-90e7-c6096252a6e5-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u39fcd5bf",
+    "is_final": true,
+    "latency": 204,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:00:46.329673+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

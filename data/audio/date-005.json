@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-005",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "07-02",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2147
+  ],
+  [
+   1.6147,
+   2.2309
+  ]
+ ],
+ "speech_end": 2.2309,
+ "longest_internal_gap_s": 0.113,
+ "rest_whole_call": "7 तारीख फरवरी।"
+}

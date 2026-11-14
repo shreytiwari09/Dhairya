@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-020",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह फरवरी"
+  ],
+  "pauses_s": [],
+  "truth": "16-02",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0393
+  ]
+ ],
+ "speech_end": 1.0393,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "16 February।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.043,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02f-aa11-714a-841c-97c75e6c93de",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:35:47.146270+00:00"
+   }
+  },
+  {
+   "t": 0.598,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "udb9a4784",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T14:35:47.701204+00:00"
+   }
+  },
+  {
+   "t": 2.755,
+   "kind": "transcript",
+   "text": "सोलह फरवरी।",
+   "raw": {
+    "type": "transcript",
+    "text": "सोलह फरवरी।",
+    "audio_duration_ms": 2624.0,
+    "segment_id": "01a1d02f-aa11-714a-841c-97c75e6c93de-seg-1",
+    "segment_index": 1,
+    "utterance_id": "udb9a4784",
+    "is_final": true,
+    "latency": 59,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:35:49.859785+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "date-022",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सत्ताईस",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "27-09",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.15
+  ],
+  [
+   1.95,
+   2.5583
+  ]
+ ],
+ "speech_end": 2.5583,
+ "longest_internal_gap_s": 0.116,
+ "rest_whole_call": "27 September।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.046,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d152-61cf-70a1-bdc5-70bfc6ed7b99",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:53:19.632599+00:00"
+   }
+  },
+  {
+   "t": 0.639,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8d3ff333",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T19:53:20.224579+00:00"
+   }
+  },
+  {
+   "t": 1.335,
+   "kind": "transcript",
+   "text": "सत्ताईस।",
+   "raw": {
+    "type": "transcript",
+    "text": "सत्ताईस।",
+    "audio_duration_ms": 1248.0,
+    "segment_id": "01a1d152-61cf-70a1-bdc5-70bfc6ed7b99-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8d3ff333",
+    "is_final": true,
+    "latency": 56,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:20.921708+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.319,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uec2dbcb3",
+    "t_ms": 2004,
+    "timestamp": "2026-11-12T19:53:21.904710+00:00"
+   }
+  },
+  {
+   "t": 2.933,
+   "kind": "transcript",
+   "text": "सितम्बर।",
+   "raw": {
+    "type": "transcript",
+    "text": "सितम्बर।",
+    "audio_duration_ms": 1268.0,
+    "segment_id": "01a1d152-61cf-70a1-bdc5-70bfc6ed7b99-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uec2dbcb3",
+    "is_final": true,
+    "latency": 50,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:22.513674+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

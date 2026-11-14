@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-030",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो तीन दो छह",
+   "आठ छह पांच छह तीन"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9232686563",
+  "voice": "Deepak",
+  "variant": "5-5 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.5926
+  ],
+  [
+   3.3926,
+   5.3628
+  ]
+ ],
+ "speech_end": 5.3628,
+ "longest_internal_gap_s": 0.262,
+ "rest_whole_call": "मेरा मोबाइल नम्बर है 9232686563।"
+}

@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "amount-017",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "एक सौ रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "3100",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0651
+  ],
+  [
+   1.6651,
+   2.5469
+  ]
+ ],
+ "speech_end": 2.5469,
+ "longest_internal_gap_s": 0.052,
+ "rest_whole_call": "3100 रुपये।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.661,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d027-d9ce-7910-a3ff-bffa8e0698f0",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:27:15.102390+00:00"
+   }
+  },
+  {
+   "t": 0.915,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u23fb4732",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:27:15.988517+00:00"
+   }
+  },
+  {
+   "t": 4.579,
+   "kind": "transcript",
+   "text": "तीन हज़ार एक सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन हज़ार एक सौ रुपये।",
+    "audio_duration_ms": 3584.0,
+    "segment_id": "01a1d027-d9ce-7910-a3ff-bffa8e0698f0-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u23fb4732",
+    "is_final": true,
+    "latency": 84,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:27:19.195180+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

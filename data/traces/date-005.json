@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-005",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "फरवरी"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "07-02",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2147
+  ],
+  [
+   1.6147,
+   2.2309
+  ]
+ ],
+ "speech_end": 2.2309,
+ "longest_internal_gap_s": 0.113,
+ "rest_whole_call": "7 तारीख फरवरी।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.055,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1c-2363-7c29-98a4-03f16ecf3359",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:34:50.283925+00:00"
+   }
+  },
+  {
+   "t": 0.631,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uf39f856a",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T09:34:50.848406+00:00"
+   }
+  },
+  {
+   "t": 1.578,
+   "kind": "transcript",
+   "text": "सात तारीख",
+   "raw": {
+    "type": "transcript",
+    "text": "सात तारीख",
+    "audio_duration_ms": 1440.0,
+    "segment_id": "01a1cf1c-2363-7c29-98a4-03f16ecf3359-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uf39f856a",
+    "is_final": true,
+    "latency": 61,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:34:51.811756+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.01,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u72328fd8",
+    "t_ms": 1620,
+    "timestamp": "2026-11-12T09:34:52.243382+00:00"
+   }
+  },
+  {
+   "t": 2.591,
+   "kind": "transcript",
+   "text": "फरवरी।",
+   "raw": {
+    "type": "transcript",
+    "text": "फरवरी।",
+    "audio_duration_ms": 1024.0,
+    "segment_id": "01a1cf1c-2363-7c29-98a4-03f16ecf3359-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u72328fd8",
+    "is_final": true,
+    "latency": 52,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:34:52.822584+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

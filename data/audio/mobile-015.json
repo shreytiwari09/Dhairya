@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-015",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six seven seven seven seven",
+   "four one two one five"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "6777741215",
+  "voice": "Omkar",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.5302
+  ],
+  [
+   4.3302,
+   5.989
+  ]
+ ],
+ "speech_end": 5.989,
+ "longest_internal_gap_s": 0.208,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6777741215।"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-024",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छह फरवरी"
+  ],
+  "pauses_s": [],
+  "truth": "06-02",
+  "voice": "Nalini",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0813
+  ]
+ ],
+ "speech_end": 1.0813,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "6 February।"
+}

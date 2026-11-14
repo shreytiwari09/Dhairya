@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-066",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ तीन",
+   "आठ तीन शून्य",
+   "छह चार डबल शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "9838306400",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6007
+  ],
+  [
+   3.2007,
+   4.2726
+  ],
+  [
+   5.2726,
+   6.6364
+  ]
+ ],
+ "speech_end": 6.6364,
+ "longest_internal_gap_s": 0.159,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9838306400।"
+}

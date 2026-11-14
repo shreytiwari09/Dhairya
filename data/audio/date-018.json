@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-018",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "06-07",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.6567
+  ],
+  [
+   1.0567,
+   1.6126
+  ]
+ ],
+ "speech_end": 1.6126,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "6 जुलाई।"
+}

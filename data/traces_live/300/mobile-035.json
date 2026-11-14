@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "mobile-035",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine four nine two zero",
+   "eight three one two four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9492083124",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.11
+  ],
+  [
+   2.51,
+   4.3434
+  ]
+ ],
+ "speech_end": 4.3434,
+ "longest_internal_gap_s": 0.082,
+ "rest_whole_call": "9492083124।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.04,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d032-a294-7f7b-a73a-a3b4c07bf460",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:39:01.844097+00:00"
+   }
+  },
+  {
+   "t": 0.483,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u09aae6a2",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:39:02.287063+00:00"
+   }
+  },
+  {
+   "t": 2.606,
+   "kind": "transcript",
+   "text": "नाइन फ़ोर नाइन टू ज़ीरो।",
+   "raw": {
+    "type": "transcript",
+    "text": "नाइन फ़ोर नाइन टू ज़ीरो।",
+    "audio_duration_ms": 2464.0,
+    "segment_id": "01a1d032-a294-7f7b-a73a-a3b4c07bf460-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u09aae6a2",
+    "is_final": true,
+    "latency": 95,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:39:04.410294+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.694,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u7120871d",
+    "t_ms": 2356,
+    "timestamp": "2026-11-12T14:39:04.497800+00:00"
+   }
+  },
+  {
+   "t": 4.79,
+   "kind": "transcript",
+   "text": "एट थ्री वन टू फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "एट थ्री वन टू फ़ोर।",
+    "audio_duration_ms": 2208.0,
+    "segment_id": "01a1d032-a294-7f7b-a73a-a3b4c07bf460-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u7120871d",
+    "is_final": true,
+    "latency": 79,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:39:06.593826+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

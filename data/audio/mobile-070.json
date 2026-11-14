@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-070",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात शून्य नौ दो छह",
+   "डबल शून्य दो छह सात"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "7092600267",
+  "voice": "Nalini",
+  "variant": "5-5 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.0379
+  ],
+  [
+   2.8379,
+   4.6235
+  ]
+ ],
+ "speech_end": 4.6235,
+ "longest_internal_gap_s": 0.088,
+ "rest_whole_call": "7092600267"
+}

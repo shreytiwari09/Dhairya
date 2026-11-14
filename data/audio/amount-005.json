@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-005",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "एक सौ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "3100",
+  "voice": "Deepak",
+  "variant": "hazaar+sau no unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8335
+  ],
+  [
+   1.6335,
+   1.9892
+  ]
+ ],
+ "speech_end": 1.9892,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "3100"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-029",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ एक दो पांच दो चार दो सात तीन एक"
+  ],
+  "pauses_s": [],
+  "truth": "8125242731",
+  "voice": "Omkar",
+  "variant": "10 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.3996
+  ]
+ ],
+ "speech_end": 3.3996,
+ "longest_internal_gap_s": 0.215,
+ "rest_whole_call": "8, 1, 2, 5, 2, 4, 2, 7, 3, 1।"
+}

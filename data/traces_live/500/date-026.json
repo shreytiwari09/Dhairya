@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-026",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "21-06",
+  "voice": "Nalini",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8255
+  ],
+  [
+   1.6255,
+   2.2078
+  ]
+ ],
+ "speech_end": 2.2078,
+ "longest_internal_gap_s": 0.085,
+ "rest_whole_call": "21 June।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.058,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf5c-5fb0-7c13-af3e-2f36d86d3028",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T10:45:00.023414+00:00"
+   }
+  },
+  {
+   "t": 0.654,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u3ce95d82",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T10:45:00.622588+00:00"
+   }
+  },
+  {
+   "t": 1.538,
+   "kind": "transcript",
+   "text": "इक्कीस।",
+   "raw": {
+    "type": "transcript",
+    "text": "इक्कीस।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1cf5c-5fb0-7c13-af3e-2f36d86d3028-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u3ce95d82",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:45:01.485480+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.897,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u875c3a3e",
+    "t_ms": 1460,
+    "timestamp": "2026-11-12T10:45:01.846342+00:00"
+   }
+  },
+  {
+   "t": 3.022,
+   "kind": "transcript",
+   "text": "जून।",
+   "raw": {
+    "type": "transcript",
+    "text": "जून।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1cf5c-5fb0-7c13-af3e-2f36d86d3028-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u875c3a3e",
+    "is_final": true,
+    "latency": 52,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:45:02.955802+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

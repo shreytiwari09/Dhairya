@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "date-031",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस",
+   "अप्रैल"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "21-04",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8602
+  ],
+  [
+   1.8602,
+   2.3916
+  ]
+ ],
+ "speech_end": 2.3916,
+ "longest_internal_gap_s": 0.138,
+ "rest_whole_call": "21 April।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.076,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d029-6453-7e95-9be5-233e50ad742a",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:28:56.106693+00:00"
+   }
+  },
+  {
+   "t": 0.491,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uca7b6b56",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:28:56.522588+00:00"
+   }
+  },
+  {
+   "t": 3.559,
+   "kind": "transcript",
+   "text": "इक्कीस अप्रैल।",
+   "raw": {
+    "type": "transcript",
+    "text": "इक्कीस अप्रैल।",
+    "audio_duration_ms": 3424.0,
+    "segment_id": "01a1d029-6453-7e95-9be5-233e50ad742a-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uca7b6b56",
+    "is_final": true,
+    "latency": 85,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:28:59.592232+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

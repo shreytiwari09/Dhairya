@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-057",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ पांच चार चार",
+   "चार चार छह",
+   "तीन चार सात"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9544446347",
+  "voice": "Nalini",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.669
+  ],
+  [
+   3.969,
+   5.0911
+  ],
+  [
+   6.0911,
+   6.9724
+  ]
+ ],
+ "speech_end": 6.9724,
+ "longest_internal_gap_s": 0.062,
+ "rest_whole_call": "मेरा mobile number है 9544446347।"
+}

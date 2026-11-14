@@ -1,0 +1,103 @@
+{
+ "script": {
+  "id": "mobile-063",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है seven one",
+   "three two",
+   "two eight",
+   "one seven",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   0.4,
+   0.6,
+   0.6
+  ],
+  "truth": "7132281718",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   2.2021
+  ],
+  [
+   2.6021,
+   3.4738
+  ],
+  [
+   3.8738,
+   4.4569
+  ],
+  [
+   5.0569,
+   5.9183
+  ],
+  [
+   6.5183,
+   7.295
+  ]
+ ],
+ "speech_end": 7.295,
+ "longest_internal_gap_s": 0.223,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7132281718।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.094,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a9-f890-77de-94ae-2c0fd64a895b",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:48:14.315674+00:00"
+   }
+  },
+  {
+   "t": 0.705,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud000d5e2",
+    "t_ms": 404,
+    "timestamp": "2026-11-13T06:48:14.948281+00:00"
+   }
+  },
+  {
+   "t": 9.104,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है सेवन वन थ्री टू टू एट वन सेवन वन एट।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है सेवन वन थ्री टू टू एट वन सेवन वन एट।",
+    "audio_duration_ms": 8832.0,
+    "segment_id": "01a1d3a9-f890-77de-94ae-2c0fd64a895b-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud000d5e2",
+    "is_final": true,
+    "latency": 181,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:48:23.342935+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

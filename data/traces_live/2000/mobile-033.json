@@ -1,0 +1,102 @@
+{
+ "script": {
+  "id": "mobile-033",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो",
+   "आठ आठ",
+   "नौ सात",
+   "पांच एक",
+   "चार शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0,
+   0.4,
+   0.8
+  ],
+  "truth": "9288975140",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8041
+  ],
+  [
+   2.4041,
+   2.9886
+  ],
+  [
+   3.9886,
+   4.7423
+  ],
+  [
+   5.1423,
+   6.0855
+  ],
+  [
+   6.8855,
+   7.9799
+  ]
+ ],
+ "speech_end": 7.9799,
+ "longest_internal_gap_s": 0.194,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9288975140।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.067,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03e-8703-7e88-9fab-0f8e7549fb96",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:52:01.242934+00:00"
+   }
+  },
+  {
+   "t": 0.488,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud367689c",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:52:01.664009+00:00"
+   }
+  },
+  {
+   "t": 10.215,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नौ दो आठ आठ नौ सात पाँच एक चार शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नौ दो आठ आठ नौ सात पाँच एक चार शून्य।",
+    "audio_duration_ms": 10016.0,
+    "segment_id": "01a1d03e-8703-7e88-9fab-0f8e7549fb96-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud367689c",
+    "is_final": true,
+    "latency": 154,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:52:11.391096+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

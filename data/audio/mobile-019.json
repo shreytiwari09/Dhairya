@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-019",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "eight one three one three seven three five three seven"
+  ],
+  "pauses_s": [],
+  "truth": "8131373537",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.261
+  ]
+ ],
+ "speech_end": 3.261,
+ "longest_internal_gap_s": 0.018,
+ "rest_whole_call": "8131373537"
+}

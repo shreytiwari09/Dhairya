@@ -1,0 +1,103 @@
+{
+ "script": {
+  "id": "mobile-033",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो",
+   "आठ आठ",
+   "नौ सात",
+   "पांच एक",
+   "चार शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0,
+   0.4,
+   0.8
+  ],
+  "truth": "9288975140",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8041
+  ],
+  [
+   2.4041,
+   2.9886
+  ],
+  [
+   3.9886,
+   4.7423
+  ],
+  [
+   5.1423,
+   6.0855
+  ],
+  [
+   6.8855,
+   7.9799
+  ]
+ ],
+ "speech_end": 7.9799,
+ "longest_internal_gap_s": 0.194,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9288975140।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a8-aa00-7012-bf61-09c15f2b9f0e",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:46:48.647121+00:00"
+   }
+  },
+  {
+   "t": 0.631,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ub5f96958",
+    "t_ms": 276,
+    "timestamp": "2026-11-13T06:46:49.236142+00:00"
+   }
+  },
+  {
+   "t": 9.757,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नौ दो आठ आठ नौ सात पाँच एक चार शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नौ दो आठ आठ नौ सात पाँच एक चार शून्य।",
+    "audio_duration_ms": 9504.0,
+    "segment_id": "01a1d3a8-aa00-7012-bf61-09c15f2b9f0e-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ub5f96958",
+    "is_final": true,
+    "latency": 174,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:46:58.360366+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

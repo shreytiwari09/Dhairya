@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-011",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven four four",
+   "zero two six",
+   "eight five nine nine"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "7440268599",
+  "voice": "Nalini",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.367
+  ],
+  [
+   2.167,
+   3.2407
+  ],
+  [
+   3.8407,
+   5.0553
+  ]
+ ],
+ "speech_end": 5.0553,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7440268599",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.065,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d037-7d56-7787-a2dc-5d40b6defb19",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:44:20.011030+00:00"
+   }
+  },
+  {
+   "t": 0.593,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc213bc06",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:44:20.537556+00:00"
+   }
+  },
+  {
+   "t": 2.223,
+   "kind": "transcript",
+   "text": "सेवन फ़ोर फ़ोर",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन फ़ोर फ़ोर",
+    "audio_duration_ms": 2112.0,
+    "segment_id": "01a1d037-7d56-7787-a2dc-5d40b6defb19-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc213bc06",
+    "is_final": true,
+    "latency": 73,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:44:22.168702+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.353,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8ea1d233",
+    "t_ms": 2004,
+    "timestamp": "2026-11-12T14:44:22.297422+00:00"
+   }
+  },
+  {
+   "t": 5.935,
+   "kind": "transcript",
+   "text": "जीरो टू सिक्स एट फ़ाइव नाइन नाइन।",
+   "raw": {
+    "type": "transcript",
+    "text": "जीरो टू सिक्स एट फ़ाइव नाइन नाइन।",
+    "audio_duration_ms": 3680.0,
+    "segment_id": "01a1d037-7d56-7787-a2dc-5d40b6defb19-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u8ea1d233",
+    "is_final": true,
+    "latency": 110,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:44:25.881875+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

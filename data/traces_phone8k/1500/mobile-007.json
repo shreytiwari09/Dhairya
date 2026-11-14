@@ -1,0 +1,91 @@
+{
+ "script": {
+  "id": "mobile-007",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine nine seven one",
+   "one four seven",
+   "one zero four"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9971147104",
+  "voice": "Deepak",
+  "variant": "4-3-3 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.676
+  ],
+  [
+   2.976,
+   4.0553
+  ],
+  [
+   5.0553,
+   5.9004
+  ]
+ ],
+ "speech_end": 5.9004,
+ "longest_internal_gap_s": 0.03,
+ "rest_whole_call": "9971147104",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.054,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a7-8f11-741c-a4fd-966421c64898",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:45:36.223497+00:00"
+   }
+  },
+  {
+   "t": 0.619,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uad59f198",
+    "t_ms": 276,
+    "timestamp": "2026-11-13T06:45:36.787812+00:00"
+   }
+  },
+  {
+   "t": 7.705,
+   "kind": "transcript",
+   "text": "नाइन नाइन सेवन वन वन फोर सेवन वन ज़ीरो फोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "नाइन नाइन सेवन वन वन फोर सेवन वन ज़ीरो फोर।",
+    "audio_duration_ms": 7424.0,
+    "segment_id": "01a1d3a7-8f11-741c-a4fd-966421c64898-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uad59f198",
+    "is_final": true,
+    "latency": 158,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:45:43.856219+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

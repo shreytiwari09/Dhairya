@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "date-021",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस तारीख",
+   "मार्च"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "23-03",
+  "voice": "Deepak",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9444
+  ],
+  [
+   1.9444,
+   2.4461
+  ]
+ ],
+ "speech_end": 2.4461,
+ "longest_internal_gap_s": 0.049,
+ "rest_whole_call": "23 तारीख मार्च।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.355,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02f-c120-7890-8948-3cd7df1cdf13",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:35:53.052187+00:00"
+   }
+  },
+  {
+   "t": 0.52,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u219912ce",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:35:53.526871+00:00"
+   }
+  },
+  {
+   "t": 4.167,
+   "kind": "transcript",
+   "text": "तेईस तारीख मार्च।",
+   "raw": {
+    "type": "transcript",
+    "text": "तेईस तारीख मार्च।",
+    "audio_duration_ms": 4000.0,
+    "segment_id": "01a1d02f-c120-7890-8948-3cd7df1cdf13-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u219912ce",
+    "is_final": true,
+    "latency": 78,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:35:57.164292+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

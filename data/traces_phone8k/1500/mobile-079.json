@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "mobile-079",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven one six seven seven two three two six seven"
+  ],
+  "pauses_s": [],
+  "truth": "7167723267",
+  "voice": "Bhavna",
+  "variant": "10 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   4.2748
+  ]
+ ],
+ "speech_end": 4.2748,
+ "longest_internal_gap_s": 0.091,
+ "rest_whole_call": "7167723267",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.051,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3aa-ad69-7fe6-bdd4-03b221310756",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:49:00.593321+00:00"
+   }
+  },
+  {
+   "t": 1.075,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua8fec6db",
+    "t_ms": 340,
+    "timestamp": "2026-11-13T06:49:01.619512+00:00"
+   }
+  },
+  {
+   "t": 6.446,
+   "kind": "transcript",
+   "text": "सेवन वन सिक्स सेवन सेवन टू थ्री टू सिक्स सेवन।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन वन सिक्स सेवन सेवन टू थ्री टू सिक्स सेवन।",
+    "audio_duration_ms": 5824.0,
+    "segment_id": "01a1d3aa-ad69-7fe6-bdd4-03b221310756-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ua8fec6db",
+    "is_final": true,
+    "latency": 118,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:49:06.987594+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

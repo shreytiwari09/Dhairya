@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-021",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ छह एक",
+   "दो दो दो",
+   "शून्य दो नौ सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.3
+  ],
+  "truth": "9612220297",
+  "voice": "Omkar",
+  "variant": "3-3-4 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.5278
+  ],
+  [
+   3.1278,
+   3.7218
+  ],
+  [
+   5.0218,
+   6.4283
+  ]
+ ],
+ "speech_end": 6.4283,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9612220297।"
+}

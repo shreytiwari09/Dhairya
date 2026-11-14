@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "otp-020",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह सात तीन चार दो शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "673420",
+  "voice": "Omkar",
+  "variant": "6"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6026
+  ]
+ ],
+ "speech_end": 2.6026,
+ "longest_internal_gap_s": 0.101,
+ "rest_whole_call": "ओ टी पी है 673420।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.166,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d170-9b06-7cfc-9489-c9add9145104",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:26:20.364768+00:00"
+   }
+  },
+  {
+   "t": 1.023,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1a69bf37",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:26:21.345221+00:00"
+   }
+  },
+  {
+   "t": 3.771,
+   "kind": "transcript",
+   "text": "ओ टी पी है छह सात तीन चार दो शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है छह सात तीन चार दो शून्य।",
+    "audio_duration_ms": 3168.0,
+    "segment_id": "01a1d170-9b06-7cfc-9489-c9add9145104-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1a69bf37",
+    "is_final": true,
+    "latency": 122,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:26:24.112163+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

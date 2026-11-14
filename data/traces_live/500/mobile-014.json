@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "mobile-014",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह तीन नौ छह दो चार पांच नौ पांच सात"
+  ],
+  "pauses_s": [],
+  "truth": "6396245957",
+  "voice": "Nalini",
+  "variant": "10 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.1154
+  ]
+ ],
+ "speech_end": 3.1154,
+ "longest_internal_gap_s": 0.074,
+ "rest_whole_call": "6396245957",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.052,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf31-8499-72eb-a317-3d155faa2dad",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:58:11.420568+00:00"
+   }
+  },
+  {
+   "t": 0.617,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u796963b8",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T09:58:11.986472+00:00"
+   }
+  },
+  {
+   "t": 3.895,
+   "kind": "transcript",
+   "text": "छह तीन नौ छह दो चार पाँच नौ पाँच सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "छह तीन नौ छह दो चार पाँच नौ पाँच सात।",
+    "audio_duration_ms": 3680.0,
+    "segment_id": "01a1cf31-8499-72eb-a317-3d155faa2dad-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u796963b8",
+    "is_final": true,
+    "latency": 120,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:58:15.259586+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

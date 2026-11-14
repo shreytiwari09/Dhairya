@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "date-001",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दो तारीख",
+   "मार्च"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "02-03",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0458
+  ],
+  [
+   1.4458,
+   1.9294
+  ]
+ ],
+ "speech_end": 1.9294,
+ "longest_internal_gap_s": 0.053,
+ "rest_whole_call": "2 तारीख मार्च",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.031,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d152-06d1-75e1-b7ff-f73998ce5cae",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:52:56.338665+00:00"
+   }
+  },
+  {
+   "t": 0.582,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u73f7e2f9",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:52:56.887984+00:00"
+   }
+  },
+  {
+   "t": 1.411,
+   "kind": "transcript",
+   "text": "दो तारीख",
+   "raw": {
+    "type": "transcript",
+    "text": "दो तारीख",
+    "audio_duration_ms": 1280.0,
+    "segment_id": "01a1d152-06d1-75e1-b7ff-f73998ce5cae-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u73f7e2f9",
+    "is_final": true,
+    "latency": 56,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:57.717796+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.745,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9dbc615f",
+    "t_ms": 1428,
+    "timestamp": "2026-11-12T19:52:58.053060+00:00"
+   }
+  },
+  {
+   "t": 2.227,
+   "kind": "transcript",
+   "text": "मार्च",
+   "raw": {
+    "type": "transcript",
+    "text": "मार्च",
+    "audio_duration_ms": 864.0,
+    "segment_id": "01a1d152-06d1-75e1-b7ff-f73998ce5cae-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9dbc615f",
+    "is_final": true,
+    "latency": 45,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:58.535518+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

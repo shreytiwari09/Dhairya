@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-025",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "तीन सौ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "7300",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau no unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1675
+  ],
+  [
+   1.7675,
+   2.5494
+  ]
+ ],
+ "speech_end": 2.5494,
+ "longest_internal_gap_s": 0.029,
+ "rest_whole_call": "7300",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf2d-e51c-7863-8989-8e531e76e161",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:54:13.993999+00:00"
+   }
+  },
+  {
+   "t": 0.632,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u718fefa6",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T09:54:14.562546+00:00"
+   }
+  },
+  {
+   "t": 1.553,
+   "kind": "transcript",
+   "text": "सात हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात हज़ार।",
+    "audio_duration_ms": 1408.0,
+    "segment_id": "01a1cf2d-e51c-7863-8989-8e531e76e161-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u718fefa6",
+    "is_final": true,
+    "latency": 61,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:54:15.484689+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.005,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4ed65234",
+    "t_ms": 1620,
+    "timestamp": "2026-11-12T09:54:15.946979+00:00"
+   }
+  },
+  {
+   "t": 3.003,
+   "kind": "transcript",
+   "text": "तीन सौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन सौ।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1cf2d-e51c-7863-8989-8e531e76e161-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u4ed65234",
+    "is_final": true,
+    "latency": 49,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:54:16.849454+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

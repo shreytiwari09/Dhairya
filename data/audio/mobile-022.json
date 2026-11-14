@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-022",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो डबल आठ",
+   "दो डबल शून्य",
+   "एक आठ दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "8288200182",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.642
+  ],
+  [
+   2.642,
+   3.9991
+  ],
+  [
+   4.5991,
+   5.6009
+  ]
+ ],
+ "speech_end": 5.6009,
+ "longest_internal_gap_s": 0.108,
+ "rest_whole_call": "8288200182"
+}

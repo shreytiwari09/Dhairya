@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-010",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "नौ",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "09-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.6548
+  ],
+  [
+   1.4548,
+   2.0101
+  ]
+ ],
+ "speech_end": 2.0101,
+ "longest_internal_gap_s": 0.074,
+ "rest_whole_call": "9 January।"
+}

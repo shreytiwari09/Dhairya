@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "mobile-000",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है आठ दो छह शून्य एक",
+   "आठ एक पांच नौ शून्य"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "8260181590",
+  "voice": "Bhavna",
+  "variant": "5-5 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.5223
+  ],
+  [
+   4.8223,
+   6.613
+  ]
+ ],
+ "speech_end": 6.613,
+ "longest_internal_gap_s": 0.146,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 8260181590।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d031-7134-7786-bfc5-8d5290637d85",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:37:43.664533+00:00"
+   }
+  },
+  {
+   "t": 0.887,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uad986439",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:37:44.510744+00:00"
+   }
+  },
+  {
+   "t": 4.851,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है आठ दो छह शून्य एक।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है आठ दो छह शून्य एक।",
+    "audio_duration_ms": 3840.0,
+    "segment_id": "01a1d031-7134-7786-bfc5-8d5290637d85-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uad986439",
+    "is_final": true,
+    "latency": 100,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:37:47.999902+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 5.382,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc7e6e297",
+    "t_ms": 4660,
+    "timestamp": "2026-11-12T14:37:49.008030+00:00"
+   }
+  },
+  {
+   "t": 7.478,
+   "kind": "transcript",
+   "text": "आठ एक पाँच नौ शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "आठ एक पाँच नौ शून्य।",
+    "audio_duration_ms": 2612.0,
+    "segment_id": "01a1d031-7134-7786-bfc5-8d5290637d85-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uc7e6e297",
+    "is_final": true,
+    "latency": 82,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:37:51.086543+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

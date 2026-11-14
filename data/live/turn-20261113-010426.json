@@ -1,0 +1,72 @@
+{
+ "slot": "mobile",
+ "decision": "end_turn",
+ "decided_t": 11.941,
+ "heard": "नाइन एट। थ्री एट। फ़ोर वन। आठ सौ पिचानवे। पाँच सौ इक्यानवे।",
+ "streamed_value": "9838418591",
+ "second_pass_value": "9838418955",
+ "final_value": "9838418955",
+ "agreed": false,
+ "reply": "मैंने सुना नौ आठ तीन आठ चार एक आठ नौ पांच पांच। क्या यह सही है?",
+ "nudges": 0,
+ "notes": [
+  "policy: dhairya"
+ ],
+ "timeline": [
+  {
+   "t": 0.0,
+   "kind": "connected",
+   "text": ""
+  },
+  {
+   "t": 0.3,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 1.165,
+   "kind": "transcript",
+   "text": "नाइन एट।"
+  },
+  {
+   "t": 1.423,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 2.188,
+   "kind": "transcript",
+   "text": "थ्री एट।"
+  },
+  {
+   "t": 3.257,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 3.983,
+   "kind": "transcript",
+   "text": "फ़ोर वन।"
+  },
+  {
+   "t": 6.867,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 8.203,
+   "kind": "transcript",
+   "text": "आठ सौ पिचानवे।"
+  },
+  {
+   "t": 10.677,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 11.941,
+   "kind": "transcript",
+   "text": "पाँच सौ इक्यानवे।"
+  }
+ ]
+}

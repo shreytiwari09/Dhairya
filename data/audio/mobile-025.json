@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-025",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात दो दो सात नौ",
+   "एक आठ शून्य पांच आठ"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7227918058",
+  "voice": "Omkar",
+  "variant": "5-5 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.9704
+  ],
+  [
+   3.2704,
+   4.9047
+  ]
+ ],
+ "speech_end": 4.9047,
+ "longest_internal_gap_s": 0.174,
+ "rest_whole_call": "7227918058"
+}

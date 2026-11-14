@@ -1,0 +1,148 @@
+{
+ "script": {
+  "id": "mobile-047",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three three seven",
+   "seven six one",
+   "seven four zero"
+  ],
+  "pauses_s": [
+   1.3,
+   0.6
+  ],
+  "truth": "7337761740",
+  "voice": "Nalini",
+  "variant": "4-3-3 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8321
+  ],
+  [
+   3.1321,
+   4.2554
+  ],
+  [
+   4.8554,
+   6.0293
+  ]
+ ],
+ "speech_end": 6.0293,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7337761740",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.054,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d033-0e78-70b3-8f3d-94677f1306dc",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:39:29.472669+00:00"
+   }
+  },
+  {
+   "t": 0.704,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9a11546b",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T14:39:30.120824+00:00"
+   }
+  },
+  {
+   "t": 2.285,
+   "kind": "transcript",
+   "text": "सेवन थ्री थ्री सेवन",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन थ्री थ्री सेवन",
+    "audio_duration_ms": 2132.0,
+    "segment_id": "01a1d033-0e78-70b3-8f3d-94677f1306dc-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u9a11546b",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:39:31.692126+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.424,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud543291b",
+    "t_ms": 3092,
+    "timestamp": "2026-11-12T14:39:32.881392+00:00"
+   }
+  },
+  {
+   "t": 4.706,
+   "kind": "transcript",
+   "text": "सेवन सिक्स वन",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन सिक्स वन",
+    "audio_duration_ms": 1812.0,
+    "segment_id": "01a1d033-0e78-70b3-8f3d-94677f1306dc-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ud543291b",
+    "is_final": true,
+    "latency": 64,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:39:34.117650+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 5.189,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uef9c3e9a",
+    "t_ms": 4820,
+    "timestamp": "2026-11-12T14:39:34.601490+00:00"
+   }
+  },
+  {
+   "t": 6.522,
+   "kind": "transcript",
+   "text": "सेवन फ़ोर ज़ीरो।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन फ़ोर ज़ीरो।",
+    "audio_duration_ms": 1792.0,
+    "segment_id": "01a1d033-0e78-70b3-8f3d-94677f1306dc-seg-3",
+    "segment_index": 3,
+    "utterance_id": "uef9c3e9a",
+    "is_final": true,
+    "latency": 82,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:39:35.931276+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

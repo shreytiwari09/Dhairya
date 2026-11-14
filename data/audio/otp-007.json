@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "otp-007",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "नौ चार",
+   "शून्य एक"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "9401",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9912
+  ],
+  [
+   2.2912,
+   3.1662
+  ]
+ ],
+ "speech_end": 3.1662,
+ "longest_internal_gap_s": 0.06,
+ "rest_whole_call": "9401"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "amount-040",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सवा लाख"
+  ],
+  "pauses_s": [],
+  "truth": "125000",
+  "voice": "Deepak",
+  "variant": "special no unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0388
+  ]
+ ],
+ "speech_end": 1.0388,
+ "longest_internal_gap_s": 0.056,
+ "rest_whole_call": "1,25,000"
+}

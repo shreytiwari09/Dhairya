@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "otp-002",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "तीन तीन दो चार नौ तीन"
+  ],
+  "pauses_s": [],
+  "truth": "332493",
+  "voice": "Deepak",
+  "variant": "6"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.6633
+  ]
+ ],
+ "speech_end": 1.6633,
+ "longest_internal_gap_s": 0.022,
+ "rest_whole_call": "332493"
+}

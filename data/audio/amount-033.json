@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-033",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "3400",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8335
+  ],
+  [
+   1.2335,
+   2.0651
+  ]
+ ],
+ "speech_end": 2.0651,
+ "longest_internal_gap_s": 0.027,
+ "rest_whole_call": "3,400 रुपये।"
+}

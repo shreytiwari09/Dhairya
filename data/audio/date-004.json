@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-004",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "चार अप्रैल"
+  ],
+  "pauses_s": [],
+  "truth": "04-04",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.3086
+  ]
+ ],
+ "speech_end": 1.3086,
+ "longest_internal_gap_s": 0.08,
+ "rest_whole_call": "4 April।"
+}

@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-014",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छब्बीस",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "26-07",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9283
+  ],
+  [
+   1.3283,
+   1.757
+  ]
+ ],
+ "speech_end": 1.757,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "26 जुलाई।"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "otp-020",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह सात तीन चार दो शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "673420",
+  "voice": "Omkar",
+  "variant": "6"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6026
+  ]
+ ],
+ "speech_end": 2.6026,
+ "longest_internal_gap_s": 0.101,
+ "rest_whole_call": "ओ टी पी है 673420।"
+}

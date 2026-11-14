@@ -1,0 +1,90 @@
+{
+ "script": {
+  "id": "mobile-071",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six two five",
+   "three two eight",
+   "seven zero four six"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8
+  ],
+  "truth": "6253287046",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2629
+  ],
+  [
+   2.0629,
+   2.8594
+  ],
+  [
+   3.6594,
+   5.0724
+  ]
+ ],
+ "speech_end": 5.0724,
+ "longest_internal_gap_s": 0.07,
+ "rest_whole_call": "6253287046",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d040-268f-7f6b-8196-c5a0bc8902fe",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:53:47.600207+00:00"
+   }
+  },
+  {
+   "t": 0.681,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud54592bc",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T14:53:48.228597+00:00"
+   }
+  },
+  {
+   "t": 7.34,
+   "kind": "transcript",
+   "text": "सिक्स टू फ़ाइव थ्री टू एट सेवन ज़ीरो फ़ोर सिक्स।",
+   "raw": {
+    "type": "transcript",
+    "text": "सिक्स टू फ़ाइव थ्री टू एट सेवन ज़ीरो फ़ोर सिक्स।",
+    "audio_duration_ms": 7124.0,
+    "segment_id": "01a1d040-268f-7f6b-8196-c5a0bc8902fe-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud54592bc",
+    "is_final": true,
+    "latency": 160,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:53:54.892430+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

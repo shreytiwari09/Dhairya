@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-029",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "मई"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "07-05",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1207
+  ],
+  [
+   1.9207,
+   2.2875
+  ]
+ ],
+ "speech_end": 2.2875,
+ "longest_internal_gap_s": 0.079,
+ "rest_whole_call": "7 तारीख मई।"
+}

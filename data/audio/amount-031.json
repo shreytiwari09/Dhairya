@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-031",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात लाख",
+   "पचास हज़ार रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "750000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0533
+  ],
+  [
+   2.0533,
+   3.2743
+  ]
+ ],
+ "speech_end": 3.2743,
+ "longest_internal_gap_s": 0.118,
+ "rest_whole_call": "7,50,000 रुपये।"
+}

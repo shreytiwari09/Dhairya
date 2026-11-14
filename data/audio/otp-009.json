@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "otp-009",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार शून्य नौ तीन"
+  ],
+  "pauses_s": [],
+  "truth": "4093",
+  "voice": "Nalini",
+  "variant": "4"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.6095
+  ]
+ ],
+ "speech_end": 1.6095,
+ "longest_internal_gap_s": 0.056,
+ "rest_whole_call": "4093"
+}

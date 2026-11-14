@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "mobile-055",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three four six eight",
+   "five three five six zero"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7346853560",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.296
+  ],
+  [
+   3.296,
+   5.166
+  ]
+ ],
+ "speech_end": 5.166,
+ "longest_internal_gap_s": 0.111,
+ "rest_whole_call": "7346853560",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.051,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf29-d5ca-7237-84ba-5a22cc49c6d6",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:49:47.917561+00:00"
+   }
+  },
+  {
+   "t": 0.632,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9a4f4442",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T09:49:48.488701+00:00"
+   }
+  },
+  {
+   "t": 2.714,
+   "kind": "transcript",
+   "text": "सेवन थ्री फ़ोर सिक्स एट।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन थ्री फ़ोर सिक्स एट।",
+    "audio_duration_ms": 2528.0,
+    "segment_id": "01a1cf29-d5ca-7237-84ba-5a22cc49c6d6-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u9a4f4442",
+    "is_final": true,
+    "latency": 95,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:49:50.571563+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.559,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u80522bd3",
+    "t_ms": 3188,
+    "timestamp": "2026-11-12T09:49:51.434699+00:00"
+   }
+  },
+  {
+   "t": 5.774,
+   "kind": "transcript",
+   "text": "फाइव थ्री फाइव सिक्स ज़ीरो।",
+   "raw": {
+    "type": "transcript",
+    "text": "फाइव थ्री फाइव सिक्स ज़ीरो।",
+    "audio_duration_ms": 2548.0,
+    "segment_id": "01a1cf29-d5ca-7237-84ba-5a22cc49c6d6-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u80522bd3",
+    "is_final": true,
+    "latency": 89,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:49:53.447727+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-012",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ छह छह",
+   "छह छह एक",
+   "सात छह शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   0.4
+  ],
+  "truth": "9866661760",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.0772
+  ],
+  [
+   3.6772,
+   4.9217
+  ],
+  [
+   5.3217,
+   6.5769
+  ]
+ ],
+ "speech_end": 6.5769,
+ "longest_internal_gap_s": 0.111,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9866661760।"
+}

@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-022",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ दो डबल आठ",
+   "दो डबल शून्य",
+   "एक आठ दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "8288200182",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.642
+  ],
+  [
+   2.642,
+   3.9991
+  ],
+  [
+   4.5991,
+   5.6009
+  ]
+ ],
+ "speech_end": 5.6009,
+ "longest_internal_gap_s": 0.108,
+ "rest_whole_call": "8288200182",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d037-e5e5-7244-87c6-f4bf5fb35be3",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:44:46.757727+00:00"
+   }
+  },
+  {
+   "t": 0.487,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8337871e",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:44:47.207217+00:00"
+   }
+  },
+  {
+   "t": 2.531,
+   "kind": "transcript",
+   "text": "आठ दो डबल आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "आठ दो डबल आठ।",
+    "audio_duration_ms": 2400.0,
+    "segment_id": "01a1d037-e5e5-7244-87c6-f4bf5fb35be3-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8337871e",
+    "is_final": true,
+    "latency": 75,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:44:49.246130+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.826,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u7effaf95",
+    "t_ms": 2484,
+    "timestamp": "2026-11-12T14:44:49.542158+00:00"
+   }
+  },
+  {
+   "t": 6.48,
+   "kind": "transcript",
+   "text": "दो डबल शून्य एक आठ दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "दो डबल शून्य एक आठ दो।",
+    "audio_duration_ms": 3936.0,
+    "segment_id": "01a1d037-e5e5-7244-87c6-f4bf5fb35be3-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u7effaf95",
+    "is_final": true,
+    "latency": 94,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:44:53.191259+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

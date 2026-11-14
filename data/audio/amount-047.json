@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-047",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "दो लाख",
+   "बीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "220000",
+  "voice": "Bhavna",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1259
+  ],
+  [
+   1.9259,
+   2.924
+  ]
+ ],
+ "speech_end": 2.924,
+ "longest_internal_gap_s": 0.099,
+ "rest_whole_call": "2,20,000 रुपये।"
+}

@@ -1,0 +1,91 @@
+{
+ "script": {
+  "id": "mobile-051",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six two eight",
+   "four five two",
+   "nine eight four one"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "6284529841",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   2.2524
+  ],
+  [
+   3.0524,
+   3.8036
+  ],
+  [
+   4.4036,
+   5.7172
+  ]
+ ],
+ "speech_end": 5.7172,
+ "longest_internal_gap_s": 0.063,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6284529841।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.051,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a9-6d6b-7e7e-97fd-227eb83d1a7b",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:47:38.678289+00:00"
+   }
+  },
+  {
+   "t": 0.604,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9a87422c",
+    "t_ms": 276,
+    "timestamp": "2026-11-13T06:47:39.233795+00:00"
+   }
+  },
+  {
+   "t": 7.47,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है सिक्स टू एट फ़ोर फ़ाइव टू नाइन एट फ़ोर वन।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है सिक्स टू एट फ़ोर फ़ाइव टू नाइन एट फ़ोर वन।",
+    "audio_duration_ms": 7200.0,
+    "segment_id": "01a1d3a9-6d6b-7e7e-97fd-227eb83d1a7b-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u9a87422c",
+    "is_final": true,
+    "latency": 188,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:47:46.092585+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

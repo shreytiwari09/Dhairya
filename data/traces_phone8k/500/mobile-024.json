@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "mobile-024",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ दो आठ दो आठ आठ शून्य सात दो"
+  ],
+  "pauses_s": [],
+  "truth": "9828288072",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   4.9457
+  ]
+ ],
+ "speech_end": 4.9457,
+ "longest_internal_gap_s": 0.054,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9828288072।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d15e-d4c1-7e22-88fa-a9077469b859",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:06:55.486409+00:00"
+   }
+  },
+  {
+   "t": 0.589,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc1aabb19",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:06:56.035617+00:00"
+   }
+  },
+  {
+   "t": 5.73,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नौ आठ दो आठ दो आठ आठ शून्य सात दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नौ आठ दो आठ दो आठ आठ शून्य सात दो।",
+    "audio_duration_ms": 5504.0,
+    "segment_id": "01a1d15e-d4c1-7e22-88fa-a9077469b859-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc1aabb19",
+    "is_final": true,
+    "latency": 137,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:07:01.169361+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

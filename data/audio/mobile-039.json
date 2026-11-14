@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-039",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है nine two zero one six eight four nine three four"
+  ],
+  "pauses_s": [],
+  "truth": "9201684934",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.0586
+  ]
+ ],
+ "speech_end": 4.0586,
+ "longest_internal_gap_s": 0.046,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9201684934।"
+}

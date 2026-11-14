@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-034",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह चार एक नौ तीन एक चार एक सात शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "6419314170",
+  "voice": "Deepak",
+  "variant": "10 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.0829
+  ]
+ ],
+ "speech_end": 4.0829,
+ "longest_internal_gap_s": 0.275,
+ "rest_whole_call": "6, 4, 1, 9, 3, 1, 4, 1, 7, 0"
+}

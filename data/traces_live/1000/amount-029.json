@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "amount-029",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9500",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9451
+  ],
+  [
+   1.3451,
+   2.2081
+  ]
+ ],
+ "speech_end": 2.2081,
+ "longest_internal_gap_s": 0.138,
+ "rest_whole_call": "9,500 रुपये।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.043,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d028-2e71-7c36-a2c8-e6e7651abf33",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:27:36.757887+00:00"
+   }
+  },
+  {
+   "t": 0.484,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u556cd910",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:27:37.206680+00:00"
+   }
+  },
+  {
+   "t": 3.348,
+   "kind": "transcript",
+   "text": "नौ हज़ार पाँच सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ हज़ार पाँच सौ रुपये।",
+    "audio_duration_ms": 3232.0,
+    "segment_id": "01a1d028-2e71-7c36-a2c8-e6e7651abf33-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u556cd910",
+    "is_final": true,
+    "latency": 79,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:27:40.069628+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

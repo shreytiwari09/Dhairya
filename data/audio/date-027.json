@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-027",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेरह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "13-07",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.6639
+  ],
+  [
+   1.0639,
+   1.4926
+  ]
+ ],
+ "speech_end": 1.4926,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "13 जुलाई।"
+}

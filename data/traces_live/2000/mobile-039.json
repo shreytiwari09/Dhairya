@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "mobile-039",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है nine two zero one six eight four nine three four"
+  ],
+  "pauses_s": [],
+  "truth": "9201684934",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.0586
+  ]
+ ],
+ "speech_end": 4.0586,
+ "longest_internal_gap_s": 0.046,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9201684934।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.035,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03e-d29b-7420-a402-e7ffc62cc4ea",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:52:20.571061+00:00"
+   }
+  },
+  {
+   "t": 0.487,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u2279c9ce",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:52:21.023668+00:00"
+   }
+  },
+  {
+   "t": 6.32,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नाइन टू ज़ीरो वन सिक्स एट फ़ोर नाइन थ्री फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नाइन टू ज़ीरो वन सिक्स एट फ़ोर नाइन थ्री फ़ोर।",
+    "audio_duration_ms": 6112.0,
+    "segment_id": "01a1d03e-d29b-7420-a402-e7ffc62cc4ea-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u2279c9ce",
+    "is_final": true,
+    "latency": 165,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:52:26.856305+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-060",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है छह छह छह छह आठ",
+   "तीन छह चार पांच शून्य"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "6666836450",
+  "voice": "Deepak",
+  "variant": "5-5 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.7677
+  ],
+  [
+   3.7677,
+   4.9193
+  ]
+ ],
+ "speech_end": 4.9193,
+ "longest_internal_gap_s": 0.079,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6666836450।"
+}

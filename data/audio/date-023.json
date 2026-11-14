@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-023",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस",
+   "अप्रैल"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "10-04",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.7213
+  ],
+  [
+   1.3213,
+   1.7804
+  ]
+ ],
+ "speech_end": 1.7804,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "10 April।"
+}

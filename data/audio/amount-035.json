@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-035",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच लाख",
+   "दस हज़ार"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "510000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar no unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9801
+  ],
+  [
+   1.7801,
+   2.5201
+  ]
+ ],
+ "speech_end": 2.5201,
+ "longest_internal_gap_s": 0.081,
+ "rest_whole_call": "5,10,000"
+}

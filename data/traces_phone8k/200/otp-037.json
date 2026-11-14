@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "otp-037",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "तीन दो",
+   "छह दो"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "3262",
+  "voice": "Deepak",
+  "variant": "2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   0.7424
+  ],
+  [
+   1.5424,
+   2.2843
+  ]
+ ],
+ "speech_end": 2.2843,
+ "longest_internal_gap_s": 0.055,
+ "rest_whole_call": "3262",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.056,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d150-ca48-7a03-8f31-2d4f8865f9db",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:51:35.306595+00:00"
+   }
+  },
+  {
+   "t": 1.017,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u25a44a99",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:51:36.270050+00:00"
+   }
+  },
+  {
+   "t": 1.508,
+   "kind": "transcript",
+   "text": "तीन दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन दो।",
+    "audio_duration_ms": 960.0,
+    "segment_id": "01a1d150-ca48-7a03-8f31-2d4f8865f9db-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u25a44a99",
+    "is_final": true,
+    "latency": 64,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:51:36.766587+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.223,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9efbece8",
+    "t_ms": 1492,
+    "timestamp": "2026-11-12T19:51:37.481446+00:00"
+   }
+  },
+  {
+   "t": 3.029,
+   "kind": "transcript",
+   "text": "छः दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः दो।",
+    "audio_duration_ms": 1428.0,
+    "segment_id": "01a1d150-ca48-7a03-8f31-2d4f8865f9db-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9efbece8",
+    "is_final": true,
+    "latency": 56,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:51:38.286709+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-013",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अट्ठाईस तारीख",
+   "मई"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "28-05",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4003
+  ],
+  [
+   2.7003,
+   3.0966
+  ]
+ ],
+ "speech_end": 3.0966,
+ "longest_internal_gap_s": 0.072,
+ "rest_whole_call": "28 तारीख",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.079,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03c-b11e-7e15-89a6-67edb83bf22c",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:50:00.967596+00:00"
+   }
+  },
+  {
+   "t": 0.616,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5bbee2e1",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T14:50:01.504523+00:00"
+   }
+  },
+  {
+   "t": 2.262,
+   "kind": "transcript",
+   "text": "अट्ठाईस तारीख",
+   "raw": {
+    "type": "transcript",
+    "text": "अट्ठाईस तारीख",
+    "audio_duration_ms": 2144.0,
+    "segment_id": "01a1d03c-b11e-7e15-89a6-67edb83bf22c-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u5bbee2e1",
+    "is_final": true,
+    "latency": 73,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:50:03.147379+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.898,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u6c3c92fd",
+    "t_ms": 2548,
+    "timestamp": "2026-11-12T14:50:03.784894+00:00"
+   }
+  },
+  {
+   "t": 3.924,
+   "kind": "transcript",
+   "text": "मैं।",
+   "raw": {
+    "type": "transcript",
+    "text": "मैं।",
+    "audio_duration_ms": 1620.0,
+    "segment_id": "01a1d03c-b11e-7e15-89a6-67edb83bf22c-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u6c3c92fd",
+    "is_final": true,
+    "latency": 47,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:50:04.813873+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

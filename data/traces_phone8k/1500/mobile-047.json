@@ -1,0 +1,91 @@
+{
+ "script": {
+  "id": "mobile-047",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven three three seven",
+   "seven six one",
+   "seven four zero"
+  ],
+  "pauses_s": [
+   1.3,
+   0.6
+  ],
+  "truth": "7337761740",
+  "voice": "Nalini",
+  "variant": "4-3-3 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8321
+  ],
+  [
+   3.1321,
+   4.2554
+  ],
+  [
+   4.8554,
+   6.0293
+  ]
+ ],
+ "speech_end": 6.0293,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7337761740",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a9-428e-71c5-aaf0-cca115722484",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:47:27.701217+00:00"
+   }
+  },
+  {
+   "t": 0.796,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ucc83c5bc",
+    "t_ms": 468,
+    "timestamp": "2026-11-13T06:47:28.458501+00:00"
+   }
+  },
+  {
+   "t": 7.827,
+   "kind": "transcript",
+   "text": "सेवन थ्री थ्री सेवन सेवन सिक्स वन सेवन फोर ज़ीरो।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन थ्री थ्री सेवन सेवन सिक्स वन सेवन फोर ज़ीरो।",
+    "audio_duration_ms": 7508.0,
+    "segment_id": "01a1d3a9-428e-71c5-aaf0-cca115722484-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ucc83c5bc",
+    "is_final": true,
+    "latency": 158,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:47:35.481726+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

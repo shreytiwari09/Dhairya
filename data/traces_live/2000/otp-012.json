@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "otp-012",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह आठ दो",
+   "आठ एक दो"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "682812",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.1395
+  ],
+  [
+   3.1395,
+   4.0036
+  ]
+ ],
+ "speech_end": 4.0036,
+ "longest_internal_gap_s": 0.078,
+ "rest_whole_call": "ओ टी पी है 682812।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d040-e870-795d-b712-ecedddb83ea3",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:54:37.230466+00:00"
+   }
+  },
+  {
+   "t": 0.519,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u2a61502d",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:54:37.703263+00:00"
+   }
+  },
+  {
+   "t": 6.206,
+   "kind": "transcript",
+   "text": "ओ टी पी है छह आठ दो आठ एक दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है छह आठ दो आठ एक दो।",
+    "audio_duration_ms": 6048.0,
+    "segment_id": "01a1d040-e870-795d-b712-ecedddb83ea3-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u2a61502d",
+    "is_final": true,
+    "latency": 118,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:54:43.392243+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

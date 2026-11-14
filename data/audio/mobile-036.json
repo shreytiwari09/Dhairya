@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-036",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात चार चार",
+   "आठ तीन चार",
+   "सात आठ दो चार"
+  ],
+  "pauses_s": [
+   0.8,
+   0.4
+  ],
+  "truth": "7448347824",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.2403
+  ],
+  [
+   3.0403,
+   4.245
+  ],
+  [
+   4.645,
+   6.3363
+  ]
+ ],
+ "speech_end": 6.3363,
+ "longest_internal_gap_s": 0.158,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7448347824।"
+}

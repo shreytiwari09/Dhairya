@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-035",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात दो",
+   "चार आठ"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7248",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9936
+  ],
+  [
+   1.9936,
+   2.899
+  ]
+ ],
+ "speech_end": 2.899,
+ "longest_internal_gap_s": 0.077,
+ "rest_whole_call": "7, 2, 4, 8।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d027-4845-7751-a089-1d6e4c9fac84",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:26:37.834040+00:00"
+   }
+  },
+  {
+   "t": 0.57,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u18fc93af",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T14:26:38.346769+00:00"
+   }
+  },
+  {
+   "t": 2.158,
+   "kind": "transcript",
+   "text": "सात दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात दो।",
+    "audio_duration_ms": 2048.0,
+    "segment_id": "01a1d027-4845-7751-a089-1d6e4c9fac84-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u18fc93af",
+    "is_final": true,
+    "latency": 65,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:26:39.955706+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.217,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u17e8c798",
+    "t_ms": 1876,
+    "timestamp": "2026-11-12T14:26:40.012284+00:00"
+   }
+  },
+  {
+   "t": 4.028,
+   "kind": "transcript",
+   "text": "चार आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार आठ।",
+    "audio_duration_ms": 1888.0,
+    "segment_id": "01a1d027-4845-7751-a089-1d6e4c9fac84-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u17e8c798",
+    "is_final": true,
+    "latency": 55,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:26:41.814859+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

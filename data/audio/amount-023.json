@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-023",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन लाख",
+   "दस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "310000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0342
+  ],
+  [
+   1.4343,
+   2.4402
+  ]
+ ],
+ "speech_end": 2.4402,
+ "longest_internal_gap_s": 0.076,
+ "rest_whole_call": "3,10,000 रुपये।"
+}

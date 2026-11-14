@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "otp-008",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है तीन शून्य पांच पांच दो शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "305520",
+  "voice": "Bhavna",
+  "variant": "6"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.5403
+  ]
+ ],
+ "speech_end": 3.5403,
+ "longest_internal_gap_s": 0.109,
+ "rest_whole_call": "ओ टी पी है 305520।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.031,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02c-dcf4-7dda-922b-34606554707c",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:32:43.570856+00:00"
+   }
+  },
+  {
+   "t": 0.54,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uf92a3589",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:32:44.067030+00:00"
+   }
+  },
+  {
+   "t": 5.298,
+   "kind": "transcript",
+   "text": "ओ टी पी है तीन शून्य पाँच पाँच दो शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है तीन शून्य पाँच पाँच दो शून्य।",
+    "audio_duration_ms": 5088.0,
+    "segment_id": "01a1d02c-dcf4-7dda-922b-34606554707c-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uf92a3589",
+    "is_final": true,
+    "latency": 131,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:32:48.827804+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-024",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ दो आठ दो आठ आठ शून्य सात दो"
+  ],
+  "pauses_s": [],
+  "truth": "9828288072",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.9457
+  ]
+ ],
+ "speech_end": 4.9457,
+ "longest_internal_gap_s": 0.054,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9828288072।"
+}

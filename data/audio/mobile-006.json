@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-006",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ दो पांच",
+   "दो सात छह",
+   "शून्य एक आठ नौ"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8
+  ],
+  "truth": "9252760189",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.7202
+  ],
+  [
+   3.5202,
+   4.2862
+  ],
+  [
+   5.0862,
+   6.4621
+  ]
+ ],
+ "speech_end": 6.4621,
+ "longest_internal_gap_s": 0.295,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9252760189।"
+}

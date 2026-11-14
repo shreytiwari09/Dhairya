@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "otp-000",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ एक चार",
+   "चार चार नौ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "814449",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.0597
+  ],
+  [
+   2.8597,
+   3.6171
+  ]
+ ],
+ "speech_end": 3.6171,
+ "longest_internal_gap_s": 0.152,
+ "rest_whole_call": "ओ टी पी है 814449।"
+}

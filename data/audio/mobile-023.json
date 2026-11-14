@@ -1,0 +1,49 @@
+{
+ "script": {
+  "id": "mobile-023",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six four",
+   "three four",
+   "eight three",
+   "nine five",
+   "four eight"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6,
+   0.4,
+   0.8
+  ],
+  "truth": "6434839548",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9988
+  ],
+  [
+   1.9988,
+   2.6041
+  ],
+  [
+   3.2041,
+   3.7173
+  ],
+  [
+   4.1173,
+   4.9127
+  ],
+  [
+   5.7127,
+   6.476
+  ]
+ ],
+ "speech_end": 6.476,
+ "longest_internal_gap_s": 0.079,
+ "rest_whole_call": "6434839548"
+}

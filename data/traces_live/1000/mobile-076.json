@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-076",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह तीन एक",
+   "सात सात छह",
+   "चार छह सात दो"
+  ],
+  "pauses_s": [
+   1.0,
+   0.6
+  ],
+  "truth": "6317764672",
+  "voice": "Nalini",
+  "variant": "3-3-4 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.3768
+  ],
+  [
+   2.3768,
+   3.5291
+  ],
+  [
+   4.1291,
+   5.212
+  ]
+ ],
+ "speech_end": 5.212,
+ "longest_internal_gap_s": 0.086,
+ "rest_whole_call": "6317764672",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.966,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cfe5-cb66-7755-b372-3de55692d96a",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T13:15:06.035221+00:00"
+   }
+  },
+  {
+   "t": 1.143,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0723df48",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T13:15:07.177660+00:00"
+   }
+  },
+  {
+   "t": 2.983,
+   "kind": "transcript",
+   "text": "छ तीन एक।",
+   "raw": {
+    "type": "transcript",
+    "text": "छ तीन एक।",
+    "audio_duration_ms": 2400.0,
+    "segment_id": "01a1cfe5-cb66-7755-b372-3de55692d96a-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u0723df48",
+    "is_final": true,
+    "latency": 89,
+    "prefetched": false,
+    "timestamp": "2026-11-12T13:15:09.113976+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.147,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u536ba50e",
+    "t_ms": 2324,
+    "timestamp": "2026-11-12T13:15:09.278965+00:00"
+   }
+  },
+  {
+   "t": 6.792,
+   "kind": "transcript",
+   "text": "सात सात छह चार छह सात दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात सात छह चार छह सात दो।",
+    "audio_duration_ms": 3840.0,
+    "segment_id": "01a1cfe5-cb66-7755-b372-3de55692d96a-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u536ba50e",
+    "is_final": true,
+    "latency": 98,
+    "prefetched": false,
+    "timestamp": "2026-11-12T13:15:12.927246+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

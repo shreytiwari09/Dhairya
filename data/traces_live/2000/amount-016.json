@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "amount-016",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सवा लाख रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "125000",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4345
+  ]
+ ],
+ "speech_end": 1.4345,
+ "longest_internal_gap_s": 0.05,
+ "rest_whole_call": "1,25,000 रुपये।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.053,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d042-3ca4-7252-bb65-17faa012d23f",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:56:04.331098+00:00"
+   }
+  },
+  {
+   "t": 0.615,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9f7be14e",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:56:04.895998+00:00"
+   }
+  },
+  {
+   "t": 3.626,
+   "kind": "transcript",
+   "text": "सवा लाख रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "सवा लाख रुपये।",
+    "audio_duration_ms": 3488.0,
+    "segment_id": "01a1d042-3ca4-7252-bb65-17faa012d23f-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u9f7be14e",
+    "is_final": true,
+    "latency": 73,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:56:07.908185+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "script": {
+  "id": "mobile-037",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह शून्य शून्य आठ",
+   "आठ तीन आठ",
+   "सात तीन सात"
+  ],
+  "pauses_s": [
+   0.4,
+   1.0
+  ],
+  "truth": "6008838737",
+  "voice": "Omkar",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.7459
+  ],
+  [
+   2.1459,
+   3.1813
+  ],
+  [
+   4.1813,
+   5.5875
+  ]
+ ],
+ "speech_end": 5.5875,
+ "longest_internal_gap_s": 0.263,
+ "rest_whole_call": "6008838737",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.0,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cfc3-717d-7547-b3a0-4c4ac6704ac8",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T12:37:34.788149+00:00"
+   }
+  },
+  {
+   "t": 1.394,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u907d7cb9",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T12:37:38.856564+00:00"
+   }
+  },
+  {
+   "t": 10.037,
+   "kind": "transcript",
+   "text": "छः शून्य शून्य आठ आठ तीन आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः शून्य शून्य आठ आठ तीन आठ।",
+    "audio_duration_ms": 4160.0,
+    "segment_id": "01a1cfc3-717d-7547-b3a0-4c4ac6704ac8-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u907d7cb9",
+    "is_final": true,
+    "latency": 122,
+    "prefetched": false,
+    "timestamp": "2026-11-12T12:37:48.118241+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 10.212,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5ee5bd78",
+    "t_ms": 4020,
+    "timestamp": "2026-11-12T12:37:48.231610+00:00"
+   }
+  }
+ ]
+}

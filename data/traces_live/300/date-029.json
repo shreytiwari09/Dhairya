@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-029",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सात तारीख",
+   "मई"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "07-05",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1207
+  ],
+  [
+   1.9207,
+   2.2875
+  ]
+ ],
+ "speech_end": 2.2875,
+ "longest_internal_gap_s": 0.079,
+ "rest_whole_call": "7 तारीख मई।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d037-055f-7479-9c3c-5b5f8f0e29d2",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:43:49.282313+00:00"
+   }
+  },
+  {
+   "t": 0.591,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uea6afd7f",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:43:49.827557+00:00"
+   }
+  },
+  {
+   "t": 1.499,
+   "kind": "transcript",
+   "text": "सात तारीख।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात तारीख।",
+    "audio_duration_ms": 1408.0,
+    "segment_id": "01a1d037-055f-7479-9c3c-5b5f8f0e29d2-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uea6afd7f",
+    "is_final": true,
+    "latency": 54,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:50.734362+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.134,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9c6e22a3",
+    "t_ms": 1780,
+    "timestamp": "2026-11-12T14:43:51.357626+00:00"
+   }
+  },
+  {
+   "t": 2.719,
+   "kind": "transcript",
+   "text": "मई।",
+   "raw": {
+    "type": "transcript",
+    "text": "मई।",
+    "audio_duration_ms": 1172.0,
+    "segment_id": "01a1d037-055f-7479-9c3c-5b5f8f0e29d2-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9c6e22a3",
+    "is_final": true,
+    "latency": 44,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:51.949257+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

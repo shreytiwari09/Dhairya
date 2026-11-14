@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-022",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "बारह हज़ार",
+   "नौ सौ रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "12900",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1474
+  ],
+  [
+   2.1474,
+   3.0973
+  ]
+ ],
+ "speech_end": 3.0973,
+ "longest_internal_gap_s": 0.047,
+ "rest_whole_call": "12,900 रुपये।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.0,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf2d-b56c-7062-926f-5df0ff13463b",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:54:01.782281+00:00"
+   }
+  },
+  {
+   "t": 0.54,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u621f2e6f",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:54:02.405673+00:00"
+   }
+  },
+  {
+   "t": 1.571,
+   "kind": "transcript",
+   "text": "बारह हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "बारह हज़ार।",
+    "audio_duration_ms": 1408.0,
+    "segment_id": "01a1cf2d-b56c-7062-926f-5df0ff13463b-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u621f2e6f",
+    "is_final": true,
+    "latency": 60,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:54:03.442151+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.874,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ub844e612",
+    "t_ms": 2004,
+    "timestamp": "2026-11-12T09:54:04.300418+00:00"
+   }
+  },
+  {
+   "t": 3.604,
+   "kind": "transcript",
+   "text": "नौ सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ सौ रुपये।",
+    "audio_duration_ms": 1652.0,
+    "segment_id": "01a1cf2d-b56c-7062-926f-5df0ff13463b-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ub844e612",
+    "is_final": true,
+    "latency": 58,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:54:05.359288+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

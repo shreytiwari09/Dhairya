@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "mobile-060",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है छह छह छह छह आठ",
+   "तीन छह चार पांच शून्य"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "6666836450",
+  "voice": "Deepak",
+  "variant": "5-5 hindi"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   2.7677
+  ],
+  [
+   3.7677,
+   4.9193
+  ]
+ ],
+ "speech_end": 4.9193,
+ "longest_internal_gap_s": 0.079,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6666836450।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d14f-0363-7a16-bbe8-3a805b457049",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:49:38.850727+00:00"
+   }
+  },
+  {
+   "t": 0.584,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ucb41f92b",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:49:39.390426+00:00"
+   }
+  },
+  {
+   "t": 3.122,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है छह छह छह छह आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है छह छह छह छह आठ।",
+    "audio_duration_ms": 2976.0,
+    "segment_id": "01a1d14f-0363-7a16-bbe8-3a805b457049-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ucb41f92b",
+    "is_final": true,
+    "latency": 112,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:49:41.928236+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 4.051,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u57964a7d",
+    "t_ms": 3732,
+    "timestamp": "2026-11-12T19:49:42.852527+00:00"
+   }
+  },
+  {
+   "t": 5.276,
+   "kind": "transcript",
+   "text": "तीन छः चार पाँच शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन छः चार पाँच शून्य।",
+    "audio_duration_ms": 1876.0,
+    "segment_id": "01a1d14f-0363-7a16-bbe8-3a805b457049-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u57964a7d",
+    "is_final": true,
+    "latency": 76,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:49:44.080942+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

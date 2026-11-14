@@ -1,0 +1,102 @@
+{
+ "script": {
+  "id": "mobile-048",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात पांच",
+   "चार चार",
+   "नौ नौ",
+   "दो शून्य",
+   "सात शून्य"
+  ],
+  "pauses_s": [
+   1.0,
+   0.8,
+   0.4,
+   0.6
+  ],
+  "truth": "7544992070",
+  "voice": "Omkar",
+  "variant": "2-2-2-2-2 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.0958
+  ],
+  [
+   3.0958,
+   3.6491
+  ],
+  [
+   4.4491,
+   4.9124
+  ],
+  [
+   5.3124,
+   5.9651
+  ],
+  [
+   6.5651,
+   7.2794
+  ]
+ ],
+ "speech_end": 7.2794,
+ "longest_internal_gap_s": 0.065,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7544992070।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.073,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03f-2b94-7d38-b847-9e873a8ceac2",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:52:43.353058+00:00"
+   }
+  },
+  {
+   "t": 0.48,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1ab9e9fa",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:52:43.786436+00:00"
+   }
+  },
+  {
+   "t": 9.549,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है सात पाँच चार चार नौ नौ दो शून्य सात शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है सात पाँच चार चार नौ नौ दो शून्य सात शून्य।",
+    "audio_duration_ms": 9344.0,
+    "segment_id": "01a1d03f-2b94-7d38-b847-9e873a8ceac2-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1ab9e9fa",
+    "is_final": true,
+    "latency": 154,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:52:52.854433+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

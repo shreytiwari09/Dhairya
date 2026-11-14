@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-002",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "छह सौ रुपये"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7600",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1675
+  ],
+  [
+   2.4675,
+   3.4063
+  ]
+ ],
+ "speech_end": 3.4063,
+ "longest_internal_gap_s": 0.053,
+ "rest_whole_call": "7600 रुपये।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.001,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d035-4b55-7802-afb7-64549a7dbd56",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:41:56.153863+00:00"
+   }
+  },
+  {
+   "t": 0.619,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0d9ddd7e",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:41:56.861622+00:00"
+   }
+  },
+  {
+   "t": 1.647,
+   "kind": "transcript",
+   "text": "सात हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात हज़ार।",
+    "audio_duration_ms": 1504.0,
+    "segment_id": "01a1d035-4b55-7802-afb7-64549a7dbd56-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u0d9ddd7e",
+    "is_final": true,
+    "latency": 75,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:57.889047+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.693,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0618889d",
+    "t_ms": 2324,
+    "timestamp": "2026-11-12T14:41:58.936339+00:00"
+   }
+  },
+  {
+   "t": 3.879,
+   "kind": "transcript",
+   "text": "छः सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः सौ रुपये।",
+    "audio_duration_ms": 1748.0,
+    "segment_id": "01a1d035-4b55-7802-afb7-64549a7dbd56-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u0618889d",
+    "is_final": true,
+    "latency": 63,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:42:00.121769+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

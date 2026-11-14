@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-011",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस",
+   "जनवरी"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-01",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8231
+  ],
+  [
+   1.6231,
+   2.1784
+  ]
+ ],
+ "speech_end": 2.1784,
+ "longest_internal_gap_s": 0.074,
+ "rest_whole_call": "10 January।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.046,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d036-9c54-7f31-8c6f-7ba73daa750c",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:43:22.387168+00:00"
+   }
+  },
+  {
+   "t": 0.525,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u3341a881",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:43:22.866519+00:00"
+   }
+  },
+  {
+   "t": 1.231,
+   "kind": "transcript",
+   "text": "दस।",
+   "raw": {
+    "type": "transcript",
+    "text": "दस।",
+    "audio_duration_ms": 1152.0,
+    "segment_id": "01a1d036-9c54-7f31-8c6f-7ba73daa750c-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u3341a881",
+    "is_final": true,
+    "latency": 45,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:23.578121+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.794,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua318928d",
+    "t_ms": 1460,
+    "timestamp": "2026-11-12T14:43:24.141940+00:00"
+   }
+  },
+  {
+   "t": 2.543,
+   "kind": "transcript",
+   "text": "जनवरी",
+   "raw": {
+    "type": "transcript",
+    "text": "जनवरी",
+    "audio_duration_ms": 1312.0,
+    "segment_id": "01a1d036-9c54-7f31-8c6f-7ba73daa750c-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ua318928d",
+    "is_final": true,
+    "latency": 41,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:24.889411+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

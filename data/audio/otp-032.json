@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "otp-032",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ छह दो शून्य एक नौ"
+  ],
+  "pauses_s": [],
+  "truth": "862019",
+  "voice": "Nalini",
+  "variant": "6"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.9977
+  ]
+ ],
+ "speech_end": 2.9977,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "ओ टी पी है 862019।"
+}

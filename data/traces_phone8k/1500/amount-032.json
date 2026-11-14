@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "amount-032",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "साढ़े तीन हज़ार रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "3500",
+  "voice": "Omkar",
+  "variant": "special with unit"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.6182
+  ]
+ ],
+ "speech_end": 1.6182,
+ "longest_internal_gap_s": 0.057,
+ "rest_whole_call": "3500 रुपये।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.055,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3ac-9f6f-7722-9325-c4db244a2184",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:51:08.136964+00:00"
+   }
+  },
+  {
+   "t": 1.262,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u52a1355e",
+    "t_ms": 340,
+    "timestamp": "2026-11-13T06:51:08.778244+00:00"
+   }
+  },
+  {
+   "t": 3.318,
+   "kind": "transcript",
+   "text": "साढ़े तीन हज़ार रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "साढ़े तीन हज़ार रुपये।",
+    "audio_duration_ms": 3136.0,
+    "segment_id": "01a1d3ac-9f6f-7722-9325-c4db244a2184-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u52a1355e",
+    "is_final": true,
+    "latency": 83,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:51:11.402638+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

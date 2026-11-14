@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "date-018",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छह",
+   "जुलाई"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "06-07",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   0.6567
+  ],
+  [
+   1.0567,
+   1.6126
+  ]
+ ],
+ "speech_end": 1.6126,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "6 जुलाई।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d152-4e06-71d7-890d-71344da48b23",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:53:14.567763+00:00"
+   }
+  },
+  {
+   "t": 0.648,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4572c9d6",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T19:53:15.164778+00:00"
+   }
+  },
+  {
+   "t": 1.013,
+   "kind": "transcript",
+   "text": "छः।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः।",
+    "audio_duration_ms": 896.0,
+    "segment_id": "01a1d152-4e06-71d7-890d-71344da48b23-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u4572c9d6",
+    "is_final": true,
+    "latency": 49,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:15.534215+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.285,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ufed0a655",
+    "t_ms": 980,
+    "timestamp": "2026-11-12T19:53:15.806735+00:00"
+   }
+  },
+  {
+   "t": 1.973,
+   "kind": "transcript",
+   "text": "जुलाई।",
+   "raw": {
+    "type": "transcript",
+    "text": "जुलाई।",
+    "audio_duration_ms": 960.0,
+    "segment_id": "01a1d152-4e06-71d7-890d-71344da48b23-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ufed0a655",
+    "is_final": true,
+    "latency": 51,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:16.496887+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

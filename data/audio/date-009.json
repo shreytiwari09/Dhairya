@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-009",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस तारीख",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-06",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1267
+  ],
+  [
+   1.9267,
+   2.4316
+  ]
+ ],
+ "speech_end": 2.4316,
+ "longest_internal_gap_s": 0.123,
+ "rest_whole_call": "10 तारीख जून।"
+}

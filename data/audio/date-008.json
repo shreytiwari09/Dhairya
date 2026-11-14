@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-008",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छब्बीस नवंबर"
+  ],
+  "pauses_s": [],
+  "truth": "26-11",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4266
+  ]
+ ],
+ "speech_end": 1.4266,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "26 November।"
+}

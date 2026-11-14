@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "date-022",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सत्ताईस",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "27-09",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.15
+  ],
+  [
+   1.95,
+   2.5583
+  ]
+ ],
+ "speech_end": 2.5583,
+ "longest_internal_gap_s": 0.116,
+ "rest_whole_call": "27 September।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.054,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d029-31ce-7cf8-9fc9-3e679ca97b0e",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:28:43.153577+00:00"
+   }
+  },
+  {
+   "t": 0.569,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0ab009a0",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T14:28:43.661056+00:00"
+   }
+  },
+  {
+   "t": 3.732,
+   "kind": "transcript",
+   "text": "सत्ताईस सितंबर।",
+   "raw": {
+    "type": "transcript",
+    "text": "सत्ताईस सितंबर।",
+    "audio_duration_ms": 3616.0,
+    "segment_id": "01a1d029-31ce-7cf8-9fc9-3e679ca97b0e-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u0ab009a0",
+    "is_final": true,
+    "latency": 82,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:28:46.836610+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

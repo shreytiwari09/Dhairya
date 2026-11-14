@@ -1,0 +1,149 @@
+{
+ "script": {
+  "id": "mobile-007",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine nine seven one",
+   "one four seven",
+   "one zero four"
+  ],
+  "pauses_s": [
+   1.3,
+   1.0
+  ],
+  "truth": "9971147104",
+  "voice": "Deepak",
+  "variant": "4-3-3 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.676
+  ],
+  [
+   2.976,
+   4.0553
+  ],
+  [
+   5.0553,
+   5.9004
+  ]
+ ],
+ "speech_end": 5.9004,
+ "longest_internal_gap_s": 0.03,
+ "rest_whole_call": "9971147104",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d14d-160d-7739-929a-bc429d05efa7",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:47:32.559004+00:00"
+   }
+  },
+  {
+   "t": 0.595,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua2c5c576",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:47:33.104288+00:00"
+   }
+  },
+  {
+   "t": 2.014,
+   "kind": "transcript",
+   "text": "नाइन नाइन सेवन वन।",
+   "raw": {
+    "type": "transcript",
+    "text": "नाइन नाइन सेवन वन।",
+    "audio_duration_ms": 1888.0,
+    "segment_id": "01a1d14d-160d-7739-929a-bc429d05efa7-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ua2c5c576",
+    "is_final": true,
+    "latency": 74,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:47:34.527401+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.212,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "udc08cab8",
+    "t_ms": 2900,
+    "timestamp": "2026-11-12T19:47:35.725716+00:00"
+   }
+  },
+  {
+   "t": 4.416,
+   "kind": "transcript",
+   "text": "वन फ़ोर सेवन।",
+   "raw": {
+    "type": "transcript",
+    "text": "वन फ़ोर सेवन।",
+    "audio_duration_ms": 1812.0,
+    "segment_id": "01a1d14d-160d-7739-929a-bc429d05efa7-seg-2",
+    "segment_index": 2,
+    "utterance_id": "udc08cab8",
+    "is_final": true,
+    "latency": 62,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:47:36.926693+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 5.324,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u05e3f9c2",
+    "t_ms": 5012,
+    "timestamp": "2026-11-12T19:47:37.836718+00:00"
+   }
+  },
+  {
+   "t": 6.216,
+   "kind": "transcript",
+   "text": "वन ज़ीरो फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "वन ज़ीरो फ़ोर।",
+    "audio_duration_ms": 1556.0,
+    "segment_id": "01a1d14d-160d-7739-929a-bc429d05efa7-seg-3",
+    "segment_index": 3,
+    "utterance_id": "u05e3f9c2",
+    "is_final": true,
+    "latency": 73,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:47:38.729390+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

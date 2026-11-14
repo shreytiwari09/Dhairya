@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-028",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "21-01",
+  "voice": "Deepak",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9991
+  ]
+ ],
+ "speech_end": 0.9991,
+ "longest_internal_gap_s": 0.044,
+ "rest_whole_call": "21 जनवरी।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02f-def9-7231-8e15-5f234570e40e",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:36:00.696268+00:00"
+   }
+  },
+  {
+   "t": 0.544,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u079392a6",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:36:01.191817+00:00"
+   }
+  },
+  {
+   "t": 2.694,
+   "kind": "transcript",
+   "text": "इक्कीस जनवरी।",
+   "raw": {
+    "type": "transcript",
+    "text": "इक्कीस जनवरी।",
+    "audio_duration_ms": 2560.0,
+    "segment_id": "01a1d02f-def9-7231-8e15-5f234570e40e-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u079392a6",
+    "is_final": true,
+    "latency": 74,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:36:03.343597+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

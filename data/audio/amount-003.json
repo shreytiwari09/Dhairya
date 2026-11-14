@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-003",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "छह लाख",
+   "पच्चीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "625000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9586
+  ],
+  [
+   1.3586,
+   2.2896
+  ]
+ ],
+ "speech_end": 2.2896,
+ "longest_internal_gap_s": 0.06,
+ "rest_whole_call": "6,25,000 रुपये।"
+}

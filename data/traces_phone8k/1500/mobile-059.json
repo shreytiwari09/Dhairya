@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "mobile-059",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven one two five eight one five three five four"
+  ],
+  "pauses_s": [],
+  "truth": "7125815354",
+  "voice": "Bhavna",
+  "variant": "10 english"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   4.0021
+  ]
+ ],
+ "speech_end": 4.0021,
+ "longest_internal_gap_s": 0.11,
+ "rest_whole_call": "7125815354",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.049,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a9-a7cb-75ee-8c1a-dd6d633b45dc",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:47:53.618365+00:00"
+   }
+  },
+  {
+   "t": 0.638,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ueafd5270",
+    "t_ms": 340,
+    "timestamp": "2026-11-13T06:47:54.205591+00:00"
+   }
+  },
+  {
+   "t": 5.799,
+   "kind": "transcript",
+   "text": "सेवन वन टू फ़ाइव एट वन फ़ाइव थ्री फ़ाइव फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन वन टू फ़ाइव एट वन फ़ाइव थ्री फ़ाइव फ़ोर।",
+    "audio_duration_ms": 5568.0,
+    "segment_id": "01a1d3a9-a7cb-75ee-8c1a-dd6d633b45dc-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ueafd5270",
+    "is_final": true,
+    "latency": 163,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:47:59.366872+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

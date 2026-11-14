@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "otp-010",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "पांच छह",
+   "पांच दो",
+   "नौ चार"
+  ],
+  "pauses_s": [
+   0.4,
+   0.6
+  ],
+  "truth": "565294",
+  "voice": "Nalini",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0197
+  ],
+  [
+   1.4197,
+   2.0168
+  ],
+  [
+   2.6168,
+   3.3164
+  ]
+ ],
+ "speech_end": 3.3164,
+ "longest_internal_gap_s": 0.015,
+ "rest_whole_call": "565294",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.045,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf34-43b8-7ee4-8e38-0cc3ba3d8f63",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T10:01:11.417504+00:00"
+   }
+  },
+  {
+   "t": 0.542,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u2235d673",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T10:01:11.913290+00:00"
+   }
+  },
+  {
+   "t": 2.727,
+   "kind": "transcript",
+   "text": "पाँच छः पाँच दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "पाँच छः पाँच दो।",
+    "audio_duration_ms": 2560.0,
+    "segment_id": "01a1cf34-43b8-7ee4-8e38-0cc3ba3d8f63-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u2235d673",
+    "is_final": true,
+    "latency": 80,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:01:14.100908+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.836,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u6c1ae8aa",
+    "t_ms": 2452,
+    "timestamp": "2026-11-12T10:01:14.209589+00:00"
+   }
+  },
+  {
+   "t": 4.292,
+   "kind": "transcript",
+   "text": "नौ चार।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ चार।",
+    "audio_duration_ms": 1312.0,
+    "segment_id": "01a1cf34-43b8-7ee4-8e38-0cc3ba3d8f63-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u6c1ae8aa",
+    "is_final": true,
+    "latency": 55,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:01:15.379260+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

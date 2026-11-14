@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "otp-001",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार चार",
+   "तीन सात"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "4437",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0738
+  ],
+  [
+   1.6738,
+   2.4184
+  ]
+ ],
+ "speech_end": 2.4184,
+ "longest_internal_gap_s": 0.11,
+ "rest_whole_call": "4437",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.052,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d161-0c27-7523-964c-1e825706dee9",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:09:20.747101+00:00"
+   }
+  },
+  {
+   "t": 0.591,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uf4e6564c",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:09:21.286722+00:00"
+   }
+  },
+  {
+   "t": 1.75,
+   "kind": "transcript",
+   "text": "चार चार।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार चार।",
+    "audio_duration_ms": 1632.0,
+    "segment_id": "01a1d161-0c27-7523-964c-1e825706dee9-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uf4e6564c",
+    "is_final": true,
+    "latency": 62,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:09:22.433341+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.931,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u7c86183d",
+    "t_ms": 1620,
+    "timestamp": "2026-11-12T20:09:22.625944+00:00"
+   }
+  },
+  {
+   "t": 3.057,
+   "kind": "transcript",
+   "text": "साथ।",
+   "raw": {
+    "type": "transcript",
+    "text": "साथ।",
+    "audio_duration_ms": 1344.0,
+    "segment_id": "01a1d161-0c27-7523-964c-1e825706dee9-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u7c86183d",
+    "is_final": true,
+    "latency": 46,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:09:23.750788+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "slot": "mobile",
+ "decision": "end_turn",
+ "decided_t": 5.378,
+ "heard": "सात शून्य नौ दो छः। डबल शून्य दो छह सात।",
+ "streamed_value": "7092600267",
+ "second_pass_value": "7092600267",
+ "final_value": "7092600267",
+ "agreed": true,
+ "reply": "सात शून्य नौ दो छह शून्य शून्य दो छह सात। सही है?",
+ "nudges": 0,
+ "notes": [
+  "policy: dhairya"
+ ],
+ "timeline": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": ""
+  },
+  {
+   "t": 0.995,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 2.828,
+   "kind": "transcript",
+   "text": "सात शून्य नौ दो छः।"
+  },
+  {
+   "t": 3.427,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 5.378,
+   "kind": "transcript",
+   "text": "डबल शून्य दो छह सात।"
+  }
+ ]
+}

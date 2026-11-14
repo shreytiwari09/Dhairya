@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "otp-019",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "चार दो",
+   "आठ दो"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "4282",
+  "voice": "Nalini",
+  "variant": "2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9042
+  ],
+  [
+   1.3043,
+   1.9814
+  ]
+ ],
+ "speech_end": 1.9814,
+ "longest_internal_gap_s": 0.111,
+ "rest_whole_call": "4282",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.07,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d150-2e31-7a2b-878f-7c7091ca57d5",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:50:55.343944+00:00"
+   }
+  },
+  {
+   "t": 0.593,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc4caf2e7",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:50:55.894714+00:00"
+   }
+  },
+  {
+   "t": 1.23,
+   "kind": "transcript",
+   "text": "चार दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार दो।",
+    "audio_duration_ms": 1120.0,
+    "segment_id": "01a1d150-2e31-7a2b-878f-7c7091ca57d5-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uc4caf2e7",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:50:56.530279+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.857,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u3907a09a",
+    "t_ms": 1364,
+    "timestamp": "2026-11-12T19:50:57.154844+00:00"
+   }
+  },
+  {
+   "t": 2.76,
+   "kind": "transcript",
+   "text": "आठ दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "आठ दो।",
+    "audio_duration_ms": 1088.0,
+    "segment_id": "01a1d150-2e31-7a2b-878f-7c7091ca57d5-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u3907a09a",
+    "is_final": true,
+    "latency": 52,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:50:58.057913+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

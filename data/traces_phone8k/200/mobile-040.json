@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "mobile-040",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ दो दो चार सात",
+   "शून्य चार पांच पांच आठ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9224704558",
+  "voice": "Bhavna",
+  "variant": "5-5 hindi"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   3.0269
+  ],
+  [
+   3.8269,
+   6.4032
+  ]
+ ],
+ "speech_end": 6.4032,
+ "longest_internal_gap_s": 0.184,
+ "rest_whole_call": "9224704558",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.035,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d14e-606b-7e3a-b958-46dfc25130e0",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:48:57.138045+00:00"
+   }
+  },
+  {
+   "t": 1.055,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue762a239",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:48:58.159452+00:00"
+   }
+  },
+  {
+   "t": 3.673,
+   "kind": "transcript",
+   "text": "नौ दो दो चार सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ दो दो चार सात।",
+    "audio_duration_ms": 3104.0,
+    "segment_id": "01a1d14e-606b-7e3a-b958-46dfc25130e0-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ue762a239",
+    "is_final": true,
+    "latency": 79,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:49:00.767005+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 4.551,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9d722ce5",
+    "t_ms": 3796,
+    "timestamp": "2026-11-12T19:49:01.652800+00:00"
+   }
+  },
+  {
+   "t": 7.181,
+   "kind": "transcript",
+   "text": "शून्य चार पाँच पाँच आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य चार पाँच पाँच आठ।",
+    "audio_duration_ms": 3220.0,
+    "segment_id": "01a1d14e-606b-7e3a-b958-46dfc25130e0-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9d722ce5",
+    "is_final": true,
+    "latency": 88,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:49:04.283822+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

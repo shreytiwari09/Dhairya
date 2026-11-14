@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "amount-001",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "सात सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9700",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9451
+  ],
+  [
+   1.7451,
+   2.5873
+  ]
+ ],
+ "speech_end": 2.5873,
+ "longest_internal_gap_s": 0.005,
+ "rest_whole_call": "9700 रुपये।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.001,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d180-46a6-7c2c-b89f-3a6619acf051",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:43:27.334700+00:00"
+   }
+  },
+  {
+   "t": 0.685,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue0878440",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:43:27.900683+00:00"
+   }
+  },
+  {
+   "t": 1.697,
+   "kind": "transcript",
+   "text": "नौ हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ हज़ार।",
+    "audio_duration_ms": 1472.0,
+    "segment_id": "01a1d180-46a6-7c2c-b89f-3a6619acf051-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ue0878440",
+    "is_final": true,
+    "latency": 47,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:43:28.960960+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.115,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua4cedd2b",
+    "t_ms": 1812,
+    "timestamp": "2026-11-12T20:43:29.447008+00:00"
+   }
+  },
+  {
+   "t": 3.281,
+   "kind": "transcript",
+   "text": "सात सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात सौ रुपये।",
+    "audio_duration_ms": 1664.0,
+    "segment_id": "01a1d180-46a6-7c2c-b89f-3a6619acf051-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ua4cedd2b",
+    "is_final": true,
+    "latency": 81,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:43:30.614618+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-008",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "छब्बीस नवंबर"
+  ],
+  "pauses_s": [],
+  "truth": "26-11",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4266
+  ]
+ ],
+ "speech_end": 1.4266,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "26 November।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02f-56b8-7f29-8cf5-4c1a380aff8d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:35:25.820623+00:00"
+   }
+  },
+  {
+   "t": 0.632,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ubf84b124",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T14:35:26.408308+00:00"
+   }
+  },
+  {
+   "t": 3.175,
+   "kind": "transcript",
+   "text": "छब्बीस नवंबर।",
+   "raw": {
+    "type": "transcript",
+    "text": "छब्बीस नवंबर।",
+    "audio_duration_ms": 3008.0,
+    "segment_id": "01a1d02f-56b8-7f29-8cf5-4c1a380aff8d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ubf84b124",
+    "is_final": true,
+    "latency": 81,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:35:28.948543+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

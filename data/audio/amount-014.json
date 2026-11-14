@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "amount-014",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "सात हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "7500",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1675
+  ],
+  [
+   2.4675,
+   3.3016
+  ]
+ ],
+ "speech_end": 3.3016,
+ "longest_internal_gap_s": 0.047,
+ "rest_whole_call": "7500 रुपये।"
+}

@@ -1,0 +1,32 @@
+{
+ "slot": "mobile",
+ "decision": "nudge",
+ "decided_t": 14.419,
+ "heard": "सात शून्य नौ दो छः।",
+ "streamed_value": "70926",
+ "second_pass_value": null,
+ "final_value": "70926",
+ "agreed": false,
+ "reply": "मैंने सुना सात शून्य नौ दो छह। क्या यह सही है?",
+ "nudges": 2,
+ "notes": [
+  "policy: dhairya"
+ ],
+ "timeline": [
+  {
+   "t": 0.039,
+   "kind": "connected",
+   "text": ""
+  },
+  {
+   "t": 0.592,
+   "kind": "speech_start",
+   "text": ""
+  },
+  {
+   "t": 2.393,
+   "kind": "transcript",
+   "text": "सात शून्य नौ दो छः।"
+  }
+ ]
+}

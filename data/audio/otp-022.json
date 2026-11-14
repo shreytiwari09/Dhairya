@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "otp-022",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ दो",
+   "तीन नौ",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "923969",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9735
+  ],
+  [
+   1.5735,
+   2.1512
+  ],
+  [
+   3.1512,
+   3.8716
+  ]
+ ],
+ "speech_end": 3.8716,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "923969"
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-028",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "21-01",
+  "voice": "Deepak",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9991
+  ]
+ ],
+ "speech_end": 0.9991,
+ "longest_internal_gap_s": 0.044,
+ "rest_whole_call": "21 जनवरी।"
+}

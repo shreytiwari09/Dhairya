@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-054",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है डबल नौ एक पांच छह चार शून्य चार एक शून्य"
+  ],
+  "pauses_s": [],
+  "truth": "9915640410",
+  "voice": "Deepak",
+  "variant": "10 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   4.1919
+  ]
+ ],
+ "speech_end": 4.1919,
+ "longest_internal_gap_s": 0.102,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9915640410।"
+}

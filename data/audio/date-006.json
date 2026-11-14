@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-006",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अट्ठाईस",
+   "नवंबर"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "28-11",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9602
+  ],
+  [
+   1.3602,
+   1.9473
+  ]
+ ],
+ "speech_end": 1.9473,
+ "longest_internal_gap_s": 0.066,
+ "rest_whole_call": "28 November।"
+}

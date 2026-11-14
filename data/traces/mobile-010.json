@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "mobile-010",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "नौ पांच छह तीन दो",
+   "एक डबल दो डबल तीन"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9563212233",
+  "voice": "Omkar",
+  "variant": "5-5 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.7502
+  ],
+  [
+   2.1502,
+   3.7538
+  ]
+ ],
+ "speech_end": 3.7538,
+ "longest_internal_gap_s": 0.171,
+ "rest_whole_call": "956321223",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.054,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1a-acea-722e-a9cd-e356197a129e",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:33:14.421808+00:00"
+   }
+  },
+  {
+   "t": 0.521,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8a4fea30",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:33:14.889587+00:00"
+   }
+  },
+  {
+   "t": 2.152,
+   "kind": "transcript",
+   "text": "नौ पाँच छः तीन दो।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ पाँच छः तीन दो।",
+    "audio_duration_ms": 1984.0,
+    "segment_id": "01a1cf1a-acea-722e-a9cd-e356197a129e-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8a4fea30",
+    "is_final": true,
+    "latency": 88,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:16.514723+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.379,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ued06e8d9",
+    "t_ms": 2004,
+    "timestamp": "2026-11-12T09:33:16.749841+00:00"
+   }
+  },
+  {
+   "t": 4.111,
+   "kind": "transcript",
+   "text": "एक डबल दो डबल तीन।",
+   "raw": {
+    "type": "transcript",
+    "text": "एक डबल दो डबल तीन।",
+    "audio_duration_ms": 1984.0,
+    "segment_id": "01a1cf1a-acea-722e-a9cd-e356197a129e-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ued06e8d9",
+    "is_final": true,
+    "latency": 70,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:18.477325+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

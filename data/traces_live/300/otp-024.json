@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-024",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है छह पांच एक",
+   "दो तीन तीन"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "651233",
+  "voice": "Nalini",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.1858
+  ],
+  [
+   2.5857,
+   3.9304
+  ]
+ ],
+ "speech_end": 3.9304,
+ "longest_internal_gap_s": 0.24,
+ "rest_whole_call": "ओ टी पी है 651233।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.049,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d034-da5e-7928-921e-1287c03cb1d1",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:41:27.196886+00:00"
+   }
+  },
+  {
+   "t": 0.609,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud302e90b",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:41:27.761485+00:00"
+   }
+  },
+  {
+   "t": 2.656,
+   "kind": "transcript",
+   "text": "ओ टी पी है छह पाँच एक।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है छह पाँच एक।",
+    "audio_duration_ms": 2496.0,
+    "segment_id": "01a1d034-da5e-7928-921e-1287c03cb1d1-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud302e90b",
+    "is_final": true,
+    "latency": 89,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:29.808077+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.789,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uba7daa20",
+    "t_ms": 2420,
+    "timestamp": "2026-11-12T14:41:29.940682+00:00"
+   }
+  },
+  {
+   "t": 4.673,
+   "kind": "transcript",
+   "text": "दो तीन तीन",
+   "raw": {
+    "type": "transcript",
+    "text": "दो तीन तीन",
+    "audio_duration_ms": 1760.0,
+    "segment_id": "01a1d034-da5e-7928-921e-1287c03cb1d1-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uba7daa20",
+    "is_final": true,
+    "latency": 58,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:31.536910+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

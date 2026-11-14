@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-045",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है छह दो पांच एक छह",
+   "सात आठ शून्य शून्य आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "6251678008",
+  "voice": "Omkar",
+  "variant": "5-5 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.7322
+  ],
+  [
+   3.3322,
+   5.112
+  ]
+ ],
+ "speech_end": 5.112,
+ "longest_internal_gap_s": 0.086,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6251678008।"
+}

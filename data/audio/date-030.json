@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-030",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अठारह",
+   "सितंबर"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "18-09",
+  "voice": "Omkar",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.7637
+  ],
+  [
+   1.3638,
+   1.9733
+  ]
+ ],
+ "speech_end": 1.9733,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "18 September।"
+}

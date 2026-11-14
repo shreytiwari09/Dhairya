@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-012",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "पच्चीस अक्टूबर"
+  ],
+  "pauses_s": [],
+  "truth": "25-10",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1549
+  ]
+ ],
+ "speech_end": 1.1549,
+ "longest_internal_gap_s": 0.051,
+ "rest_whole_call": "25 October।"
+}

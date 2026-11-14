@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "otp-016",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है दो छह",
+   "एक एक",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.8,
+   1.0
+  ],
+  "truth": "261169",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.9109
+  ],
+  [
+   2.7109,
+   3.4276
+  ],
+  [
+   4.4276,
+   5.1481
+  ]
+ ],
+ "speech_end": 5.1481,
+ "longest_internal_gap_s": 0.102,
+ "rest_whole_call": "ओ टी पी है 261169।"
+}

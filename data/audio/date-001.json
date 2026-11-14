@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "date-001",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दो तारीख",
+   "मार्च"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "02-03",
+  "voice": "Nalini",
+  "variant": "day tareekh | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0458
+  ],
+  [
+   1.4458,
+   1.9294
+  ]
+ ],
+ "speech_end": 1.9294,
+ "longest_internal_gap_s": 0.053,
+ "rest_whole_call": "2 तारीख मार्च"
+}

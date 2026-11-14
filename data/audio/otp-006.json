@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "otp-006",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ नौ तीन",
+   "एक पांच आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "993158",
+  "voice": "Omkar",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2835
+  ],
+  [
+   1.8835,
+   2.8249
+  ]
+ ],
+ "speech_end": 2.8249,
+ "longest_internal_gap_s": 0.087,
+ "rest_whole_call": "993158"
+}

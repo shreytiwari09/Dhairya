@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-071",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "six two five",
+   "three two eight",
+   "seven zero four six"
+  ],
+  "pauses_s": [
+   0.8,
+   0.8
+  ],
+  "truth": "6253287046",
+  "voice": "Omkar",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.2629
+  ],
+  [
+   2.0629,
+   2.8594
+  ],
+  [
+   3.6594,
+   5.0724
+  ]
+ ],
+ "speech_end": 5.0724,
+ "longest_internal_gap_s": 0.07,
+ "rest_whole_call": "6253287046"
+}

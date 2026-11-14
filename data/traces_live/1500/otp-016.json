@@ -1,0 +1,90 @@
+{
+ "script": {
+  "id": "otp-016",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है दो छह",
+   "एक एक",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.8,
+   1.0
+  ],
+  "truth": "261169",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.9109
+  ],
+  [
+   2.7109,
+   3.4276
+  ],
+  [
+   4.4276,
+   5.1481
+  ]
+ ],
+ "speech_end": 5.1481,
+ "longest_internal_gap_s": 0.102,
+ "rest_whole_call": "ओ टी पी है 261169।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02d-1a37-7a26-9bb5-d9d18105e292",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:32:59.252034+00:00"
+   }
+  },
+  {
+   "t": 0.542,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4ef2bed9",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:32:59.775654+00:00"
+   }
+  },
+  {
+   "t": 6.896,
+   "kind": "transcript",
+   "text": "ओ टी पी है दो छह एक एक छह नौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है दो छह एक एक छह नौ।",
+    "audio_duration_ms": 6688.0,
+    "segment_id": "01a1d02d-1a37-7a26-9bb5-d9d18105e292-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u4ef2bed9",
+    "is_final": true,
+    "latency": 134,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:33:06.106319+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

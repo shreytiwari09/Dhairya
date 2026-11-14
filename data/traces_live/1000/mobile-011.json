@@ -1,0 +1,90 @@
+{
+ "script": {
+  "id": "mobile-011",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven four four",
+   "zero two six",
+   "eight five nine nine"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "7440268599",
+  "voice": "Nalini",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.367
+  ],
+  [
+   2.167,
+   3.2407
+  ],
+  [
+   3.8407,
+   5.0553
+  ]
+ ],
+ "speech_end": 5.0553,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7440268599",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d025-d08b-7058-b7ff-2dd8cf3b84c5",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:25:01.644810+00:00"
+   }
+  },
+  {
+   "t": 0.619,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u79849d89",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T14:25:02.219339+00:00"
+   }
+  },
+  {
+   "t": 6.275,
+   "kind": "transcript",
+   "text": "सेवन फोर फोर ज़ीरो टू सिक्स एट फाइव नाइन नाइन।",
+   "raw": {
+    "type": "transcript",
+    "text": "सेवन फोर फोर ज़ीरो टू सिक्स एट फाइव नाइन नाइन।",
+    "audio_duration_ms": 6080.0,
+    "segment_id": "01a1d025-d08b-7058-b7ff-2dd8cf3b84c5-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u79849d89",
+    "is_final": true,
+    "latency": 151,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:25:07.873376+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

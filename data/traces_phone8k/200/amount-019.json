@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "amount-019",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच लाख",
+   "पचास हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "550000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1413
+  ],
+  [
+   1.9413,
+   3.1624
+  ]
+ ],
+ "speech_end": 3.1624,
+ "longest_internal_gap_s": 0.118,
+ "rest_whole_call": "5,50,000 रुपये।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.062,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d151-51b9-70a7-8e67-03a67b3cc30d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:52:09.984748+00:00"
+   }
+  },
+  {
+   "t": 0.724,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua93dbea0",
+    "t_ms": 404,
+    "timestamp": "2026-11-12T19:52:10.661894+00:00"
+   }
+  },
+  {
+   "t": 1.482,
+   "kind": "transcript",
+   "text": "पाँच लाख।",
+   "raw": {
+    "type": "transcript",
+    "text": "पाँच लाख।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1d151-51b9-70a7-8e67-03a67b3cc30d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ua93dbea0",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:11.419590+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.382,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud2a3a26e",
+    "t_ms": 2068,
+    "timestamp": "2026-11-12T19:52:12.320858+00:00"
+   }
+  },
+  {
+   "t": 3.546,
+   "kind": "transcript",
+   "text": "पचास हज़ार रुपये",
+   "raw": {
+    "type": "transcript",
+    "text": "पचास हज़ार रुपये",
+    "audio_duration_ms": 1780.0,
+    "segment_id": "01a1d151-51b9-70a7-8e67-03a67b3cc30d-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ud2a3a26e",
+    "is_final": true,
+    "latency": 70,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:13.484838+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

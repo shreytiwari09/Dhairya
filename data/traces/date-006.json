@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-006",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "अट्ठाईस",
+   "नवंबर"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "28-11",
+  "voice": "Deepak",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9602
+  ],
+  [
+   1.3602,
+   1.9473
+  ]
+ ],
+ "speech_end": 1.9473,
+ "longest_internal_gap_s": 0.066,
+ "rest_whole_call": "28 November।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.059,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1c-3154-705d-bba6-d497e3c70037",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:34:53.852171+00:00"
+   }
+  },
+  {
+   "t": 0.527,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ua092c9d5",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:34:54.321671+00:00"
+   }
+  },
+  {
+   "t": 1.308,
+   "kind": "transcript",
+   "text": "अट्ठाईस।",
+   "raw": {
+    "type": "transcript",
+    "text": "अट्ठाईस।",
+    "audio_duration_ms": 1120.0,
+    "segment_id": "01a1cf1c-3154-705d-bba6-d497e3c70037-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ua092c9d5",
+    "is_final": true,
+    "latency": 90,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:34:55.098253+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.869,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue649bf6b",
+    "t_ms": 1204,
+    "timestamp": "2026-11-12T09:34:55.380773+00:00"
+   }
+  },
+  {
+   "t": 2.302,
+   "kind": "transcript",
+   "text": "नवंबर।",
+   "raw": {
+    "type": "transcript",
+    "text": "नवंबर।",
+    "audio_duration_ms": 1056.0,
+    "segment_id": "01a1cf1c-3154-705d-bba6-d497e3c70037-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ue649bf6b",
+    "is_final": true,
+    "latency": 47,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:34:56.095306+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

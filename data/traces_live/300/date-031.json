@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "date-031",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "इक्कीस",
+   "अप्रैल"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "21-04",
+  "voice": "Bhavna",
+  "variant": "day | month"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.8602
+  ],
+  [
+   1.8602,
+   2.3916
+  ]
+ ],
+ "speech_end": 2.3916,
+ "longest_internal_gap_s": 0.138,
+ "rest_whole_call": "21 April।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.041,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d037-08d3-7698-90f2-fcc09f740657",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:43:50.163343+00:00"
+   }
+  },
+  {
+   "t": 0.485,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue13b4391",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:43:50.602187+00:00"
+   }
+  },
+  {
+   "t": 1.323,
+   "kind": "transcript",
+   "text": "इक्कीस।",
+   "raw": {
+    "type": "transcript",
+    "text": "इक्कीस।",
+    "audio_duration_ms": 1216.0,
+    "segment_id": "01a1d037-08d3-7698-90f2-fcc09f740657-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ue13b4391",
+    "is_final": true,
+    "latency": 69,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:51.438142+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.068,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ubc11724d",
+    "t_ms": 1716,
+    "timestamp": "2026-11-12T14:43:52.172365+00:00"
+   }
+  },
+  {
+   "t": 2.8,
+   "kind": "transcript",
+   "text": "अप्रैल।",
+   "raw": {
+    "type": "transcript",
+    "text": "अप्रैल।",
+    "audio_duration_ms": 1332.0,
+    "segment_id": "01a1d037-08d3-7698-90f2-fcc09f740657-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ubc11724d",
+    "is_final": true,
+    "latency": 44,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:52.919067+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

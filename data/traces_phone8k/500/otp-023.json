@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "otp-023",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "नौ तीन",
+   "शून्य छह"
+  ],
+  "pauses_s": [
+   1.3
+  ],
+  "truth": "9306",
+  "voice": "Bhavna",
+  "variant": "2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1452
+  ],
+  [
+   2.4452,
+   3.5449
+  ]
+ ],
+ "speech_end": 3.5449,
+ "longest_internal_gap_s": 0.102,
+ "rest_whole_call": "9306",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.041,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d170-b716-774e-8250-6f9b0b22e6ee",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:26:27.538948+00:00"
+   }
+  },
+  {
+   "t": 0.586,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u7ea899a4",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:26:28.085101+00:00"
+   }
+  },
+  {
+   "t": 1.807,
+   "kind": "transcript",
+   "text": "नौ तीन।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ तीन।",
+    "audio_duration_ms": 1696.0,
+    "segment_id": "01a1d170-b716-774e-8250-6f9b0b22e6ee-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u7ea899a4",
+    "is_final": true,
+    "latency": 64,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:26:29.293691+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.778,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4fba9efa",
+    "t_ms": 2452,
+    "timestamp": "2026-11-12T20:26:30.271137+00:00"
+   }
+  },
+  {
+   "t": 4.231,
+   "kind": "transcript",
+   "text": "शून्य छः।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य छः।",
+    "audio_duration_ms": 2100.0,
+    "segment_id": "01a1d170-b716-774e-8250-6f9b0b22e6ee-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u4fba9efa",
+    "is_final": true,
+    "latency": 65,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:26:31.729951+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

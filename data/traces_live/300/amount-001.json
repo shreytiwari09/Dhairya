@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-001",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "नौ हज़ार",
+   "सात सौ रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "9700",
+  "voice": "Deepak",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9451
+  ],
+  [
+   1.7451,
+   2.5873
+  ]
+ ],
+ "speech_end": 2.5873,
+ "longest_internal_gap_s": 0.005,
+ "rest_whole_call": "9700 रुपये।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d035-47b4-7148-8c13-7c2ddf161c31",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:41:55.185163+00:00"
+   }
+  },
+  {
+   "t": 0.524,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1256f56d",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:41:55.655862+00:00"
+   }
+  },
+  {
+   "t": 1.394,
+   "kind": "transcript",
+   "text": "नौ हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ हज़ार।",
+    "audio_duration_ms": 1280.0,
+    "segment_id": "01a1d035-47b4-7148-8c13-7c2ddf161c31-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1256f56d",
+    "is_final": true,
+    "latency": 55,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:56.538614+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.964,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ucbe86608",
+    "t_ms": 1588,
+    "timestamp": "2026-11-12T14:41:57.111501+00:00"
+   }
+  },
+  {
+   "t": 3.046,
+   "kind": "transcript",
+   "text": "सात सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात सौ रुपये।",
+    "audio_duration_ms": 1632.0,
+    "segment_id": "01a1d035-47b4-7148-8c13-7c2ddf161c31-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ucbe86608",
+    "is_final": true,
+    "latency": 65,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:41:58.188280+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

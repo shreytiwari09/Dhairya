@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "mobile-015",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है six seven seven seven seven",
+   "four one two one five"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "6777741215",
+  "voice": "Omkar",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.5302
+  ],
+  [
+   4.3302,
+   5.989
+  ]
+ ],
+ "speech_end": 5.989,
+ "longest_internal_gap_s": 0.208,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 6777741215।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03d-c8f2-7401-90e8-bc5dba2419b3",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:51:12.562870+00:00"
+   }
+  },
+  {
+   "t": 0.481,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0e1243fa",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:51:12.999504+00:00"
+   }
+  },
+  {
+   "t": 8.221,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है सिक्स सेवन सेवन सेवन सेवन फोर वन टू वन फ़ाइव।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है सिक्स सेवन सेवन सेवन सेवन फोर वन टू वन फ़ाइव।",
+    "audio_duration_ms": 8000.0,
+    "segment_id": "01a1d03d-c8f2-7401-90e8-bc5dba2419b3-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u0e1243fa",
+    "is_final": true,
+    "latency": 170,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:51:20.732676+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

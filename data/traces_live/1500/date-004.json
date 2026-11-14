@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-004",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "चार अप्रैल"
+  ],
+  "pauses_s": [],
+  "truth": "04-04",
+  "voice": "Bhavna",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.3086
+  ]
+ ],
+ "speech_end": 1.3086,
+ "longest_internal_gap_s": 0.08,
+ "rest_whole_call": "4 April।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.044,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02f-3c63-72ea-bcc4-667c3abc5b8d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:35:19.073818+00:00"
+   }
+  },
+  {
+   "t": 0.594,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4b0366e8",
+    "t_ms": 212,
+    "timestamp": "2026-11-12T14:35:19.621604+00:00"
+   }
+  },
+  {
+   "t": 3.03,
+   "kind": "transcript",
+   "text": "चार अप्रैल।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार अप्रैल।",
+    "audio_duration_ms": 2880.0,
+    "segment_id": "01a1d02f-3c63-72ea-bcc4-667c3abc5b8d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u4b0366e8",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:35:22.053313+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "script": {
+  "id": "mobile-043",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "eight three",
+   "one nine",
+   "eight two",
+   "nine six",
+   "five seven"
+  ],
+  "pauses_s": [
+   0.6,
+   0.8,
+   1.3,
+   0.6
+  ],
+  "truth": "8319829657",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9784
+  ],
+  [
+   1.5784,
+   2.4782
+  ],
+  [
+   3.2782,
+   4.0479
+  ],
+  [
+   5.3479,
+   6.1045
+  ],
+  [
+   6.7045,
+   7.48
+  ]
+ ],
+ "speech_end": 7.48,
+ "longest_internal_gap_s": 0.198,
+ "rest_whole_call": "8319829657",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02b-188c-77d5-9b0a-08a8266ee67c",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:30:47.759917+00:00"
+   }
+  },
+  {
+   "t": 0.515,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u6e6efb0b",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:30:48.229040+00:00"
+   }
+  },
+  {
+   "t": 9.25,
+   "kind": "transcript",
+   "text": "एट थ्री वन नाइन एट टू नाइन सिक्स फाइव सेवन।",
+   "raw": {
+    "type": "transcript",
+    "text": "एट थ्री वन नाइन एट टू नाइन सिक्स फाइव सेवन।",
+    "audio_duration_ms": 9024.0,
+    "segment_id": "01a1d02b-188c-77d5-9b0a-08a8266ee67c-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u6e6efb0b",
+    "is_final": true,
+    "latency": 140,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:30:56.971078+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

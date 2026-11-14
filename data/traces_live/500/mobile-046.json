@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-046",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ शून्य सात",
+   "एक डबल आठ",
+   "एक आठ एक सात"
+  ],
+  "pauses_s": [
+   0.8,
+   0.4
+  ],
+  "truth": "8071881817",
+  "voice": "Deepak",
+  "variant": "3-3-4 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.4181
+  ],
+  [
+   2.2181,
+   3.0438
+  ],
+  [
+   3.4438,
+   4.6781
+  ]
+ ],
+ "speech_end": 4.6781,
+ "longest_internal_gap_s": 0.108,
+ "rest_whole_call": "8071881817",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.046,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf32-b0de-74bc-8bb1-cdddf045da66",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:59:28.296501+00:00"
+   }
+  },
+  {
+   "t": 0.534,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u84ae6d4c",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:59:28.785973+00:00"
+   }
+  },
+  {
+   "t": 2.381,
+   "kind": "transcript",
+   "text": "आठ शून्य सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "आठ शून्य सात।",
+    "audio_duration_ms": 1952.0,
+    "segment_id": "01a1cf32-b0de-74bc-8bb1-cdddf045da66-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u84ae6d4c",
+    "is_final": true,
+    "latency": 76,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:59:30.368040+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.452,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1bd5ed25",
+    "t_ms": 2068,
+    "timestamp": "2026-11-12T09:59:30.700844+00:00"
+   }
+  },
+  {
+   "t": 5.379,
+   "kind": "transcript",
+   "text": "एक डबल आठ एक आठ एक सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "एक डबल आठ एक आठ एक सात।",
+    "audio_duration_ms": 3232.0,
+    "segment_id": "01a1cf32-b0de-74bc-8bb1-cdddf045da66-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u1bd5ed25",
+    "is_final": true,
+    "latency": 100,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:59:33.627272+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

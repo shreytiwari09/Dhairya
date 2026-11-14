@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-041",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "बारह हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "12400",
+  "voice": "Omkar",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0089
+  ],
+  [
+   2.0089,
+   2.7161
+  ]
+ ],
+ "speech_end": 2.7161,
+ "longest_internal_gap_s": 0.008,
+ "rest_whole_call": "12,400 रुपये।",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.033,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03c-35d3-78cb-9518-713240ea00a4",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:49:29.362774+00:00"
+   }
+  },
+  {
+   "t": 0.489,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1dbc8275",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:49:29.860067+00:00"
+   }
+  },
+  {
+   "t": 1.853,
+   "kind": "transcript",
+   "text": "बारह हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "बारह हज़ार।",
+    "audio_duration_ms": 1760.0,
+    "segment_id": "01a1d03c-35d3-78cb-9518-713240ea00a4-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1dbc8275",
+    "is_final": true,
+    "latency": 54,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:49:31.227434+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.185,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ub1434b78",
+    "t_ms": 1844,
+    "timestamp": "2026-11-12T14:49:31.560118+00:00"
+   }
+  },
+  {
+   "t": 3.561,
+   "kind": "transcript",
+   "text": "चार सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार सौ रुपये।",
+    "audio_duration_ms": 1696.0,
+    "segment_id": "01a1d03c-35d3-78cb-9518-713240ea00a4-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ub1434b78",
+    "is_final": true,
+    "latency": 55,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:49:32.937472+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

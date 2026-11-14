@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "amount-037",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "पांच हज़ार",
+   "चार सौ रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "5400",
+  "voice": "Nalini",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9877
+  ],
+  [
+   1.3877,
+   2.2186
+  ]
+ ],
+ "speech_end": 2.2186,
+ "longest_internal_gap_s": 0.039,
+ "rest_whole_call": "5,400 रुपये।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.046,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d043-723d-703c-8f4d-57961cc337ee",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:57:23.585236+00:00"
+   }
+  },
+  {
+   "t": 1.375,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u61105ace",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:57:24.432982+00:00"
+   }
+  },
+  {
+   "t": 4.807,
+   "kind": "transcript",
+   "text": "पाँच हज़ार चार सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "पाँच हज़ार चार सौ रुपये।",
+    "audio_duration_ms": 4256.0,
+    "segment_id": "01a1d043-723d-703c-8f4d-57961cc337ee-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u61105ace",
+    "is_final": true,
+    "latency": 96,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:57:28.343899+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

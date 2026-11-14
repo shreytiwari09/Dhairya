@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "otp-022",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "नौ दो",
+   "तीन नौ",
+   "छह नौ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "923969",
+  "voice": "Bhavna",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9735
+  ],
+  [
+   1.5735,
+   2.1512
+  ],
+  [
+   3.1512,
+   3.8716
+  ]
+ ],
+ "speech_end": 3.8716,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "923969",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.039,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03a-afb0-756f-8646-6c5e31b64587",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:47:49.484002+00:00"
+   }
+  },
+  {
+   "t": 0.495,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue9933db1",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:47:49.933606+00:00"
+   }
+  },
+  {
+   "t": 3.005,
+   "kind": "transcript",
+   "text": "नौ दो तीन नौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "नौ दो तीन नौ।",
+    "audio_duration_ms": 2880.0,
+    "segment_id": "01a1d03a-afb0-756f-8646-6c5e31b64587-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ue9933db1",
+    "is_final": true,
+    "latency": 71,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:52.448766+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.37,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9b100757",
+    "t_ms": 3028,
+    "timestamp": "2026-11-12T14:47:52.809292+00:00"
+   }
+  },
+  {
+   "t": 4.72,
+   "kind": "transcript",
+   "text": "छः नौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः नौ।",
+    "audio_duration_ms": 1728.0,
+    "segment_id": "01a1d03a-afb0-756f-8646-6c5e31b64587-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9b100757",
+    "is_final": true,
+    "latency": 59,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:54.165323+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

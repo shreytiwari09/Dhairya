@@ -1,0 +1,1601 @@
+script_id,category,variant,voice,policy,decision,cut_in,delay_s,correct,heard_value
+amount-000,amount,special no unit,Deepak,fixed_300ms,end_turn,False,0.452,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_300ms,end_turn,True,,False,9000
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,7000
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_300ms,end_turn,True,,False,600000
+amount-004,amount,special with unit,Bhavna,fixed_300ms,end_turn,False,0.472,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_300ms,end_turn,True,,False,3000
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_300ms,end_turn,True,,False,5000
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_300ms,end_turn,True,,False,400000
+amount-008,amount,special with unit,Omkar,fixed_300ms,end_turn,False,0.509,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,9000
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_300ms,end_turn,True,,False,8000
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_300ms,end_turn,True,,False,100000
+amount-012,amount,special with unit,Deepak,fixed_300ms,end_turn,False,0.476,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,2000
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,7000
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_300ms,end_turn,True,,False,400000
+amount-016,amount,special with unit,Bhavna,fixed_300ms,end_turn,False,0.473,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,3000
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,8000
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_300ms,end_turn,True,,False,500000
+amount-020,amount,special no unit,Nalini,fixed_300ms,end_turn,False,0.408,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_300ms,end_turn,True,,False,15000
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,12000
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_300ms,end_turn,True,,False,300000
+amount-024,amount,special with unit,Nalini,fixed_300ms,end_turn,False,0.475,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_300ms,end_turn,True,,False,7000
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,1000
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_300ms,end_turn,True,,False,300000
+amount-028,amount,special with unit,Bhavna,fixed_300ms,end_turn,False,0.467,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_300ms,end_turn,True,,False,9000
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_300ms,end_turn,True,,False,15000
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_300ms,end_turn,True,,False,700000
+amount-032,amount,special with unit,Omkar,fixed_300ms,end_turn,False,0.489,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_300ms,end_turn,True,,False,3000
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_300ms,end_turn,True,,False,4000
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_300ms,end_turn,True,,False,500000
+amount-036,amount,special with unit,Deepak,fixed_300ms,end_turn,False,0.437,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_300ms,end_turn,True,,False,5000
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_300ms,end_turn,True,,False,3000
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_300ms,end_turn,True,,False,300000
+amount-040,amount,special no unit,Deepak,fixed_300ms,end_turn,False,0.394,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_300ms,end_turn,True,,False,12000
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_300ms,end_turn,True,,False,8000
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_300ms,end_turn,True,,False,700000
+amount-044,amount,special with unit,Bhavna,fixed_300ms,end_turn,False,0.412,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_300ms,end_turn,True,,False,7000
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_300ms,end_turn,True,,False,3000
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_300ms,end_turn,True,,False,200000
+date-000,date,one group,Nalini,fixed_300ms,end_turn,False,0.437,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_300ms,end_turn,True,,False,02
+date-002,date,day | month,Deepak,fixed_300ms,end_turn,True,,False,24
+date-003,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,07
+date-004,date,one group,Bhavna,fixed_300ms,end_turn,False,0.452,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_300ms,end_turn,True,,False,07
+date-006,date,day | month,Deepak,fixed_300ms,end_turn,True,,False,28
+date-007,date,day | month,Nalini,fixed_300ms,end_turn,True,,False,16
+date-008,date,one group,Bhavna,fixed_300ms,end_turn,False,0.478,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_300ms,end_turn,True,,False,10
+date-010,date,day | month,Deepak,fixed_300ms,end_turn,True,,False,09
+date-011,date,day | month,Deepak,fixed_300ms,end_turn,True,,False,10
+date-012,date,one group,Omkar,fixed_300ms,end_turn,False,0.415,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_300ms,end_turn,True,,False,28
+date-014,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,26
+date-015,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,17
+date-016,date,one group,Bhavna,fixed_300ms,end_turn,False,0.439,True,23-01
+date-017,date,day tareekh | month,Deepak,fixed_300ms,end_turn,True,,False,23
+date-018,date,day | month,Bhavna,fixed_300ms,end_turn,True,,False,06
+date-019,date,day | month,Deepak,fixed_300ms,end_turn,True,,False,10
+date-020,date,one group,Omkar,fixed_300ms,end_turn,False,0.46,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_300ms,end_turn,True,,False,23
+date-022,date,day | month,Bhavna,fixed_300ms,end_turn,True,,False,27
+date-023,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,10
+date-024,date,one group,Nalini,fixed_300ms,end_turn,False,0.432,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_300ms,end_turn,True,,False,16
+date-026,date,day | month,Nalini,fixed_300ms,end_turn,True,,False,21
+date-027,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,13
+date-028,date,one group,Deepak,fixed_300ms,end_turn,False,0.464,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_300ms,end_turn,True,,False,07
+date-030,date,day | month,Omkar,fixed_300ms,end_turn,True,,False,18
+date-031,date,day | month,Bhavna,fixed_300ms,end_turn,True,,False,21
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_300ms,end_turn,True,,False,82601
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_300ms,end_turn,True,,False,616
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_300ms,end_turn,True,,False,6996
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_300ms,end_turn,True,,False,88
+mobile-004,mobile,10 hindi,Bhavna,fixed_300ms,end_turn,False,0.517,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,fixed_300ms,end_turn,True,,False,71948
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,
+mobile-007,mobile,4-3-3 english,Deepak,fixed_300ms,end_turn,True,,False,9971
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_300ms,end_turn,True,,False,95
+mobile-009,mobile,10 hindi,Deepak,fixed_300ms,end_turn,False,0.526,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_300ms,end_turn,True,,False,95632
+mobile-011,mobile,3-3-4 english,Nalini,fixed_300ms,end_turn,True,,False,744
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_300ms,end_turn,True,,False,9866
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_300ms,end_turn,True,,False,92
+mobile-014,mobile,10 hindi_double,Nalini,fixed_300ms,end_turn,False,0.504,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_300ms,end_turn,True,,False,67777
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_300ms,end_turn,True,,False,780
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_300ms,end_turn,True,,False,8253
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,73
+mobile-019,mobile,10 english,Nalini,fixed_300ms,end_turn,False,0.488,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_300ms,end_turn,True,,False,95116
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_300ms,end_turn,True,,False,961
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_300ms,end_turn,True,,False,8288
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_300ms,end_turn,True,,False,64
+mobile-024,mobile,10 hindi,Nalini,fixed_300ms,end_turn,False,0.507,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_300ms,end_turn,True,,False,72279
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_300ms,end_turn,True,,False,680
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_300ms,end_turn,True,,False,9598
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_300ms,end_turn,True,,False,88
+mobile-029,mobile,10 hindi,Omkar,fixed_300ms,end_turn,False,0.35,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,92326
+mobile-031,mobile,3-3-4 english,Deepak,fixed_300ms,end_turn,True,,False,650
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_300ms,end_turn,True,,False,6131
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_300ms,end_turn,True,,False,92
+mobile-034,mobile,10 hindi_double,Deepak,fixed_300ms,end_turn,False,0.505,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_300ms,end_turn,True,,False,94920
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_300ms,end_turn,True,,False,744
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_300ms,end_turn,True,,False,6008
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,98
+mobile-039,mobile,10 english,Nalini,fixed_300ms,end_turn,False,0.644,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_300ms,end_turn,True,,False,92247
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_300ms,end_turn,True,,False,643
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,7801
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_300ms,end_turn,True,,False,83
+mobile-044,mobile,10 hindi,Nalini,fixed_300ms,end_turn,False,0.524,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_300ms,end_turn,True,,False,62516
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_300ms,end_turn,True,,False,807
+mobile-047,mobile,4-3-3 english,Nalini,fixed_300ms,end_turn,True,,False,7337
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_300ms,end_turn,True,,False,75
+mobile-049,mobile,10 hindi,Nalini,fixed_300ms,end_turn,False,0.555,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_300ms,end_turn,True,,False,90471
+mobile-051,mobile,3-3-4 english,Omkar,fixed_300ms,end_turn,True,,False,628
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_300ms,end_turn,True,,False,9602
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_300ms,end_turn,True,,False,81
+mobile-054,mobile,10 hindi_double,Deepak,fixed_300ms,end_turn,False,0.592,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_300ms,end_turn,True,,False,73468
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_300ms,end_turn,True,,False,606
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_300ms,end_turn,True,,False,9544
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_300ms,end_turn,True,,False,72
+mobile-059,mobile,10 english,Bhavna,fixed_300ms,end_turn,False,0.56,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_300ms,end_turn,True,,False,66668
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_300ms,end_turn,True,,False,828
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_300ms,end_turn,True,,False,6206
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_300ms,end_turn,True,,False,71
+mobile-064,mobile,10 hindi,Bhavna,fixed_300ms,end_turn,False,0.57,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_300ms,end_turn,True,,False,94390
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_300ms,end_turn,True,,False,983
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_300ms,end_turn,True,,False,6436
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_300ms,end_turn,True,,False,64
+mobile-069,mobile,10 hindi,Nalini,fixed_300ms,end_turn,False,0.523,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_300ms,end_turn,True,,False,70926
+mobile-071,mobile,3-3-4 english,Omkar,fixed_300ms,end_turn,True,,False,625
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_300ms,end_turn,True,,False,7101
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_300ms,end_turn,True,,False,86
+mobile-074,mobile,10 hindi_double,Nalini,fixed_300ms,end_turn,False,0.507,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_300ms,end_turn,True,,False,85459
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_300ms,end_turn,True,,False,631
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_300ms,end_turn,True,,False,8293
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_300ms,end_turn,True,,False,73
+mobile-079,mobile,10 english,Bhavna,fixed_300ms,end_turn,False,0.531,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_300ms,end_turn,True,,False,814
+otp-001,otp,2-2,Bhavna,fixed_300ms,end_turn,True,,False,44
+otp-002,otp,6,Deepak,fixed_300ms,end_turn,False,0.491,True,332493
+otp-003,otp,4,Bhavna,fixed_300ms,end_turn,False,0.442,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_300ms,end_turn,True,,False,
+otp-005,otp,2-2,Bhavna,fixed_300ms,end_turn,True,,False,04
+otp-006,otp,3-3,Omkar,fixed_300ms,end_turn,True,,False,993
+otp-007,otp,2-2,Deepak,fixed_300ms,end_turn,True,,False,94
+otp-008,otp,6,Bhavna,fixed_300ms,end_turn,False,0.522,True,305520
+otp-009,otp,4,Nalini,fixed_300ms,end_turn,False,0.443,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_300ms,end_turn,True,,False,56
+otp-011,otp,2-2,Nalini,fixed_300ms,end_turn,True,,False,78
+otp-012,otp,3-3,Deepak,fixed_300ms,end_turn,True,,False,682
+otp-013,otp,2-2,Deepak,fixed_300ms,end_turn,True,,False,64
+otp-014,otp,6,Bhavna,fixed_300ms,end_turn,False,0.494,True,956605
+otp-015,otp,4,Omkar,fixed_300ms,end_turn,False,0.496,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_300ms,end_turn,True,,False,26
+otp-017,otp,2-2,Omkar,fixed_300ms,end_turn,True,,False,20
+otp-018,otp,3-3,Deepak,fixed_300ms,end_turn,True,,False,199
+otp-019,otp,2-2,Nalini,fixed_300ms,end_turn,True,,False,42
+otp-020,otp,6,Omkar,fixed_300ms,end_turn,False,0.529,True,673420
+otp-021,otp,4,Nalini,fixed_300ms,end_turn,False,0.467,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_300ms,end_turn,True,,False,92
+otp-023,otp,2-2,Bhavna,fixed_300ms,end_turn,True,,False,93
+otp-024,otp,3-3,Nalini,fixed_300ms,end_turn,True,,False,651
+otp-025,otp,2-2,Deepak,fixed_300ms,end_turn,True,,False,51
+otp-026,otp,6,Deepak,fixed_300ms,end_turn,False,0.489,True,649366
+otp-027,otp,4,Nalini,fixed_300ms,end_turn,False,0.458,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_300ms,end_turn,True,,False,09
+otp-029,otp,2-2,Deepak,fixed_300ms,end_turn,True,,False,76
+otp-030,otp,3-3,Nalini,fixed_300ms,end_turn,True,,False,651
+otp-031,otp,2-2,Nalini,fixed_300ms,end_turn,True,,False,
+otp-032,otp,6,Nalini,fixed_300ms,end_turn,False,0.524,True,862019
+otp-033,otp,4,Bhavna,fixed_300ms,end_turn,False,0.473,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_300ms,end_turn,True,,False,31
+otp-035,otp,2-2,Bhavna,fixed_300ms,end_turn,True,,False,72
+otp-036,otp,3-3,Nalini,fixed_300ms,end_turn,True,,False,949
+otp-037,otp,2-2,Deepak,fixed_300ms,end_turn,True,,False,32
+otp-038,otp,6,Deepak,fixed_300ms,end_turn,False,0.507,True,624180
+otp-039,otp,4,Nalini,fixed_300ms,end_turn,False,0.447,True,7889
+amount-000,amount,special no unit,Deepak,fixed_500ms,end_turn,False,0.7,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_500ms,end_turn,True,,False,9000
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,7000
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_500ms,end_turn,False,0.75,True,625000
+amount-004,amount,special with unit,Bhavna,fixed_500ms,end_turn,False,0.72,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_500ms,end_turn,True,,False,3000
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_500ms,end_turn,True,,False,5000
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_500ms,end_turn,True,,False,400000
+amount-008,amount,special with unit,Omkar,fixed_500ms,end_turn,False,0.736,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,False,0.757,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_500ms,end_turn,True,,False,8000
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_500ms,end_turn,False,0.677,True,110000
+amount-012,amount,special with unit,Deepak,fixed_500ms,end_turn,False,0.725,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,2000
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,7000
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_500ms,end_turn,True,,False,400000
+amount-016,amount,special with unit,Bhavna,fixed_500ms,end_turn,False,0.702,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,3000
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,False,1.029,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_500ms,end_turn,True,,False,500000
+amount-020,amount,special no unit,Nalini,fixed_500ms,end_turn,False,0.658,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_500ms,end_turn,True,,False,15000
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,12000
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_500ms,end_turn,False,0.775,True,310000
+amount-024,amount,special with unit,Nalini,fixed_500ms,end_turn,False,0.75,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_500ms,end_turn,True,,False,7000
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,False,0.81,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_500ms,end_turn,True,,False,300000
+amount-028,amount,special with unit,Bhavna,fixed_500ms,end_turn,False,0.774,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_500ms,end_turn,True,,False,9000
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_500ms,end_turn,True,,False,15000
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_500ms,end_turn,True,,False,700000
+amount-032,amount,special with unit,Omkar,fixed_500ms,end_turn,False,0.879,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_500ms,end_turn,False,0.698,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_500ms,end_turn,False,0.711,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_500ms,end_turn,True,,False,500000
+amount-036,amount,special with unit,Deepak,fixed_500ms,end_turn,False,0.725,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_500ms,end_turn,False,0.701,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_500ms,end_turn,True,,False,3000
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_500ms,end_turn,True,,False,300000
+amount-040,amount,special no unit,Deepak,fixed_500ms,end_turn,False,0.673,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_500ms,end_turn,True,,False,12000
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_500ms,end_turn,False,0.723,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_500ms,end_turn,True,,False,700000
+amount-044,amount,special with unit,Bhavna,fixed_500ms,end_turn,False,0.692,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_500ms,end_turn,True,,False,7000
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_500ms,end_turn,False,0.721,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_500ms,end_turn,True,,False,200000
+date-000,date,one group,Nalini,fixed_500ms,end_turn,False,0.705,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_500ms,end_turn,False,0.732,True,02-03
+date-002,date,day | month,Deepak,fixed_500ms,end_turn,False,0.625,True,24-01
+date-003,date,day | month,Omkar,fixed_500ms,end_turn,False,0.677,True,07-09
+date-004,date,one group,Bhavna,fixed_500ms,end_turn,False,0.744,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_500ms,end_turn,True,,False,07
+date-006,date,day | month,Deepak,fixed_500ms,end_turn,False,0.741,True,28-11
+date-007,date,day | month,Nalini,fixed_500ms,end_turn,True,,False,16
+date-008,date,one group,Bhavna,fixed_500ms,end_turn,False,0.755,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_500ms,end_turn,True,,False,10
+date-010,date,day | month,Deepak,fixed_500ms,end_turn,True,,False,09
+date-011,date,day | month,Deepak,fixed_500ms,end_turn,True,,False,10
+date-012,date,one group,Omkar,fixed_500ms,end_turn,False,0.67,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_500ms,end_turn,True,,False,28
+date-014,date,day | month,Omkar,fixed_500ms,end_turn,False,0.816,True,26-07
+date-015,date,day | month,Omkar,fixed_500ms,end_turn,True,,False,17
+date-016,date,one group,Bhavna,fixed_500ms,wait,False,,False,
+date-017,date,day tareekh | month,Deepak,fixed_500ms,end_turn,True,,False,23
+date-018,date,day | month,Bhavna,fixed_500ms,wait,False,,False,
+date-019,date,day | month,Deepak,fixed_500ms,end_turn,False,0.635,True,10-01
+date-020,date,one group,Omkar,fixed_500ms,end_turn,False,0.807,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_500ms,end_turn,True,,False,23
+date-022,date,day | month,Bhavna,fixed_500ms,end_turn,True,,False,27
+date-023,date,day | month,Omkar,fixed_500ms,end_turn,True,,False,10
+date-024,date,one group,Nalini,fixed_500ms,end_turn,False,0.663,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_500ms,end_turn,True,,False,16
+date-026,date,day | month,Nalini,fixed_500ms,end_turn,True,,False,21
+date-027,date,day | month,Omkar,fixed_500ms,end_turn,False,1.011,True,13-07
+date-028,date,one group,Deepak,fixed_500ms,end_turn,False,1.015,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_500ms,end_turn,True,,False,07
+date-030,date,day | month,Omkar,fixed_500ms,end_turn,True,,False,18
+date-031,date,day | month,Bhavna,fixed_500ms,end_turn,True,,False,21
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_500ms,end_turn,True,,False,82601
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_500ms,end_turn,True,,False,616
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_500ms,end_turn,True,,False,6996
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_500ms,end_turn,True,,False,8821
+mobile-004,mobile,10 hindi,Bhavna,fixed_500ms,end_turn,False,1.379,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,fixed_500ms,end_turn,False,0.727,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,925
+mobile-007,mobile,4-3-3 english,Deepak,fixed_500ms,end_turn,True,,False,9971
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_500ms,end_turn,True,,False,95
+mobile-009,mobile,10 hindi,Deepak,fixed_500ms,end_turn,False,0.782,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_500ms,end_turn,False,0.757,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,fixed_500ms,end_turn,True,,False,744
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_500ms,end_turn,True,,False,9866
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_500ms,end_turn,True,,False,92
+mobile-014,mobile,10 hindi_double,Nalini,fixed_500ms,end_turn,False,0.78,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_500ms,end_turn,True,,False,67777
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_500ms,end_turn,True,,False,780
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_500ms,end_turn,True,,False,8253
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,73
+mobile-019,mobile,10 english,Nalini,fixed_500ms,end_turn,False,0.734,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_500ms,end_turn,False,0.759,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_500ms,end_turn,True,,False,961
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_500ms,end_turn,True,,False,8288
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_500ms,end_turn,True,,False,64
+mobile-024,mobile,10 hindi,Nalini,fixed_500ms,end_turn,False,0.937,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_500ms,end_turn,True,,False,72279
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_500ms,end_turn,True,,False,680
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_500ms,end_turn,True,,False,9598
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_500ms,end_turn,True,,False,8837
+mobile-029,mobile,10 hindi,Omkar,fixed_500ms,end_turn,False,0.653,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,92326
+mobile-031,mobile,3-3-4 english,Deepak,fixed_500ms,end_turn,True,,False,650
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_500ms,end_turn,True,,False,6131
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_500ms,end_turn,True,,False,92
+mobile-034,mobile,10 hindi_double,Deepak,fixed_500ms,end_turn,False,0.787,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_500ms,end_turn,False,0.788,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_500ms,end_turn,True,,False,744
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_500ms,end_turn,True,,False,6008838
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,9843
+mobile-039,mobile,10 english,Nalini,fixed_500ms,end_turn,False,0.793,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_500ms,end_turn,True,,False,92247
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_500ms,end_turn,True,,False,643
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,7801
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_500ms,end_turn,True,,False,83
+mobile-044,mobile,10 hindi,Nalini,fixed_500ms,end_turn,False,0.775,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_500ms,end_turn,True,,False,62516
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_500ms,end_turn,True,,False,807
+mobile-047,mobile,4-3-3 english,Nalini,fixed_500ms,end_turn,True,,False,7337
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_500ms,end_turn,True,,False,75
+mobile-049,mobile,10 hindi,Nalini,fixed_500ms,end_turn,False,0.783,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_500ms,end_turn,True,,False,90471
+mobile-051,mobile,3-3-4 english,Omkar,fixed_500ms,end_turn,True,,False,628
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_500ms,end_turn,True,,False,9602
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_500ms,end_turn,True,,False,81
+mobile-054,mobile,10 hindi_double,Deepak,fixed_500ms,end_turn,False,1.077,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_500ms,end_turn,True,,False,73468
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_500ms,end_turn,True,,False,606
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_500ms,end_turn,True,,False,9544
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_500ms,end_turn,True,,False,72
+mobile-059,mobile,10 english,Bhavna,fixed_500ms,end_turn,False,0.818,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_500ms,end_turn,True,,False,66668
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_500ms,end_turn,True,,False,828
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_500ms,end_turn,True,,False,6206
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_500ms,end_turn,True,,False,713228
+mobile-064,mobile,10 hindi,Bhavna,fixed_500ms,end_turn,False,1.411,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_500ms,end_turn,True,,False,94390
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_500ms,end_turn,True,,False,983
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_500ms,end_turn,True,,False,6436
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_500ms,end_turn,True,,False,64
+mobile-069,mobile,10 hindi,Nalini,fixed_500ms,end_turn,False,0.727,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_500ms,end_turn,True,,False,70926
+mobile-071,mobile,3-3-4 english,Omkar,fixed_500ms,end_turn,True,,False,625
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_500ms,end_turn,True,,False,7101
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_500ms,end_turn,True,,False,86
+mobile-074,mobile,10 hindi_double,Nalini,fixed_500ms,end_turn,False,0.949,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_500ms,end_turn,False,0.826,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_500ms,end_turn,True,,False,631
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_500ms,end_turn,True,,False,8293
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_500ms,end_turn,True,,False,73
+mobile-079,mobile,10 english,Bhavna,fixed_500ms,end_turn,False,1.071,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_500ms,end_turn,True,,False,814
+otp-001,otp,2-2,Bhavna,fixed_500ms,end_turn,True,,False,44
+otp-002,otp,6,Deepak,fixed_500ms,end_turn,False,0.73,True,332493
+otp-003,otp,4,Bhavna,fixed_500ms,end_turn,False,0.988,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_500ms,end_turn,True,,False,
+otp-005,otp,2-2,Bhavna,fixed_500ms,end_turn,False,0.699,True,0431
+otp-006,otp,3-3,Omkar,fixed_500ms,end_turn,True,,False,993
+otp-007,otp,2-2,Deepak,fixed_500ms,end_turn,True,,False,94
+otp-008,otp,6,Bhavna,fixed_500ms,end_turn,False,0.761,True,305520
+otp-009,otp,4,Nalini,fixed_500ms,end_turn,False,0.704,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_500ms,end_turn,True,,False,5652
+otp-011,otp,2-2,Nalini,fixed_500ms,end_turn,True,,False,78
+otp-012,otp,3-3,Deepak,fixed_500ms,end_turn,True,,False,682
+otp-013,otp,2-2,Deepak,fixed_500ms,end_turn,True,,False,64
+otp-014,otp,6,Bhavna,fixed_500ms,end_turn,False,0.755,True,956605
+otp-015,otp,4,Omkar,fixed_500ms,end_turn,False,0.751,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_500ms,end_turn,True,,False,26
+otp-017,otp,2-2,Omkar,fixed_500ms,end_turn,True,,False,20
+otp-018,otp,3-3,Deepak,fixed_500ms,end_turn,True,,False,199
+otp-019,otp,2-2,Nalini,fixed_500ms,end_turn,False,0.709,True,4282
+otp-020,otp,6,Omkar,fixed_500ms,end_turn,False,0.784,True,673420
+otp-021,otp,4,Nalini,fixed_500ms,end_turn,False,0.707,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_500ms,end_turn,True,,False,92
+otp-023,otp,2-2,Bhavna,fixed_500ms,end_turn,True,,False,93
+otp-024,otp,3-3,Nalini,fixed_500ms,end_turn,False,0.754,True,651233
+otp-025,otp,2-2,Deepak,fixed_500ms,end_turn,True,,False,51
+otp-026,otp,6,Deepak,fixed_500ms,end_turn,False,0.724,True,649366
+otp-027,otp,4,Nalini,fixed_500ms,end_turn,False,0.711,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_500ms,end_turn,True,,False,09
+otp-029,otp,2-2,Deepak,fixed_500ms,end_turn,True,,False,76
+otp-030,otp,3-3,Nalini,fixed_500ms,end_turn,False,0.736,True,651788
+otp-031,otp,2-2,Nalini,fixed_500ms,end_turn,False,0.677,True,2158
+otp-032,otp,6,Nalini,fixed_500ms,end_turn,False,0.733,True,862019
+otp-033,otp,4,Bhavna,fixed_500ms,end_turn,False,0.719,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_500ms,end_turn,True,,False,31
+otp-035,otp,2-2,Bhavna,fixed_500ms,end_turn,True,,False,72
+otp-036,otp,3-3,Nalini,fixed_500ms,end_turn,True,,False,949
+otp-037,otp,2-2,Deepak,fixed_500ms,end_turn,True,,False,32
+otp-038,otp,6,Deepak,fixed_500ms,end_turn,False,0.73,True,624180
+otp-039,otp,4,Nalini,fixed_500ms,end_turn,False,0.721,True,7889
+amount-000,amount,special no unit,Deepak,fixed_700ms,end_turn,False,0.842,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_700ms,end_turn,True,,False,9000
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,True,,False,7000
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_700ms,end_turn,False,0.887,True,625000
+amount-004,amount,special with unit,Bhavna,fixed_700ms,end_turn,False,0.839,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_700ms,end_turn,True,,False,3000
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_700ms,end_turn,False,0.897,True,5600
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_700ms,end_turn,True,,False,400000
+amount-008,amount,special with unit,Omkar,fixed_700ms,end_turn,False,0.87,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,False,0.891,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_700ms,end_turn,True,,False,8000
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_700ms,end_turn,False,0.836,True,110000
+amount-012,amount,special with unit,Deepak,fixed_700ms,end_turn,False,0.859,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,True,,False,2000
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,True,,False,7000
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_700ms,end_turn,True,,False,400000
+amount-016,amount,special with unit,Bhavna,fixed_700ms,end_turn,False,0.847,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,False,0.9,True,3100
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,False,0.896,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_700ms,end_turn,True,,False,500000
+amount-020,amount,special no unit,Nalini,fixed_700ms,end_turn,False,0.838,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_700ms,end_turn,True,,False,15000
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,True,,False,12000
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_700ms,end_turn,False,0.888,True,310000
+amount-024,amount,special with unit,Nalini,fixed_700ms,end_turn,False,0.882,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_700ms,end_turn,False,0.887,True,7300
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,False,0.865,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_700ms,end_turn,False,0.897,True,350000
+amount-028,amount,special with unit,Bhavna,fixed_700ms,end_turn,False,0.862,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_700ms,end_turn,False,0.863,True,9500
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_700ms,end_turn,True,,False,15000
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_700ms,end_turn,True,,False,700000
+amount-032,amount,special with unit,Omkar,fixed_700ms,end_turn,False,0.874,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_700ms,end_turn,False,0.83,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_700ms,end_turn,False,0.855,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_700ms,end_turn,True,,False,500000
+amount-036,amount,special with unit,Deepak,fixed_700ms,end_turn,False,0.858,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_700ms,end_turn,False,0.857,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_700ms,end_turn,False,0.856,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_700ms,end_turn,False,0.952,True,325000
+amount-040,amount,special no unit,Deepak,fixed_700ms,end_turn,False,1.246,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_700ms,end_turn,True,,False,12000
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_700ms,end_turn,False,0.861,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_700ms,end_turn,True,,False,700000
+amount-044,amount,special with unit,Bhavna,fixed_700ms,end_turn,False,0.816,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_700ms,end_turn,True,,False,7000
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_700ms,end_turn,False,0.884,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_700ms,end_turn,True,,False,200000
+date-000,date,one group,Nalini,fixed_700ms,end_turn,False,0.836,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_700ms,end_turn,False,0.864,True,02-03
+date-002,date,day | month,Deepak,fixed_700ms,end_turn,False,0.748,True,24-01
+date-003,date,day | month,Omkar,fixed_700ms,end_turn,False,0.803,True,07-09
+date-004,date,one group,Bhavna,fixed_700ms,end_turn,False,0.868,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_700ms,end_turn,False,0.859,True,07-02
+date-006,date,day | month,Deepak,fixed_700ms,end_turn,False,0.853,True,28-11
+date-007,date,day | month,Nalini,fixed_700ms,end_turn,True,,False,16
+date-008,date,one group,Bhavna,fixed_700ms,end_turn,False,0.893,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_700ms,end_turn,True,,False,10
+date-010,date,day | month,Deepak,fixed_700ms,end_turn,True,,False,09
+date-011,date,day | month,Deepak,fixed_700ms,end_turn,True,,False,10
+date-012,date,one group,Omkar,fixed_700ms,end_turn,False,0.808,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_700ms,end_turn,True,,False,28
+date-014,date,day | month,Omkar,fixed_700ms,end_turn,False,0.885,True,26-07
+date-015,date,day | month,Omkar,fixed_700ms,end_turn,True,,False,17
+date-016,date,one group,Bhavna,fixed_700ms,end_turn,False,0.874,True,23-01
+date-017,date,day tareekh | month,Deepak,fixed_700ms,end_turn,True,,False,23
+date-018,date,day | month,Bhavna,fixed_700ms,end_turn,False,0.862,True,06-07
+date-019,date,day | month,Deepak,fixed_700ms,end_turn,False,0.786,True,10-01
+date-020,date,one group,Omkar,fixed_700ms,end_turn,False,0.918,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_700ms,end_turn,True,,False,23
+date-022,date,day | month,Bhavna,fixed_700ms,end_turn,True,,False,27
+date-023,date,day | month,Omkar,fixed_700ms,end_turn,False,0.849,True,10-04
+date-024,date,one group,Nalini,fixed_700ms,end_turn,False,0.833,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_700ms,end_turn,True,,False,16
+date-026,date,day | month,Nalini,fixed_700ms,end_turn,True,,False,21
+date-027,date,day | month,Omkar,fixed_700ms,end_turn,False,1.095,True,13-07
+date-028,date,one group,Deepak,fixed_700ms,end_turn,False,0.85,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_700ms,end_turn,False,0.048,False,07
+date-030,date,day | month,Omkar,fixed_700ms,end_turn,False,1.3,True,18-09
+date-031,date,day | month,Bhavna,fixed_700ms,end_turn,True,,False,21
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_700ms,end_turn,True,,False,82601
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_700ms,end_turn,True,,False,616
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_700ms,end_turn,True,,False,6996
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_700ms,end_turn,True,,False,8821
+mobile-004,mobile,10 hindi,Bhavna,fixed_700ms,end_turn,False,1.379,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,fixed_700ms,end_turn,False,1.283,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_700ms,end_turn,True,,False,925
+mobile-007,mobile,4-3-3 english,Deepak,fixed_700ms,end_turn,True,,False,9971
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_700ms,end_turn,True,,False,9507
+mobile-009,mobile,10 hindi,Deepak,fixed_700ms,end_turn,False,0.924,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_700ms,end_turn,False,0.9,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,fixed_700ms,end_turn,True,,False,744
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_700ms,end_turn,False,1.354,True,9866661760
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_700ms,end_turn,True,,False,92
+mobile-014,mobile,10 hindi_double,Nalini,fixed_700ms,end_turn,False,0.935,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_700ms,end_turn,True,,False,67777
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_700ms,end_turn,True,,False,780
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_700ms,end_turn,False,0.94,True,8253888539
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_700ms,end_turn,True,,False,7387
+mobile-019,mobile,10 english,Nalini,fixed_700ms,end_turn,False,0.9,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_700ms,end_turn,False,0.896,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_700ms,end_turn,True,,False,961222
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_700ms,end_turn,True,,False,8288
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_700ms,end_turn,True,,False,64
+mobile-024,mobile,10 hindi,Nalini,fixed_700ms,end_turn,False,0.946,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_700ms,end_turn,True,,False,72279
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_700ms,end_turn,True,,False,680
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_700ms,end_turn,True,,False,9598
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_700ms,end_turn,True,,False,883726
+mobile-029,mobile,10 hindi,Omkar,fixed_700ms,end_turn,False,0.79,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_700ms,end_turn,True,,False,92326
+mobile-031,mobile,3-3-4 english,Deepak,fixed_700ms,end_turn,True,,False,650
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_700ms,end_turn,True,,False,6131144
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_700ms,end_turn,True,,False,9288
+mobile-034,mobile,10 hindi_double,Deepak,fixed_700ms,end_turn,False,0.924,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_700ms,end_turn,False,1.359,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_700ms,end_turn,True,,False,744
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_700ms,end_turn,True,,False,6008838
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_700ms,end_turn,False,0.932,True,9843353265
+mobile-039,mobile,10 english,Nalini,fixed_700ms,end_turn,False,0.952,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_700ms,end_turn,True,,False,92247
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_700ms,end_turn,True,,False,643
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_700ms,end_turn,True,,False,7801
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_700ms,end_turn,True,,False,8319
+mobile-044,mobile,10 hindi,Nalini,fixed_700ms,end_turn,False,0.93,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_700ms,end_turn,False,0.928,True,6251678008
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_700ms,end_turn,True,,False,807
+mobile-047,mobile,4-3-3 english,Nalini,fixed_700ms,end_turn,True,,False,7337
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_700ms,end_turn,True,,False,75
+mobile-049,mobile,10 hindi,Nalini,fixed_700ms,end_turn,False,0.914,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_700ms,end_turn,False,0.932,True,9047187463
+mobile-051,mobile,3-3-4 english,Omkar,fixed_700ms,end_turn,True,,False,628
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_700ms,end_turn,True,,False,9602
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_700ms,end_turn,True,,False,81
+mobile-054,mobile,10 hindi_double,Deepak,fixed_700ms,end_turn,False,0.948,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_700ms,end_turn,True,,False,73468
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_700ms,end_turn,False,0.903,True,6067924708
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_700ms,end_turn,True,,False,9544
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_700ms,end_turn,True,,False,72
+mobile-059,mobile,10 english,Bhavna,fixed_700ms,end_turn,False,0.956,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_700ms,end_turn,True,,False,66668
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_700ms,end_turn,True,,False,828
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_700ms,end_turn,True,,False,6206
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_700ms,end_turn,False,0.979,True,7132281718
+mobile-064,mobile,10 hindi,Bhavna,fixed_700ms,end_turn,False,0.957,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_700ms,end_turn,True,,False,94390
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_700ms,end_turn,True,,False,983
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_700ms,end_turn,True,,False,6436
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_700ms,end_turn,True,,False,64
+mobile-069,mobile,10 hindi,Nalini,fixed_700ms,end_turn,False,0.923,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_700ms,end_turn,True,,False,70926
+mobile-071,mobile,3-3-4 english,Omkar,fixed_700ms,end_turn,True,,False,625
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_700ms,end_turn,True,,False,7101415
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_700ms,end_turn,True,,False,86
+mobile-074,mobile,10 hindi_double,Nalini,fixed_700ms,end_turn,False,0.941,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_700ms,end_turn,False,0.977,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_700ms,end_turn,True,,False,631
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_700ms,end_turn,True,,False,8293
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_700ms,end_turn,True,,False,73
+mobile-079,mobile,10 english,Bhavna,fixed_700ms,end_turn,False,0.974,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_700ms,end_turn,True,,False,814
+otp-001,otp,2-2,Bhavna,fixed_700ms,end_turn,False,1.002,True,4437
+otp-002,otp,6,Deepak,fixed_700ms,end_turn,False,0.945,True,332493
+otp-003,otp,4,Bhavna,fixed_700ms,end_turn,False,0.903,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_700ms,end_turn,True,,False,1701
+otp-005,otp,2-2,Bhavna,fixed_700ms,end_turn,False,1.066,True,0431
+otp-006,otp,3-3,Omkar,fixed_700ms,end_turn,False,0.901,True,993158
+otp-007,otp,2-2,Deepak,fixed_700ms,end_turn,True,,False,94
+otp-008,otp,6,Bhavna,fixed_700ms,end_turn,False,0.94,True,305520
+otp-009,otp,4,Nalini,fixed_700ms,end_turn,False,0.875,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_700ms,end_turn,False,0.929,True,565294
+otp-011,otp,2-2,Nalini,fixed_700ms,end_turn,True,,False,78
+otp-012,otp,3-3,Deepak,fixed_700ms,end_turn,True,,False,682
+otp-013,otp,2-2,Deepak,fixed_700ms,end_turn,False,0.917,True,6446
+otp-014,otp,6,Bhavna,fixed_700ms,end_turn,False,0.878,True,956605
+otp-015,otp,4,Omkar,fixed_700ms,end_turn,False,0.929,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_700ms,end_turn,True,,False,26
+otp-017,otp,2-2,Omkar,fixed_700ms,end_turn,False,1.23,True,2008
+otp-018,otp,3-3,Deepak,fixed_700ms,end_turn,False,0.863,True,199582
+otp-019,otp,2-2,Nalini,fixed_700ms,end_turn,False,0.955,True,4282
+otp-020,otp,6,Omkar,fixed_700ms,end_turn,False,0.928,True,673420
+otp-021,otp,4,Nalini,fixed_700ms,end_turn,False,0.86,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_700ms,end_turn,True,,False,9239
+otp-023,otp,2-2,Bhavna,fixed_700ms,end_turn,True,,False,93
+otp-024,otp,3-3,Nalini,fixed_700ms,end_turn,False,0.911,True,651233
+otp-025,otp,2-2,Deepak,fixed_700ms,end_turn,True,,False,51
+otp-026,otp,6,Deepak,fixed_700ms,end_turn,False,1.308,True,649366
+otp-027,otp,4,Nalini,fixed_700ms,end_turn,False,1.264,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_700ms,end_turn,True,,False,09
+otp-029,otp,2-2,Deepak,fixed_700ms,end_turn,False,0.897,True,7611
+otp-030,otp,3-3,Nalini,fixed_700ms,end_turn,False,0.872,True,651788
+otp-031,otp,2-2,Nalini,fixed_700ms,end_turn,False,0.807,True,2158
+otp-032,otp,6,Nalini,fixed_700ms,end_turn,False,0.9,True,862019
+otp-033,otp,4,Bhavna,fixed_700ms,end_turn,False,0.863,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_700ms,end_turn,True,,False,31
+otp-035,otp,2-2,Bhavna,fixed_700ms,end_turn,True,,False,72
+otp-036,otp,3-3,Nalini,fixed_700ms,end_turn,True,,False,949
+otp-037,otp,2-2,Deepak,fixed_700ms,end_turn,True,,False,32
+otp-038,otp,6,Deepak,fixed_700ms,end_turn,False,0.893,True,624180
+otp-039,otp,4,Nalini,fixed_700ms,end_turn,False,0.86,True,7889
+amount-000,amount,special no unit,Deepak,fixed_1000ms,end_turn,False,1.141,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_1000ms,end_turn,False,1.164,True,9700
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,True,,False,7000
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_1000ms,end_turn,False,1.18,True,625000
+amount-004,amount,special with unit,Bhavna,fixed_1000ms,end_turn,False,1.164,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_1000ms,end_turn,False,1.102,True,3100
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_1000ms,end_turn,False,1.175,True,5600
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_1000ms,end_turn,False,1.182,True,420000
+amount-008,amount,special with unit,Omkar,fixed_1000ms,end_turn,False,1.154,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,1.173,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_1000ms,end_turn,True,,False,8000
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_1000ms,end_turn,False,1.13,True,110000
+amount-012,amount,special with unit,Deepak,fixed_1000ms,end_turn,False,1.133,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,1.172,True,2900
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,True,,False,7000
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_1000ms,end_turn,True,,False,400000
+amount-016,amount,special with unit,Bhavna,fixed_1000ms,end_turn,False,1.131,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,2.032,True,3100
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,1.176,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_1000ms,end_turn,False,1.191,True,550000
+amount-020,amount,special no unit,Nalini,fixed_1000ms,end_turn,False,1.09,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_1000ms,end_turn,False,1.177,True,15900
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,1.153,True,12900
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_1000ms,end_turn,False,1.179,True,310000
+amount-024,amount,special with unit,Nalini,fixed_1000ms,end_turn,False,1.161,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_1000ms,end_turn,False,1.166,True,7300
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,1.169,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_1000ms,end_turn,False,1.176,True,350000
+amount-028,amount,special with unit,Bhavna,fixed_1000ms,end_turn,False,1.135,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_1000ms,end_turn,False,1.14,True,9500
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_1000ms,end_turn,True,,False,15000
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_1000ms,end_turn,True,,False,700000
+amount-032,amount,special with unit,Omkar,fixed_1000ms,end_turn,False,1.153,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_1000ms,end_turn,False,1.14,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_1000ms,end_turn,False,1.16,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_1000ms,end_turn,False,1.123,True,510000
+amount-036,amount,special with unit,Deepak,fixed_1000ms,end_turn,False,1.15,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_1000ms,end_turn,False,1.581,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_1000ms,end_turn,False,2.021,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_1000ms,end_turn,False,1.609,True,325000
+amount-040,amount,special no unit,Deepak,fixed_1000ms,end_turn,False,1.545,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_1000ms,end_turn,False,1.16,True,12400
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_1000ms,end_turn,False,1.147,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_1000ms,end_turn,True,,False,700000
+amount-044,amount,special with unit,Bhavna,fixed_1000ms,end_turn,False,1.116,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_1000ms,end_turn,True,,False,7000
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_1000ms,end_turn,False,1.173,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_1000ms,end_turn,False,1.172,True,220000
+date-000,date,one group,Nalini,fixed_1000ms,end_turn,False,1.157,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_1000ms,end_turn,False,1.163,True,02-03
+date-002,date,day | month,Deepak,fixed_1000ms,end_turn,False,1.058,True,24-01
+date-003,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.104,True,07-09
+date-004,date,one group,Bhavna,fixed_1000ms,end_turn,False,1.158,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_1000ms,end_turn,False,1.14,True,07-02
+date-006,date,day | month,Deepak,fixed_1000ms,end_turn,False,1.158,True,28-11
+date-007,date,day | month,Nalini,fixed_1000ms,end_turn,False,1.154,True,16-02
+date-008,date,one group,Bhavna,fixed_1000ms,end_turn,False,1.19,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_1000ms,end_turn,False,1.106,True,10-06
+date-010,date,day | month,Deepak,fixed_1000ms,end_turn,False,1.111,True,09-01
+date-011,date,day | month,Deepak,fixed_1000ms,end_turn,False,1.114,True,10-01
+date-012,date,one group,Omkar,fixed_1000ms,end_turn,False,1.113,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_1000ms,end_turn,True,,False,28
+date-014,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.184,True,26-07
+date-015,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.155,True,17-02
+date-016,date,one group,Bhavna,fixed_1000ms,end_turn,False,1.152,True,23-01
+date-017,date,day tareekh | month,Deepak,fixed_1000ms,end_turn,True,,False,23
+date-018,date,day | month,Bhavna,fixed_1000ms,end_turn,False,1.172,True,06-07
+date-019,date,day | month,Deepak,fixed_1000ms,end_turn,False,1.08,True,10-01
+date-020,date,one group,Omkar,fixed_1000ms,end_turn,False,1.184,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_1000ms,end_turn,False,1.18,True,23-03
+date-022,date,day | month,Bhavna,fixed_1000ms,end_turn,False,1.174,True,27-09
+date-023,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.163,True,10-04
+date-024,date,one group,Nalini,fixed_1000ms,end_turn,False,1.157,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_1000ms,end_turn,True,,False,16
+date-026,date,day | month,Nalini,fixed_1000ms,end_turn,False,1.147,True,21-06
+date-027,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.161,True,13-07
+date-028,date,one group,Deepak,fixed_1000ms,end_turn,False,1.168,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_1000ms,end_turn,False,1.155,True,07-05
+date-030,date,day | month,Omkar,fixed_1000ms,end_turn,False,1.173,True,18-09
+date-031,date,day | month,Bhavna,fixed_1000ms,end_turn,False,1.167,True,21-04
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_1000ms,end_turn,True,,False,82601
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_1000ms,end_turn,True,,False,616
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_1000ms,end_turn,True,,False,6996
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_1000ms,end_turn,True,,False,8821
+mobile-004,mobile,10 hindi,Bhavna,fixed_1000ms,wait,False,,False,
+mobile-005,mobile,5-5 hindi,Nalini,fixed_1000ms,wait,False,,False,
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_1000ms,end_turn,False,1.178,True,9252760189
+mobile-007,mobile,4-3-3 english,Deepak,fixed_1000ms,end_turn,True,,False,9971
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_1000ms,end_turn,False,1.24,True,9507529170
+mobile-009,mobile,10 hindi,Deepak,fixed_1000ms,end_turn,False,1.227,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_1000ms,end_turn,False,1.188,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,fixed_1000ms,end_turn,False,1.22,True,7440268599
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_1000ms,end_turn,False,1.267,True,9866661760
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_1000ms,end_turn,True,,False,92
+mobile-014,mobile,10 hindi_double,Nalini,fixed_1000ms,end_turn,False,1.211,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_1000ms,end_turn,False,1.191,True,6777741215
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_1000ms,end_turn,False,1.194,True,7803852808
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_1000ms,end_turn,False,1.212,True,8253888539
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_1000ms,end_turn,True,,False,7387
+mobile-019,mobile,10 english,Nalini,fixed_1000ms,end_turn,False,1.202,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_1000ms,end_turn,False,1.323,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_1000ms,end_turn,True,,False,961222
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_1000ms,end_turn,False,1.213,True,8288200182
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_1000ms,end_turn,True,,False,64
+mobile-024,mobile,10 hindi,Nalini,fixed_1000ms,end_turn,False,1.239,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_1000ms,end_turn,True,,False,72279
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_1000ms,end_turn,True,,False,680
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_1000ms,end_turn,True,,False,9598
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_1000ms,end_turn,False,1.268,True,8837261675
+mobile-029,mobile,10 hindi,Omkar,fixed_1000ms,end_turn,False,1.074,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_1000ms,end_turn,False,1.217,True,9232686563
+mobile-031,mobile,3-3-4 english,Deepak,fixed_1000ms,end_turn,True,,False,650
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_1000ms,end_turn,True,,False,6131144
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_1000ms,end_turn,True,,False,9288
+mobile-034,mobile,10 hindi_double,Deepak,fixed_1000ms,end_turn,False,1.202,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_1000ms,end_turn,False,1.242,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_1000ms,wait,False,,False,
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_1000ms,end_turn,False,4.45,False,6008838
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_1000ms,end_turn,False,2.845,True,9843353265
+mobile-039,mobile,10 english,Nalini,fixed_1000ms,wait,False,,False,
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_1000ms,wait,False,,False,
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_1000ms,end_turn,False,1.762,False,643520
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_1000ms,end_turn,False,4.041,False,7801
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_1000ms,end_turn,True,,False,831982
+mobile-044,mobile,10 hindi,Nalini,fixed_1000ms,end_turn,False,1.21,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_1000ms,end_turn,False,1.222,True,6251678008
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_1000ms,end_turn,False,1.2,True,8071881817
+mobile-047,mobile,4-3-3 english,Nalini,fixed_1000ms,end_turn,True,,False,7337
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_1000ms,end_turn,False,1.476,True,7544992070
+mobile-049,mobile,10 hindi,Nalini,fixed_1000ms,end_turn,False,1.287,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_1000ms,end_turn,False,1.258,True,9047187463
+mobile-051,mobile,3-3-4 english,Omkar,fixed_1000ms,end_turn,False,1.204,True,6284529841
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_1000ms,end_turn,False,1.717,True,9602077642
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_1000ms,end_turn,False,1.428,True,8150556130
+mobile-054,mobile,10 hindi_double,Deepak,fixed_1000ms,end_turn,False,1.287,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_1000ms,end_turn,True,,False,73468
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_1000ms,end_turn,False,1.244,True,6067924708
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_1000ms,end_turn,True,,False,9544
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_1000ms,end_turn,True,,False,72138783
+mobile-059,mobile,10 english,Bhavna,fixed_1000ms,end_turn,False,1.254,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_1000ms,end_turn,False,1.271,True,6666836450
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_1000ms,end_turn,True,,False,828831
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_1000ms,end_turn,True,,False,6206
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_1000ms,end_turn,False,1.666,True,7132281718
+mobile-064,mobile,10 hindi,Bhavna,fixed_1000ms,end_turn,False,1.504,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_1000ms,end_turn,False,1.242,True,9439008474
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_1000ms,end_turn,False,1.34,True,9838306400
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_1000ms,end_turn,False,1.4,True,6436537056
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_1000ms,end_turn,False,1.35,False,6481373493
+mobile-069,mobile,10 hindi,Nalini,fixed_1000ms,end_turn,False,1.2,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_1000ms,end_turn,False,1.199,True,7092600267
+mobile-071,mobile,3-3-4 english,Omkar,fixed_1000ms,end_turn,False,1.245,True,6253287046
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_1000ms,end_turn,True,,False,7101415
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_1000ms,end_turn,False,1.65,True,8610735873
+mobile-074,mobile,10 hindi_double,Nalini,fixed_1000ms,end_turn,False,1.64,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_1000ms,end_turn,False,1.674,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_1000ms,end_turn,True,,False,631
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_1000ms,end_turn,True,,False,8293
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_1000ms,end_turn,True,,False,73
+mobile-079,mobile,10 english,Bhavna,fixed_1000ms,end_turn,False,1.209,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_1000ms,end_turn,False,1.296,True,814449
+otp-001,otp,2-2,Bhavna,fixed_1000ms,end_turn,False,1.137,True,4437
+otp-002,otp,6,Deepak,fixed_1000ms,end_turn,False,1.175,True,332493
+otp-003,otp,4,Bhavna,fixed_1000ms,end_turn,False,2.076,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_1000ms,end_turn,True,,False,1701
+otp-005,otp,2-2,Bhavna,fixed_1000ms,end_turn,False,2.602,True,0431
+otp-006,otp,3-3,Omkar,fixed_1000ms,end_turn,False,2.139,True,993158
+otp-007,otp,2-2,Deepak,fixed_1000ms,end_turn,True,,False,94
+otp-008,otp,6,Bhavna,fixed_1000ms,end_turn,False,1.22,True,305520
+otp-009,otp,4,Nalini,fixed_1000ms,end_turn,False,1.581,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_1000ms,end_turn,False,1.58,True,565294
+otp-011,otp,2-2,Nalini,fixed_1000ms,end_turn,True,,False,78
+otp-012,otp,3-3,Deepak,fixed_1000ms,end_turn,True,,False,682
+otp-013,otp,2-2,Deepak,fixed_1000ms,end_turn,False,1.428,True,6446
+otp-014,otp,6,Bhavna,fixed_1000ms,end_turn,False,1.471,True,956605
+otp-015,otp,4,Omkar,fixed_1000ms,end_turn,False,1.37,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_1000ms,end_turn,True,,False,2611
+otp-017,otp,2-2,Omkar,fixed_1000ms,end_turn,False,1.161,True,2008
+otp-018,otp,3-3,Deepak,fixed_1000ms,end_turn,False,1.157,True,199582
+otp-019,otp,2-2,Nalini,fixed_1000ms,end_turn,False,1.141,True,4282
+otp-020,otp,6,Omkar,fixed_1000ms,end_turn,False,1.203,True,673420
+otp-021,otp,4,Nalini,fixed_1000ms,end_turn,False,1.173,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_1000ms,end_turn,True,,False,9239
+otp-023,otp,2-2,Bhavna,fixed_1000ms,end_turn,True,,False,93
+otp-024,otp,3-3,Nalini,fixed_1000ms,end_turn,False,1.311,True,651233
+otp-025,otp,2-2,Deepak,fixed_1000ms,end_turn,False,0.047,False,51
+otp-026,otp,6,Deepak,fixed_1000ms,end_turn,False,1.204,True,649366
+otp-027,otp,4,Nalini,fixed_1000ms,end_turn,False,1.172,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_1000ms,end_turn,True,,False,09
+otp-029,otp,2-2,Deepak,fixed_1000ms,end_turn,False,1.801,True,7611
+otp-030,otp,3-3,Nalini,fixed_1000ms,end_turn,False,1.588,True,651788
+otp-031,otp,2-2,Nalini,fixed_1000ms,end_turn,False,1.158,True,2158
+otp-032,otp,6,Nalini,fixed_1000ms,end_turn,False,1.232,True,862019
+otp-033,otp,4,Bhavna,fixed_1000ms,end_turn,False,1.183,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_1000ms,end_turn,True,,False,3159
+otp-035,otp,2-2,Bhavna,fixed_1000ms,end_turn,True,,False,72
+otp-036,otp,3-3,Nalini,fixed_1000ms,end_turn,False,1.194,True,949835
+otp-037,otp,2-2,Deepak,fixed_1000ms,end_turn,False,1.13,True,3262
+otp-038,otp,6,Deepak,fixed_1000ms,end_turn,False,1.162,True,624180
+otp-039,otp,4,Nalini,fixed_1000ms,end_turn,False,1.14,True,7889
+amount-000,amount,special no unit,Deepak,fixed_1500ms,end_turn,False,1.69,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_1500ms,end_turn,False,1.726,True,9700
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.731,True,7600
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_1500ms,end_turn,False,1.728,True,625000
+amount-004,amount,special with unit,Bhavna,fixed_1500ms,end_turn,False,1.685,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_1500ms,end_turn,False,1.658,True,3100
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_1500ms,end_turn,False,1.996,True,5600
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_1500ms,end_turn,False,1.788,True,420000
+amount-008,amount,special with unit,Omkar,fixed_1500ms,end_turn,False,1.713,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.726,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_1500ms,end_turn,False,1.749,True,8400
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_1500ms,end_turn,False,1.683,True,110000
+amount-012,amount,special with unit,Deepak,fixed_1500ms,end_turn,False,1.726,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,2.123,True,2900
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.698,True,7500
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_1500ms,end_turn,False,1.675,True,425000
+amount-016,amount,special with unit,Bhavna,fixed_1500ms,end_turn,False,1.666,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.851,True,3100
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.697,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_1500ms,end_turn,False,1.679,True,550000
+amount-020,amount,special no unit,Nalini,fixed_1500ms,end_turn,False,1.919,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_1500ms,end_turn,False,1.718,True,15900
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.731,True,12900
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_1500ms,end_turn,False,1.702,True,310000
+amount-024,amount,special with unit,Nalini,fixed_1500ms,end_turn,False,1.706,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_1500ms,end_turn,False,1.709,True,7300
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.691,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_1500ms,end_turn,False,1.719,True,350000
+amount-028,amount,special with unit,Bhavna,fixed_1500ms,end_turn,False,1.703,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_1500ms,end_turn,False,1.714,True,9500
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_1500ms,end_turn,False,1.698,True,15100
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_1500ms,end_turn,False,1.725,True,750000
+amount-032,amount,special with unit,Omkar,fixed_1500ms,end_turn,False,1.709,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_1500ms,end_turn,False,1.664,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_1500ms,end_turn,False,1.659,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_1500ms,end_turn,False,1.64,True,510000
+amount-036,amount,special with unit,Deepak,fixed_1500ms,end_turn,False,1.696,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_1500ms,end_turn,False,1.692,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_1500ms,end_turn,False,1.694,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_1500ms,end_turn,False,1.723,True,325000
+amount-040,amount,special no unit,Deepak,fixed_1500ms,end_turn,False,1.672,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_1500ms,end_turn,False,1.718,True,12400
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_1500ms,end_turn,False,1.719,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_1500ms,end_turn,False,1.734,True,720000
+amount-044,amount,special with unit,Bhavna,fixed_1500ms,end_turn,False,1.67,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_1500ms,end_turn,False,1.719,True,7200
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_1500ms,end_turn,False,1.706,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_1500ms,end_turn,False,1.736,True,220000
+date-000,date,one group,Nalini,fixed_1500ms,end_turn,False,1.709,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_1500ms,end_turn,False,1.706,True,02-03
+date-002,date,day | month,Deepak,fixed_1500ms,end_turn,False,1.606,True,24-01
+date-003,date,day | month,Omkar,fixed_1500ms,end_turn,False,1.632,True,07-09
+date-004,date,one group,Bhavna,fixed_1500ms,end_turn,False,1.721,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_1500ms,end_turn,False,1.685,True,07-02
+date-006,date,day | month,Deepak,fixed_1500ms,end_turn,False,1.72,True,28-11
+date-007,date,day | month,Nalini,fixed_1500ms,end_turn,False,1.696,True,16-02
+date-008,date,one group,Bhavna,fixed_1500ms,end_turn,False,1.748,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_1500ms,end_turn,False,1.681,True,10-06
+date-010,date,day | month,Deepak,fixed_1500ms,end_turn,False,1.626,True,09-01
+date-011,date,day | month,Deepak,fixed_1500ms,end_turn,False,1.665,True,10-01
+date-012,date,one group,Omkar,fixed_1500ms,end_turn,False,1.676,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_1500ms,end_turn,False,1.709,False,28
+date-014,date,day | month,Omkar,fixed_1500ms,end_turn,False,1.766,True,26-07
+date-015,date,day | month,Omkar,fixed_1500ms,end_turn,False,1.706,True,17-02
+date-016,date,one group,Bhavna,fixed_1500ms,end_turn,False,1.737,True,23-01
+date-017,date,day tareekh | month,Deepak,fixed_1500ms,end_turn,False,1.697,True,23-02
+date-018,date,day | month,Bhavna,fixed_1500ms,end_turn,False,1.707,True,06-07
+date-019,date,day | month,Deepak,fixed_1500ms,end_turn,False,1.615,True,10-01
+date-020,date,one group,Omkar,fixed_1500ms,end_turn,False,1.716,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_1500ms,end_turn,False,1.721,True,23-03
+date-022,date,day | month,Bhavna,fixed_1500ms,end_turn,False,1.734,True,27-09
+date-023,date,day | month,Omkar,fixed_1500ms,end_turn,False,1.684,True,10-04
+date-024,date,one group,Nalini,fixed_1500ms,end_turn,False,1.683,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_1500ms,end_turn,False,1.653,True,16-12
+date-026,date,day | month,Nalini,fixed_1500ms,end_turn,False,1.688,True,21-06
+date-027,date,day | month,Omkar,fixed_1500ms,end_turn,False,1.701,True,13-07
+date-028,date,one group,Deepak,fixed_1500ms,end_turn,False,1.695,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_1500ms,end_turn,False,2.086,True,07-05
+date-030,date,day | month,Omkar,fixed_1500ms,end_turn,False,2.113,True,18-09
+date-031,date,day | month,Bhavna,fixed_1500ms,end_turn,False,2.534,True,21-04
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_1500ms,end_turn,False,1.766,True,8260181590
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_1500ms,end_turn,False,1.749,True,6166131860
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.728,True,6996030824
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_1500ms,end_turn,False,1.766,True,8821993518
+mobile-004,mobile,10 hindi,Bhavna,fixed_1500ms,end_turn,False,1.745,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,fixed_1500ms,end_turn,False,1.694,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.698,True,9252760189
+mobile-007,mobile,4-3-3 english,Deepak,fixed_1500ms,end_turn,False,1.729,True,9971147104
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_1500ms,end_turn,False,1.754,True,9507529170
+mobile-009,mobile,10 hindi,Deepak,fixed_1500ms,end_turn,False,1.737,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_1500ms,end_turn,False,1.707,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,fixed_1500ms,end_turn,False,1.744,True,7440268599
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_1500ms,end_turn,False,1.761,True,9866661760
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_1500ms,end_turn,False,1.735,True,9215901092
+mobile-014,mobile,10 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.725,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_1500ms,end_turn,False,1.708,True,6777741215
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_1500ms,end_turn,False,1.712,True,7803852808
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_1500ms,end_turn,False,1.727,True,8253888539
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.75,True,7387500474
+mobile-019,mobile,10 english,Nalini,fixed_1500ms,end_turn,False,1.694,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_1500ms,end_turn,False,1.701,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_1500ms,end_turn,False,1.656,True,9612220297
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_1500ms,end_turn,False,2.122,True,8288200182
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_1500ms,end_turn,False,1.602,True,6434839548
+mobile-024,mobile,10 hindi,Nalini,fixed_1500ms,end_turn,False,1.753,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_1500ms,end_turn,False,1.761,True,7227918058
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.729,True,6803340187
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_1500ms,end_turn,False,1.736,True,9598983478
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_1500ms,end_turn,False,1.759,True,8837261675
+mobile-029,mobile,10 hindi,Omkar,fixed_1500ms,end_turn,False,1.574,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.741,True,9232686563
+mobile-031,mobile,3-3-4 english,Deepak,fixed_1500ms,end_turn,False,1.767,True,6505877065
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_1500ms,end_turn,False,1.741,True,6131144024
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_1500ms,end_turn,False,1.77,True,9288975140
+mobile-034,mobile,10 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.757,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_1500ms,end_turn,False,1.734,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_1500ms,end_turn,False,1.759,True,7448347824
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_1500ms,end_turn,False,1.752,True,6008838737
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.755,True,9843353265
+mobile-039,mobile,10 english,Nalini,fixed_1500ms,end_turn,False,1.776,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_1500ms,end_turn,False,1.732,True,9224704558
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_1500ms,end_turn,False,1.793,True,6435205617
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.764,True,7801412690
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_1500ms,end_turn,False,1.77,True,8319829657
+mobile-044,mobile,10 hindi,Nalini,fixed_1500ms,end_turn,False,1.758,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_1500ms,end_turn,False,1.814,True,6251678008
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.887,True,8071881817
+mobile-047,mobile,4-3-3 english,Nalini,fixed_1500ms,end_turn,False,1.788,True,7337761740
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_1500ms,end_turn,False,1.808,True,7544992070
+mobile-049,mobile,10 hindi,Nalini,fixed_1500ms,end_turn,False,1.759,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.748,True,9047187463
+mobile-051,mobile,3-3-4 english,Omkar,fixed_1500ms,end_turn,False,2.626,True,6284529841
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_1500ms,end_turn,False,1.735,True,9602077642
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_1500ms,end_turn,False,1.687,True,8150556130
+mobile-054,mobile,10 hindi_double,Deepak,fixed_1500ms,end_turn,False,1.742,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_1500ms,end_turn,False,1.758,True,7346853560
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_1500ms,end_turn,False,1.722,True,6067924708
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_1500ms,end_turn,False,1.726,True,9544446347
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_1500ms,end_turn,False,1.784,True,7213878375
+mobile-059,mobile,10 english,Bhavna,fixed_1500ms,end_turn,False,1.796,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_1500ms,end_turn,False,1.816,True,6666836450
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_1500ms,end_turn,False,1.768,True,8288314366
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_1500ms,end_turn,False,1.788,True,6206797016
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_1500ms,end_turn,False,1.804,True,7132281718
+mobile-064,mobile,10 hindi,Bhavna,fixed_1500ms,end_turn,False,1.803,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_1500ms,end_turn,False,1.774,True,9439008474
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_1500ms,end_turn,False,2.206,True,9838306400
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_1500ms,end_turn,False,1.728,True,6436537056
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_1500ms,end_turn,False,1.742,False,6481373493
+mobile-069,mobile,10 hindi,Nalini,fixed_1500ms,end_turn,False,1.714,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.697,True,7092600267
+mobile-071,mobile,3-3-4 english,Omkar,fixed_1500ms,end_turn,False,1.752,True,6253287046
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_1500ms,end_turn,False,1.726,True,7101415618
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_1500ms,end_turn,False,1.732,True,8610735873
+mobile-074,mobile,10 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.706,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_1500ms,end_turn,False,1.782,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_1500ms,end_turn,False,1.777,True,6317764672
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_1500ms,end_turn,False,1.79,True,8293557591
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_1500ms,end_turn,False,1.824,True,7361078852
+mobile-079,mobile,10 english,Bhavna,fixed_1500ms,end_turn,False,1.767,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_1500ms,end_turn,False,1.733,True,814449
+otp-001,otp,2-2,Bhavna,fixed_1500ms,end_turn,False,1.719,True,4437
+otp-002,otp,6,Deepak,fixed_1500ms,end_turn,False,1.726,True,332493
+otp-003,otp,4,Bhavna,fixed_1500ms,end_turn,False,1.685,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_1500ms,end_turn,False,1.735,True,170107
+otp-005,otp,2-2,Bhavna,fixed_1500ms,end_turn,False,1.706,True,0431
+otp-006,otp,3-3,Omkar,fixed_1500ms,end_turn,False,1.679,True,993158
+otp-007,otp,2-2,Deepak,fixed_1500ms,end_turn,False,1.641,True,9401
+otp-008,otp,6,Bhavna,fixed_1500ms,end_turn,False,1.758,True,305520
+otp-009,otp,4,Nalini,fixed_1500ms,end_turn,False,1.632,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_1500ms,end_turn,False,1.706,True,565294
+otp-011,otp,2-2,Nalini,fixed_1500ms,end_turn,False,1.68,True,7871
+otp-012,otp,3-3,Deepak,fixed_1500ms,end_turn,False,1.757,True,682812
+otp-013,otp,2-2,Deepak,fixed_1500ms,end_turn,False,1.692,True,6446
+otp-014,otp,6,Bhavna,fixed_1500ms,end_turn,False,1.689,True,956605
+otp-015,otp,4,Omkar,fixed_1500ms,end_turn,False,1.725,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_1500ms,end_turn,False,1.748,True,261169
+otp-017,otp,2-2,Omkar,fixed_1500ms,end_turn,False,1.964,True,2008
+otp-018,otp,3-3,Deepak,fixed_1500ms,end_turn,False,2.026,True,199582
+otp-019,otp,2-2,Nalini,fixed_1500ms,end_turn,False,1.689,True,4282
+otp-020,otp,6,Omkar,fixed_1500ms,end_turn,False,1.765,True,673420
+otp-021,otp,4,Nalini,fixed_1500ms,end_turn,False,1.718,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_1500ms,end_turn,False,1.707,True,923969
+otp-023,otp,2-2,Bhavna,fixed_1500ms,end_turn,False,1.722,True,9306
+otp-024,otp,3-3,Nalini,fixed_1500ms,end_turn,False,1.759,True,651233
+otp-025,otp,2-2,Deepak,fixed_1500ms,end_turn,False,1.691,True,5169
+otp-026,otp,6,Deepak,fixed_1500ms,end_turn,False,1.728,True,649366
+otp-027,otp,4,Nalini,fixed_1500ms,end_turn,False,1.702,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_1500ms,end_turn,False,1.72,True,097737
+otp-029,otp,2-2,Deepak,fixed_1500ms,end_turn,False,1.724,True,7611
+otp-030,otp,3-3,Nalini,fixed_1500ms,end_turn,False,1.697,True,651788
+otp-031,otp,2-2,Nalini,fixed_1500ms,end_turn,False,1.688,True,2158
+otp-032,otp,6,Nalini,fixed_1500ms,end_turn,False,1.736,True,862019
+otp-033,otp,4,Bhavna,fixed_1500ms,end_turn,False,1.693,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_1500ms,end_turn,False,1.72,True,315942
+otp-035,otp,2-2,Bhavna,fixed_1500ms,end_turn,False,1.702,True,7248
+otp-036,otp,3-3,Nalini,fixed_1500ms,end_turn,False,1.731,True,949835
+otp-037,otp,2-2,Deepak,fixed_1500ms,end_turn,False,1.685,True,3262
+otp-038,otp,6,Deepak,fixed_1500ms,end_turn,False,1.73,True,624180
+otp-039,otp,4,Nalini,fixed_1500ms,end_turn,False,1.685,True,7889
+amount-000,amount,special no unit,Deepak,fixed_2000ms,end_turn,False,2.184,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,fixed_2000ms,end_turn,False,2.234,True,9700
+amount-002,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.237,True,7600
+amount-003,amount,lakh+hazaar with unit,Omkar,fixed_2000ms,end_turn,False,2.236,True,625000
+amount-004,amount,special with unit,Bhavna,fixed_2000ms,end_turn,False,2.296,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,fixed_2000ms,end_turn,False,2.16,True,3100
+amount-006,amount,hazaar+sau with unit,Nalini,fixed_2000ms,end_turn,False,2.23,True,5600
+amount-007,amount,lakh+hazaar with unit,Omkar,fixed_2000ms,end_turn,False,2.245,True,420000
+amount-008,amount,special with unit,Omkar,fixed_2000ms,end_turn,False,2.257,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.262,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,fixed_2000ms,end_turn,False,2.251,True,8400
+amount-011,amount,lakh+hazaar with unit,Deepak,fixed_2000ms,end_turn,False,2.192,True,110000
+amount-012,amount,special with unit,Deepak,fixed_2000ms,end_turn,False,2.215,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.235,True,2900
+amount-014,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.254,True,7500
+amount-015,amount,lakh+hazaar no unit,Omkar,fixed_2000ms,end_turn,False,2.216,True,425000
+amount-016,amount,special with unit,Bhavna,fixed_2000ms,end_turn,False,2.191,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,6.598,True,3100
+amount-018,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,3.285,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,fixed_2000ms,end_turn,False,2.969,True,550000
+amount-020,amount,special no unit,Nalini,fixed_2000ms,end_turn,False,6.062,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,fixed_2000ms,end_turn,False,2.629,True,15900
+amount-022,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.607,True,12900
+amount-023,amount,lakh+hazaar with unit,Nalini,fixed_2000ms,end_turn,False,2.644,True,310000
+amount-024,amount,special with unit,Nalini,fixed_2000ms,end_turn,False,2.187,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,fixed_2000ms,end_turn,False,2.178,True,7300
+amount-026,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.193,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,fixed_2000ms,end_turn,False,2.187,True,350000
+amount-028,amount,special with unit,Bhavna,fixed_2000ms,end_turn,False,2.168,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,fixed_2000ms,end_turn,False,2.207,True,9500
+amount-030,amount,hazaar+sau no unit,Nalini,fixed_2000ms,end_turn,False,2.175,True,15100
+amount-031,amount,lakh+hazaar with unit,Nalini,fixed_2000ms,end_turn,False,2.197,True,750000
+amount-032,amount,special with unit,Omkar,fixed_2000ms,end_turn,False,2.204,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,fixed_2000ms,end_turn,False,2.174,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,fixed_2000ms,end_turn,False,2.17,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,fixed_2000ms,end_turn,False,2.163,True,510000
+amount-036,amount,special with unit,Deepak,fixed_2000ms,end_turn,False,2.177,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,fixed_2000ms,end_turn,False,2.588,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,fixed_2000ms,end_turn,False,2.186,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,fixed_2000ms,end_turn,False,2.217,True,325000
+amount-040,amount,special no unit,Deepak,fixed_2000ms,end_turn,False,2.134,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,fixed_2000ms,end_turn,False,2.268,True,12400
+amount-042,amount,hazaar+sau with unit,Nalini,fixed_2000ms,end_turn,False,2.217,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,fixed_2000ms,end_turn,False,2.204,True,720000
+amount-044,amount,special with unit,Bhavna,fixed_2000ms,end_turn,False,2.144,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,fixed_2000ms,end_turn,False,2.605,True,7200
+amount-046,amount,hazaar+sau with unit,Nalini,fixed_2000ms,end_turn,False,2.584,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,fixed_2000ms,end_turn,False,2.221,True,220000
+date-000,date,one group,Nalini,fixed_2000ms,end_turn,False,2.178,True,23-01
+date-001,date,day tareekh | month,Nalini,fixed_2000ms,end_turn,False,2.196,True,02-03
+date-002,date,day | month,Deepak,fixed_2000ms,end_turn,False,2.089,True,24-01
+date-003,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.161,True,07-09
+date-004,date,one group,Bhavna,fixed_2000ms,end_turn,False,2.174,True,04-04
+date-005,date,day tareekh | month,Nalini,fixed_2000ms,end_turn,False,2.173,True,07-02
+date-006,date,day | month,Deepak,fixed_2000ms,end_turn,False,2.189,True,28-11
+date-007,date,day | month,Nalini,fixed_2000ms,end_turn,False,2.176,True,16-02
+date-008,date,one group,Bhavna,fixed_2000ms,end_turn,False,2.248,True,26-11
+date-009,date,day tareekh | month,Omkar,fixed_2000ms,end_turn,False,2.16,True,10-06
+date-010,date,day | month,Deepak,fixed_2000ms,end_turn,False,2.117,True,09-01
+date-011,date,day | month,Deepak,fixed_2000ms,end_turn,False,2.121,True,10-01
+date-012,date,one group,Omkar,fixed_2000ms,end_turn,False,2.151,True,25-10
+date-013,date,day tareekh | month,Nalini,fixed_2000ms,end_turn,False,2.205,False,28
+date-014,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.21,True,26-07
+date-015,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.179,True,17-02
+date-016,date,one group,Bhavna,fixed_2000ms,end_turn,False,2.173,True,23-01
+date-017,date,day tareekh | month,Deepak,fixed_2000ms,end_turn,False,2.186,True,23-02
+date-018,date,day | month,Bhavna,fixed_2000ms,end_turn,False,2.185,True,06-07
+date-019,date,day | month,Deepak,fixed_2000ms,end_turn,False,2.107,True,10-01
+date-020,date,one group,Omkar,fixed_2000ms,end_turn,False,2.21,True,16-02
+date-021,date,day tareekh | month,Deepak,fixed_2000ms,end_turn,False,2.207,True,23-03
+date-022,date,day | month,Bhavna,fixed_2000ms,end_turn,False,2.2,True,27-09
+date-023,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.2,True,10-04
+date-024,date,one group,Nalini,fixed_2000ms,end_turn,False,2.159,True,06-02
+date-025,date,day tareekh | month,Nalini,fixed_2000ms,end_turn,False,2.148,True,16-12
+date-026,date,day | month,Nalini,fixed_2000ms,end_turn,False,2.159,True,21-06
+date-027,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.171,True,13-07
+date-028,date,one group,Deepak,fixed_2000ms,end_turn,False,2.185,True,21-01
+date-029,date,day tareekh | month,Omkar,fixed_2000ms,end_turn,False,2.175,True,07-05
+date-030,date,day | month,Omkar,fixed_2000ms,end_turn,False,2.204,True,18-09
+date-031,date,day | month,Bhavna,fixed_2000ms,end_turn,False,2.174,True,21-04
+mobile-000,mobile,5-5 hindi,Bhavna,fixed_2000ms,end_turn,False,2.276,True,8260181590
+mobile-001,mobile,3-3-4 hindi,Bhavna,fixed_2000ms,end_turn,False,2.253,True,6166131860
+mobile-002,mobile,4-3-3 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.235,True,6996030824
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,fixed_2000ms,end_turn,False,2.254,True,8821993518
+mobile-004,mobile,10 hindi,Bhavna,fixed_2000ms,end_turn,False,2.259,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,fixed_2000ms,end_turn,False,2.193,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.19,True,9252760189
+mobile-007,mobile,4-3-3 english,Deepak,fixed_2000ms,end_turn,False,2.226,True,9971147104
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,fixed_2000ms,end_turn,False,2.271,True,9507529170
+mobile-009,mobile,10 hindi,Deepak,fixed_2000ms,end_turn,False,2.254,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,fixed_2000ms,end_turn,False,2.198,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,fixed_2000ms,end_turn,False,2.235,True,7440268599
+mobile-012,mobile,4-3-3 hindi,Bhavna,fixed_2000ms,end_turn,False,2.277,True,9866661760
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,fixed_2000ms,end_turn,False,2.23,True,9215901092
+mobile-014,mobile,10 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.228,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,fixed_2000ms,end_turn,False,2.232,True,6777741215
+mobile-016,mobile,3-3-4 hindi,Deepak,fixed_2000ms,end_turn,False,2.22,True,7803852808
+mobile-017,mobile,4-3-3 hindi,Omkar,fixed_2000ms,end_turn,False,2.246,True,8253888539
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.254,True,7387500474
+mobile-019,mobile,10 english,Nalini,fixed_2000ms,end_turn,False,2.219,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,fixed_2000ms,end_turn,False,2.216,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,fixed_2000ms,end_turn,False,2.162,True,9612220297
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,fixed_2000ms,end_turn,False,2.226,True,8288200182
+mobile-023,mobile,2-2-2-2-2 english,Omkar,fixed_2000ms,end_turn,False,3.46,True,6434839548
+mobile-024,mobile,10 hindi,Nalini,fixed_2000ms,end_turn,False,2.263,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,fixed_2000ms,end_turn,False,2.219,True,7227918058
+mobile-026,mobile,3-3-4 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.237,True,6803340187
+mobile-027,mobile,4-3-3 english,Bhavna,fixed_2000ms,end_turn,False,2.283,True,9598983478
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,fixed_2000ms,end_turn,False,2.271,True,8837261675
+mobile-029,mobile,10 hindi,Omkar,fixed_2000ms,end_turn,False,2.091,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.227,True,9232686563
+mobile-031,mobile,3-3-4 english,Deepak,fixed_2000ms,end_turn,False,2.206,True,6505877065
+mobile-032,mobile,4-3-3 hindi,Deepak,fixed_2000ms,end_turn,False,2.207,True,6131144024
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,fixed_2000ms,end_turn,False,2.235,True,9288975140
+mobile-034,mobile,10 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.238,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,fixed_2000ms,end_turn,False,2.263,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,fixed_2000ms,end_turn,False,2.214,True,7448347824
+mobile-037,mobile,4-3-3 hindi,Omkar,fixed_2000ms,end_turn,False,2.204,True,6008838737
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.224,True,9843353265
+mobile-039,mobile,10 english,Nalini,fixed_2000ms,end_turn,False,2.261,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,fixed_2000ms,end_turn,False,2.208,True,9224704558
+mobile-041,mobile,3-3-4 hindi,Bhavna,fixed_2000ms,end_turn,False,2.26,True,6435205617
+mobile-042,mobile,4-3-3 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.277,True,7801412690
+mobile-043,mobile,2-2-2-2-2 english,Nalini,fixed_2000ms,end_turn,False,2.25,True,8319829657
+mobile-044,mobile,10 hindi,Nalini,fixed_2000ms,end_turn,False,2.235,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,fixed_2000ms,end_turn,False,2.25,True,6251678008
+mobile-046,mobile,3-3-4 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.216,True,8071881817
+mobile-047,mobile,4-3-3 english,Nalini,fixed_2000ms,end_turn,False,2.264,True,7337761740
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,fixed_2000ms,end_turn,False,2.27,True,7544992070
+mobile-049,mobile,10 hindi,Nalini,fixed_2000ms,end_turn,False,2.239,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.254,True,9047187463
+mobile-051,mobile,3-3-4 english,Omkar,fixed_2000ms,end_turn,False,2.202,True,6284529841
+mobile-052,mobile,4-3-3 hindi,Omkar,fixed_2000ms,end_turn,False,2.251,True,9602077642
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,fixed_2000ms,end_turn,False,2.208,True,8150556130
+mobile-054,mobile,10 hindi_double,Deepak,fixed_2000ms,end_turn,False,2.258,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,fixed_2000ms,end_turn,False,2.281,True,7346853560
+mobile-056,mobile,3-3-4 hindi,Omkar,fixed_2000ms,end_turn,False,2.227,True,6067924708
+mobile-057,mobile,4-3-3 hindi,Nalini,fixed_2000ms,end_turn,False,2.379,True,9544446347
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,fixed_2000ms,end_turn,False,2.311,True,7213878375
+mobile-059,mobile,10 english,Bhavna,fixed_2000ms,end_turn,False,2.268,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,fixed_2000ms,end_turn,False,2.3,True,6666836450
+mobile-061,mobile,3-3-4 hindi,Deepak,fixed_2000ms,end_turn,False,2.24,True,8288314366
+mobile-062,mobile,4-3-3 hindi_double,Omkar,fixed_2000ms,end_turn,False,2.235,True,6206797016
+mobile-063,mobile,2-2-2-2-2 english,Nalini,fixed_2000ms,end_turn,False,2.249,True,7132281718
+mobile-064,mobile,10 hindi,Bhavna,fixed_2000ms,end_turn,False,2.264,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,fixed_2000ms,end_turn,False,2.248,True,9439008474
+mobile-066,mobile,3-3-4 hindi_double,Omkar,fixed_2000ms,end_turn,False,2.282,True,9838306400
+mobile-067,mobile,4-3-3 english,Bhavna,fixed_2000ms,end_turn,False,2.251,True,6436537056
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,fixed_2000ms,end_turn,False,2.247,False,6481373493
+mobile-069,mobile,10 hindi,Nalini,fixed_2000ms,end_turn,False,2.233,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.208,True,7092600267
+mobile-071,mobile,3-3-4 english,Omkar,fixed_2000ms,end_turn,False,2.268,True,6253287046
+mobile-072,mobile,4-3-3 hindi,Deepak,fixed_2000ms,end_turn,False,2.242,True,7101415618
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,fixed_2000ms,end_turn,False,2.243,True,8610735873
+mobile-074,mobile,10 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.206,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,fixed_2000ms,end_turn,False,2.31,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,fixed_2000ms,end_turn,False,2.271,True,6317764672
+mobile-077,mobile,4-3-3 hindi,Omkar,fixed_2000ms,end_turn,False,2.278,True,8293557591
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,fixed_2000ms,end_turn,False,2.726,True,7361078852
+mobile-079,mobile,10 english,Bhavna,fixed_2000ms,end_turn,False,2.237,True,7167723267
+otp-000,otp,3-3,Deepak,fixed_2000ms,end_turn,False,2.209,True,814449
+otp-001,otp,2-2,Bhavna,fixed_2000ms,end_turn,False,2.187,True,4437
+otp-002,otp,6,Deepak,fixed_2000ms,end_turn,False,2.204,True,332493
+otp-003,otp,4,Bhavna,fixed_2000ms,end_turn,False,2.155,True,1643
+otp-004,otp,2-2-2,Deepak,fixed_2000ms,end_turn,False,2.215,True,170107
+otp-005,otp,2-2,Bhavna,fixed_2000ms,end_turn,False,2.169,True,0431
+otp-006,otp,3-3,Omkar,fixed_2000ms,end_turn,False,2.167,True,993158
+otp-007,otp,2-2,Deepak,fixed_2000ms,end_turn,False,2.149,True,9401
+otp-008,otp,6,Bhavna,fixed_2000ms,end_turn,False,2.226,True,305520
+otp-009,otp,4,Nalini,fixed_2000ms,end_turn,False,2.141,True,4093
+otp-010,otp,2-2-2,Nalini,fixed_2000ms,end_turn,False,2.195,True,565294
+otp-011,otp,2-2,Nalini,fixed_2000ms,end_turn,False,2.172,True,7871
+otp-012,otp,3-3,Deepak,fixed_2000ms,end_turn,False,2.202,True,682812
+otp-013,otp,2-2,Deepak,fixed_2000ms,end_turn,False,2.205,True,6446
+otp-014,otp,6,Bhavna,fixed_2000ms,end_turn,False,2.223,True,956605
+otp-015,otp,4,Omkar,fixed_2000ms,end_turn,False,2.183,True,6630
+otp-016,otp,2-2-2,Bhavna,fixed_2000ms,end_turn,False,2.249,True,261169
+otp-017,otp,2-2,Omkar,fixed_2000ms,end_turn,False,2.168,True,2008
+otp-018,otp,3-3,Deepak,fixed_2000ms,end_turn,False,2.198,True,199582
+otp-019,otp,2-2,Nalini,fixed_2000ms,end_turn,False,2.187,True,4282
+otp-020,otp,6,Omkar,fixed_2000ms,end_turn,False,2.232,True,673420
+otp-021,otp,4,Nalini,fixed_2000ms,end_turn,False,2.184,True,5096
+otp-022,otp,2-2-2,Bhavna,fixed_2000ms,end_turn,False,2.192,True,923969
+otp-023,otp,2-2,Bhavna,fixed_2000ms,end_turn,False,2.196,True,9306
+otp-024,otp,3-3,Nalini,fixed_2000ms,end_turn,False,2.234,True,651233
+otp-025,otp,2-2,Deepak,fixed_2000ms,end_turn,False,2.223,True,5169
+otp-026,otp,6,Deepak,fixed_2000ms,end_turn,False,2.212,True,649366
+otp-027,otp,4,Nalini,fixed_2000ms,end_turn,False,2.201,True,7872
+otp-028,otp,2-2-2,Bhavna,fixed_2000ms,end_turn,False,2.284,True,097737
+otp-029,otp,2-2,Deepak,fixed_2000ms,end_turn,False,2.236,True,7611
+otp-030,otp,3-3,Nalini,fixed_2000ms,end_turn,False,2.33,True,651788
+otp-031,otp,2-2,Nalini,fixed_2000ms,end_turn,False,2.179,True,2158
+otp-032,otp,6,Nalini,fixed_2000ms,end_turn,False,2.654,True,862019
+otp-033,otp,4,Bhavna,fixed_2000ms,end_turn,False,2.195,True,3274
+otp-034,otp,2-2-2,Deepak,fixed_2000ms,end_turn,False,2.19,True,315942
+otp-035,otp,2-2,Bhavna,fixed_2000ms,end_turn,False,2.178,True,7248
+otp-036,otp,3-3,Nalini,fixed_2000ms,end_turn,False,2.221,True,949835
+otp-037,otp,2-2,Deepak,fixed_2000ms,end_turn,False,2.155,True,3262
+otp-038,otp,6,Deepak,fixed_2000ms,end_turn,False,2.18,True,624180
+otp-039,otp,4,Nalini,fixed_2000ms,end_turn,False,2.163,True,7889
+amount-000,amount,special no unit,Deepak,smart_turn,end_turn,False,0.364,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,smart_turn,end_turn,True,,False,9000
+amount-002,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,7000
+amount-003,amount,lakh+hazaar with unit,Omkar,smart_turn,end_turn,True,,False,600000
+amount-004,amount,special with unit,Bhavna,smart_turn,end_turn,False,0.379,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,smart_turn,end_turn,True,,False,3000
+amount-006,amount,hazaar+sau with unit,Nalini,smart_turn,end_turn,True,,False,5000
+amount-007,amount,lakh+hazaar with unit,Omkar,smart_turn,end_turn,True,,False,400000
+amount-008,amount,special with unit,Omkar,smart_turn,end_turn,False,3.222,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,9000
+amount-010,amount,hazaar+sau no unit,Nalini,smart_turn,end_turn,True,,False,8000
+amount-011,amount,lakh+hazaar with unit,Deepak,smart_turn,end_turn,True,,False,100000
+amount-012,amount,special with unit,Deepak,smart_turn,end_turn,False,0.531,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,False,3.249,True,2900
+amount-014,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,7000
+amount-015,amount,lakh+hazaar no unit,Omkar,smart_turn,end_turn,True,,False,400000
+amount-016,amount,special with unit,Bhavna,smart_turn,end_turn,False,0.52,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,3000
+amount-018,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,8000
+amount-019,amount,lakh+hazaar with unit,Nalini,smart_turn,end_turn,True,,False,500000
+amount-020,amount,special no unit,Nalini,smart_turn,end_turn,False,3.169,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,smart_turn,end_turn,True,,False,15000
+amount-022,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,12000
+amount-023,amount,lakh+hazaar with unit,Nalini,smart_turn,end_turn,False,0.448,True,310000
+amount-024,amount,special with unit,Nalini,smart_turn,end_turn,False,0.439,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,smart_turn,end_turn,True,,False,7000
+amount-026,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,True,,False,1000
+amount-027,amount,lakh+hazaar with unit,Omkar,smart_turn,end_turn,False,0.412,True,350000
+amount-028,amount,special with unit,Bhavna,smart_turn,end_turn,False,0.409,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,smart_turn,end_turn,True,,False,9000
+amount-030,amount,hazaar+sau no unit,Nalini,smart_turn,end_turn,True,,False,15000
+amount-031,amount,lakh+hazaar with unit,Nalini,smart_turn,end_turn,True,,False,700000
+amount-032,amount,special with unit,Omkar,smart_turn,end_turn,False,3.182,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,smart_turn,end_turn,True,,False,3000
+amount-034,amount,hazaar+sau with unit,Deepak,smart_turn,end_turn,True,,False,4000
+amount-035,amount,lakh+hazaar no unit,Omkar,smart_turn,end_turn,True,,False,500000
+amount-036,amount,special with unit,Deepak,smart_turn,end_turn,False,0.421,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,smart_turn,end_turn,False,2.27,False,5000
+amount-038,amount,hazaar+sau with unit,Bhavna,smart_turn,end_turn,False,3.181,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,smart_turn,end_turn,True,,False,300000
+amount-040,amount,special no unit,Deepak,smart_turn,end_turn,False,0.357,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,smart_turn,end_turn,True,,False,12000
+amount-042,amount,hazaar+sau with unit,Nalini,smart_turn,end_turn,True,,False,8000
+amount-043,amount,lakh+hazaar with unit,Deepak,smart_turn,end_turn,False,0.451,True,720000
+amount-044,amount,special with unit,Bhavna,smart_turn,end_turn,False,0.367,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,smart_turn,end_turn,True,,False,7000
+amount-046,amount,hazaar+sau with unit,Nalini,smart_turn,end_turn,True,,False,3000
+amount-047,amount,lakh+hazaar with unit,Bhavna,smart_turn,end_turn,False,3.216,True,220000
+date-000,date,one group,Nalini,smart_turn,end_turn,False,0.396,True,23-01
+date-001,date,day tareekh | month,Nalini,smart_turn,end_turn,True,,False,02
+date-002,date,day | month,Deepak,smart_turn,end_turn,True,,False,24
+date-003,date,day | month,Omkar,smart_turn,end_turn,True,,False,07
+date-004,date,one group,Bhavna,smart_turn,end_turn,False,3.231,True,04-04
+date-005,date,day tareekh | month,Nalini,smart_turn,end_turn,True,,False,07
+date-006,date,day | month,Deepak,smart_turn,end_turn,True,,False,28
+date-007,date,day | month,Nalini,smart_turn,end_turn,True,,False,16
+date-008,date,one group,Bhavna,smart_turn,end_turn,False,3.233,True,26-11
+date-009,date,day tareekh | month,Omkar,smart_turn,end_turn,True,,False,10
+date-010,date,day | month,Deepak,smart_turn,end_turn,True,,False,09
+date-011,date,day | month,Deepak,smart_turn,end_turn,False,0.31,True,10-01
+date-012,date,one group,Omkar,smart_turn,end_turn,False,0.945,True,25-10
+date-013,date,day tareekh | month,Nalini,smart_turn,end_turn,False,3.263,False,28
+date-014,date,day | month,Omkar,smart_turn,end_turn,True,,False,26
+date-015,date,day | month,Omkar,smart_turn,end_turn,False,0.525,True,17-02
+date-016,date,one group,Bhavna,smart_turn,end_turn,False,0.399,True,23-01
+date-017,date,day tareekh | month,Deepak,smart_turn,end_turn,True,,False,23
+date-018,date,day | month,Bhavna,smart_turn,end_turn,True,,False,06
+date-019,date,day | month,Deepak,smart_turn,end_turn,False,0.301,True,10-01
+date-020,date,one group,Omkar,smart_turn,end_turn,False,0.725,True,16-02
+date-021,date,day tareekh | month,Deepak,smart_turn,end_turn,True,,False,23
+date-022,date,day | month,Bhavna,smart_turn,end_turn,True,,False,27
+date-023,date,day | month,Omkar,smart_turn,end_turn,False,0.361,True,10-04
+date-024,date,one group,Nalini,smart_turn,end_turn,False,0.397,True,06-02
+date-025,date,day tareekh | month,Nalini,smart_turn,end_turn,True,,False,16
+date-026,date,day | month,Nalini,smart_turn,end_turn,False,0.677,True,21-06
+date-027,date,day | month,Omkar,smart_turn,end_turn,True,,False,13
+date-028,date,one group,Deepak,smart_turn,end_turn,False,3.241,True,21-01
+date-029,date,day tareekh | month,Omkar,smart_turn,end_turn,False,3.193,True,07-05
+date-030,date,day | month,Omkar,smart_turn,end_turn,True,,False,18
+date-031,date,day | month,Bhavna,smart_turn,end_turn,False,3.168,True,21-04
+mobile-000,mobile,5-5 hindi,Bhavna,smart_turn,end_turn,True,,False,82601
+mobile-001,mobile,3-3-4 hindi,Bhavna,smart_turn,end_turn,True,,False,616
+mobile-002,mobile,4-3-3 hindi_double,Nalini,smart_turn,end_turn,True,,False,6996
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,smart_turn,end_turn,True,,False,8821
+mobile-004,mobile,10 hindi,Bhavna,smart_turn,end_turn,False,0.411,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,smart_turn,end_turn,False,3.447,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,smart_turn,end_turn,True,,False,
+mobile-007,mobile,4-3-3 english,Deepak,smart_turn,end_turn,True,,False,9971
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,smart_turn,end_turn,True,,False,9507
+mobile-009,mobile,10 hindi,Deepak,smart_turn,end_turn,False,3.278,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,smart_turn,end_turn,True,,False,95632
+mobile-011,mobile,3-3-4 english,Nalini,smart_turn,end_turn,True,,False,744
+mobile-012,mobile,4-3-3 hindi,Bhavna,smart_turn,end_turn,True,,False,9866
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,smart_turn,end_turn,True,,False,92
+mobile-014,mobile,10 hindi_double,Nalini,smart_turn,end_turn,False,0.471,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,smart_turn,end_turn,True,,False,
+mobile-016,mobile,3-3-4 hindi,Deepak,smart_turn,end_turn,True,,False,780385
+mobile-017,mobile,4-3-3 hindi,Omkar,smart_turn,end_turn,True,,False,8253
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,smart_turn,end_turn,True,,False,73
+mobile-019,mobile,10 english,Nalini,smart_turn,end_turn,False,0.457,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,smart_turn,end_turn,True,,False,95116
+mobile-021,mobile,3-3-4 hindi,Omkar,smart_turn,end_turn,True,,False,961222
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,smart_turn,end_turn,True,,False,8288
+mobile-023,mobile,2-2-2-2-2 english,Omkar,smart_turn,end_turn,True,,False,64
+mobile-024,mobile,10 hindi,Nalini,smart_turn,end_turn,False,0.495,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,smart_turn,end_turn,True,,False,72279
+mobile-026,mobile,3-3-4 hindi_double,Nalini,smart_turn,end_turn,False,0.383,True,6803340187
+mobile-027,mobile,4-3-3 english,Bhavna,smart_turn,end_turn,True,,False,9598
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,smart_turn,end_turn,False,3.221,True,8837261675
+mobile-029,mobile,10 hindi,Omkar,smart_turn,end_turn,False,0.262,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,smart_turn,end_turn,True,,False,92326
+mobile-031,mobile,3-3-4 english,Deepak,smart_turn,end_turn,True,,False,650
+mobile-032,mobile,4-3-3 hindi,Deepak,smart_turn,end_turn,True,,False,6131
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,smart_turn,end_turn,True,,False,92
+mobile-034,mobile,10 hindi_double,Deepak,smart_turn,end_turn,False,3.197,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,smart_turn,end_turn,True,,False,94920
+mobile-036,mobile,3-3-4 hindi,Deepak,smart_turn,end_turn,False,3.164,True,7448347824
+mobile-037,mobile,4-3-3 hindi,Omkar,smart_turn,end_turn,True,,False,6008
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,smart_turn,end_turn,True,,False,98
+mobile-039,mobile,10 english,Nalini,smart_turn,end_turn,False,0.467,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,smart_turn,end_turn,True,,False,92247
+mobile-041,mobile,3-3-4 hindi,Bhavna,smart_turn,end_turn,True,,False,643520
+mobile-042,mobile,4-3-3 hindi_double,Deepak,smart_turn,end_turn,True,,False,7801
+mobile-043,mobile,2-2-2-2-2 english,Nalini,smart_turn,end_turn,True,,False,83
+mobile-044,mobile,10 hindi,Nalini,smart_turn,end_turn,False,0.453,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,smart_turn,end_turn,True,,False,62516
+mobile-046,mobile,3-3-4 hindi_double,Deepak,smart_turn,end_turn,True,,False,807
+mobile-047,mobile,4-3-3 english,Nalini,smart_turn,end_turn,True,,False,7337
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,smart_turn,end_turn,True,,False,75
+mobile-049,mobile,10 hindi,Nalini,smart_turn,end_turn,False,0.441,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,smart_turn,end_turn,True,,False,90471
+mobile-051,mobile,3-3-4 english,Omkar,smart_turn,end_turn,True,,False,628
+mobile-052,mobile,4-3-3 hindi,Omkar,smart_turn,end_turn,True,,False,9602
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,smart_turn,end_turn,True,,False,8150
+mobile-054,mobile,10 hindi_double,Deepak,smart_turn,end_turn,False,3.308,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,smart_turn,end_turn,True,,False,73468
+mobile-056,mobile,3-3-4 hindi,Omkar,smart_turn,end_turn,True,,False,6
+mobile-057,mobile,4-3-3 hindi,Nalini,smart_turn,end_turn,True,,False,9544
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,smart_turn,end_turn,True,,False,7213
+mobile-059,mobile,10 english,Bhavna,smart_turn,end_turn,False,0.488,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,smart_turn,end_turn,True,,False,66668
+mobile-061,mobile,3-3-4 hindi,Deepak,smart_turn,end_turn,False,3.2,True,8288314366
+mobile-062,mobile,4-3-3 hindi_double,Omkar,smart_turn,end_turn,True,,False,6206
+mobile-063,mobile,2-2-2-2-2 english,Nalini,smart_turn,end_turn,True,,False,71
+mobile-064,mobile,10 hindi,Bhavna,smart_turn,end_turn,False,0.483,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,smart_turn,end_turn,True,,False,94390
+mobile-066,mobile,3-3-4 hindi_double,Omkar,smart_turn,end_turn,True,,False,983
+mobile-067,mobile,4-3-3 english,Bhavna,smart_turn,end_turn,True,,False,6436
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,smart_turn,end_turn,True,,False,64
+mobile-069,mobile,10 hindi,Nalini,smart_turn,end_turn,False,0.458,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,smart_turn,end_turn,True,,False,70926
+mobile-071,mobile,3-3-4 english,Omkar,smart_turn,end_turn,True,,False,625
+mobile-072,mobile,4-3-3 hindi,Deepak,smart_turn,end_turn,False,3.5,True,7101415618
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,smart_turn,end_turn,True,,False,86
+mobile-074,mobile,10 hindi_double,Nalini,smart_turn,end_turn,False,0.428,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,smart_turn,end_turn,True,,False,85459
+mobile-076,mobile,3-3-4 hindi,Nalini,smart_turn,end_turn,True,,False,631
+mobile-077,mobile,4-3-3 hindi,Omkar,smart_turn,end_turn,True,,False,8293
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,smart_turn,end_turn,True,,False,73
+mobile-079,mobile,10 english,Bhavna,smart_turn,end_turn,False,0.604,True,7167723267
+otp-000,otp,3-3,Deepak,smart_turn,end_turn,False,3.163,True,814449
+otp-001,otp,2-2,Bhavna,smart_turn,end_turn,True,,False,44
+otp-002,otp,6,Deepak,smart_turn,end_turn,False,0.416,True,332493
+otp-003,otp,4,Bhavna,smart_turn,end_turn,False,3.21,True,1643
+otp-004,otp,2-2-2,Deepak,smart_turn,end_turn,True,,False,
+otp-005,otp,2-2,Bhavna,smart_turn,end_turn,True,,False,04
+otp-006,otp,3-3,Omkar,smart_turn,end_turn,True,,False,993
+otp-007,otp,2-2,Deepak,smart_turn,end_turn,True,,False,94
+otp-008,otp,6,Bhavna,smart_turn,end_turn,False,0.456,True,305520
+otp-009,otp,4,Nalini,smart_turn,end_turn,False,0.385,True,4093
+otp-010,otp,2-2-2,Nalini,smart_turn,end_turn,True,,False,56
+otp-011,otp,2-2,Nalini,smart_turn,end_turn,False,3.154,True,7871
+otp-012,otp,3-3,Deepak,smart_turn,end_turn,True,,False,682
+otp-013,otp,2-2,Deepak,smart_turn,end_turn,True,,False,64
+otp-014,otp,6,Bhavna,smart_turn,end_turn,False,1.257,True,956605
+otp-015,otp,4,Omkar,smart_turn,end_turn,False,0.414,True,6630
+otp-016,otp,2-2-2,Bhavna,smart_turn,end_turn,True,,False,26
+otp-017,otp,2-2,Omkar,smart_turn,end_turn,True,,False,20
+otp-018,otp,3-3,Deepak,smart_turn,end_turn,True,,False,199
+otp-019,otp,2-2,Nalini,smart_turn,end_turn,True,,False,42
+otp-020,otp,6,Omkar,smart_turn,end_turn,False,0.454,True,673420
+otp-021,otp,4,Nalini,smart_turn,end_turn,False,0.722,True,5096
+otp-022,otp,2-2-2,Bhavna,smart_turn,end_turn,True,,False,9239
+otp-023,otp,2-2,Bhavna,smart_turn,end_turn,False,3.255,True,9306
+otp-024,otp,3-3,Nalini,smart_turn,end_turn,False,3.17,True,651233
+otp-025,otp,2-2,Deepak,smart_turn,end_turn,True,,False,51
+otp-026,otp,6,Deepak,smart_turn,end_turn,False,0.449,True,649366
+otp-027,otp,4,Nalini,smart_turn,end_turn,False,0.416,True,7872
+otp-028,otp,2-2-2,Bhavna,smart_turn,end_turn,False,3.237,True,097737
+otp-029,otp,2-2,Deepak,smart_turn,end_turn,False,3.275,True,7611
+otp-030,otp,3-3,Nalini,smart_turn,end_turn,True,,False,651
+otp-031,otp,2-2,Nalini,smart_turn,end_turn,False,3.242,True,2158
+otp-032,otp,6,Nalini,smart_turn,end_turn,False,0.572,True,862019
+otp-033,otp,4,Bhavna,smart_turn,end_turn,False,3.296,True,3274
+otp-034,otp,2-2-2,Deepak,smart_turn,end_turn,True,,False,31
+otp-035,otp,2-2,Bhavna,smart_turn,end_turn,False,3.201,True,7248
+otp-036,otp,3-3,Nalini,smart_turn,end_turn,False,3.232,True,949835
+otp-037,otp,2-2,Deepak,smart_turn,end_turn,True,,False,32
+otp-038,otp,6,Deepak,smart_turn,end_turn,False,0.5,True,624180
+otp-039,otp,4,Nalini,smart_turn,end_turn,False,0.465,True,7889
+amount-000,amount,special no unit,Deepak,dhairya,end_turn,False,1.665,True,2500
+amount-001,amount,hazaar+sau with unit,Deepak,dhairya,end_turn,False,0.382,True,9700
+amount-002,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.395,True,7600
+amount-003,amount,lakh+hazaar with unit,Omkar,dhairya,end_turn,False,0.399,True,625000
+amount-004,amount,special with unit,Bhavna,dhairya,end_turn,False,0.379,True,150000
+amount-005,amount,hazaar+sau no unit,Deepak,dhairya,end_turn,False,1.631,True,3100
+amount-006,amount,hazaar+sau with unit,Nalini,dhairya,end_turn,False,0.405,True,5600
+amount-007,amount,lakh+hazaar with unit,Omkar,dhairya,end_turn,False,0.381,True,420000
+amount-008,amount,special with unit,Omkar,dhairya,end_turn,False,0.422,True,3500
+amount-009,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.67,True,9600
+amount-010,amount,hazaar+sau no unit,Nalini,dhairya,end_turn,False,1.699,True,8400
+amount-011,amount,lakh+hazaar with unit,Deepak,dhairya,end_turn,False,0.351,True,110000
+amount-012,amount,special with unit,Deepak,dhairya,end_turn,False,0.531,True,1500
+amount-013,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.442,True,2900
+amount-014,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.419,True,7500
+amount-015,amount,lakh+hazaar no unit,Omkar,dhairya,end_turn,False,1.792,True,425000
+amount-016,amount,special with unit,Bhavna,dhairya,end_turn,False,0.52,True,125000
+amount-017,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.451,True,3100
+amount-018,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.437,True,8200
+amount-019,amount,lakh+hazaar with unit,Nalini,dhairya,end_turn,False,0.833,True,550000
+amount-020,amount,special no unit,Nalini,dhairya,end_turn,False,1.669,True,150
+amount-021,amount,hazaar+sau with unit,Omkar,dhairya,end_turn,False,0.558,True,15900
+amount-022,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.507,True,12900
+amount-023,amount,lakh+hazaar with unit,Nalini,dhairya,end_turn,False,0.448,True,310000
+amount-024,amount,special with unit,Nalini,dhairya,end_turn,False,0.439,True,2500
+amount-025,amount,hazaar+sau no unit,Bhavna,dhairya,end_turn,False,1.771,True,7300
+amount-026,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.386,True,1200
+amount-027,amount,lakh+hazaar with unit,Omkar,dhairya,end_turn,False,0.412,True,350000
+amount-028,amount,special with unit,Bhavna,dhairya,end_turn,False,0.409,True,150000
+amount-029,amount,hazaar+sau with unit,Deepak,dhairya,end_turn,False,0.376,True,9500
+amount-030,amount,hazaar+sau no unit,Nalini,dhairya,end_turn,False,1.642,True,15100
+amount-031,amount,lakh+hazaar with unit,Nalini,dhairya,end_turn,False,0.395,True,750000
+amount-032,amount,special with unit,Omkar,dhairya,end_turn,False,0.382,True,3500
+amount-033,amount,hazaar+sau with unit,Deepak,dhairya,end_turn,False,0.353,True,3400
+amount-034,amount,hazaar+sau with unit,Deepak,dhairya,end_turn,False,0.343,True,4100
+amount-035,amount,lakh+hazaar no unit,Omkar,dhairya,end_turn,False,1.66,True,510000
+amount-036,amount,special with unit,Deepak,dhairya,end_turn,False,0.421,True,1500
+amount-037,amount,hazaar+sau with unit,Nalini,dhairya,end_turn,False,2.358,True,5400
+amount-038,amount,hazaar+sau with unit,Bhavna,dhairya,end_turn,False,0.368,True,3500
+amount-039,amount,lakh+hazaar with unit,Omkar,dhairya,end_turn,False,0.386,True,325000
+amount-040,amount,special no unit,Deepak,dhairya,end_turn,False,1.661,True,125000
+amount-041,amount,hazaar+sau with unit,Omkar,dhairya,end_turn,False,0.374,True,12400
+amount-042,amount,hazaar+sau with unit,Nalini,dhairya,end_turn,False,0.381,True,8900
+amount-043,amount,lakh+hazaar with unit,Deepak,dhairya,end_turn,False,0.451,True,720000
+amount-044,amount,special with unit,Bhavna,dhairya,end_turn,False,0.367,True,150
+amount-045,amount,hazaar+sau no unit,Bhavna,dhairya,end_turn,False,1.676,True,7200
+amount-046,amount,hazaar+sau with unit,Nalini,dhairya,end_turn,False,0.367,True,3100
+amount-047,amount,lakh+hazaar with unit,Bhavna,dhairya,end_turn,False,0.398,True,220000
+date-000,date,one group,Nalini,dhairya,end_turn,False,0.396,True,23-01
+date-001,date,day tareekh | month,Nalini,dhairya,end_turn,False,0.378,True,02-03
+date-002,date,day | month,Deepak,dhairya,end_turn,False,0.539,True,24-01
+date-003,date,day | month,Omkar,dhairya,end_turn,False,0.311,True,07-09
+date-004,date,one group,Bhavna,dhairya,end_turn,False,0.413,True,04-04
+date-005,date,day tareekh | month,Nalini,dhairya,end_turn,False,0.36,True,07-02
+date-006,date,day | month,Deepak,dhairya,end_turn,False,0.355,True,28-11
+date-007,date,day | month,Nalini,dhairya,end_turn,False,0.364,True,16-02
+date-008,date,one group,Bhavna,dhairya,end_turn,False,0.429,True,26-11
+date-009,date,day tareekh | month,Omkar,dhairya,end_turn,False,0.318,True,10-06
+date-010,date,day | month,Deepak,dhairya,end_turn,False,0.578,True,09-01
+date-011,date,day | month,Deepak,dhairya,end_turn,False,0.31,True,10-01
+date-012,date,one group,Omkar,dhairya,end_turn,False,0.945,True,25-10
+date-013,date,day tareekh | month,Nalini,dhairya,nudge,False,,False,28
+date-014,date,day | month,Omkar,dhairya,end_turn,False,0.392,True,26-07
+date-015,date,day | month,Omkar,dhairya,end_turn,False,0.525,True,17-02
+date-016,date,one group,Bhavna,dhairya,end_turn,False,0.399,True,23-01
+date-017,date,day tareekh | month,Deepak,dhairya,end_turn,False,0.364,True,23-02
+date-018,date,day | month,Bhavna,dhairya,end_turn,False,0.382,True,06-07
+date-019,date,day | month,Deepak,dhairya,end_turn,False,0.301,True,10-01
+date-020,date,one group,Omkar,dhairya,end_turn,False,0.725,True,16-02
+date-021,date,day tareekh | month,Deepak,dhairya,end_turn,False,0.374,True,23-03
+date-022,date,day | month,Bhavna,dhairya,end_turn,False,0.978,True,27-09
+date-023,date,day | month,Omkar,dhairya,end_turn,False,0.361,True,10-04
+date-024,date,one group,Nalini,dhairya,end_turn,False,0.397,True,06-02
+date-025,date,day tareekh | month,Nalini,dhairya,end_turn,False,0.612,True,16-12
+date-026,date,day | month,Nalini,dhairya,end_turn,False,0.677,True,21-06
+date-027,date,day | month,Omkar,dhairya,end_turn,False,0.374,True,13-07
+date-028,date,one group,Deepak,dhairya,end_turn,False,0.428,True,21-01
+date-029,date,day tareekh | month,Omkar,dhairya,end_turn,False,0.385,True,07-05
+date-030,date,day | month,Omkar,dhairya,end_turn,False,0.857,True,18-09
+date-031,date,day | month,Bhavna,dhairya,end_turn,False,0.364,True,21-04
+mobile-000,mobile,5-5 hindi,Bhavna,dhairya,end_turn,False,0.389,True,8260181590
+mobile-001,mobile,3-3-4 hindi,Bhavna,dhairya,end_turn,False,0.381,True,6166131860
+mobile-002,mobile,4-3-3 hindi_double,Nalini,dhairya,end_turn,False,0.365,True,6996030824
+mobile-003,mobile,2-2-2-2-2 english,Bhavna,dhairya,end_turn,False,0.353,True,8821993518
+mobile-004,mobile,10 hindi,Bhavna,dhairya,end_turn,False,0.411,True,9865797543
+mobile-005,mobile,5-5 hindi,Nalini,dhairya,end_turn,False,0.644,True,7194875749
+mobile-006,mobile,3-3-4 hindi_double,Deepak,dhairya,end_turn,False,0.316,True,9252760189
+mobile-007,mobile,4-3-3 english,Deepak,dhairya,end_turn,False,0.366,True,9971147104
+mobile-008,mobile,2-2-2-2-2 hindi,Omkar,dhairya,end_turn,False,0.371,True,9507529170
+mobile-009,mobile,10 hindi,Deepak,dhairya,end_turn,False,0.478,True,9712768426
+mobile-010,mobile,5-5 hindi_double,Omkar,dhairya,end_turn,False,0.357,True,9563212233
+mobile-011,mobile,3-3-4 english,Nalini,dhairya,end_turn,False,0.373,True,7440268599
+mobile-012,mobile,4-3-3 hindi,Bhavna,dhairya,end_turn,False,0.395,True,9866661760
+mobile-013,mobile,2-2-2-2-2 hindi,Nalini,dhairya,end_turn,False,1.16,True,9215901092
+mobile-014,mobile,10 hindi_double,Nalini,dhairya,end_turn,False,0.471,True,6396245957
+mobile-015,mobile,5-5 english,Omkar,dhairya,end_turn,False,0.54,True,6777741215
+mobile-016,mobile,3-3-4 hindi,Deepak,dhairya,end_turn,False,0.345,True,7803852808
+mobile-017,mobile,4-3-3 hindi,Omkar,dhairya,end_turn,False,0.777,True,8253888539
+mobile-018,mobile,2-2-2-2-2 hindi_double,Deepak,dhairya,end_turn,False,0.344,True,7387500474
+mobile-019,mobile,10 english,Nalini,dhairya,end_turn,False,0.457,True,8131373537
+mobile-020,mobile,5-5 hindi,Omkar,dhairya,end_turn,False,0.385,True,9511637265
+mobile-021,mobile,3-3-4 hindi,Omkar,dhairya,end_turn,False,0.339,True,9612220297
+mobile-022,mobile,4-3-3 hindi_double,Bhavna,dhairya,end_turn,False,0.372,True,8288200182
+mobile-023,mobile,2-2-2-2-2 english,Omkar,dhairya,end_turn,False,0.234,True,6434839548
+mobile-024,mobile,10 hindi,Nalini,dhairya,end_turn,False,0.495,True,9828288072
+mobile-025,mobile,5-5 hindi,Omkar,dhairya,end_turn,False,0.448,True,7227918058
+mobile-026,mobile,3-3-4 hindi_double,Nalini,dhairya,end_turn,False,0.383,True,6803340187
+mobile-027,mobile,4-3-3 english,Bhavna,dhairya,end_turn,False,0.354,True,9598983478
+mobile-028,mobile,2-2-2-2-2 hindi,Bhavna,dhairya,end_turn,False,0.405,True,8837261675
+mobile-029,mobile,10 hindi,Omkar,dhairya,end_turn,False,0.262,True,8125242731
+mobile-030,mobile,5-5 hindi_double,Deepak,dhairya,end_turn,False,0.347,True,9232686563
+mobile-031,mobile,3-3-4 english,Deepak,dhairya,end_turn,False,0.353,True,6505877065
+mobile-032,mobile,4-3-3 hindi,Deepak,dhairya,end_turn,False,0.346,True,6131144024
+mobile-033,mobile,2-2-2-2-2 hindi,Nalini,dhairya,end_turn,False,0.351,True,9288975140
+mobile-034,mobile,10 hindi_double,Deepak,dhairya,end_turn,False,0.392,True,6419314170
+mobile-035,mobile,5-5 english,Bhavna,dhairya,end_turn,False,0.385,True,9492083124
+mobile-036,mobile,3-3-4 hindi,Deepak,dhairya,end_turn,False,0.349,True,7448347824
+mobile-037,mobile,4-3-3 hindi,Omkar,dhairya,end_turn,False,0.324,True,6008838737
+mobile-038,mobile,2-2-2-2-2 hindi_double,Deepak,dhairya,end_turn,False,0.352,True,9843353265
+mobile-039,mobile,10 english,Nalini,dhairya,end_turn,False,0.467,True,9201684934
+mobile-040,mobile,5-5 hindi,Bhavna,dhairya,end_turn,False,0.367,True,9224704558
+mobile-041,mobile,3-3-4 hindi,Bhavna,dhairya,end_turn,False,0.428,True,6435205617
+mobile-042,mobile,4-3-3 hindi_double,Deepak,dhairya,end_turn,False,0.375,True,7801412690
+mobile-043,mobile,2-2-2-2-2 english,Nalini,dhairya,end_turn,False,0.379,True,8319829657
+mobile-044,mobile,10 hindi,Nalini,dhairya,end_turn,False,0.453,True,9828890931
+mobile-045,mobile,5-5 hindi,Omkar,dhairya,end_turn,False,0.393,True,6251678008
+mobile-046,mobile,3-3-4 hindi_double,Deepak,dhairya,end_turn,False,0.624,True,8071881817
+mobile-047,mobile,4-3-3 english,Nalini,dhairya,end_turn,False,0.409,True,7337761740
+mobile-048,mobile,2-2-2-2-2 hindi,Omkar,dhairya,end_turn,False,0.374,True,7544992070
+mobile-049,mobile,10 hindi,Nalini,dhairya,end_turn,False,0.441,True,8847771834
+mobile-050,mobile,5-5 hindi_double,Nalini,dhairya,end_turn,False,0.42,True,9047187463
+mobile-051,mobile,3-3-4 english,Omkar,dhairya,end_turn,False,0.628,True,6284529841
+mobile-052,mobile,4-3-3 hindi,Omkar,dhairya,end_turn,False,0.387,True,9602077642
+mobile-053,mobile,2-2-2-2-2 hindi,Omkar,dhairya,end_turn,False,0.326,True,8150556130
+mobile-054,mobile,10 hindi_double,Deepak,dhairya,end_turn,False,0.497,True,9915640410
+mobile-055,mobile,5-5 english,Bhavna,dhairya,end_turn,False,0.608,True,7346853560
+mobile-056,mobile,3-3-4 hindi,Omkar,dhairya,end_turn,False,0.527,True,6067924708
+mobile-057,mobile,4-3-3 hindi,Nalini,dhairya,end_turn,False,0.678,True,9544446347
+mobile-058,mobile,2-2-2-2-2 hindi_double,Bhavna,dhairya,end_turn,False,0.377,True,7213878375
+mobile-059,mobile,10 english,Bhavna,dhairya,end_turn,False,0.488,True,7125815354
+mobile-060,mobile,5-5 hindi,Deepak,dhairya,end_turn,False,0.434,True,6666836450
+mobile-061,mobile,3-3-4 hindi,Deepak,dhairya,end_turn,False,0.386,True,8288314366
+mobile-062,mobile,4-3-3 hindi_double,Omkar,dhairya,end_turn,False,0.399,True,6206797016
+mobile-063,mobile,2-2-2-2-2 english,Nalini,dhairya,end_turn,False,0.383,True,7132281718
+mobile-064,mobile,10 hindi,Bhavna,dhairya,end_turn,False,0.483,True,8248611148
+mobile-065,mobile,5-5 hindi,Bhavna,dhairya,end_turn,False,0.416,True,9439008474
+mobile-066,mobile,3-3-4 hindi_double,Omkar,dhairya,end_turn,False,0.39,True,9838306400
+mobile-067,mobile,4-3-3 english,Bhavna,dhairya,end_turn,False,0.368,True,6436537056
+mobile-068,mobile,2-2-2-2-2 hindi,Nalini,dhairya,end_turn,False,0.387,True,6481373433
+mobile-069,mobile,10 hindi,Nalini,dhairya,end_turn,False,0.458,True,9923760926
+mobile-070,mobile,5-5 hindi_double,Nalini,dhairya,end_turn,False,0.38,True,7092600267
+mobile-071,mobile,3-3-4 english,Omkar,dhairya,end_turn,False,0.706,True,6253287046
+mobile-072,mobile,4-3-3 hindi,Deepak,dhairya,end_turn,False,0.68,True,7101415618
+mobile-073,mobile,2-2-2-2-2 hindi,Omkar,dhairya,end_turn,False,0.354,True,8610735873
+mobile-074,mobile,10 hindi_double,Nalini,dhairya,end_turn,False,0.428,True,7606071043
+mobile-075,mobile,5-5 english,Nalini,dhairya,end_turn,False,0.426,True,8545904544
+mobile-076,mobile,3-3-4 hindi,Nalini,dhairya,end_turn,False,0.414,True,6317764672
+mobile-077,mobile,4-3-3 hindi,Omkar,dhairya,end_turn,False,0.361,True,8293557591
+mobile-078,mobile,2-2-2-2-2 hindi_double,Nalini,dhairya,end_turn,False,0.675,True,7361078852
+mobile-079,mobile,10 english,Bhavna,dhairya,end_turn,False,0.604,True,7167723267
+otp-000,otp,3-3,Deepak,dhairya,end_turn,False,0.363,True,814449
+otp-001,otp,2-2,Bhavna,dhairya,end_turn,False,0.364,True,4437
+otp-002,otp,6,Deepak,dhairya,end_turn,False,0.416,True,332493
+otp-003,otp,4,Bhavna,dhairya,end_turn,False,0.408,True,1643
+otp-004,otp,2-2-2,Deepak,dhairya,end_turn,False,0.477,True,170107
+otp-005,otp,2-2,Bhavna,dhairya,end_turn,False,0.359,True,0431
+otp-006,otp,3-3,Omkar,dhairya,end_turn,False,0.35,True,993158
+otp-007,otp,2-2,Deepak,dhairya,end_turn,False,0.604,True,9401
+otp-008,otp,6,Bhavna,dhairya,end_turn,False,0.456,True,305520
+otp-009,otp,4,Nalini,dhairya,end_turn,False,0.385,True,4093
+otp-010,otp,2-2-2,Nalini,dhairya,end_turn,False,0.364,True,565294
+otp-011,otp,2-2,Nalini,dhairya,end_turn,False,0.349,True,7871
+otp-012,otp,3-3,Deepak,dhairya,end_turn,False,0.477,True,682812
+otp-013,otp,2-2,Deepak,dhairya,end_turn,False,0.377,True,6446
+otp-014,otp,6,Bhavna,dhairya,end_turn,False,1.257,True,956605
+otp-015,otp,4,Omkar,dhairya,end_turn,False,0.414,True,6630
+otp-016,otp,2-2-2,Bhavna,dhairya,end_turn,False,0.582,True,261169
+otp-017,otp,2-2,Omkar,dhairya,end_turn,False,0.367,True,2008
+otp-018,otp,3-3,Deepak,dhairya,end_turn,False,1.124,True,199582
+otp-019,otp,2-2,Nalini,dhairya,end_turn,False,0.376,True,4282
+otp-020,otp,6,Omkar,dhairya,end_turn,False,0.454,True,673420
+otp-021,otp,4,Nalini,dhairya,end_turn,False,0.722,True,5096
+otp-022,otp,2-2-2,Bhavna,dhairya,end_turn,False,0.413,True,923969
+otp-023,otp,2-2,Bhavna,dhairya,end_turn,False,0.447,True,9306
+otp-024,otp,3-3,Nalini,dhairya,end_turn,False,0.362,True,651233
+otp-025,otp,2-2,Deepak,dhairya,end_turn,False,0.33,True,5169
+otp-026,otp,6,Deepak,dhairya,end_turn,False,0.449,True,649366
+otp-027,otp,4,Nalini,dhairya,end_turn,False,0.416,True,7872
+otp-028,otp,2-2-2,Bhavna,dhairya,end_turn,False,0.426,True,097737
+otp-029,otp,2-2,Deepak,dhairya,end_turn,False,0.459,True,7611
+otp-030,otp,3-3,Nalini,dhairya,end_turn,False,0.493,True,651788
+otp-031,otp,2-2,Nalini,dhairya,end_turn,False,0.428,True,2158
+otp-032,otp,6,Nalini,dhairya,end_turn,False,0.572,True,862019
+otp-033,otp,4,Bhavna,dhairya,end_turn,False,0.486,True,3274
+otp-034,otp,2-2-2,Deepak,dhairya,end_turn,False,0.366,True,315942
+otp-035,otp,2-2,Bhavna,dhairya,end_turn,False,0.391,True,7248
+otp-036,otp,3-3,Nalini,dhairya,end_turn,False,0.418,True,949835
+otp-037,otp,2-2,Deepak,dhairya,end_turn,False,0.476,True,3262
+otp-038,otp,6,Deepak,dhairya,end_turn,False,0.5,True,624180
+otp-039,otp,4,Nalini,dhairya,end_turn,False,0.465,True,7889

@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-000",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "तेईस जनवरी"
+  ],
+  "pauses_s": [],
+  "truth": "23-01",
+  "voice": "Nalini",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0466
+  ]
+ ],
+ "speech_end": 1.0466,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "23 January।",
+ "window_ms": 2000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d043-b4b1-738d-89db-aa187aeefa8d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:57:40.592970+00:00"
+   }
+  },
+  {
+   "t": 0.488,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u0c62de92",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:57:41.038742+00:00"
+   }
+  },
+  {
+   "t": 3.225,
+   "kind": "transcript",
+   "text": "तेईस जनवरी।",
+   "raw": {
+    "type": "transcript",
+    "text": "तेईस जनवरी।",
+    "audio_duration_ms": 3104.0,
+    "segment_id": "01a1d043-b4b1-738d-89db-aa187aeefa8d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u0c62de92",
+    "is_final": true,
+    "latency": 78,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:57:43.775269+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

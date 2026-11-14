@@ -1,0 +1,78 @@
+{
+ "script": {
+  "id": "amount-044",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "150",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1353
+  ]
+ ],
+ "speech_end": 1.1353,
+ "longest_internal_gap_s": 0.047,
+ "rest_whole_call": "150 रुपये।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.048,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d3a6-8e18-7870-956d-14c7d65ea50d",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-13T06:44:30.425730+00:00"
+   }
+  },
+  {
+   "t": 0.571,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1481f02b",
+    "t_ms": 276,
+    "timestamp": "2026-11-13T06:44:30.950050+00:00"
+   }
+  },
+  {
+   "t": 1.975,
+   "kind": "transcript",
+   "text": "डेढ़ सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "डेढ़ सौ रुपये।",
+    "audio_duration_ms": 1664.0,
+    "segment_id": "01a1d3a6-8e18-7870-956d-14c7d65ea50d-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1481f02b",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-13T06:44:32.304640+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

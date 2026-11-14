@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "amount-044",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ सौ रुपये"
+  ],
+  "pauses_s": [],
+  "truth": "150",
+  "voice": "Bhavna",
+  "variant": "special with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1353
+  ]
+ ],
+ "speech_end": 1.1353,
+ "longest_internal_gap_s": 0.047,
+ "rest_whole_call": "150 रुपये।"
+}

@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-023",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन लाख",
+   "दस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "310000",
+  "voice": "Nalini",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0342
+  ],
+  [
+   1.4343,
+   2.4402
+  ]
+ ],
+ "speech_end": 2.4402,
+ "longest_internal_gap_s": 0.076,
+ "rest_whole_call": "3,10,000 रुपये।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.067,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d035-c535-7ea5-987c-d29c4954f681",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:42:27.339321+00:00"
+   }
+  },
+  {
+   "t": 0.661,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud263223e",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T14:42:27.929502+00:00"
+   }
+  },
+  {
+   "t": 1.505,
+   "kind": "transcript",
+   "text": "तीन लाख।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन लाख।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1d035-c535-7ea5-987c-d29c4954f681-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud263223e",
+    "is_final": true,
+    "latency": 58,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:42:28.775308+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.647,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u82725f46",
+    "t_ms": 1268,
+    "timestamp": "2026-11-12T14:42:28.910671+00:00"
+   }
+  },
+  {
+   "t": 2.907,
+   "kind": "transcript",
+   "text": "दस हज़ार रुपये",
+   "raw": {
+    "type": "transcript",
+    "text": "दस हज़ार रुपये",
+    "audio_duration_ms": 1408.0,
+    "segment_id": "01a1d035-c535-7ea5-987c-d29c4954f681-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u82725f46",
+    "is_final": true,
+    "latency": 50,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:42:30.176491+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

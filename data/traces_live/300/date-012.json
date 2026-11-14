@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "date-012",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "पच्चीस अक्टूबर"
+  ],
+  "pauses_s": [],
+  "truth": "25-10",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1549
+  ]
+ ],
+ "speech_end": 1.1549,
+ "longest_internal_gap_s": 0.051,
+ "rest_whole_call": "25 October।",
+ "window_ms": 300,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.066,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d036-9d2e-769e-8250-b98c9f8d10b6",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:43:22.630664+00:00"
+   }
+  },
+  {
+   "t": 0.494,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue934d2a2",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:43:23.058636+00:00"
+   }
+  },
+  {
+   "t": 1.57,
+   "kind": "transcript",
+   "text": "पच्चीस अक्टूबर।",
+   "raw": {
+    "type": "transcript",
+    "text": "पच्चीस अक्टूबर।",
+    "audio_duration_ms": 1440.0,
+    "segment_id": "01a1d036-9d2e-769e-8250-b98c9f8d10b6-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ue934d2a2",
+    "is_final": true,
+    "latency": 70,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:43:24.114761+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

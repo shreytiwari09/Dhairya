@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "amount-020",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "डेढ़ सौ"
+  ],
+  "pauses_s": [],
+  "truth": "150",
+  "voice": "Nalini",
+  "variant": "special no unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.7914
+  ]
+ ],
+ "speech_end": 0.7914,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "150"
+}

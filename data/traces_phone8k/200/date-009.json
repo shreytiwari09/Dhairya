@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "date-009",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "दस तारीख",
+   "जून"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "10-06",
+  "voice": "Omkar",
+  "variant": "day tareekh | month"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1267
+  ],
+  [
+   1.9267,
+   2.4316
+  ]
+ ],
+ "speech_end": 2.4316,
+ "longest_internal_gap_s": 0.123,
+ "rest_whole_call": "10 तारीख जून।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.052,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d152-1bf7-7b0d-8599-714126590849",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:53:01.755710+00:00"
+   }
+  },
+  {
+   "t": 0.706,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5042f183",
+    "t_ms": 404,
+    "timestamp": "2026-11-12T19:53:02.415738+00:00"
+   }
+  },
+  {
+   "t": 1.416,
+   "kind": "transcript",
+   "text": "दस तारीख",
+   "raw": {
+    "type": "transcript",
+    "text": "दस तारीख",
+    "audio_duration_ms": 1312.0,
+    "segment_id": "01a1d152-1bf7-7b0d-8599-714126590849-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u5042f183",
+    "is_final": true,
+    "latency": 62,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:03.123935+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.321,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5e5579f8",
+    "t_ms": 2004,
+    "timestamp": "2026-11-12T19:53:04.031449+00:00"
+   }
+  },
+  {
+   "t": 2.733,
+   "kind": "transcript",
+   "text": "जून।",
+   "raw": {
+    "type": "transcript",
+    "text": "जून।",
+    "audio_duration_ms": 1044.0,
+    "segment_id": "01a1d152-1bf7-7b0d-8599-714126590849-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u5e5579f8",
+    "is_final": true,
+    "latency": 44,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:53:04.442622+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

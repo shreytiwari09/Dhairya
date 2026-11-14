@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-032",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "छह एक तीन एक",
+   "एक चार चार",
+   "शून्य दो चार"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "6131144024",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8617
+  ],
+  [
+   2.4617,
+   3.2717
+  ],
+  [
+   4.2717,
+   5.1332
+  ]
+ ],
+ "speech_end": 5.1332,
+ "longest_internal_gap_s": 0.083,
+ "rest_whole_call": "6, 1, 3, 1, 1, 4, 4, 0, 2, 4",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d038-4c2a-79cb-a6d6-2e8294a5f1e2",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:45:12.936066+00:00"
+   }
+  },
+  {
+   "t": 0.533,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u2061dfaf",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:45:13.419197+00:00"
+   }
+  },
+  {
+   "t": 4.139,
+   "kind": "transcript",
+   "text": "छः एक तीन एक एक चार चार।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः एक तीन एक एक चार चार।",
+    "audio_duration_ms": 4000.0,
+    "segment_id": "01a1d038-4c2a-79cb-a6d6-2e8294a5f1e2-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u2061dfaf",
+    "is_final": true,
+    "latency": 99,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:45:17.028844+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 4.48,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uc5692adf",
+    "t_ms": 4116,
+    "timestamp": "2026-11-12T14:45:17.354298+00:00"
+   }
+  },
+  {
+   "t": 5.967,
+   "kind": "transcript",
+   "text": "शून्य दो चार।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य दो चार।",
+    "audio_duration_ms": 1856.0,
+    "segment_id": "01a1d038-4c2a-79cb-a6d6-2e8294a5f1e2-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uc5692adf",
+    "is_final": true,
+    "latency": 62,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:45:18.854384+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

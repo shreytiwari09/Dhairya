@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "amount-038",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "तीन हज़ार",
+   "पांच सौ रुपये"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "3500",
+  "voice": "Bhavna",
+  "variant": "hazaar+sau with unit"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0651
+  ],
+  [
+   1.6651,
+   2.4992
+  ]
+ ],
+ "speech_end": 2.4992,
+ "longest_internal_gap_s": 0.047,
+ "rest_whole_call": "3500 रुपये।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.057,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d151-af35-717e-8b35-f857f616d7d0",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:52:33.919105+00:00"
+   }
+  },
+  {
+   "t": 0.583,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5747f321",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T19:52:34.448597+00:00"
+   }
+  },
+  {
+   "t": 1.468,
+   "kind": "transcript",
+   "text": "तीन हज़ार।",
+   "raw": {
+    "type": "transcript",
+    "text": "तीन हज़ार।",
+    "audio_duration_ms": 1344.0,
+    "segment_id": "01a1d151-af35-717e-8b35-f857f616d7d0-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u5747f321",
+    "is_final": true,
+    "latency": 63,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:35.333768+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 1.918,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ucf58b878",
+    "t_ms": 1620,
+    "timestamp": "2026-11-12T19:52:35.783569+00:00"
+   }
+  },
+  {
+   "t": 2.814,
+   "kind": "transcript",
+   "text": "पाँच सौ रुपये।",
+   "raw": {
+    "type": "transcript",
+    "text": "पाँच सौ रुपये।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1d151-af35-717e-8b35-f857f616d7d0-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ucf58b878",
+    "is_final": true,
+    "latency": 63,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:52:36.679792+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

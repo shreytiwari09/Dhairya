@@ -1,0 +1,114 @@
+{
+ "script": {
+  "id": "otp-011",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "सात आठ",
+   "सात एक"
+  ],
+  "pauses_s": [
+   1.0
+  ],
+  "truth": "7871",
+  "voice": "Nalini",
+  "variant": "2-2"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   1.1239
+  ],
+  [
+   2.1239,
+   2.946
+  ]
+ ],
+ "speech_end": 2.946,
+ "longest_internal_gap_s": 0.089,
+ "rest_whole_call": "7871",
+ "window_ms": 200,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.042,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d150-1508-74c9-a4eb-b215348ab645",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T19:50:48.900665+00:00"
+   }
+  },
+  {
+   "t": 0.644,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8ea831d5",
+    "t_ms": 340,
+    "timestamp": "2026-11-12T19:50:49.499093+00:00"
+   }
+  },
+  {
+   "t": 1.477,
+   "kind": "transcript",
+   "text": "सात आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात आठ।",
+    "audio_duration_ms": 1344.0,
+    "segment_id": "01a1d150-1508-74c9-a4eb-b215348ab645-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8ea831d5",
+    "is_final": true,
+    "latency": 67,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:50:50.335768+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.512,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u4b234ea3",
+    "t_ms": 2196,
+    "timestamp": "2026-11-12T19:50:51.354987+00:00"
+   }
+  },
+  {
+   "t": 3.269,
+   "kind": "transcript",
+   "text": "सात एक।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात एक।",
+    "audio_duration_ms": 1364.0,
+    "segment_id": "01a1d150-1508-74c9-a4eb-b215348ab645-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u4b234ea3",
+    "is_final": true,
+    "latency": 53,
+    "prefetched": false,
+    "timestamp": "2026-11-12T19:50:52.121428+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

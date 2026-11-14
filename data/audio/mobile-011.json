@@ -1,0 +1,37 @@
+{
+ "script": {
+  "id": "mobile-011",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "seven four four",
+   "zero two six",
+   "eight five nine nine"
+  ],
+  "pauses_s": [
+   0.8,
+   0.6
+  ],
+  "truth": "7440268599",
+  "voice": "Nalini",
+  "variant": "3-3-4 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.367
+  ],
+  [
+   2.167,
+   3.2407
+  ],
+  [
+   3.8407,
+   5.0553
+  ]
+ ],
+ "speech_end": 5.0553,
+ "longest_internal_gap_s": 0.069,
+ "rest_whole_call": "7440268599"
+}

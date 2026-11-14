@@ -1,0 +1,90 @@
+{
+ "script": {
+  "id": "otp-004",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है एक सात",
+   "शून्य एक",
+   "शून्य सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "170107",
+  "voice": "Deepak",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8478
+  ],
+  [
+   2.4478,
+   3.3228
+  ],
+  [
+   4.3228,
+   5.0961
+  ]
+ ],
+ "speech_end": 5.0961,
+ "longest_internal_gap_s": 0.282,
+ "rest_whole_call": "ओटीपी है 170107।",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.035,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02c-bebd-7a22-b87d-8544f62cdaaa",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:32:35.832257+00:00"
+   }
+  },
+  {
+   "t": 0.821,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u6ddd13a2",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:32:36.335771+00:00"
+   }
+  },
+  {
+   "t": 6.831,
+   "kind": "transcript",
+   "text": "ओटीपी है एक सात शून्य एक शून्य सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओटीपी है एक सात शून्य एक शून्य सात।",
+    "audio_duration_ms": 6624.0,
+    "segment_id": "01a1d02c-bebd-7a22-b87d-8544f62cdaaa-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u6ddd13a2",
+    "is_final": true,
+    "latency": 134,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:32:42.622395+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

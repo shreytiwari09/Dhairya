@@ -1,0 +1,49 @@
+{
+ "script": {
+  "id": "mobile-063",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है seven one",
+   "three two",
+   "two eight",
+   "one seven",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   0.4,
+   0.6,
+   0.6
+  ],
+  "truth": "7132281718",
+  "voice": "Nalini",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.2021
+  ],
+  [
+   2.6021,
+   3.4738
+  ],
+  [
+   3.8738,
+   4.4569
+  ],
+  [
+   5.0569,
+   5.9183
+  ],
+  [
+   6.5183,
+   7.295
+  ]
+ ],
+ "speech_end": 7.295,
+ "longest_internal_gap_s": 0.223,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7132281718।"
+}

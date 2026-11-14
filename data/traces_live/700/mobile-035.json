@@ -1,0 +1,84 @@
+{
+ "script": {
+  "id": "mobile-035",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine four nine two zero",
+   "eight three one two four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9492083124",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.11
+  ],
+  [
+   2.51,
+   4.3434
+  ]
+ ],
+ "speech_end": 4.3434,
+ "longest_internal_gap_s": 0.082,
+ "rest_whole_call": "9492083124।",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.64,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d038-741b-7251-bd8c-d3880afbb54a",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:45:23.168254+00:00"
+   }
+  },
+  {
+   "t": 0.927,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u43231294",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:45:24.054330+00:00"
+   }
+  },
+  {
+   "t": 5.702,
+   "kind": "transcript",
+   "text": "नाइन फ़ोर नाइन टू ज़ीरो एट थ्री वन टू फ़ोर।",
+   "raw": {
+    "type": "transcript",
+    "text": "नाइन फ़ोर नाइन टू ज़ीरो एट थ्री वन टू फ़ोर।",
+    "audio_duration_ms": 5088.0,
+    "segment_id": "01a1d038-741b-7251-bd8c-d3880afbb54a-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u43231294",
+    "is_final": true,
+    "latency": 138,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:45:28.827114+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

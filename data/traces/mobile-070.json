@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "mobile-070",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "सात शून्य नौ दो छह",
+   "डबल शून्य दो छह सात"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "7092600267",
+  "voice": "Nalini",
+  "variant": "5-5 hindi_double"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.0379
+  ],
+  [
+   2.8379,
+   4.6235
+  ]
+ ],
+ "speech_end": 4.6235,
+ "longest_internal_gap_s": 0.088,
+ "rest_whole_call": "7092600267",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.04,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf2a-e7f1-776c-a40b-9e7bcb17dea5",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:50:58.093805+00:00"
+   }
+  },
+  {
+   "t": 0.63,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u09e2eea3",
+    "t_ms": 244,
+    "timestamp": "2026-11-12T09:50:58.686677+00:00"
+   }
+  },
+  {
+   "t": 2.456,
+   "kind": "transcript",
+   "text": "सात शून्य नौ दो छः।",
+   "raw": {
+    "type": "transcript",
+    "text": "सात शून्य नौ दो छः।",
+    "audio_duration_ms": 2272.0,
+    "segment_id": "01a1cf2a-e7f1-776c-a40b-9e7bcb17dea5-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u09e2eea3",
+    "is_final": true,
+    "latency": 93,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:51:00.510702+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.079,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u3db90e34",
+    "t_ms": 2676,
+    "timestamp": "2026-11-12T09:51:01.129222+00:00"
+   }
+  },
+  {
+   "t": 5.004,
+   "kind": "transcript",
+   "text": "डबल शून्य दो छह सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "डबल शून्य दो छह सात।",
+    "audio_duration_ms": 2484.0,
+    "segment_id": "01a1cf2a-e7f1-776c-a40b-9e7bcb17dea5-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u3db90e34",
+    "is_final": true,
+    "latency": 83,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:51:03.054866+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

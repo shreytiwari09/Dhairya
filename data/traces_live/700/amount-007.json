@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "amount-007",
+  "category": "amount",
+  "slot": "amount",
+  "groups": [
+   "चार लाख",
+   "बीस हज़ार रुपये"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "420000",
+  "voice": "Omkar",
+  "variant": "lakh+hazaar with unit"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9999
+  ],
+  [
+   1.7999,
+   2.6976
+  ]
+ ],
+ "speech_end": 2.6976,
+ "longest_internal_gap_s": 0.06,
+ "rest_whole_call": "4,20,000 रुपये।",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.046,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03b-58fa-7c8e-9201-54a2f058c9ed",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:48:32.839233+00:00"
+   }
+  },
+  {
+   "t": 0.514,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u8bbee183",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:48:33.309734+00:00"
+   }
+  },
+  {
+   "t": 1.817,
+   "kind": "transcript",
+   "text": "चार लाख।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार लाख।",
+    "audio_duration_ms": 1728.0,
+    "segment_id": "01a1d03b-58fa-7c8e-9201-54a2f058c9ed-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u8bbee183",
+    "is_final": true,
+    "latency": 52,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:48:34.610815+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.0,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9f1b51ae",
+    "t_ms": 1652,
+    "timestamp": "2026-11-12T14:48:34.795057+00:00"
+   }
+  },
+  {
+   "t": 3.57,
+   "kind": "transcript",
+   "text": "बीस हज़ार रुपये",
+   "raw": {
+    "type": "transcript",
+    "text": "बीस हज़ार रुपये",
+    "audio_duration_ms": 1728.0,
+    "segment_id": "01a1d03b-58fa-7c8e-9201-54a2f058c9ed-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9f1b51ae",
+    "is_final": true,
+    "latency": 63,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:48:36.354931+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

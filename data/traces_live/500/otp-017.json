@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-017",
+  "category": "otp",
+  "slot": "otp4",
+  "groups": [
+   "दो शून्य",
+   "शून्य आठ"
+  ],
+  "pauses_s": [
+   0.6
+  ],
+  "truth": "2008",
+  "voice": "Omkar",
+  "variant": "2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   0.9527
+  ],
+  [
+   1.5527,
+   2.3464
+  ]
+ ],
+ "speech_end": 2.3464,
+ "longest_internal_gap_s": 0.025,
+ "rest_whole_call": "2008",
+ "window_ms": 500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.05,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf34-7668-7403-b514-279a24f77510",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T10:01:24.397765+00:00"
+   }
+  },
+  {
+   "t": 0.535,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uf2fdb1c0",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T10:01:24.883659+00:00"
+   }
+  },
+  {
+   "t": 1.651,
+   "kind": "transcript",
+   "text": "दो शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "दो शून्य।",
+    "audio_duration_ms": 1504.0,
+    "segment_id": "01a1cf34-7668-7403-b514-279a24f77510-seg-1",
+    "segment_index": 1,
+    "utterance_id": "uf2fdb1c0",
+    "is_final": true,
+    "latency": 61,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:01:25.995224+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 2.073,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u112c99c5",
+    "t_ms": 1396,
+    "timestamp": "2026-11-12T10:01:26.122415+00:00"
+   }
+  },
+  {
+   "t": 3.038,
+   "kind": "transcript",
+   "text": "शून्य आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य आठ।",
+    "audio_duration_ms": 1376.0,
+    "segment_id": "01a1cf34-7668-7403-b514-279a24f77510-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u112c99c5",
+    "is_final": true,
+    "latency": 59,
+    "prefetched": false,
+    "timestamp": "2026-11-12T10:01:27.378373+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

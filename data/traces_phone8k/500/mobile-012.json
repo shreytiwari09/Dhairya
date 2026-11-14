@@ -1,0 +1,120 @@
+{
+ "script": {
+  "id": "mobile-012",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है नौ आठ छह छह",
+   "छह छह एक",
+   "सात छह शून्य"
+  ],
+  "pauses_s": [
+   0.6,
+   0.4
+  ],
+  "truth": "9866661760",
+  "voice": "Bhavna",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 8000,
+ "group_bounds": [
+  [
+   0.3,
+   3.0772
+  ],
+  [
+   3.6772,
+   4.9217
+  ],
+  [
+   5.3217,
+   6.5769
+  ]
+ ],
+ "speech_end": 6.5769,
+ "longest_internal_gap_s": 0.111,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 9866661760।",
+ "window_ms": 500,
+ "format": "verbatim",
+ "condition": "phone8k",
+ "events": [
+  {
+   "t": 0.084,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d15e-8513-71a8-ab19-29f362699e58",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T20:06:35.103712+00:00"
+   }
+  },
+  {
+   "t": 0.601,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u1034f8da",
+    "t_ms": 276,
+    "timestamp": "2026-11-12T20:06:35.760772+00:00"
+   }
+  },
+  {
+   "t": 3.824,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है नौ आठ छह छह।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है नौ आठ छह छह।",
+    "audio_duration_ms": 3648.0,
+    "segment_id": "01a1d15e-8513-71a8-ab19-29f362699e58-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u1034f8da",
+    "is_final": true,
+    "latency": 101,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:06:38.992526+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.988,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "uf16f3030",
+    "t_ms": 3668,
+    "timestamp": "2026-11-12T20:06:39.153685+00:00"
+   }
+  },
+  {
+   "t": 7.284,
+   "kind": "transcript",
+   "text": "छः छः एक सात छः शून्य।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः छः एक सात छः शून्य।",
+    "audio_duration_ms": 3488.0,
+    "segment_id": "01a1d15e-8513-71a8-ab19-29f362699e58-seg-2",
+    "segment_index": 2,
+    "utterance_id": "uf16f3030",
+    "is_final": true,
+    "latency": 100,
+    "prefetched": false,
+    "timestamp": "2026-11-12T20:06:42.437706+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

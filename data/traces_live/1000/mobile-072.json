@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "mobile-072",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है सात एक शून्य एक",
+   "चार एक पांच",
+   "छह एक आठ"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "7101415618",
+  "voice": "Deepak",
+  "variant": "4-3-3 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6359
+  ],
+  [
+   3.2359,
+   4.3814
+  ],
+  [
+   5.3814,
+   6.3001
+  ]
+ ],
+ "speech_end": 6.3001,
+ "longest_internal_gap_s": 0.119,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 7101415618।",
+ "window_ms": 1000,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.065,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d027-0cb1-7d94-ab8b-84a356a3c5a6",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:26:22.589837+00:00"
+   }
+  },
+  {
+   "t": 0.48,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ud1f4ff25",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:26:23.011392+00:00"
+   }
+  },
+  {
+   "t": 5.575,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u43c0d455",
+    "t_ms": 5236,
+    "timestamp": "2026-11-12T14:26:28.106347+00:00"
+   }
+  },
+  {
+   "t": 5.593,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है सात एक शून्य एक चार एक पांच।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है सात एक शून्य एक चार एक पांच।",
+    "audio_duration_ms": 5408.0,
+    "segment_id": "01a1d027-0cb1-7d94-ab8b-84a356a3c5a6-seg-1",
+    "segment_index": 1,
+    "utterance_id": "ud1f4ff25",
+    "is_final": true,
+    "latency": 137,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:26:28.124586+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 7.434,
+   "kind": "transcript",
+   "text": "छः एक आठ।",
+   "raw": {
+    "type": "transcript",
+    "text": "छः एक आठ।",
+    "audio_duration_ms": 1920.0,
+    "segment_id": "01a1d027-0cb1-7d94-ab8b-84a356a3c5a6-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u43c0d455",
+    "is_final": true,
+    "latency": 68,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:26:29.966726+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

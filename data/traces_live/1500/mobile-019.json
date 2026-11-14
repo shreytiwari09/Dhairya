@@ -1,0 +1,77 @@
+{
+ "script": {
+  "id": "mobile-019",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "eight one three one three seven three five three seven"
+  ],
+  "pauses_s": [],
+  "truth": "8131373537",
+  "voice": "Nalini",
+  "variant": "10 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.261
+  ]
+ ],
+ "speech_end": 3.261,
+ "longest_internal_gap_s": 0.018,
+ "rest_whole_call": "8131373537",
+ "window_ms": 1500,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.047,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d02a-3246-7e56-b83a-e055b38d4a0b",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:29:48.800961+00:00"
+   }
+  },
+  {
+   "t": 0.489,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u78cd9151",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T14:29:49.245575+00:00"
+   }
+  },
+  {
+   "t": 4.955,
+   "kind": "transcript",
+   "text": "एट वन थ्री वन थ्री सेवन थ्री फाइव थ्री सेवन।",
+   "raw": {
+    "type": "transcript",
+    "text": "एट वन थ्री वन थ्री सेवन थ्री फाइव थ्री सेवन।",
+    "audio_duration_ms": 4800.0,
+    "segment_id": "01a1d02a-3246-7e56-b83a-e055b38d4a0b-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u78cd9151",
+    "is_final": true,
+    "latency": 129,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:29:53.709527+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

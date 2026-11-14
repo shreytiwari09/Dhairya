@@ -1,0 +1,218 @@
+{
+ "script": {
+  "id": "mobile-003",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "मेरा मोबाइल नंबर है eight eight",
+   "two one",
+   "nine nine",
+   "three five",
+   "one eight"
+  ],
+  "pauses_s": [
+   0.4,
+   1.3,
+   0.4,
+   1.3
+  ],
+  "truth": "8821993518",
+  "voice": "Bhavna",
+  "variant": "2-2-2-2-2 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.6088
+  ],
+  [
+   3.0088,
+   3.6101
+  ],
+  [
+   4.9101,
+   5.9754
+  ],
+  [
+   6.3754,
+   7.1348
+  ],
+  [
+   8.4348,
+   9.2856
+  ]
+ ],
+ "speech_end": 9.2856,
+ "longest_internal_gap_s": 0.116,
+ "rest_whole_call": "मेरा मोबाइल नंबर है 88219935। 18",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.062,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:32:49.801611+00:00"
+   }
+  },
+  {
+   "t": 0.53,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u157bf2ee",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:32:50.282763+00:00"
+   }
+  },
+  {
+   "t": 3.027,
+   "kind": "transcript",
+   "text": "मेरा मोबाइल नंबर है एट एट।",
+   "raw": {
+    "type": "transcript",
+    "text": "मेरा मोबाइल नंबर है एट एट।",
+    "audio_duration_ms": 2848.0,
+    "segment_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u157bf2ee",
+    "is_final": true,
+    "latency": 101,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:32:52.783747+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.263,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u5f1acbed",
+    "t_ms": 2868,
+    "timestamp": "2026-11-12T09:32:53.012783+00:00"
+   }
+  },
+  {
+   "t": 3.969,
+   "kind": "transcript",
+   "text": "टू वन।",
+   "raw": {
+    "type": "transcript",
+    "text": "टू वन।",
+    "audio_duration_ms": 992.0,
+    "segment_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u5f1acbed",
+    "is_final": true,
+    "latency": 50,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:32:53.719245+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 5.133,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ub86d3b4e",
+    "t_ms": 4756,
+    "timestamp": "2026-11-12T09:32:54.887930+00:00"
+   }
+  },
+  {
+   "t": 6.392,
+   "kind": "transcript",
+   "text": "नाइन नाइन।",
+   "raw": {
+    "type": "transcript",
+    "text": "नाइन नाइन।",
+    "audio_duration_ms": 1780.0,
+    "segment_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830-seg-3",
+    "segment_index": 3,
+    "utterance_id": "ub86d3b4e",
+    "is_final": true,
+    "latency": 84,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:32:56.125699+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 6.594,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ub1d6cdc4",
+    "t_ms": 6228,
+    "timestamp": "2026-11-12T09:32:56.362821+00:00"
+   }
+  },
+  {
+   "t": 7.605,
+   "kind": "transcript",
+   "text": "थ्री फ़ाइव।",
+   "raw": {
+    "type": "transcript",
+    "text": "थ्री फ़ाइव।",
+    "audio_duration_ms": 1120.0,
+    "segment_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830-seg-4",
+    "segment_index": 4,
+    "utterance_id": "ub1d6cdc4",
+    "is_final": true,
+    "latency": 189,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:32:57.360406+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 8.654,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u741511a5",
+    "t_ms": 8276,
+    "timestamp": "2026-11-12T09:32:58.408028+00:00"
+   }
+  },
+  {
+   "t": 9.639,
+   "kind": "transcript",
+   "text": "वन एट।",
+   "raw": {
+    "type": "transcript",
+    "text": "वन एट।",
+    "audio_duration_ms": 1556.0,
+    "segment_id": "01a1cf1a-4cc8-7d0d-bc95-c9622bb1d830-seg-5",
+    "segment_index": 5,
+    "utterance_id": "u741511a5",
+    "is_final": true,
+    "latency": 55,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:32:59.391253+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

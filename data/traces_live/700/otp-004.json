@@ -1,0 +1,119 @@
+{
+ "script": {
+  "id": "otp-004",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है एक सात",
+   "शून्य एक",
+   "शून्य सात"
+  ],
+  "pauses_s": [
+   0.6,
+   1.0
+  ],
+  "truth": "170107",
+  "voice": "Deepak",
+  "variant": "2-2-2"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.8478
+  ],
+  [
+   2.4478,
+   3.3228
+  ],
+  [
+   4.3228,
+   5.0961
+  ]
+ ],
+ "speech_end": 5.0961,
+ "longest_internal_gap_s": 0.282,
+ "rest_whole_call": "ओटीपी है 170107।",
+ "window_ms": 700,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.038,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1d03a-356b-7b51-b272-86339f976e06",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T14:47:18.186879+00:00"
+   }
+  },
+  {
+   "t": 0.553,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u212ec223",
+    "t_ms": 180,
+    "timestamp": "2026-11-12T14:47:18.666133+00:00"
+   }
+  },
+  {
+   "t": 4.258,
+   "kind": "transcript",
+   "text": "ओटीपी है एक सात शून्य एक।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओटीपी है एक सात शून्य एक।",
+    "audio_duration_ms": 4064.0,
+    "segment_id": "01a1d03a-356b-7b51-b272-86339f976e06-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u212ec223",
+    "is_final": true,
+    "latency": 97,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:22.362501+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 4.558,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u9333e4af",
+    "t_ms": 4180,
+    "timestamp": "2026-11-12T14:47:22.670691+00:00"
+   }
+  },
+  {
+   "t": 5.998,
+   "kind": "transcript",
+   "text": "शून्य सात।",
+   "raw": {
+    "type": "transcript",
+    "text": "शून्य सात।",
+    "audio_duration_ms": 1760.0,
+    "segment_id": "01a1d03a-356b-7b51-b272-86339f976e06-seg-2",
+    "segment_index": 2,
+    "utterance_id": "u9333e4af",
+    "is_final": true,
+    "latency": 58,
+    "prefetched": false,
+    "timestamp": "2026-11-12T14:47:24.101593+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

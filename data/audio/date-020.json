@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "date-020",
+  "category": "date",
+  "slot": "date",
+  "groups": [
+   "सोलह फरवरी"
+  ],
+  "pauses_s": [],
+  "truth": "16-02",
+  "voice": "Omkar",
+  "variant": "one group"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   1.0393
+  ]
+ ],
+ "speech_end": 1.0393,
+ "longest_internal_gap_s": 0.0,
+ "rest_whole_call": "16 February।"
+}

@@ -1,0 +1,113 @@
+{
+ "script": {
+  "id": "otp-000",
+  "category": "otp",
+  "slot": "otp6",
+  "groups": [
+   "ओटीपी है आठ एक चार",
+   "चार चार नौ"
+  ],
+  "pauses_s": [
+   0.8
+  ],
+  "truth": "814449",
+  "voice": "Deepak",
+  "variant": "3-3"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.0597
+  ],
+  [
+   2.8597,
+   3.6171
+  ]
+ ],
+ "speech_end": 3.6171,
+ "longest_internal_gap_s": 0.152,
+ "rest_whole_call": "ओ टी पी है 814449।",
+ "window_ms": 200,
+ "format": "verbatim",
+ "events": [
+  {
+   "t": 0.052,
+   "kind": "connected",
+   "text": "",
+   "raw": {
+    "type": "connected",
+    "message": "STT service ready — VAD service connected",
+    "request_id": "01a1cf1a-ca4a-7b9b-8326-05f1829e7a21",
+    "config": {
+     "sample_rate": 16000,
+     "chunk_size": 512,
+     "partials_enabled": false,
+     "partial_interval_ms": 450,
+     "partial_max_window_s": 15.0,
+     "language_code": "hi-IN",
+     "format": "verbatim"
+    },
+    "timestamp": "2026-11-12T09:33:21.934356+00:00"
+   }
+  },
+  {
+   "t": 0.522,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "u764b6c62",
+    "t_ms": 148,
+    "timestamp": "2026-11-12T09:33:22.405754+00:00"
+   }
+  },
+  {
+   "t": 2.68,
+   "kind": "transcript",
+   "text": "ओ टी पी है आठ एक चार।",
+   "raw": {
+    "type": "transcript",
+    "text": "ओ टी पी है आठ एक चार।",
+    "audio_duration_ms": 2272.0,
+    "segment_id": "01a1cf1a-ca4a-7b9b-8326-05f1829e7a21-seg-1",
+    "segment_index": 1,
+    "utterance_id": "u764b6c62",
+    "is_final": true,
+    "latency": 314,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:24.551964+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  },
+  {
+   "t": 3.076,
+   "kind": "speech_start",
+   "text": "",
+   "raw": {
+    "type": "speech_start",
+    "utterance_id": "ue0b76066",
+    "t_ms": 2708,
+    "timestamp": "2026-11-12T09:33:24.960199+00:00"
+   }
+  },
+  {
+   "t": 3.98,
+   "kind": "transcript",
+   "text": "चार चार नौ।",
+   "raw": {
+    "type": "transcript",
+    "text": "चार चार नौ।",
+    "audio_duration_ms": 1460.0,
+    "segment_id": "01a1cf1a-ca4a-7b9b-8326-05f1829e7a21-seg-2",
+    "segment_index": 2,
+    "utterance_id": "ue0b76066",
+    "is_final": true,
+    "latency": 67,
+    "prefetched": false,
+    "timestamp": "2026-11-12T09:33:25.864742+00:00",
+    "detected_language_code": "hi-IN"
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "script": {
+  "id": "mobile-049",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "आठ आठ चार सात सात सात एक आठ तीन चार"
+  ],
+  "pauses_s": [],
+  "truth": "8847771834",
+  "voice": "Nalini",
+  "variant": "10 hindi"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   3.3049
+  ]
+ ],
+ "speech_end": 3.3049,
+ "longest_internal_gap_s": 0.058,
+ "rest_whole_call": "8847771834"
+}

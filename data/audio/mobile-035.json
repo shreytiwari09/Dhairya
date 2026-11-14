@@ -1,0 +1,31 @@
+{
+ "script": {
+  "id": "mobile-035",
+  "category": "mobile",
+  "slot": "mobile",
+  "groups": [
+   "nine four nine two zero",
+   "eight three one two four"
+  ],
+  "pauses_s": [
+   0.4
+  ],
+  "truth": "9492083124",
+  "voice": "Bhavna",
+  "variant": "5-5 english"
+ },
+ "rate": 16000,
+ "group_bounds": [
+  [
+   0.3,
+   2.11
+  ],
+  [
+   2.51,
+   4.3434
+  ]
+ ],
+ "speech_end": 4.3434,
+ "longest_internal_gap_s": 0.082,
+ "rest_whole_call": "9492083124।"
+}
