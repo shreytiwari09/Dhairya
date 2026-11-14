@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://shreytiwari09.github.io/Dhairya/"><b>Open the demo</b></a> ·
+  <a href="PITCH.md">One-page pitch</a> ·
   <a href="results/RESULTS.md">Results</a> ·
   <a href="#live-demo">Live demo</a> ·
   <a href="#how-it-works">How it works</a> ·
