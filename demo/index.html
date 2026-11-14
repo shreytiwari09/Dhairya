@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dhairya — the voice agent that lets you finish your number</title>
+<meta name="description" content="Voice agents end a caller's turn after a fixed silence, so they cut people off mid-number. Dhairya, built on Gnani Prisma v3.0, waits until the number is complete.">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dhairya: the voice agent that lets you finish your number">
+<meta property="og:description" content="Voice agents end a caller's turn after a fixed silence. Dhairya, built on Gnani Prisma v3.0, waits until the number is complete. Hear the calls and check the numbers.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2215%22%20fill%3D%22%23f6c9f9%22/%3E%3Cg%20fill%3D%22%23221826%22%3E%3Crect%20x%3D%228%22%20y%3D%2224%22%20width%3D%226%22%20height%3D%2216%22%20rx%3D%223%22/%3E%3Crect%20x%3D%2217%22%20y%3D%2217%22%20width%3D%226%22%20height%3D%2230%22%20rx%3D%223%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%224.2%22/%3E%3Crect%20x%3D%2241%22%20y%3D%2215%22%20width%3D%226%22%20height%3D%2234%22%20rx%3D%223%22/%3E%3Crect%20x%3D%2250%22%20y%3D%2223%22%20width%3D%226%22%20height%3D%2218%22%20rx%3D%223%22/%3E%3C/g%3E%3C/svg%3E">
+<script>
+  // Cinematic mode unless the visitor asks for reduced motion (or adds ?still, used for screenshots).
+  (function () {
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    if (!location.hash) scrollTo(0, 0);
+    var calm = matchMedia("(prefers-reduced-motion: reduce)").matches || location.search.indexOf("still") > -1;
+    var blocked = ["main", ".bar"];
+    function unblock() {
+      var l = document.getElementById("loader");
+      if (l) l.remove();
+      document.documentElement.classList.remove("is-loading");
+      blocked.forEach(function (q) { var e = document.querySelector(q); if (e) e.removeAttribute("inert"); });
+    }
+    window.__unblock = unblock;
+    if (!calm) {
+      document.documentElement.classList.add("motion", "is-loading");
+      // The page is inert behind the loader, so keyboard and screen-reader users cannot reach it early.
+      document.addEventListener("DOMContentLoaded", function () {
+        blocked.forEach(function (q) { var e = document.querySelector(q); if (e) e.setAttribute("inert", ""); });
+      });
+    }
+    // Safety net: never leave a visitor behind the loader if a script fails.
+    setTimeout(unblock, 12000);
+  })();
+</script>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,600,700&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,600,700&amp;display=swap"></noscript>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-repo="https://github.com/shreytiwari09/Dhairya">
+<a class="skip" href="#call">Skip to the call</a>
+
+<!-- Card artwork: our own flat patterns, drawn once and reused by the hand and the portals -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="logo-mark" viewBox="0 0 64 64" fill="currentColor"><rect x="4.75" y="26" width="4.5" height="12" rx="2.25"/><rect x="12.25" y="18" width="4.5" height="28" rx="2.25"/><rect x="19.75" y="23" width="4.5" height="18" rx="2.25"/><rect x="39.75" y="21" width="4.5" height="22" rx="2.25"/><rect x="47.25" y="14" width="4.5" height="36" rx="2.25"/><rect x="54.75" y="24" width="4.5" height="16" rx="2.25"/><circle cx="32" cy="32" r="3.6"/></symbol>
+    <symbol id="art-check" viewBox="0 0 250 350">
+      <pattern id="pt-check" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#f2bd18"/><rect x="3" y="3" width="42" height="42" rx="10" fill="#6b4a26"/><rect x="13" y="13" width="22" height="22" rx="6" fill="#f2bd18"/></pattern>
+      <rect width="250" height="350" rx="16" fill="#f2bd18"/><rect x="24" y="24" width="202" height="302" rx="6" fill="url(#pt-check)"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#6b4a26" stroke-width="3"/>
+      <g fill="#6b4a26"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-dots" viewBox="0 0 250 350">
+      <pattern id="pt-dots" width="42" height="42" patternUnits="userSpaceOnUse"><rect width="42" height="42" fill="#d6b4f4"/><circle cx="21" cy="21" r="12" fill="#5d3a66"/><circle cx="21" cy="21" r="4" fill="#d6b4f4"/></pattern>
+      <rect width="250" height="350" rx="16" fill="#d6b4f4"/><rect x="24" y="24" width="202" height="302" rx="6" fill="url(#pt-dots)"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#5d3a66" stroke-width="3"/>
+      <g fill="#5d3a66"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-waves" viewBox="0 0 250 350">
+      <pattern id="pt-waves" width="50" height="34" patternUnits="userSpaceOnUse"><rect width="50" height="34" fill="#2468e8"/><path d="M0 17Q12.5 0 25 17T50 17" fill="none" stroke="#f4f1ea" stroke-width="6"/></pattern>
+      <rect width="250" height="350" rx="16" fill="#2468e8"/><rect x="24" y="24" width="202" height="302" rx="6" fill="url(#pt-waves)"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#f4f1ea" stroke-width="3"/>
+      <g fill="#f4f1ea"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-diamond" viewBox="0 0 250 350">
+      <pattern id="pt-dia" width="54" height="54" patternUnits="userSpaceOnUse"><rect width="54" height="54" fill="#d93a22"/><path d="M27 2 52 27 27 52 2 27Z" fill="#f2bd18"/><path d="M27 14 40 27 27 40 14 27Z" fill="#d93a22"/><circle cx="27" cy="27" r="4" fill="#f2bd18"/></pattern>
+      <rect width="250" height="350" rx="16" fill="#d93a22"/><rect x="24" y="24" width="202" height="302" rx="6" fill="url(#pt-dia)"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#f2bd18" stroke-width="3"/>
+      <g fill="#f2bd18"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-stripes" viewBox="0 0 250 350">
+      <pattern id="pt-str" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="30" height="30" fill="#17917f"/><rect width="14" height="30" fill="#f4ead4"/></pattern>
+      <rect width="250" height="350" rx="16" fill="#17917f"/><rect x="24" y="24" width="202" height="302" rx="6" fill="url(#pt-str)"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#f4ead4" stroke-width="3"/>
+      <g fill="#f4ead4"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-gold" viewBox="0 0 250 350">
+      <rect width="250" height="350" rx="16" fill="#17110c"/>
+      <g fill="none" stroke="#c9a24a" stroke-width="3"><circle cx="125" cy="175" r="30"/><circle cx="125" cy="175" r="58"/><circle cx="125" cy="175" r="86"/><circle cx="125" cy="175" r="114" stroke-dasharray="3 9" stroke-linecap="round"/></g>
+      <circle cx="125" cy="175" r="10" fill="#c9a24a"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#c9a24a" stroke-width="3"/>
+      <g fill="#c9a24a"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+    <symbol id="art-ten" viewBox="0 0 250 350">
+      <rect width="250" height="350" rx="16" fill="#f4ead4"/>
+      <g fill="#6b4a26"><circle cx="55" cy="130" r="14"/><circle cx="90" cy="130" r="14"/><circle cx="125" cy="130" r="14"/><circle cx="160" cy="130" r="14"/><circle cx="195" cy="130" r="14"/><circle cx="55" cy="220" r="14" fill="none" stroke="#6b4a26" stroke-width="4"/><circle cx="90" cy="220" r="14" fill="none" stroke="#6b4a26" stroke-width="4"/><circle cx="125" cy="220" r="14" fill="none" stroke="#6b4a26" stroke-width="4"/><circle cx="160" cy="220" r="14" fill="none" stroke="#6b4a26" stroke-width="4"/><circle cx="195" cy="220" r="14" fill="none" stroke="#6b4a26" stroke-width="4"/></g>
+      <path d="M40 175h170" stroke="#6b4a26" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+      <rect x="9" y="9" width="232" height="332" rx="10" fill="none" stroke="#6b4a26" stroke-width="3"/>
+      <g fill="#6b4a26"><path d="M9 9h22a22 22 0 0 1-22 22z"/><path d="M241 9h-22a22 22 0 0 0 22 22z"/><path d="M9 341h22a22 22 0 0 0-22-22z"/><path d="M241 341h-22a22 22 0 0 1 22-22z"/></g>
+    </symbol>
+  </defs>
+</svg>
+
+<div id="loader" aria-hidden="true">
+  <div class="loader-bg"><p class="loader-count" id="loader-count"><span id="loader-pct">0%</span></p></div>
+  <div class="deck"><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-check"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-dots"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-waves"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-diamond"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-stripes"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-gold"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-ten"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-check"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-dots"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-waves"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-diamond"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-stripes"/></svg></div><div class="lcard"><svg viewBox="0 0 250 350"><use href="#art-gold"/></svg></div><div class="lcard lcard-top"><svg viewBox="0 0 64 64"><use href="#logo-mark"/></svg><p>Dhairya</p></div></div>
+</div>
+
+<header class="bar" data-on="black">
+  <a class="brand" href="#top" aria-label="Dhairya, back to the top">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#logo-mark"/></svg>
+    <span class="brand-word">Dhairya</span> <span class="brand-hi" lang="hi">धैर्य</span>
+  </a>
+  <p class="bar-tag">The voice agent that lets you finish your number</p>
+  <nav aria-label="Chapters">
+    <a href="#why">Why</a>
+    <a href="#call">Try it</a>
+    <a href="#results">Numbers</a>
+    <a href="#details">Details</a>
+    <a href="https://github.com/shreytiwari09/Dhairya" target="_blank" rel="noopener">GitHub &#8599;</a>
+  </nav>
+</header>
+
+
+<main>
+  <!-- Landing -->
+  <section class="chapter landing" id="top" data-ground="black" aria-labelledby="claim">
+    <div class="inner landing-grid">
+      <h1 id="claim" class="display reveal">Voice agents often stop listening halfway through a number.</h1>
+      <div class="landing-side">
+        <p class="landing-sub">People pause while reading out a number. An agent that ends the turn after a fixed silence takes that pause as the end and records only half of it. <strong>Dhairya</strong> waits until the number is complete, then answers at once.</p>
+        <div class="landing-act">
+          <a class="cta" href="#call"><span class="cta-disc" aria-hidden="true"></span>Hear the call</a>
+          <p class="built">Built on Gnani Prisma v3.0 realtime speech-to-text and Gnani Timbre.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hand" aria-hidden="true">
+      <div class="gcard" style="--x:8%;--rot:-17deg;--lift:-34"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-check"/></svg></div></div>
+      <div class="gcard" style="--x:22%;--rot:-10deg;--lift:-4"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-dots"/></svg></div></div>
+      <div class="gcard" style="--x:36%;--rot:-4deg;--lift:14"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-waves"/></svg></div></div>
+      <div class="gcard" style="--x:50%;--rot:0deg;--lift:26"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-diamond"/></svg></div></div>
+      <div class="gcard" style="--x:64%;--rot:4deg;--lift:14"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-stripes"/></svg></div></div>
+      <div class="gcard" style="--x:78%;--rot:10deg;--lift:-4"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-gold"/></svg></div></div>
+      <div class="gcard" style="--x:92%;--rot:17deg;--lift:-34"><div class="gface"><svg viewBox="0 0 250 350"><use href="#art-ten"/></svg></div></div>
+    </div>
+  </section>
+
+  <!-- Chapter 01: the problem -->
+  <section class="chapter c01" id="problem" data-ground="black" aria-labelledby="c01-title">
+    <div class="inner">
+      <h2 id="c01-title" class="display reveal">You pause. It takes that as the end.</h2>
+      <div class="cols3">
+        <p>People often read out a number in groups: five digits, a breath, five more.</p>
+        <p>Many voice agents decide you have finished after a fixed length of silence. If your pause is longer than their timer, they answer over you and record only half the number.</p>
+        <p>Make the timer longer and the agent stops cutting you off, but every other reply now takes longer too. Every fixed timer trades one harm for the other.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapter 02: why this problem -->
+  <section class="chapter c02" id="why" data-ground="lilac" aria-labelledby="c02-title">
+    <div class="inner">
+      <h2 id="c02-title" class="display reveal">Why this problem.</h2>
+      <p class="chapter-lede">It matters most where one wrong digit costs something: a callback number, a one-time code, an amount, a date. Five things led us here, each with its source.</p>
+      <ol class="reasons">
+        <li><p>Gnani's own latency write-up calls fixed silence timers “the wrong tool”, and says this stage “most often ruins an otherwise fast system”.</p><a href="https://www.gnani.ai/resources/blogs/what-causes-latency-in-voice-ai-how-to-overcome-it" target="_blank" rel="noopener">Gnani: what causes latency in voice AI</a></li>
+        <li><p>Prisma's realtime API exposes silence settings and a manual commit frame; it has no setting that judges whether a value is complete.</p><a href="https://docs.gnani.ai/api/STT/stt-websocket" target="_blank" rel="noopener">Gnani: realtime speech-to-text docs</a></li>
+        <li><p>Telnyx ships a separate wait for transcripts that end in a number, so callers can finish reading out account IDs or phone numbers.</p><a href="https://developers.telnyx.com/docs/inference/ai-assistants/interruption-settings" target="_blank" rel="noopener">Telnyx: interruption settings</a></li>
+        <li><p>A Vapi support thread reports an agent interrupting a customer who is giving their details.</p><a href="https://support.vapi.ai/t/27122035/issue-with-ai-agent-interrupting-customers-while-providing-c" target="_blank" rel="noopener">Vapi support forum thread</a></li>
+        <li><p>The leading open turn-detection model, Smart Turn, lists telephone-number and card-number entry as future work.</p><a href="https://github.com/pipecat-ai/smart-turn" target="_blank" rel="noopener">Smart Turn on GitHub</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Portal: a card opens into chapter 03 -->
+  <section class="portal" data-from="lilac" data-to="paper" aria-hidden="true">
+    <div class="portal-card"><svg viewBox="0 0 250 350"><use href="#art-waves"/></svg><p class="plate"><span>Try it yourself</span></p></div>
+    <div class="portal-fill"></div>
+  </section>
+
+  <!-- Chapter 03: try it yourself -->
+  <section class="chapter" id="call" data-ground="paper" aria-labelledby="try-title">
+    <div class="inner">
+      <h2 id="try-title" class="display reveal">Try it yourself.</h2>
+      <p class="chapter-lede">Answer a recorded call. First an ordinary agent, then Dhairya: same caller, same pause.</p>
+
+      <div class="stage" id="stage" data-mode="idle" aria-live="off">
+        <div class="who">
+          <p class="who-label" id="who-label">Press Answer: a customer is about to read out their mobile number</p>
+          <p class="who-rule" id="who-rule"></p>
+        </div>
+
+        <div class="slots" id="slots" role="img" aria-label="Digits the agent has saved"></div>
+
+        <div class="line" id="line">
+          <svg id="wave" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <div class="line-notes" id="line-notes" aria-hidden="true"></div>
+          <i class="head" id="head" aria-hidden="true"></i>
+        </div>
+
+        <div class="captions">
+          <p class="said" id="said" lang="hi" aria-hidden="true"></p>
+          <p class="agent-says" id="agent-says"></p>
+        </div>
+
+        <div class="controls">
+          <button class="answer" id="answer" type="button">
+            <span class="answer-disc" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.58 3.6a1 1 0 0 1-.25 1z"/></svg>
+            </span>
+            <span class="answer-text"><b id="answer-label">Answer the call</b><small id="answer-hint">A recorded call with a synthetic caller. Sound on.</small></span>
+          </button>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </div>
+
+        <p class="stage-note">The caller is a synthetic Timbre voice. When each agent answers comes from its own decision on that call's recorded Prisma stream; the agents' words are scripted.</p>
+
+        <ol class="tally" id="tally" hidden>
+          <li class="tally-row cut" id="tally-rival"></li>
+          <li class="tally-row open" id="tally-ours"></li>
+        </ol>
+      </div>
+
+      <div class="pause-block" id="pause" aria-labelledby="pause-title">
+        <div class="pause-head">
+          <h3 id="pause-title">How long would you pause?</h3>
+          <p>You have read out five digits. Press and hold to pause, let go to say the rest. Each agent below follows its own rule.</p>
+        </div>
+
+        <div class="pause-body">
+          <div class="pause-number" aria-hidden="true">
+            <span class="pn-said" id="pn-said"></span><span class="pn-rest" id="pn-rest"></span>
+          </div>
+
+          <button class="hold" id="hold" type="button" aria-describedby="hold-help" aria-pressed="false" data-lenis-prevent>
+            <span class="hold-ring" aria-hidden="true"><svg viewBox="0 0 120 120"><circle class="hold-track" cx="60" cy="60" r="54"/><circle class="hold-fill" id="hold-fill" cx="60" cy="60" r="54"/></svg></span>
+            <span class="hold-time" id="hold-time">0.0 s</span>
+            <span class="hold-label" id="hold-label">Hold to pause</span>
+          </button>
+          <p class="hold-help" id="hold-help">Hold with mouse, finger, or the space bar.</p>
+
+          <ol class="agents" id="agents"></ol>
+          <p class="sr-only" id="pause-live" role="status" aria-live="polite"></p>
+        </div>
+        <p class="pause-note">This plays out each agent's rule with your pause; it is not a recording. The measured results are next.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portal: a card opens into chapter 04 -->
+  <section class="portal" data-from="paper" data-to="umber" aria-hidden="true">
+    <div class="portal-card"><svg viewBox="0 0 250 350"><use href="#art-diamond"/></svg><p class="plate"><span>The numbers</span></p></div>
+    <div class="portal-fill"></div>
+  </section>
+
+  <!-- Chapter 04: the numbers -->
+  <section class="chapter" id="results" data-ground="umber" aria-labelledby="results-title">
+    <div class="inner">
+      <h2 id="results-title" class="display reveal">Every timer trades one harm for the other.</h2>
+      <div class="bigs">
+        <p><b id="big-fast" class="r">–</b><span>of callers cut off by a 0.5 s timer</span></p>
+        <p><b id="big-ours" class="g">–</b><span>cut off by Dhairya</span></p>
+        <p><b id="big-wait" class="g">–</b><span>Dhairya's typical answer after the caller finishes</span></p>
+      </div>
+      <p class="lede" id="lede">Loading the measured results.</p>
+      <figure class="plot">
+        <svg id="plot" viewBox="0 0 720 440" role="img" aria-labelledby="plot-title plot-desc">
+          <title id="plot-title">Callers cut off against typical wait, for each agent</title>
+          <desc id="plot-desc">Fixed timers fall on one curve from many cut-offs and short waits to no cut-offs and long waits. Dhairya sits near the origin: no cut-offs and a short wait.</desc>
+        </svg>
+        <figcaption>Each point is one agent over the same calls. Lower is fewer callers cut off; further left is a shorter wait after the caller finishes. <span class="dagger-note">† Smart Turn is an open turn-taking model from Pipecat. It listens to intonation, which these synthetic callers lack, so its point is unfair to it.</span></figcaption>
+      </figure>
+      <p class="phone-line" id="phone-line" hidden></p>
+    </div>
+  </section>
+
+  <!-- Portal: a card opens into chapter 05 -->
+  <section class="portal" data-from="umber" data-to="umber" aria-hidden="true">
+    <div class="portal-card"><svg viewBox="0 0 250 350"><use href="#art-check"/></svg><p class="plate"><span>How it decides</span></p></div>
+    <div class="portal-fill"></div>
+  </section>
+
+  <!-- Chapter 05: how it decides -->
+  <section class="chapter" id="how" data-ground="umber" aria-labelledby="how-title">
+    <div class="inner" id="fold-how">
+      <h2 id="how-title" class="display reveal">It counts the value, not the silence.</h2>
+      <ol class="flow">
+        <li><b>Listen</b><span>Gnani Prisma v3.0 streams the call and returns text every time the caller pauses for 0.2 s.</span></li>
+        <li><b>Count</b><span>A parser reads the digits so far, in Hindi or English, in Devanagari or Latin script.</span></li>
+        <li><b>Decide</b><span>Incomplete: keep the line open, and ask the caller to go on after <span id="cap-s">4</span> s of nothing. Complete: answer at once.</span></li>
+        <li><b>Check</b><span>The whole turn is transcribed again through Prisma's REST endpoint, then read back with Gnani Timbre.</span></li>
+      </ol>
+      <table class="slots-table">
+        <caption>What counts as complete</caption>
+        <thead><tr><th scope="col">Value</th><th scope="col">Complete when</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Mobile number</th><td>Ten digits, starting 6 to 9</td></tr>
+          <tr><th scope="row">OTP or PIN</th><td>The expected four or six digits</td></tr>
+          <tr><th scope="row">Amount</th><td>A word like <span lang="hi">“रुपये”</span> follows; otherwise a short grace (<span id="grace-s">1.5</span> s after “<span lang="hi">हज़ार</span>” or “<span lang="hi">लाख</span>”)</td></tr>
+          <tr><th scope="row">Date</th><td>A day and a month, or a word like <span lang="hi">“कल”</span></td></tr>
+        </tbody>
+      </table>
+      <p class="fine">It understands digit by digit or in pairs, “double” and “triple”, lakh and crore, <span lang="hi">डेढ़</span> and <span lang="hi">ढाई</span>, and English digits spoken inside Hindi.</p>
+    </div>
+  </section>
+
+  <!-- Chapter 06: details -->
+  <section class="chapter" id="details" data-ground="black" aria-labelledby="details-title">
+    <div class="inner narrow">
+      <h2 id="details-title" class="display reveal">The details, if you want them.</h2>
+
+      <details class="fold" id="fold-calls">
+        <summary><span>Replay another test call</span><small>12 recorded calls: mobile, OTP, amount, date</small></summary>
+        <div class="fold-body">
+          <div class="pick" id="pick"></div>
+          <div class="versus" role="group" aria-label="Compare Dhairya with">
+            <span>Compare with</span>
+            <button type="button" data-rival="fixed_500ms" aria-pressed="true">0.5 s timer</button>
+            <button type="button" data-rival="fixed_1500ms" aria-pressed="false">1.5 s timer</button>
+            <button type="button" data-rival="smart_turn" aria-pressed="false">Smart Turn†</button>
+          </div>
+          <p class="fine">Choosing a call loads it into the player in chapter 03.</p>
+        </div>
+      </details>
+
+      <details class="fold" id="fold-figures">
+        <summary><span>Every figure</span><small>152 unseen calls, with 95% intervals</small></summary>
+        <div class="fold-body">
+          <div class="cats" id="cats" role="group" aria-label="Kind of value"></div>
+          <div class="table-scroll">
+            <table class="figures" id="figures">
+              <thead><tr><th scope="col">Agent</th><th scope="col" class="num">Cut off</th><th scope="col" class="num">Value right</th><th scope="col" class="num">Typical wait</th><th scope="col" class="num">Slow waits</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="fine" id="figures-note"></p>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary><span>What we found in Gnani's API</span><small>Things the docs do not say</small></summary>
+        <div class="fold-body">
+          <ul class="findings">
+            <li>The realtime stream accepts exactly one language; a list such as <code>hi-IN,en-IN</code> is rejected. Hindi mode still hears English digits.</li>
+            <li>An undocumented header, <code>x-partials</code>, turns on partial transcripts. They lag by about a second, so Dhairya does not rely on them.</li>
+            <li>A 0.2 s silence window gave the right digits on 10 of 10 probe calls, with text about 0.4 s after the caller paused.</li>
+            <li>Three digits said together come back as one number: “eight nine five” arrives as <span lang="hi">“आठ सौ पंचानवे”</span>. Found in the first live microphone test.</li>
+            <li>Timbre v3.0 voices read digit words with long gaps, which breaks recognition into single words; the test callers use v2.5 voices.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary><span>Limits</span><small>What these results do not show</small></summary>
+        <div class="fold-body">
+          <ul class="findings">
+            <li>The callers are synthetic, made with Gnani Timbre, with pauses of 0.4 to 1.3 s. Real callers vary more.</li>
+            <li>Each breath group is spoken separately and joined with silence, so intonation is not natural. That is why the Smart Turn comparison is unfair to it.</li>
+            <li>Dhairya's figures are computed from recorded stream events. The live agent runs the same code in real time from a microphone.</li>
+            <li>The agent is told which kind of value it asked for. Amounts with no unit word still fall back on a short timer.</li>
+            <li>Only Hindi and English are measured so far.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="fold">
+        <summary><span>Built with</span><small>Models, data and where it was built</small></summary>
+        <div class="fold-body">
+          <ul class="findings">
+            <li>Gnani Prisma v3.0, realtime and REST, hears every call. Gnani Timbre v2.5 speaks the test callers and the agent.</li>
+            <li>Smart Turn v3.2 by Pipecat, an open model, is the outside baseline and runs locally.</li>
+            <li id="built-test">The benchmark: 200 synthetic calls. The first calls of each kind tuned one rule; the other 152 were recorded only after the rule was fixed.</li>
+            <li>Every caller, number, amount and date on this page is made up.</li>
+            <li>A solo build for Gnani AI's Great Indian AI Internship Challenge, from BML Munjal University, Kapriwas.</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Ending -->
+  <section class="chapter ending" id="end" data-ground="black" aria-labelledby="end-title">
+    <div class="inner end-body">
+      <div class="end-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#logo-mark"/></svg></div>
+      <h2 id="end-title" class="end-line">A pause is not an ending.</h2>
+      <p class="end-sub">Dhairya means patience. It waits for the number you are still saying, then answers. Questions, ideas, or a chance to try it on your own calls: write to me.</p>
+      <p class="end-ghost" aria-hidden="true">Dhairya <span lang="hi">धैर्य</span></p>
+      <p class="end-note">Synthetic callers only &middot; No sign-up &middot; Nothing is recorded from you</p>
+    </div>
+    <footer class="end-foot">
+      <div class="foot-col foot-l">
+        <a href="mailto:shreytiwari.2439@gmail.com">shreytiwari.2439@gmail.com</a>
+        <a href="https://github.com/shreytiwari09" target="_blank" rel="noopener">GitHub &middot; shreytiwari09</a>
+      </div>
+      <div class="foot-col foot-c">
+        <p class="foot-name"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#logo-mark"/></svg>Dhairya <span lang="hi">धैर्य</span></p>
+        <p>Let the caller finish</p>
+      </div>
+      <div class="foot-col foot-r">
+        <a href="#call">Hear the call again</a>
+        <a id="repo-link" href="#" hidden target="_blank" rel="noopener">Read the code</a>
+      </div>
+    </footer>
+  </section>
+</main>
+
+<audio id="a-caller" preload="auto"></audio>
+<audio id="a-agent" preload="auto"></audio>
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="app.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>

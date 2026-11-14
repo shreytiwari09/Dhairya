@@ -1,0 +1,58 @@
+{
+ "cutin": {
+  "text": "जी, धन्यवाद! नोट कर लिया है।",
+  "duration_s": 1.897
+ },
+ "nudge": {
+  "text": "जी, आगे बोलिए।",
+  "duration_s": 1.105
+ },
+ "readback-mobile-070": {
+  "text": "सात शून्य नौ दो छह शून्य शून्य दो छह सात। सही है?",
+  "duration_s": 3.44
+ },
+ "readback-mobile-025": {
+  "text": "सात दो दो सात नौ एक आठ शून्य पांच आठ। सही है?",
+  "duration_s": 3.352
+ },
+ "readback-mobile-060": {
+  "text": "छह छह छह छह आठ तीन छह चार पांच शून्य। सही है?",
+  "duration_s": 3.79
+ },
+ "readback-otp-037": {
+  "text": "तीन दो छह दो। सही है?",
+  "duration_s": 1.337
+ },
+ "readback-otp-025": {
+  "text": "पांच एक छह नौ। सही है?",
+  "duration_s": 1.508
+ },
+ "readback-otp-035": {
+  "text": "सात दो चार आठ। सही है?",
+  "duration_s": 2.005
+ },
+ "readback-amount-035": {
+  "text": "पांच लाख दस हज़ार रुपये। सही है?",
+  "duration_s": 1.827
+ },
+ "readback-amount-030": {
+  "text": "पंद्रह हज़ार एक सौ रुपये। सही है?",
+  "duration_s": 1.849
+ },
+ "readback-amount-013": {
+  "text": "दो हज़ार नौ सौ रुपये। सही है?",
+  "duration_s": 1.766
+ },
+ "readback-date-015": {
+  "text": "सत्रह फरवरी। सही है?",
+  "duration_s": 1.416
+ },
+ "readback-date-026": {
+  "text": "इक्कीस जून। सही है?",
+  "duration_s": 1.266
+ },
+ "readback-date-029": {
+  "text": "सात मई। सही है?",
+  "duration_s": 1.253
+ }
+}
