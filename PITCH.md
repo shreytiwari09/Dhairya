@@ -4,10 +4,14 @@
 
 > Voice agents end a caller's turn after a fixed silence, so they cut in while a caller reads out a mobile number, OTP, amount or date. Dhairya decides from **how much of the value has arrived**. On 152 unseen Hindi–English calls it **interrupted 0%**, got **99%** of values right and answered in **0.42 s**; the fixed timer that also never interrupted waited 1.73 s.
 
-| 152 held-out calls | Interrupted the caller | Value right | Typical wait |
+| 152 held-out calls (timers run live on Prisma) | Interrupted the caller | Value right | Typical wait |
 |---|---|---|---|
-| Fixed timer 500 ms (run live on Prisma) | 62% | 36% | 0.75 s |
+| Fixed timer 300 ms | 75% | 25% | 0.49 s |
+| Fixed timer 500 ms | 62% | 36% | 0.75 s |
+| Fixed timer 700 ms | 49% | 50% | 0.90 s |
+| Fixed timer 1000 ms | 24% | 70% | 1.19 s |
 | Fixed timer 1500 ms (shortest that never interrupts) | 0% | 99% | 1.73 s |
+| Fixed timer 2000 ms | 0% | 99% | 2.22 s |
 | **Dhairya** | **0%** | **99%** | **0.42 s** |
 
 On 8 kHz phone-line audio (G.711), Dhairya: 0% interrupted, 98% right.
