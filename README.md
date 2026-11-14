@@ -118,6 +118,20 @@ uv run python -m dhairya.agent.session --slot mobile --file call.wav
 
 The first form listens on the microphone and speaks aloud. The second feeds a 16 kHz mono WAV through the same live loop at real-time pace. `--slot` also takes `otp4`, `otp6`, `amount` and `date`.
 
+## Live demo
+
+The demo page can also take a visitor's own voice. The browser streams the microphone to a small server (`src/dhairya/web/server.py`), which runs the same live loop as the command line against Gnani and sends back what it hears, what Dhairya decides, and the same call replayed through the six fixed timers, so a visitor sees which timer would have cut them off.
+
+The server holds the Gnani key, so it limits use. Defaults, all set by environment variables: 15 turns per visitor per hour, 40 per visitor per day, 3 callers at once, 400 turns a day in total, and only the demo page's own origin may connect. When Gnani reports no credits the server pauses live mode by itself, and the recorded calls on the page keep working. Audio is sent to Gnani Prisma to be transcribed and is not stored by this server.
+
+Run it locally with your key in `.env`, then open http://localhost:8000:
+
+```bash
+uv run uvicorn dhairya.web.server:app --port 8000
+```
+
+Deploy it free on Render: New, Blueprint, pick this repository (`render.yaml` and the `Dockerfile` are ready), and paste `GNANI_API_KEY` when asked. Then put the service's address in `demo/config.js` (`window.DHAIRYA_LIVE`) and set the repository variable `LIVE_URL` to the same address, which lets `.github/workflows/keepalive.yml` ping it every 10 minutes so the free service does not sleep. Without a live address the page shows the recorded calls only.
+
 ## Reproduce the benchmark
 
 Steps marked "credits" call Gnani and spend credits. Every Gnani response is cached on disk, and the recorder is resumable: a finished call is never recorded again.
@@ -145,9 +159,11 @@ src/dhairya/
   agent/        session.py, the live loop
   bench/        scripts, render, record, replay, metrics, report
   demo/         exports the benchmark into the demo page's data file
+  web/          the live demo server: limits, audio framing, the fixed-timer replay
 demo/           the replay page: static HTML, CSS and JavaScript (vendored GSAP, ScrollTrigger and Lenis in demo/vendor)
 scripts/        probe.py, and small Node scripts that screenshot and click through the demo page
 docs/           PRD.md (what and why), SPEC.md (how), DESIGN.md (the demo page's design system)
+Dockerfile      the live demo server, for a free host (render.yaml is the Render blueprint)
 data/           scripts, audio, recorded traces (cache is git-ignored)
 results/        PROBE.md, RESULTS.md, scores.csv
 tests/          unit tests, no network

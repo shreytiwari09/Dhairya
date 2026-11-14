@@ -41,7 +41,7 @@ const W = Number(process.env.W || 1440), H = Number(process.env.H || 900), MOBIL
 await send("Emulation.setDeviceMetricsOverride", { width: W, height: H, deviceScaleFactor: 1, mobile: MOBILE });
 await send("Page.navigate", { url });
 await sleep(Number(waitMs));
-const r = await send("Runtime.evaluate", { expression: expr, returnByValue: true });
+const r = await send("Runtime.evaluate", { expression: expr, returnByValue: true, awaitPromise: true });
 console.log(JSON.stringify(r.result.value));
 ws.close();
 chrome.kill();

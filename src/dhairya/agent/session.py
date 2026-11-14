@@ -14,7 +14,7 @@ import asyncio
 import json
 import logging
 import time
-from collections.abc import AsyncIterator, Callable
+from collections.abc import AsyncIterator, Awaitable, Callable
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
@@ -58,6 +58,8 @@ NUDGE = "जी, आगे बोलिए।"
 
 Frames = AsyncIterator[np.ndarray]
 Say = Callable[[str], "asyncio.Future[None] | asyncio.Task[None] | object"]
+Speak = Callable[[str, str], Awaitable[None]]  # (text, purpose) -> plays or sends the line
+Emit = Callable[[dict], Awaitable[None]]  # structured events for a UI
 
 
 @dataclass
@@ -138,6 +140,7 @@ async def listen(
     policy: TurnPolicy,
     nudge: Callable[[], asyncio.Future[None] | object],
     show: Callable[[str], None],
+    emit: Emit | None = None,
 ) -> tuple[Decision, float, np.ndarray, list[StreamEvent], int, list[str]]:
     """Stream the caller's audio until the policy ends the turn."""
     heard_audio: list[np.ndarray] = []
@@ -168,7 +171,12 @@ async def listen(
             active = fallback
             return Decision.WAIT
 
+    async def tell(message: dict) -> None:
+        if emit is not None:
+            await emit(message)
+
     async with open_stream(cfg, RATE, min_silence_ms=WINDOW_MS) as stream:
+        await tell({"type": "listening"})
 
         async def pump() -> None:
             async for frame in source:
@@ -185,9 +193,20 @@ async def listen(
                 if event.kind == "error":
                     notes.append(f"stream error: {event.raw.get('message', event.raw)}")
                 decision = decide(lambda p, e=event: p.on_event(e))
+                if event.kind == "speech_start":
+                    await tell({"type": "speech_start", "t": round(event.t, 3)})
                 if event.text:
                     state = slot.evaluate(active.heard)
                     show(f"  {event.t:5.2f}s heard “{event.text}” → {state.progress}")
+                    await tell(
+                        {
+                            "type": "heard",
+                            "t": round(event.t, 3),
+                            "text": event.text,
+                            "progress": state.progress,
+                            "value": state.value,
+                        }
+                    )
                 if decision is not Decision.WAIT:
                     finish(decision, event.t)
                     return
@@ -206,6 +225,7 @@ async def listen(
                     nudges += 1
                     show(f"  {t:5.2f}s nothing new: asking the caller to go on")
                     muted = True
+                    await tell({"type": "nudge", "t": round(t, 3)})
                     await nudge()
                     muted = False
                     if hasattr(active, "rearm"):
@@ -226,22 +246,40 @@ async def listen(
 
 
 async def run_turn(
-    cfg: Settings, slot_name: str, source: Frames, *, aloud: bool, show: Callable[[str], None]
+    cfg: Settings,
+    slot_name: str,
+    source: Frames,
+    *,
+    aloud: bool,
+    show: Callable[[str], None],
+    speak: Speak | None = None,
+    emit: Emit | None = None,
 ) -> TurnResult:
     slot = SLOTS[slot_name]
     policy = EntityAwarePolicy(window_ms=WINDOW_MS)
 
-    async def say(text: str) -> None:
+    async def say(text: str, purpose: str = "prompt") -> None:
         show(f"  agent: {text}")
-        if aloud:
+        if speak is not None:  # a web session plays the line in the visitor's browser
+            await speak(text, purpose)
+        elif aloud:
             await speak_aloud(cfg, text)
 
-    await say(PROMPTS[slot_name])
+    await say(PROMPTS[slot_name], "prompt")
     decision, t, audio, events, nudges, notes = await listen(
-        cfg, source, slot, policy, lambda: say(NUDGE), show
+        cfg, source, slot, policy, lambda: say(NUDGE, "nudge"), show, emit
     )
     heard = " ".join(e.text for e in events if e.text)
     streamed = slot.evaluate(heard)
+    if emit is not None:
+        await emit(
+            {
+                "type": "decided",
+                "t": round(t, 3),
+                "decision": decision.value,
+                "value": streamed.value,
+            }
+        )
     show(f"  {t:5.2f}s turn closed ({decision.value}); streamed value {streamed.value}")
 
     # Second pass: the whole turn through REST in Transcribe mode, read by the same slot.
@@ -279,7 +317,7 @@ async def run_turn(
         reply = f"{spoken_value(slot_name, final)}। सही है?"
     else:
         reply = f"मैंने सुना {spoken_value(slot_name, final)}। क्या यह सही है?"
-    await say(reply)
+    await say(reply, "reply")
 
     return TurnResult(
         slot=slot_name,

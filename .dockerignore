@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+.env
+node_modules
+models
+tests
+results
+docs
+scripts
+data/cache
+data/audio
+data/traces*
+data/scripts
+data/smart_turn
+__pycache__
+*.pyc

@@ -39,6 +39,41 @@ class Settings:
         return self.data_dir / "cache"
 
 
+@dataclass(frozen=True)
+class LiveSettings:
+    """The public live demo: who may use it and how much. Defaults are generous enough for a
+    panel of judges to try several turns each, and capped so credits cannot run away."""
+
+    enabled: bool
+    max_concurrent: int  # simultaneous callers (Prisma allows more than one stream)
+    per_ip_hour: int
+    per_ip_day: int
+    daily_total: int  # all visitors together, rolling 24 h
+    allowed_origins: tuple[str, ...]
+
+
+def _int(name: str, default: int) -> int:
+    try:
+        return int(os.environ.get(name, default))
+    except ValueError:
+        return default
+
+
+def live_settings() -> LiveSettings:
+    origins = os.environ.get(
+        "LIVE_ALLOWED_ORIGINS",
+        "https://shreytiwari09.github.io,http://localhost:8765,http://127.0.0.1:8765",
+    )
+    return LiveSettings(
+        enabled=os.environ.get("LIVE_ENABLED", "true").strip().lower() not in ("0", "false", "no"),
+        max_concurrent=_int("LIVE_MAX_CONCURRENT", 3),
+        per_ip_hour=_int("LIVE_PER_IP_HOUR", 15),
+        per_ip_day=_int("LIVE_PER_IP_DAY", 40),
+        daily_total=_int("LIVE_DAILY_TOTAL", 400),
+        allowed_origins=tuple(o.strip().rstrip("/") for o in origins.split(",") if o.strip()),
+    )
+
+
 def settings() -> Settings:
     return Settings(
         api_key=os.environ.get("GNANI_API_KEY", "").strip(),

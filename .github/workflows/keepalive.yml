@@ -1,0 +1,16 @@
+# A free Render service sleeps after 15 minutes without traffic and takes ~30 s to wake.
+# This pings it every 10 minutes so judges find it awake. It does nothing until the repository
+# variable LIVE_URL (Settings > Secrets and variables > Actions > Variables) is set.
+name: Keep the live demo awake
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    if: ${{ vars.LIVE_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl --fail --silent --max-time 60 "${{ vars.LIVE_URL }}/health"
