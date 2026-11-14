@@ -30,6 +30,7 @@ from dhairya.web.frames import FrameBuffer
 from dhairya.web.limits import LiveLimits
 from dhairya.web.shadow import fixed_timer_rows
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s")
 log = logging.getLogger("dhairya.web")
 DEMO_DIR = Path(__file__).resolve().parents[3] / "demo"
 TURN_TIMEOUT_S = 90.0  # a hung turn must not hold a caller slot
@@ -178,6 +179,7 @@ def create_app(
             except Exception:
                 return
 
+        log.info("turn start: %s", slot)
         await send({"type": "ready", "slot": slot, "prompt": PROMPTS[slot]})
         turn = asyncio.create_task(
             run(cfg, slot, source(), aloud=False, show=lambda _line: None, speak=speak, emit=emit)
@@ -188,6 +190,10 @@ def create_app(
                 {turn, watch}, timeout=TURN_TIMEOUT_S, return_when=asyncio.FIRST_COMPLETED
             )
             if not turn.done():
+                log.info(
+                    "turn cancelled: %s",
+                    "timeout" if not watch.done() else "visitor left or stopped",
+                )
                 turn.cancel()
                 if not watch.done():  # timed out, the visitor is still there
                     return await fail("server")
@@ -209,6 +215,7 @@ def create_app(
         finally:
             watch.cancel()
 
+        log.info("turn finished: %s", result.final_value is not None)
         events = [StreamEvent(t=e["t"], kind=e["kind"], text=e["text"]) for e in result.timeline]
         payload = asdict(result)
         payload["type"] = "result"

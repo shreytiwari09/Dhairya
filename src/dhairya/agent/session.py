@@ -283,6 +283,7 @@ async def run_turn(
     show(f"  {t:5.2f}s turn closed ({decision.value}); streamed value {streamed.value}")
 
     # Second pass: the whole turn through REST in Transcribe mode, read by the same slot.
+    log.info("second pass: %.1f s of audio", len(audio) / RATE)
     second_value = None
     second_extra = 0
     try:
@@ -317,6 +318,7 @@ async def run_turn(
         reply = f"{spoken_value(slot_name, final)}। सही है?"
     else:
         reply = f"मैंने सुना {spoken_value(slot_name, final)}। क्या यह सही है?"
+    log.info("reading back")
     await say(reply, "reply")
 
     return TurnResult(
