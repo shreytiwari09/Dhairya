@@ -166,7 +166,7 @@
     resetStage();
     setAnswer("first");
     for (const b of $$("#pick button")) b.setAttribute("aria-current", String(b.dataset.id === call.id));
-    if (scroll) (window.__scrollTo ? window.__scrollTo("#call") : $("#call").scrollIntoView({ behavior: calm ? "auto" : "smooth" }));
+    if (scroll) (window.__scrollTo ? window.__scrollTo("#rec-title") : $("#rec-title").scrollIntoView({ behavior: calm ? "auto" : "smooth" }));
   }
 
   function start(which, { silent = false } = {}) {

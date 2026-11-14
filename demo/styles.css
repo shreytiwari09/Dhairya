@@ -167,6 +167,8 @@ h3 { font-size: clamp(1.4rem, 1.1rem + 1.3vw, 2.2rem); font-weight: 700; line-he
 .portal[data-to="umber"] .portal-fill { background: var(--bg-umber); }
 /* The chapter after a portal starts where the portal starts, under it, so when the card has filled the screen the chapter is already in place: no blank page between them. */
 html.motion .portal { z-index: 5; }
+/* The wrapper GSAP adds around a pinned portal overlaps the chapter beneath it; the portal itself is decoration, so it must never take clicks. */
+html.motion .pin-spacer, html.motion .portal { pointer-events: none; }
 html.motion .portal + .chapter, html.motion .pin-spacer + .chapter { margin-top: -100svh; } /* GSAP wraps a pinned portal in .pin-spacer */
 .portal-card {
   position: relative; height: min(62svh, 98vw); aspect-ratio: 5 / 7; border-radius: 6.4% / 4.6%; will-change: transform;
@@ -457,7 +459,10 @@ html:not(.motion) .portal { display: none; }
 }
 
 /* ---------- Live mode: say it yourself (chapter 03, after the pause demo). Behaviour is in live.js. ---------- */
-.live-block { margin-top: clamp(3rem, 8vh, 5.5rem); padding-top: clamp(2rem, 5vh, 3.2rem); border-top: 1px solid var(--rule); }
+.live-block { margin-top: clamp(1.6rem, 4vh, 2.6rem); }
+/* The recorded call comes second, under the live one. */
+.rec-head { margin-top: clamp(3rem, 8vh, 5.5rem); padding-top: clamp(2rem, 5vh, 3.2rem); border-top: 1px solid var(--rule); }
+.rec-head p { margin-top: 0.5rem; color: var(--ink-2); max-width: 54ch; }
 .live-head { max-width: 44rem; }
 .live-head p { margin-top: 0.7rem; color: var(--ink-2); font-size: clamp(1.02rem, 0.98rem + 0.3vw, 1.2rem); max-width: 50ch; }
 .live-banner { display: flex; align-items: center; gap: 0.7rem; margin-top: 1.3rem; padding: 0.85rem 1rem; border-radius: 12px; background: var(--ground-2); font-weight: 520; max-width: 46rem; }

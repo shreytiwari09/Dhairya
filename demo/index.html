@@ -43,7 +43,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-repo="https://github.com/shreytiwari09/Dhairya">
-<a class="skip" href="#call">Skip to the call</a>
+<a class="skip" href="#call">Skip to the demo</a>
 
 <!-- Card artwork: our own flat patterns, drawn once and reused by the hand and the portals -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -125,7 +125,7 @@
       <div class="landing-side">
         <p class="landing-sub">People pause while reading out a number. An agent that ends the turn after a fixed silence takes that pause as the end and records only half of it. <strong>Dhairya</strong> waits until the number is complete, then answers at once.</p>
         <div class="landing-act">
-          <a class="cta" href="#call"><span class="cta-disc" aria-hidden="true"></span>Hear the call</a>
+          <a class="cta" href="#call"><span class="cta-disc" aria-hidden="true"></span>Try it yourself</a>
           <p class="built">Built on Gnani Prisma v3.0 realtime speech-to-text and Gnani Timbre.</p>
         </div>
       </div>
@@ -178,7 +178,68 @@
   <section class="chapter" id="call" data-ground="paper" aria-labelledby="try-title">
     <div class="inner">
       <h2 id="try-title" class="display reveal">Try it yourself.</h2>
-      <p class="chapter-lede">Answer a recorded call. First an ordinary agent, then Dhairya: same caller, same pause.</p>
+      <p class="chapter-lede">Read out a number in your own voice and watch the agent wait for you. Or play a recorded call and hear the same pause go wrong.</p>
+
+      <div class="live-block" id="live" data-state="loading" aria-labelledby="live-title">
+        <div class="live-head">
+          <h3 id="live-title">Say it yourself.</h3>
+          <p>Pause wherever you like. The live agent runs the same code that produced the results.</p>
+        </div>
+
+        <p class="live-banner" id="live-banner" role="status" aria-live="polite">Waking the live agent…</p>
+        <p class="live-again" id="live-recheck-wrap" hidden><button type="button" class="lv-link" id="live-recheck">Check again</button></p>
+
+        <div class="live-pick" id="live-pick">
+          <fieldset class="lv-slots" id="lv-slots">
+            <legend>What will you read out?</legend>
+            <label class="lv-opt"><input type="radio" name="lv-slot" value="mobile" checked><span>Mobile number</span></label>
+            <label class="lv-opt"><input type="radio" name="lv-slot" value="otp6"><span>OTP</span></label>
+            <label class="lv-opt"><input type="radio" name="lv-slot" value="amount"><span>Amount</span></label>
+            <label class="lv-opt"><input type="radio" name="lv-slot" value="date"><span>Date</span></label>
+          </fieldset>
+          <p class="lv-hint" id="lv-hint">Read ten digits, in Hindi or English, with a pause in the middle.</p>
+          <p class="lv-privacy">Your voice is sent to Gnani Prisma to be transcribed and is not stored by this page.</p>
+        </div>
+
+        <div class="live-panel" id="live-panel">
+          <div class="live-side">
+
+            <div class="lv-go-row">
+              <button class="answer lv-go" id="lv-go" type="button" disabled>
+                <span class="answer-disc" aria-hidden="true">
+                  <svg class="lv-i-mic" viewBox="0 0 24 24"><path d="M12 14.5a3.5 3.5 0 0 0 3.5-3.5V5.5a3.5 3.5 0 0 0-7 0V11a3.5 3.5 0 0 0 3.5 3.5z"/><path d="M5.5 10.5a1 1 0 0 1 2 0V11a4.5 4.5 0 0 0 9 0v-.5a1 1 0 0 1 2 0V11a6.5 6.5 0 0 1-5.5 6.42V20h2a1 1 0 0 1 0 2h-6a1 1 0 0 1 0-2h2v-2.58A6.5 6.5 0 0 1 5.5 11z"/></svg>
+                  <svg class="lv-i-stop" viewBox="0 0 24 24" hidden><rect x="6.5" y="6.5" width="11" height="11" rx="2"/></svg>
+                </span>
+                <span class="answer-text"><b id="lv-go-label">Start the live call</b><small id="lv-go-hint">Your browser will ask to use the microphone.</small></span>
+              </button>
+            </div>
+
+            <div class="lv-meter" id="lv-meter" aria-hidden="true"></div>
+            <p class="lv-status" id="lv-status" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="live-view" id="lv-view" data-phase="idle">
+            <div class="lv-digits" id="lv-digits" role="img" aria-label="Digits the live agent has heard so far"></div>
+            <div class="lv-clock"><i class="lv-pulse" aria-hidden="true"></i><span id="lv-phase">Not started</span><span class="lv-time" id="lv-time" aria-hidden="true">0.0 s</span></div>
+            <p class="lv-agent" id="lv-agent"><span class="lv-who">Agent</span><span class="lv-agent-text" id="lv-agent-text" lang="hi">The agent's words appear here.</span></p>
+            <ol class="lv-heard" id="lv-heard" aria-label="What Prisma heard, one phrase at a time" data-lenis-prevent tabindex="0"></ol>
+          </div>
+        </div>
+
+        <section class="lv-result" id="lv-result" aria-labelledby="lv-result-title" hidden>
+          <h4 id="lv-result-title">Dhairya on your call</h4>
+          <div class="lv-ours" id="lv-ours"></div>
+          <p class="lv-sub" id="lv-sub"></p>
+          <h4 class="lv-h2">The same call through six fixed timers</h4>
+          <ul class="lv-timers" id="lv-timers"></ul>
+          <p class="lv-note">Replayed from this call's own stream events, not new calls.</p>
+        </section>
+      </div>
+
+      <div class="rec-head">
+        <h3 id="rec-title">Or answer a recorded call.</h3>
+        <p>First an ordinary agent, then Dhairya: same caller, same pause.</p>
+      </div>
 
       <div class="stage" id="stage" data-mode="idle" aria-live="off">
         <div class="who">
@@ -239,62 +300,6 @@
           <p class="sr-only" id="pause-live" role="status" aria-live="polite"></p>
         </div>
         <p class="pause-note">This plays out each agent's rule with your pause; it is not a recording. The measured results are next.</p>
-      </div>
-
-      <div class="live-block" id="live" data-state="loading" aria-labelledby="live-title">
-        <div class="live-head">
-          <h3 id="live-title">Now say it yourself.</h3>
-          <p>Read out a number in your own voice and pause wherever you like. The live agent runs the same code that produced the results.</p>
-        </div>
-
-        <p class="live-banner" id="live-banner" role="status" aria-live="polite">Waking the live agent…</p>
-        <p class="live-again" id="live-recheck-wrap" hidden><button type="button" class="lv-link" id="live-recheck">Check again</button></p>
-
-        <div class="live-pick" id="live-pick">
-          <fieldset class="lv-slots" id="lv-slots">
-            <legend>What will you read out?</legend>
-            <label class="lv-opt"><input type="radio" name="lv-slot" value="mobile" checked><span>Mobile number</span></label>
-            <label class="lv-opt"><input type="radio" name="lv-slot" value="otp6"><span>OTP</span></label>
-            <label class="lv-opt"><input type="radio" name="lv-slot" value="amount"><span>Amount</span></label>
-            <label class="lv-opt"><input type="radio" name="lv-slot" value="date"><span>Date</span></label>
-          </fieldset>
-          <p class="lv-hint" id="lv-hint">Read ten digits, in Hindi or English, with a pause in the middle.</p>
-          <p class="lv-privacy">Your voice is sent to Gnani Prisma to be transcribed and is not stored by this page.</p>
-        </div>
-
-        <div class="live-panel" id="live-panel">
-          <div class="live-side">
-
-            <div class="lv-go-row">
-              <button class="answer lv-go" id="lv-go" type="button" disabled>
-                <span class="answer-disc" aria-hidden="true">
-                  <svg class="lv-i-mic" viewBox="0 0 24 24"><path d="M12 14.5a3.5 3.5 0 0 0 3.5-3.5V5.5a3.5 3.5 0 0 0-7 0V11a3.5 3.5 0 0 0 3.5 3.5z"/><path d="M5.5 10.5a1 1 0 0 1 2 0V11a4.5 4.5 0 0 0 9 0v-.5a1 1 0 0 1 2 0V11a6.5 6.5 0 0 1-5.5 6.42V20h2a1 1 0 0 1 0 2h-6a1 1 0 0 1 0-2h2v-2.58A6.5 6.5 0 0 1 5.5 11z"/></svg>
-                  <svg class="lv-i-stop" viewBox="0 0 24 24" hidden><rect x="6.5" y="6.5" width="11" height="11" rx="2"/></svg>
-                </span>
-                <span class="answer-text"><b id="lv-go-label">Start the live call</b><small id="lv-go-hint">Your browser will ask to use the microphone.</small></span>
-              </button>
-            </div>
-
-            <div class="lv-meter" id="lv-meter" aria-hidden="true"></div>
-            <p class="lv-status" id="lv-status" role="status" aria-live="polite"></p>
-          </div>
-
-          <div class="live-view" id="lv-view" data-phase="idle">
-            <div class="lv-digits" id="lv-digits" role="img" aria-label="Digits the live agent has heard so far"></div>
-            <div class="lv-clock"><i class="lv-pulse" aria-hidden="true"></i><span id="lv-phase">Not started</span><span class="lv-time" id="lv-time" aria-hidden="true">0.0 s</span></div>
-            <p class="lv-agent" id="lv-agent"><span class="lv-who">Agent</span><span class="lv-agent-text" id="lv-agent-text" lang="hi">The agent's words appear here.</span></p>
-            <ol class="lv-heard" id="lv-heard" aria-label="What Prisma heard, one phrase at a time" data-lenis-prevent tabindex="0"></ol>
-          </div>
-        </div>
-
-        <section class="lv-result" id="lv-result" aria-labelledby="lv-result-title" hidden>
-          <h4 id="lv-result-title">Dhairya on your call</h4>
-          <div class="lv-ours" id="lv-ours"></div>
-          <p class="lv-sub" id="lv-sub"></p>
-          <h4 class="lv-h2">The same call through six fixed timers</h4>
-          <ul class="lv-timers" id="lv-timers"></ul>
-          <p class="lv-note">Replayed from this call's own stream events, not new calls.</p>
-        </section>
       </div>
     </div>
   </section>
@@ -449,7 +454,7 @@
         <p>Let the caller finish</p>
       </div>
       <div class="foot-col foot-r">
-        <a href="#call">Hear the call again</a>
+        <a href="#rec-title">Hear a recorded call</a>
         <a id="repo-link" href="#" hidden target="_blank" rel="noopener">Read the code</a>
       </div>
     </footer>
