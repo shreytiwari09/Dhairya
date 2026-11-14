@@ -8,10 +8,9 @@
 |---|---|---|---|
 | Fixed timer 500 ms (run live on Prisma) | 62% | 36% | 0.75 s |
 | Fixed timer 1500 ms (shortest that never interrupts) | 0% | 99% | 1.73 s |
-| Smart Turn v3.2 (open model) † | 58% | 41% | 0.53 s |
 | **Dhairya** | **0%** | **99%** | **0.42 s** |
 
-† Not a fair test: every synthetic phrase ends with sentence-final intonation, which is what Smart Turn listens for. On 8 kHz phone-line audio (G.711), Dhairya: 0% interrupted, 98% right.
+On 8 kHz phone-line audio (G.711), Dhairya: 0% interrupted, 98% right.
 
 ## 1. A real problem
 
