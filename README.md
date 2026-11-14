@@ -4,7 +4,7 @@
 
 ![The Dhairya demo page](docs/img/demo-landing.jpg)
 
-[Results](results/RESULTS.md) · [Design docs](docs/) · [Try the replay demo](#try-it)
+**[Open the demo](https://shreytiwari09.github.io/Dhairya/)** · [Results](results/RESULTS.md) · [Design docs](docs/)
 
 Voice agents usually decide a caller has finished after a fixed stretch of silence, and people pause while reading out a mobile number, an OTP, an amount or a date. Dhairya is a turn-taking layer on Gnani's Prisma v3.0 realtime speech-to-text: it tracks the value being dictated, waits while the value is incomplete, and answers at once when it is complete. On 152 held-out synthetic Hinglish calls it interrupted none of them and captured the right value in 99%, with a median wait of 0.42 s; a 1000 ms silence timer interrupted 24%, and the 2000 ms timer that also interrupted none waited 2.22 s.
 
@@ -101,7 +101,7 @@ uv run pytest
 
 The tests need no network and no API key.
 
-Replay demo. It reads saved results and traces and needs no API key:
+Replay demo, published at https://shreytiwari09.github.io/Dhairya/ on every push to `main`. It reads saved results and traces and needs no API key. To run it locally:
 
 ```bash
 python3 -m http.server 8765 --directory demo
