@@ -218,3 +218,19 @@ def test_status_reports_availability_and_allows_the_page_origin() -> None:
     off = TestClient(create_app(settings(), replace(live(), enabled=False), run=fake_run))
     assert off.get("/api/live/status").json()["enabled"] is False
     assert client.get("/health").json() == {"ok": True}
+
+
+def test_agent_audio_is_a_short_http_link_not_a_big_socket_message(monkeypatch) -> None:
+    samples = np.zeros(16000, dtype=np.int16)
+    monkeypatch.setattr("dhairya.web.server.synthesize", lambda *a, **k: (samples, 16000))
+    client = TestClient(create_app(settings(), live(), run=fake_run))
+    with client.websocket_connect(
+        "/ws/live?slot=mobile", headers={"origin": "https://ok.example"}
+    ) as ws:
+        got = messages(ws)
+    agent = next(m for m in got if m["type"] == "agent")
+    assert agent["audio"] is None and agent["audio_url"].startswith("/api/live/audio/")
+    assert len(json.dumps(agent)) < 1000  # the socket message stays small
+    clip = client.get(agent["audio_url"])
+    assert clip.status_code == 200 and clip.content[:4] == b"RIFF"
+    assert client.get("/api/live/audio/nope.wav").status_code == 404

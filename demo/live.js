@@ -319,34 +319,43 @@
   }
 
   // ---------- Playing the agent's voice ----------
-  function playWav(run0, b64) {
+  // The server gives a short link to the WAV (messages on the socket stay small); a base64 string also works.
+  async function wavBytes(m) {
+    if (m.audio_url) {
+      const r = await fetch(BASE + m.audio_url, { cache: "no-store" });
+      if (!r.ok) throw new Error("audio " + r.status);
+      return new Uint8Array(await r.arrayBuffer());
+    }
+    const bin = atob(m.audio);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes;
+  }
+  function playWav(run0, m) {
     return new Promise((resolve) => {
-      let bytes;
-      try {
-        const bin = atob(b64);
-        bytes = new Uint8Array(bin.length);
-        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-      } catch { resolve(); return; }
-      const viaElement = () => {
-        const url = URL.createObjectURL(new Blob([bytes], { type: "audio/wav" }));
-        const a = new Audio(url);
-        run0.audio = a;
-        const done = () => { URL.revokeObjectURL(url); resolve(); };
-        a.onended = done;
-        a.onerror = done;
-        a.play().catch(done);
-      };
-      if (run0.ctx && run0.ctx.state !== "closed") {
-        run0.ctx.decodeAudioData(bytes.buffer.slice(0)).then((buf) => {
-          if (run0.ctx.state === "closed") { resolve(); return; }
-          const s = run0.ctx.createBufferSource();
-          s.buffer = buf;
-          s.connect(run0.ctx.destination);
-          s.onended = () => resolve();
-          run0.source = s;
-          s.start();
-        }, viaElement);
-      } else viaElement();
+      wavBytes(m).then((bytes) => play(bytes), () => resolve());
+      function play(bytes) {
+        const viaElement = () => {
+          const url = URL.createObjectURL(new Blob([bytes], { type: "audio/wav" }));
+          const a = new Audio(url);
+          run0.audio = a;
+          const done = () => { URL.revokeObjectURL(url); resolve(); };
+          a.onended = done;
+          a.onerror = done;
+          a.play().catch(done);
+        };
+        if (run0.ctx && run0.ctx.state !== "closed") {
+          run0.ctx.decodeAudioData(bytes.buffer.slice(0)).then((buf) => {
+            if (run0.ctx.state === "closed") { resolve(); return; }
+            const s = run0.ctx.createBufferSource();
+            s.buffer = buf;
+            s.connect(run0.ctx.destination);
+            s.onended = () => resolve();
+            run0.source = s;
+            s.start();
+          }, viaElement);
+        } else viaElement();
+      }
     });
   }
 
@@ -501,8 +510,8 @@
       case "agent":
         if (my.phase === "connecting") { my.phase = "agent"; setPhase("agent"); }
         say(m.text, my);
-        if (m.audio) {
-          const p = playWav(my, m.audio);
+        if (m.audio || m.audio_url) {
+          const p = playWav(my, m);
           my.playing = p;
           p.then(() => { if (my.playing === p) my.playing = null; });
         }

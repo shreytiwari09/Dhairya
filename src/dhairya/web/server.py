@@ -9,15 +9,16 @@ It also serves the demo page, so one address is enough.
 from __future__ import annotations
 
 import asyncio
-import base64
 import io
 import json
 import logging
+import secrets
+import time
 import wave
 from dataclasses import asdict
 from pathlib import Path
 
-from fastapi import FastAPI, WebSocket
+from fastapi import FastAPI, HTTPException, Response, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
@@ -34,6 +35,10 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s
 log = logging.getLogger("dhairya.web")
 DEMO_DIR = Path(__file__).resolve().parents[3] / "demo"
 TURN_TIMEOUT_S = 90.0  # a hung turn must not hold a caller slot
+# The host's proxy drops WebSocket messages of about 100 KB and more, and a spoken line is larger,
+# so audio is fetched over HTTP from a short-lived link and the socket carries only small messages.
+AUDIO_TTL_S = 300.0
+AUDIO_MAX_ITEMS = 60
 
 MESSAGES = {
     "busy": "Someone else is talking to the live agent. Try again in a minute.",
@@ -91,6 +96,25 @@ def create_app(
     def available() -> bool:
         return live.enabled and bool(cfg.api_key) and not limits.paused
 
+    clips: dict[str, tuple[float, bytes]] = {}
+
+    def keep_clip(wav: bytes) -> str:
+        now = time.monotonic()
+        for key in [k for k, (born, _) in clips.items() if now - born > AUDIO_TTL_S]:
+            del clips[key]
+        while len(clips) >= AUDIO_MAX_ITEMS:
+            del clips[min(clips, key=lambda k: clips[k][0])]
+        key = secrets.token_urlsafe(12)
+        clips[key] = (now, wav)
+        return key
+
+    @app.get("/api/live/audio/{key}.wav")
+    async def audio(key: str) -> Response:
+        found = clips.get(key)
+        if found is None:
+            raise HTTPException(status_code=404)
+        return Response(found[1], media_type="audio/wav", headers={"Cache-Control": "no-store"})
+
     @app.get("/health")
     async def health() -> dict:
         return {"ok": True}
@@ -139,18 +163,26 @@ def create_app(
             await send(message)
 
         async def speak(text: str, purpose: str) -> None:
-            audio, seconds = None, 0.0
+            audio_url, seconds = None, 0.0
             try:
                 samples, rate = await asyncio.to_thread(
                     synthesize, cfg, text, VOICE, sample_rate=RATE, model=TTS_MODEL
                 )
-                audio = base64.b64encode(wav_bytes(samples, rate)).decode("ascii")
+                audio_url = f"/api/live/audio/{keep_clip(wav_bytes(samples, rate))}.wav"
                 seconds = len(samples) / rate
             except GnaniCreditError:
                 raise
             except Exception as exc:  # a speech failure shows the text instead
                 log.warning("could not synthesise (%s); sending the text only", type(exc).__name__)
-            await send({"type": "agent", "purpose": purpose, "text": text, "audio": audio})
+            await send(
+                {
+                    "type": "agent",
+                    "purpose": purpose,
+                    "text": text,
+                    "audio": None,
+                    "audio_url": audio_url,
+                }
+            )
             if purpose != "reply":  # the final read-back plays while the result card shows
                 await asyncio.sleep(seconds + 0.25)  # the visitor hears it before we listen
 
