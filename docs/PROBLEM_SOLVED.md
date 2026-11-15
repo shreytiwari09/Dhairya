@@ -8,7 +8,35 @@ A voice agent has to decide when the caller has finished speaking. Most decide b
 
 **Why it matters.** The values that are read out in pieces are the ones where a wrong digit costs something: a callback number, a one-time code, a payment amount, a date. Gnani's own banking write-up says speech-recognition errors "cluster on the vocabulary that matters most: amounts, dates, product identifiers, and consent confirmations."
 
-## 2. What shows the problem was already bugging people
+## 2. The research: how I found this problem
+
+I did not start with an idea and look for a use. I started with Gnani's own material and looked for a gap that Gnani itself describes, that others had not already filled, and that I could measure on Gnani's models.
+
+### 2.1 Step one: read what Gnani says it struggles with
+
+I read Gnani's published blog posts and docs and listed the problems it describes in its own words:
+
+| Problem Gnani describes | Gnani's own words | Source |
+|---|---|---|
+| Checking how an agent sounds is manual | "Agentic Evals is text-based today, which covers roughly 90% of a full evaluation, so a person still checks tone and pronunciation." | [Agentic Evals post](https://www.gnani.ai/resources/blogs/agentic-evals-ai-voice-agent-testing) |
+| Errors land on the words that matter | "Errors cluster on the vocabulary that matters most: amounts, dates, product identifiers, and consent confirmations." | [BFSI post](https://www.gnani.ai/resources/blogs/blog-speech-recognition-bfsi-india-banking-compliance) |
+| Personal data in transcripts | "PII redaction accuracy is a separate evaluation criterion from transcription accuracy." | BFSI post |
+| **Knowing when the caller has finished** | "This is the stage that most often ruins an otherwise fast system." "Fixed silence timers are the wrong tool." | [Latency post](https://www.gnani.ai/resources/blogs/what-causes-latency-in-voice-ai-how-to-overcome-it) |
+| Measuring latency honestly | Target "under 800 ms", measured "from the caller's last syllable to the agent's first audible syllable", at P95; vendor figures are not comparable. | [Latency targets post](https://www.gnani.ai/resources/blogs/latency-targets-for-feels-human-voice-budgets-measures-enforcement) |
+| Rural phone audio | Systems "may degrade to 30%+ WER on rural collections calls from Bihar or UP." | BFSI post |
+
+The fourth row is the one Dhairya answers. Gnani names the stage as the one that most often ruins a voice agent, and its realtime API leaves the decision to the developer (section 3).
+
+### 2.2 Step two: check what was already taken
+
+I considered fifteen candidate ideas (some are different sizes of the same idea), including a Hinglish credit ledger for kirana shops, voice visit notes for health workers, complaint-call tickets, a kirana order-taker, a call summariser, a calling-agent builder, a redaction checker for banking calls, a codec and noise drift detector, and an audio-evaluation tool. I dropped the ones I had already seen submitted by other entrants, the ones the challenge page itself gives as examples, and the ones that duplicated Gnani's own products. An audio-evaluation tool was already public in at least three entries, so I dropped it too.
+
+For the idea I kept, I searched the public challenge repositories on GitHub on 12 November 2026. None was a stand-alone turn detector or a turn-detection benchmark. The nearest were a 250 ms silence rule inside one agent and a barge-in handler, which handles the caller interrupting the agent, the opposite direction. Limits of that search: three of the searches failed on network errors, LinkedIn and X could not be searched, and private repositories are invisible. So "nobody has built this" means nobody visibly has.
+
+### 2.3 Step three: check whether it is a real problem outside Gnani
+
+**What the sources say:**
+
 
 | Evidence | What it says | Source |
 |---|---|---|
@@ -18,6 +46,20 @@ A voice agent has to decide when the caller has finished speaking. Most decide b
 | Telnyx | Ships a dedicated setting (`on_number_seconds`) for transcripts that end in a number, so callers can "finish reading out long numbers like account IDs or phone numbers." | [Telnyx interruption settings](https://developers.telnyx.com/docs/inference/ai-assistants/interruption-settings.md) |
 | Vapi support forum | A user reports an agent interrupting a customer who is giving details. | [Vapi support thread](https://support.vapi.ai/t/27122035/issue-with-ai-agent-interrupting-customers-while-providing-c) |
 | Smart Turn (the leading open turn-detection model) | Supports Hindi, but lists telephone-number and card-number entry as future work. | [Smart Turn on GitHub](https://github.com/pipecat-ai/smart-turn) |
+
+### 2.4 Step four: test the API before building anything
+
+On 12 November I ran a probe with five go/no-go gates. If the first three failed I would have stopped and picked another idea ([results/PROBE.md](../results/PROBE.md)):
+
+| Gate | Question | Result |
+|---|---|---|
+| 1 | Does the key work for REST speech-to-text, realtime speech-to-text and text-to-speech? | Pass |
+| 2 | Are streamed digits correct in at least 8 of 10 calls? | Pass (10 of 10) |
+| 3 | Does the first group's text arrive within 0.6 s of the pause starting? | Pass (median 0.39 s) |
+| 4 | Does the `commit` frame close the utterance early? | Pass |
+| 5 | Can two streams be open at once? | Pass |
+
+Only then did I build.
 
 ## 3. How Gnani approaches it today
 
