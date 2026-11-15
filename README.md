@@ -8,7 +8,7 @@
   <a href="results/RESULTS.md">Results</a> ·
   <a href="#live-demo">Live demo</a> ·
   <a href="#how-it-works">How it works</a> ·
-  <a href="docs/">Design docs</a>
+  <a href="docs/PROBLEM_SOLVED.md">Problem and research</a>
 </p>
 
 <p align="center">
@@ -193,7 +193,7 @@ src/dhairya/
   web/          the live demo server: limits, audio framing, the fixed-timer replay
 demo/           the replay page: static HTML, CSS and JavaScript (vendored GSAP, ScrollTrigger and Lenis in demo/vendor)
 scripts/        probe.py, and small Node scripts that screenshot and click through the demo page
-docs/           PRD.md (what and why), SPEC.md (how), DESIGN.md (the demo page's design system)
+docs/           PROBLEM_SOLVED.md (the problem, the research, the method) and the one-page pitch PDF
 Dockerfile      the live demo server, for a free host (render.yaml is the Render blueprint)
 data/           scripts, audio, recorded traces (cache is git-ignored)
 results/        PROBE.md, RESULTS.md, scores.csv
