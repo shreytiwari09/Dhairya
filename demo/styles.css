@@ -111,7 +111,7 @@ h3 { font-size: clamp(1.4rem, 1.1rem + 1.3vw, 2.2rem); font-weight: 700; line-he
 /* Landing: text on top, a fanned hand of cards at the bottom */
 .landing { height: 100svh; min-height: 640px; display: flex; flex-direction: column; overflow: hidden; padding: clamp(5.4rem, 12vh, 7rem) 0 0; }
 .landing-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.3rem; }
-.landing h1 { max-width: none; font-size: clamp(2.4rem, 6.1vw, 7.4rem); }
+.landing h1 { max-width: none; font-size: clamp(2.4rem, 6.1vw, 5.6rem); } /* capped so the headline stays four lines on a 1920 px screen and leaves room for the hand of cards */
 .landing-side { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.7rem clamp(2rem, 5vw, 5rem); align-items: end; }
 .landing-sub { grid-column: 1; grid-row: 1; max-width: 46ch; font-size: clamp(1.02rem, 0.95rem + 0.4vw, 1.25rem); line-height: 1.45; color: var(--ink-2); }
 .landing-act { grid-column: 2; grid-row: 1; align-self: end; display: flex; flex-direction: column; align-items: flex-start; gap: 0.9rem; }
